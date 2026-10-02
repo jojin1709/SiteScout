@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "vinay-portfolio-vert.vercel.app",
+    "title": "Vinay Bharti | Senior Software Engineer | React, Next.js &amp; AI",
+    "url": "https://vinay-portfolio-vert.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vinay-portfolio-vert.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4036,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:46.690Z"
+  },
+  {
+    "hostname": "estafetagourmet.vercel.app",
+    "title": "Estafeta Gourmet · Productos gourmet de Navarra en Pamplona",
+    "url": "https://estafetagourmet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://estafetagourmet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 386,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:47.081Z"
+  },
+  {
+    "hostname": "eqty-portal.vercel.app",
+    "title": "eqty",
+    "url": "https://eqty-portal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eqty-portal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 289,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:48.344Z"
+  },
+  {
+    "hostname": "bankruaoy.vercel.app",
+    "title": "เรียนพิเศษบ้านครูอ้อย หนองบัวลำภู | อนุบาล 2 – ป.6 คณิต ไทย อังกฤษ วิทย์ เชาวน์ปัญญา",
+    "url": "https://bankruaoy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bankruaoy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:48.655Z"
+  },
+  {
+    "hostname": "jobscraper-hourly.vercel.app",
+    "title": "Job Radar",
+    "url": "https://jobscraper-hourly.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jobscraper-hourly.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 283,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:48.938Z"
+  },
+  {
+    "hostname": "foothold-project.vercel.app",
+    "title": "FOOTHOLD · 4족 보행 로봇용 강화학습 기반 험지 적응 정책",
+    "url": "https://foothold-project.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://foothold-project.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 432,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:49.372Z"
+  },
+  {
+    "hostname": "breach-status.vercel.app",
+    "title": "System status · Breach",
+    "url": "https://breach-status.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://breach-status.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 564,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:49.938Z"
+  },
+  {
+    "hostname": "handcrafted-furniture-gallery.vercel.app",
+    "title": "Handcrafted Furniture Workshop",
+    "url": "https://handcrafted-furniture-gallery.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://handcrafted-furniture-gallery.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:50.241Z"
+  },
+  {
+    "hostname": "bestcf.pages.dev",
+    "title": "CF EDT 导航 | EDT AIO NAV - BestCF.pages.dev | Cloudflare EdgeTunnel",
+    "url": "https://bestcf.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bestcf.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 82,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T07:34:50.513Z"
+  },
+  {
+    "hostname": "forest-carbon-thailand.pages.dev",
+    "title": "คาบอนนะ · forest carbon",
+    "url": "https://forest-carbon-thailand.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://forest-carbon-thailand.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 208,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:50.723Z"
+  },
+  {
+    "hostname": "star-wars-rebellion.pages.dev",
+    "title": "Star Wars: Rebellion",
+    "url": "https://star-wars-rebellion.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://star-wars-rebellion.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 56,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T07:34:50.779Z"
+  },
+  {
+    "hostname": "fibre-connect-sa.netlify.app",
+    "title": "FibreConnect SA — Compare fibre, LTE & 5G packages in your area",
+    "url": "https://fibre-connect-sa.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fibre-connect-sa.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:51.007Z"
+  },
+  {
+    "hostname": "die-vitalienbrueder-und-die-hanse.netlify.app",
+    "title": "Die Vitalienbrüder und die Hanse",
+    "url": "https://die-vitalienbrueder-und-die-hanse.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://die-vitalienbrueder-und-die-hanse.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T07:34:51.167Z"
+  },
+  {
+    "hostname": "gym-occupancy.fly.dev",
+    "title": "Streamlit",
+    "url": "https://gym-occupancy.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gym-occupancy.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2978,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T07:34:54.146Z"
+  },
+  {
     "hostname": "drag-drop-app.vercel.app",
     "title": "DROPSYNC // OP/INTELLIGENCE",
     "url": "https://drag-drop-app.vercel.app",
