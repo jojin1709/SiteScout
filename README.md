@@ -72,6 +72,18 @@ SiteScout acts as a public discovery layer tailored specifically for subdomains 
 
 ---
 
+## Key Features & Capabilities
+
+- 🛰️ **Automated Hourly Radar Discovery:** Continuous multi-source crawler via GitHub Actions indexing fresh live deployments every hour.
+- 📊 **Live Tech Stack Adoption Trends:** Real-time visual breakdown of frameworks deployed across edge platforms (Next.js, React, Astro, Vue, Svelte, Vite).
+- 🔗 **Direct GitHub Repository Linkage:** Automatic detection and 1-click links to the open-source GitHub repositories behind deployed apps.
+- 📥 **1-Click Dataset Export:** Instant JSON and CSV export of all indexed live deployment records and technical specs.
+- 📡 **RSS 2.0 XML Feed:** Subscribe via any RSS reader to receive updates on newly discovered edge deployments (`/api/feed`).
+- 🔬 **Interactive Live Sandbox & Modal:** Test live apps in an isolated sandbox iframe or inspect live screenshot captures, response times, and HTTPS signals.
+- ⚡ **Tailwind CSS v4 & Motion UI:** Electric sapphire & ice cyan glassmorphic aesthetic with scroll-reveal animations and 3D card tilt physics.
+
+---
+
 ## Architecture & Engine Workflow
 
 ```mermaid
@@ -80,38 +92,39 @@ flowchart TD
         URL["urlscan.io API"]
         CC["Common Crawl Index"]
         GH["GitHub Public Search"]
-        SEED["Curated Showcase Seed"]
+        SEED["Curated Edge Subdomains"]
     end
 
     subgraph Pipeline["2. Processing & Safety Engine"]
         DEDUPE["Hostname Deduplication"]
-        SEC["Domain Suffix & Malicious Filter"]
+        SEC["Subdomain & Malicious Suffix Filter"]
         ROBOTS["robots.txt Policy Check"]
         INSPECT["Polite Single GET Inspection"]
     end
 
-    subgraph Analysis["3. Scoring & Fingerprinting"]
-        FRAME["Framework Detection (React/Next/Vue/Astro)"]
-        SCORE["100pt Heuristic Scoring"]
-        SHOT["Screenshot Aggregation"]
+    subgraph Analysis["3. Signals & Tech Inspection"]
+        FRAME["Framework Detection (React/Next/Vue/Astro/Svelte)"]
+        SIGNALS["Live Signal Verification (TLS/Status/Latency)"]
+        REPO["GitHub Repository Link Extractor"]
+        SHOT["Live Screenshot Generation"]
     end
 
     subgraph Edge["4. Edge Delivery Layer"]
         CACHE["Edge Cache (s-maxage=300)"]
-        API["REST API (/api/sites)"]
-        UI["Glassmorphic UI (Vanilla JS + CSS)"]
+        API["REST API (/api/sites) & RSS Feed (/api/feed)"]
+        UI["Motion UI (Tailwind v4 + Vanilla JS)"]
     end
 
     Sources --> DEDUPE --> SEC --> ROBOTS --> INSPECT
-    INSPECT --> FRAME & SCORE & SHOT
-    FRAME & SCORE & SHOT --> CACHE --> API --> UI
+    INSPECT --> FRAME & SIGNALS & REPO & SHOT
+    FRAME & SIGNALS & REPO & SHOT --> CACHE --> API --> UI
 ```
 
 ---
 
 ## Supported Hosting Platforms
 
-SiteScout monitors and categorizes subdomains across 12 primary cloud and hosting providers:
+SiteScout monitors and categorizes subdomains across 12 primary cloud and edge hosting providers:
 
 | Platform | Domain Suffixes | Platform Type | Default SSL |
 | :--- | :--- | :--- | :--- |
@@ -129,36 +142,30 @@ SiteScout monitors and categorizes subdomains across 12 primary cloud and hostin
 
 ---
 
-## Automated 100-Point Scoring Engine
+## Real-Time Technical Signals & Verification
 
-Each discovered website receives an objective, automated 0–100 technical rating evaluated across 7 key architectural criteria:
+Each discovered website is evaluated against real-time production signals:
 
-```text
-┌─────────────────────────────────────────────────────────────┬──────────┐
-│ Metric & Evaluation Signal                                  │ Weight   │
-├─────────────────────────────────────────────────────────────┼──────────┤
-│ 🔒 HTTPS Enforcement (TLS encrypted connection)             │ 20 pts   │
-│ 🌐 HTTP Status OK (200 OK without redirect loops)           │ 20 pts   │
-│ ⚡ Fast Response Latency (< 300ms server response)           │ 15 pts   │
-│ 🏷️ SEO Metadata (HTML <title> + meta description present)   │ 15 pts   │
-│ 🖼️ OpenGraph Social Cards (og:image & rich preview meta)    │ 10 pts   │
-│ 📱 Responsive Mobile Viewport (<meta name="viewport">)     │ 10 pts   │
-│ 🛡️ Security Headers (CSP, HSTS, X-Content-Type-Options)    │ 10 pts   │
-├─────────────────────────────────────────────────────────────┼──────────┤
-│ TOTAL TECHNICAL BENCHMARK                                   │ 100 pts  │
-└─────────────────────────────────────────────────────────────┴──────────┘
-```
+| Signal | Verification Standard | Impact |
+| :--- | :--- | :--- |
+| 🔒 **HTTPS Enforcement** | Strict TLS 1.3 / TLS 1.2 encrypted transport | Security |
+| 🌐 **HTTP Status Verification** | Verified `200 OK` response without loops | Reliability |
+| ⚡ **Response Latency** | Direct millisecond response time measurement | Performance |
+| 🏷️ **SEO & Social Meta** | Standard HTML `<title>`, `<meta description>`, and OpenGraph | Discoverability |
+| 📱 **Mobile Viewport** | Dynamic responsive mobile viewport declaration | User Experience |
+| 🛡️ **Security Headers** | Presence of HSTS, CSP, and X-Content-Type-Options | Defense |
 
 ---
 
 ## API Reference
 
-SiteScout exposes clean, CORS-enabled JSON API endpoints:
+SiteScout exposes clean, CORS-enabled JSON and RSS API endpoints:
 
 | Endpoint | Method | Description | Cache Policy |
 | :--- | :--- | :--- | :--- |
 | `/api/sites` | `GET` | Paginated discovery feed with filtering & sorting | `public, s-maxage=300` |
-| `/api/site?host={hostname}` | `GET` | Detailed technical audit & score breakdown for a site | `public, s-maxage=300` |
+| `/api/site?host={hostname}` | `GET` | Detailed technical signals & specs for a site | `public, s-maxage=300` |
+| `/api/feed` | `GET` | RSS 2.0 XML feed of recent live deployments | `public, s-maxage=300` |
 | `/api/random` | `GET` | Returns a random discovered live website | `public, s-maxage=60` |
 | `/api/health` | `GET` | Service status, runtime verification & timestamp | `no-store` |
 | `/api/cron/collect` | `POST/GET` | Authenticated trigger to refresh live discovery feeds | `no-store` (Protected) |
@@ -170,7 +177,7 @@ SiteScout exposes clean, CORS-enabled JSON API endpoints:
 SiteScout enforces strict security and crawling policies:
 
 1. **HTTPS-Only:** Rejects unencrypted HTTP URLs.
-2. **Host Suffix Restriction:** Only inspects domains ending strictly in the 12 whitelisted suffix rules.
+2. **Subdomain-Only Rule:** Only inspects valid subdomains on allowed developer cloud platforms; apex domains and generic root URLs are rejected.
 3. **Robots.txt Adherence:** Fetches `/robots.txt` before any candidate homepage request and honors disallow rules for `SiteScoutBot` / `*`.
 4. **No Cross-Origin Traversal:** External redirects to unrelated domains are dropped immediately.
 5. **Payload Limiting:** Restricts inspection body payloads to < 2MB with a strict 7000ms timeout.
@@ -192,7 +199,7 @@ If SiteScout is useful for your research, discovery, or side project exploration
 ## Common Questions (FAQ)
 
 ### Does SiteScout require a database?
-No. SiteScout is completely stateless. It collects candidates into an in-process cache, scores them on the fly, and edge-caches responses via CDN headers (`s-maxage=300`).
+No. SiteScout is completely stateless. It collects candidates into an in-process cache, inspects them on the fly, and edge-caches responses via CDN headers (`s-maxage=300`).
 
 ### How are frameworks detected?
 SiteScout inspects HTML markers, meta tags, and script bundle patterns for signatures corresponding to Next.js, React, Vue, Nuxt, Svelte, Angular, Astro, Vite, and WordPress.
