@@ -110,7 +110,7 @@ function createCard(s) {
   const screenshotUrl = s.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${s.hostname}`;
 
   return `
-    <article class="site-card" data-hostname="${esc(s.hostname)}">
+    <article class="site-card reveal-on-scroll" data-hostname="${esc(s.hostname)}">
       <div class="card-browser-bar">
         <div class="window-dots">
           <span class="dot dot-red"></span>
@@ -301,6 +301,7 @@ async function fetchSites(reset = false) {
       grid.insertAdjacentHTML('beforeend', data.sites.map(createCard).join(''));
       emptyState.classList.add('hidden');
       updateTechTrends(state.allSites);
+      observeRevealElements();
     } else if (state.page === 1) {
       emptyState.classList.remove('hidden');
     }
@@ -563,5 +564,104 @@ if (sentinel) {
   }, { rootMargin: '600px' }).observe(sentinel);
 }
 
+// Mouse Parallax on Ambient Glow Orbs
+let mouseX = 0, mouseY = 0;
+window.addEventListener('mousemove', e => {
+  mouseX = (e.clientX / window.innerWidth - 0.5) * 40;
+  mouseY = (e.clientY / window.innerHeight - 0.5) * 40;
+  const orbs = document.querySelectorAll('.glow-orb');
+  if (orbs[0]) orbs[0].style.transform = `translate(${mouseX * 0.8}px, ${mouseY * 0.8}px)`;
+  if (orbs[1]) orbs[1].style.transform = `translate(${-mouseX * 0.6}px, ${-mouseY * 0.6}px)`;
+  if (orbs[2]) orbs[2].style.transform = `translate(${mouseX * 0.5}px, ${-mouseY * 0.5}px)`;
+});
+
+// Interactive 3D Card Hover Tilt
+document.addEventListener('mousemove', e => {
+  const card = e.target.closest('.site-card');
+  if (!card) return;
+  const rect = card.getBoundingClientRect();
+  const x = e.clientX - rect.left - rect.width / 2;
+  const y = e.clientY - rect.top - rect.height / 2;
+  const rotateX = (-y / (rect.height / 2)) * 6;
+  const rotateY = (x / (rect.width / 2)) * 6;
+  card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-8px) scale(1.015)`;
+});
+
+document.addEventListener('mouseout', e => {
+  const card = e.target.closest('.site-card');
+  if (card && !card.contains(e.relatedTarget)) {
+    card.style.transform = '';
+  }
+});
+
+// Scroll Reveal Observer
+let revealObserver;
+function initScrollReveal() {
+  if ('IntersectionObserver' in window) {
+    revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -40px 0px',
+      threshold: 0.1
+    });
+  }
+  observeRevealElements();
+}
+
+function observeRevealElements() {
+  if (!revealObserver) return;
+  const elements = document.querySelectorAll('.reveal-on-scroll:not(.is-revealed)');
+  elements.forEach((el, index) => {
+    // Add micro stagger delay
+    el.style.transitionDelay = `${(index % 6) * 0.06}s`;
+    revealObserver.observe(el);
+  });
+}
+
+// Scroll Progress & Header Dynamic Blur
+const progressBar = $('#scrollProgressBar');
+const btnBackToTop = $('#btnBackToTop');
+const siteHeader = $('.site-header');
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY || document.documentElement.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrollPercent = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+
+  if (progressBar) {
+    progressBar.style.width = `${scrollPercent}%`;
+  }
+
+  if (siteHeader) {
+    if (scrollTop > 20) {
+      siteHeader.classList.add('scrolled');
+    } else {
+      siteHeader.classList.remove('scrolled');
+    }
+  }
+
+  if (btnBackToTop) {
+    if (scrollTop > 400) {
+      btnBackToTop.classList.remove('hidden');
+    } else {
+      btnBackToTop.classList.add('hidden');
+    }
+  }
+}, { passive: true });
+
+btnBackToTop?.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
 // Initial Run
+initScrollReveal();
 resetAndLoad();
+
