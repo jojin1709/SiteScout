@@ -1,0 +1,46 @@
+name: Hourly Radar Discovery & Live Scraper
+
+on:
+  schedule:
+    # Runs every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    name: Crawl, Verify & Update Live Deployments
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run Hourly Discovery & Live Probe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          node scripts/hourly-discover.mjs
+
+      - name: Commit & Push New Discoveries
+        run: |
+          git config user.name "SiteScout-Bot"
+          git config user.email "bot@sitescout.dev"
+          git add src/sources/seed.js
+          if git diff --staged --quiet; then
+            echo "No new websites discovered this hour."
+          else
+            git commit -m "📡 [Automated Radar] Discovered new live web deployments [skip ci]"
+            git push origin main
+            echo "Successfully updated and pushed new discoveries to main!"
+          fi

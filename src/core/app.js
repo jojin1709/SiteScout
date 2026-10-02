@@ -1,4 +1,7 @@
-import { getFeed } from '../sources/collector.js';
+import { getFeed, addSiteToFeed } from '../sources/collector.js';
+import { normalizeCandidate } from './security.js';
+import { fetchWithTimeout } from './http.js';
+import { detectFramework } from './framework.js';
 
 export function parseRequest(req) {
   if (typeof req === 'string') {
@@ -21,7 +24,7 @@ function respond(res, data, status = 200, extra = {}) {
     'cache-control': 'public, s-maxage=300, stale-while-revalidate=600',
     'x-content-type-options': 'nosniff',
     'access-control-allow-origin': '*',
-    'access-control-allow-methods': 'GET, OPTIONS, HEAD',
+    'access-control-allow-methods': 'GET, POST, OPTIONS, HEAD',
     'access-control-allow-headers': 'Content-Type, Authorization, x-cron-secret',
     ...extra
   };
@@ -45,13 +48,11 @@ function matches(s, p) {
   if (q && !`${s.title || ''} ${s.hostname || ''} ${s.framework || ''} ${s.hostType || ''}`.toLowerCase().includes(q)) return false;
   if (p.host && s.hostType !== p.host && !s.hostname.endsWith(`.${p.host}`)) return false;
   if (p.framework && s.framework !== p.framework) return false;
-  if (p.minScore && s.score < Number(p.minScore)) return false;
   return true;
 }
 
 function sortSites(sites, sort) {
   const a = [...sites];
-  if (sort === 'score') return a.sort((x, y) => y.score - x.score);
   if (sort === 'fast') return a.sort((x, y) => (x.signals?.loadMs || 9999) - (y.signals?.loadMs || 9999));
   if (sort === 'random') return a.sort(() => Math.random() - 0.5);
   return a.sort((x, y) => new Date(y.discoveredAt || y.checkedAt || 0) - new Date(x.discoveredAt || x.checkedAt || 0));
@@ -67,8 +68,7 @@ export async function handleSites(req, res, runtimeEnv = {}) {
         matches(s, {
           q: search.get('q') || '',
           host: search.get('host') || '',
-          framework: search.get('framework') || '',
-          minScore: search.get('minScore') || ''
+          framework: search.get('framework') || ''
         })
       ),
       search.get('sort') || 'newest'
@@ -94,6 +94,72 @@ export async function handleSites(req, res, runtimeEnv = {}) {
     );
   } catch (err) {
     return respond(res, { error: err.message || 'Internal Server Error', sites: [] }, 500);
+  }
+}
+
+export async function handleSubmit(req, res) {
+  try {
+    const urlObj = parseRequest(req);
+    let target = urlObj.searchParams.get('url') || '';
+    
+    // Support JSON body for POST
+    if (!target && req.body) {
+      target = typeof req.body === 'string' ? JSON.parse(req.body).url : req.body.url;
+    }
+
+    if (!target) return respond(res, { error: 'Website URL is required' }, 400);
+
+    if (!target.startsWith('http://') && !target.startsWith('https://')) {
+      target = 'https://' + target;
+    }
+
+    const norm = normalizeCandidate(target);
+    if (!norm) {
+      return respond(res, { error: 'Please enter a valid HTTPS URL on a supported domain (e.g. vercel.app, pages.dev, netlify.app, github.io).' }, 400);
+    }
+
+    const u = new URL(norm);
+    const { response, loadMs } = await fetchWithTimeout(norm, {
+      timeout: 6000,
+      headers: { 'User-Agent': 'SiteScoutBot/1.0', Accept: 'text/html,application/xhtml+xml' }
+    });
+
+    if (!response.ok) {
+      return respond(res, { error: `Unable to reach website (HTTP ${response.status})` }, 400);
+    }
+
+    const html = await response.text();
+    const titleMatch = html.match(/<title[^>]*>([^<]{2,120})<\/title>/i);
+    const title = titleMatch ? titleMatch[1].replace(/\s+/g, ' ').trim() : u.hostname;
+    const framework = detectFramework(html) || 'JavaScript';
+
+    const m = u.hostname.match(/(?:^|\.)(vercel\.app|netlify\.app|pages\.dev|workers\.dev|github\.io|onrender\.com|web\.app|firebaseapp\.com|herokuapp\.com|fly\.dev|railway\.app|surge\.sh)$/i);
+    const hostType = m?.[1] || 'other';
+
+    const newSite = {
+      hostname: u.hostname,
+      title,
+      url: norm,
+      hostType,
+      framework,
+      screenshot: `https://image.thum.io/get/width/600/crop/700/${norm}`,
+      signals: {
+        https: true,
+        status: response.status,
+        loadMs,
+        title: Boolean(titleMatch),
+        description: Boolean(html.includes('name="description"')),
+        ogImage: Boolean(html.includes('property="og:image"')),
+        viewport: Boolean(html.includes('name="viewport"')),
+        securityHeaders: Boolean(response.headers.get('content-security-policy') || response.headers.get('strict-transport-security'))
+      },
+      discoveredAt: new Date().toISOString()
+    };
+
+    addSiteToFeed(newSite);
+    return respond(res, { success: true, site: publicSite(newSite) }, 200);
+  } catch (err) {
+    return respond(res, { error: 'Could not connect to this URL: ' + err.message }, 500);
   }
 }
 
@@ -160,8 +226,6 @@ function publicSite(s) {
     screenshot: s.screenshot || null,
     hostType: s.hostType,
     framework: s.framework || 'Other',
-    score: s.score,
-    breakdown: s.breakdown || [],
     signals: {
       https: Boolean(s.signals?.https),
       status: s.signals?.status || 200,

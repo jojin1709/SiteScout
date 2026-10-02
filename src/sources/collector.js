@@ -3,13 +3,22 @@ import { normalizeCandidate } from '../core/security.js';
 import { allowedByRobots } from '../core/robots.js';
 import { detectFramework } from '../core/framework.js';
 import { fetchWithTimeout } from '../core/http.js';
-import { scoreHtml } from '../core/score.js';
 import { collectUrlscan } from './urlscan.js';
 import { collectCommonCrawl } from './commoncrawl.js';
 import { collectGitHub } from './github.js';
 import { SEED_SITES } from './seed.js';
 
 const cache = new Map();
+const userSubmittedSites = [];
+
+export function addSiteToFeed(site) {
+  userSubmittedSites.unshift(site);
+  if (cache.has('feed')) {
+    const existing = cache.get('feed').data;
+    existing.sites = dedupe([site, ...existing.sites]);
+    cache.set('feed', { at: Date.now(), data: existing });
+  }
+}
 
 function hostType(host) {
   const m = host.match(/(?:^|\.)(vercel\.app|netlify\.app|pages\.dev|workers\.dev|github\.io|onrender\.com|web\.app|firebaseapp\.com|herokuapp\.com|fly\.dev|railway\.app|surge\.sh)$/i);
@@ -50,21 +59,20 @@ async function inspect(item, cfg) {
   if (!type.includes('text/html')) return null;
   const html = await response.text();
   if (html.length > 2_000_000) return null;
-  const result = scoreHtml({
-    html,
-    status: response.status,
-    loadMs,
-    https: new URL(item.url).protocol === 'https:',
-    headers: Object.fromEntries(response.headers.entries())
-  });
-  if (result.signals.defaultTemplate && result.score < 45) return null;
   return {
     ...item,
     title: item.title || extractTitle(html) || item.hostname,
     framework: detectFramework(html),
-    score: result.score,
-    breakdown: result.breakdown,
-    signals: result.signals,
+    signals: {
+      https: new URL(item.url).protocol === 'https:',
+      status: response.status,
+      loadMs,
+      title: Boolean(extractTitle(html)),
+      description: html.includes('name="description"'),
+      ogImage: html.includes('property="og:image"'),
+      viewport: html.includes('name="viewport"'),
+      securityHeaders: Boolean(response.headers.get('content-security-policy') || response.headers.get('strict-transport-security'))
+    },
     checkedAt: new Date().toISOString()
   };
 }
@@ -100,7 +108,7 @@ export async function buildFeed({ refresh = false, runtimeEnv = {} } = {}) {
     ...(c.status === 'fulfilled' && Array.isArray(c.value) ? c.value : [])
   ];
 
-  const results = [...SEED_SITES];
+  const results = [...userSubmittedSites, ...SEED_SITES];
   const candidates = dedupe(rawDiscovered).slice(0, 10);
 
   for (const item of candidates) {

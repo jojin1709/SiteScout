@@ -1,12 +1,23 @@
+import { ICONS } from './icons.js';
+
 // Theme Management
 const root = document.documentElement;
 const savedTheme = localStorage.getItem('sitescout-theme') || 'dark';
 root.dataset.theme = savedTheme;
 
+function updateThemeIcon() {
+  const iconEl = document.getElementById('themeToggle');
+  if (iconEl) {
+    iconEl.innerHTML = root.dataset.theme === 'dark' ? ICONS.sun : ICONS.moon;
+  }
+}
+updateThemeIcon();
+
 document.getElementById('themeToggle')?.addEventListener('click', () => {
   const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
   root.dataset.theme = next;
   localStorage.setItem('sitescout-theme', next);
+  updateThemeIcon();
 });
 
 // App State
@@ -16,7 +27,6 @@ const state = {
   q: '',
   host: '',
   framework: '',
-  minScore: '',
   loading: false,
   done: false,
   view: 'grid'
@@ -30,6 +40,10 @@ const loader = $('#loader');
 const emptyState = $('#emptyState');
 const feedCount = $('#feedCount');
 const searchInput = $('#searchInput');
+const submitInput = $('#submitInput');
+const submitForm = $('#submitForm');
+const submitMsg = $('#submitMsg');
+const btnScanSubmit = $('#btnScanSubmit');
 const toast = $('#toast');
 const toastMsg = $('#toastMsg');
 
@@ -42,7 +56,6 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
   "'": '&#039;'
 }[c]));
 
-// Toast helper
 function showToast(msg) {
   if (!toast) return;
   toastMsg.textContent = msg;
@@ -50,7 +63,6 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove('show'), 2500);
 }
 
-// Copy URL to clipboard
 window.copyUrl = async function (e, url) {
   e.preventDefault();
   e.stopPropagation();
@@ -62,31 +74,30 @@ window.copyUrl = async function (e, url) {
   }
 };
 
-// Host platform label mapping
-function getHostLabel(hostType) {
+function getHostBadge(hostType) {
   const map = {
-    'vercel.app': '▲ Vercel',
-    'pages.dev': '⚡ Cloudflare Pages',
-    'workers.dev': '⛅ Cloudflare Workers',
-    'netlify.app': '💎 Netlify',
-    'github.io': '🐙 GitHub Pages',
-    'onrender.com': '🚀 Render',
-    'fly.dev': '🎈 Fly.io',
-    'railway.app': '🚂 Railway',
-    'web.app': '🔥 Firebase',
-    'firebaseapp.com': '🔥 Firebase',
-    'surge.sh': '🌊 Surge',
-    'herokuapp.com': '🟣 Heroku'
+    'vercel.app': { label: 'Vercel', icon: ICONS.vercel },
+    'pages.dev': { label: 'Cloudflare Pages', icon: ICONS.cloudflare },
+    'workers.dev': { label: 'Cloudflare Workers', icon: ICONS.cloudflare },
+    'netlify.app': { label: 'Netlify', icon: ICONS.layers },
+    'github.io': { label: 'GitHub Pages', icon: ICONS.github },
+    'onrender.com': { label: 'Render', icon: ICONS.zap },
+    'fly.dev': { label: 'Fly.io', icon: ICONS.server },
+    'railway.app': { label: 'Railway', icon: ICONS.server },
+    'web.app': { label: 'Firebase', icon: ICONS.globe },
+    'firebaseapp.com': { label: 'Firebase', icon: ICONS.globe },
+    'surge.sh': { label: 'Surge', icon: ICONS.globe },
+    'herokuapp.com': { label: 'Heroku', icon: ICONS.server }
   };
-  return map[hostType] || hostType;
+  const item = map[hostType] || { label: hostType, icon: ICONS.globe };
+  return `${item.icon}<span>${esc(item.label)}</span>`;
 }
 
-// Card Renderer using Real Live Screenshots
+// Clean Live Card Renderer (No artificial points, rich SVG icons)
 function createCard(s) {
-  const scoreClass = s.score >= 90 ? 'high' : s.score >= 70 ? 'mid' : 'low';
   const screenshotUrl = s.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${s.hostname}`;
   
-  const imgContent = `<img loading="lazy" src="${esc(screenshotUrl)}" alt="Live capture of ${esc(s.title || s.hostname)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\\'thumb-fallback\\'><div class=\\'thumb-fallback-icon\\'>🌐</div><div style=\\'font-weight:700;font-size:14px;\\'>${esc(s.hostname)}</div><div style=\\'font-size:11px;opacity:0.7;\\'>Live Deployment</div></div>'">`;
+  const imgContent = `<img loading="lazy" src="${esc(screenshotUrl)}" alt="Live snapshot of ${esc(s.title || s.hostname)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\\'thumb-fallback\\'><div class=\\'thumb-fallback-icon\\'>${ICONS.globe}</div><div style=\\'font-weight:700;font-size:14px;\\'>${esc(s.hostname)}</div><div style=\\'font-size:11px;opacity:0.7;\\'>Live Deployment</div></div>'">`;
 
   return `
     <article class="site-card">
@@ -101,9 +112,9 @@ function createCard(s) {
 
       <div class="card-thumb">
         ${imgContent}
-        <div class="score-tag ${scoreClass}" title="Overall Technical Score (0-100)">
-          <span>⚡</span>
-          <span>${s.score}</span>
+        <div class="status-pill" title="Live status and response time">
+          <span class="live-dot"></span>
+          <span>${s.signals?.loadMs ? `${s.signals.loadMs}ms` : 'Live 200'}</span>
         </div>
       </div>
 
@@ -112,26 +123,27 @@ function createCard(s) {
         <div class="card-hostname">${esc(s.hostname)}</div>
 
         <div class="card-tags">
-          <span class="tag-badge host">${esc(getHostLabel(s.hostType))}</span>
-          ${s.framework ? `<span class="tag-badge fw">⚙️ ${esc(s.framework)}</span>` : ''}
-          <span class="tag-badge">${esc(s.discoveredLabel || 'Live')}</span>
+          <span class="tag-badge host">${getHostBadge(s.hostType)}</span>
+          ${s.framework ? `<span class="tag-badge fw">${ICONS.code}<span>${esc(s.framework)}</span></span>` : ''}
+          <span class="tag-badge">${ICONS.sparkles}<span>${esc(s.discoveredLabel || 'Live')}</span></span>
         </div>
 
         <div class="signals-mini">
-          <span class="signal-item ${s.signals?.https ? 'signal-ok' : ''}">🔒 HTTPS</span>
-          <span class="signal-item ${s.signals?.loadMs < 200 ? 'signal-ok' : ''}">⚡ ${s.signals?.loadMs || 120}ms</span>
-          <span class="signal-item ${s.signals?.securityHeaders ? 'signal-ok' : ''}">🛡️ Headers</span>
+          <span class="signal-item ${s.signals?.https ? 'signal-ok' : ''}">${ICONS.shield} HTTPS</span>
+          <span class="signal-item ${s.signals?.status === 200 ? 'signal-ok' : ''}">${ICONS.check} 200 OK</span>
+          <span class="signal-item ${s.signals?.securityHeaders ? 'signal-ok' : ''}">${ICONS.zap} Verified</span>
         </div>
 
         <div class="card-actions">
-          <a class="btn-card-inspect" href="/site.html?host=${encodeURIComponent(s.hostname)}">
-            Inspect Radar & Tech
+          <a class="btn-card-visit-main" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
+            <span>Visit Website</span>
+            ${ICONS.externalLink}
           </a>
-          <a class="btn-card-visit" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" title="Visit live site">
-            ↗
+          <a class="btn-card-inspect" href="/site.html?host=${encodeURIComponent(s.hostname)}" title="Inspect Tech Stack">
+            ${ICONS.search}
           </a>
           <button class="btn-card-share" type="button" onclick="window.copyUrl(event, '${esc(s.url)}')" title="Copy URL">
-            📋
+            ${ICONS.copy}
           </button>
         </div>
       </div>
@@ -139,7 +151,6 @@ function createCard(s) {
   `;
 }
 
-// Populate dropdown options
 function populateSelect(selectEl, items, defaultLabel) {
   if (!selectEl) return;
   const curr = selectEl.value;
@@ -149,7 +160,7 @@ function populateSelect(selectEl, items, defaultLabel) {
     ).join('');
 }
 
-// Fetch Sites API
+// Fetch Sites Feed
 async function fetchSites(reset = false) {
   if (state.loading || (state.done && !reset)) return;
   state.loading = true;
@@ -161,8 +172,7 @@ async function fetchSites(reset = false) {
     sort: state.sort,
     q: state.q,
     host: state.host,
-    framework: state.framework,
-    minScore: state.minScore
+    framework: state.framework
   });
 
   try {
@@ -188,7 +198,7 @@ async function fetchSites(reset = false) {
     state.page++;
 
     const total = data.totalHint || data.sites.length;
-    feedCount.textContent = `${total} deployment${total === 1 ? '' : 's'} indexed`;
+    feedCount.textContent = `${total} live deployment${total === 1 ? '' : 's'} indexed`;
 
     if (reset && data.facets) {
       populateSelect($('#frameworkFilter'), data.facets.frameworks || [], 'All Frameworks');
@@ -197,9 +207,9 @@ async function fetchSites(reset = false) {
     if (state.page === 1) {
       grid.innerHTML = `
         <div class="state-box" style="grid-column: 1 / -1;">
-          <div class="state-icon">⚠️</div>
+          <div class="state-icon">${ICONS.radar}</div>
           <div class="state-title">Unable to reach discovery radar</div>
-          <div class="state-desc">${esc(err.message)} — Please check back in a few seconds.</div>
+          <div class="state-desc">${esc(err.message)}</div>
         </div>
       `;
       feedCount.textContent = 'Radar offline';
@@ -216,6 +226,44 @@ function resetAndLoad() {
   fetchSites(true);
 }
 
+// Submit / Scan Live URL
+submitForm?.addEventListener('submit', async e => {
+  e.preventDefault();
+  const url = submitInput.value.trim();
+  if (!url) return;
+
+  btnScanSubmit.disabled = true;
+  btnScanSubmit.innerHTML = `<span>Scanning...</span>`;
+  submitMsg.className = 'submit-feedback hidden';
+
+  try {
+    const res = await fetch(`/api/submit?url=${encodeURIComponent(url)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url })
+    });
+
+    const data = await res.json();
+    if (!res.ok || !data.success) {
+      throw new Error(data.error || 'Failed to scan website');
+    }
+
+    submitMsg.textContent = `✓ Successfully verified and added "${data.site.title || data.site.hostname}"!`;
+    submitMsg.className = 'submit-feedback success';
+    submitInput.value = '';
+
+    // Prepend to live grid with smooth reveal
+    grid.insertAdjacentHTML('afterbegin', createCard(data.site));
+    showToast('✨ New site scanned and added to Radar!');
+  } catch (err) {
+    submitMsg.textContent = '✗ ' + err.message;
+    submitMsg.className = 'submit-feedback error';
+  } finally {
+    btnScanSubmit.disabled = false;
+    btnScanSubmit.innerHTML = `${ICONS.zap}<span>Scan & Add</span>`;
+  }
+});
+
 // Search Form
 $('#searchForm')?.addEventListener('submit', e => {
   e.preventDefault();
@@ -223,7 +271,6 @@ $('#searchForm')?.addEventListener('submit', e => {
   resetAndLoad();
 });
 
-// Debounced live typing search
 let debounceTimer;
 searchInput?.addEventListener('input', e => {
   clearTimeout(debounceTimer);
@@ -233,9 +280,9 @@ searchInput?.addEventListener('input', e => {
   }, 350);
 });
 
-// Keyboard Shortcut: '/' to focus search, 'Escape' to clear
+// Keyboard Shortcuts: '/' to search, 'Esc' to clear
 window.addEventListener('keydown', e => {
-  if (e.key === '/' && document.activeElement !== searchInput) {
+  if (e.key === '/' && document.activeElement !== searchInput && document.activeElement !== submitInput) {
     e.preventDefault();
     searchInput.focus();
     searchInput.select();
@@ -267,14 +314,9 @@ $$('.platform-chip').forEach(chip => {
   });
 });
 
-// Filters
+// Framework Filter
 $('#frameworkFilter')?.addEventListener('change', e => {
   state.framework = e.target.value;
-  resetAndLoad();
-});
-
-$('#scoreFilter')?.addEventListener('change', e => {
-  state.minScore = e.target.value;
   resetAndLoad();
 });
 
@@ -291,7 +333,7 @@ $('#btnListView')?.addEventListener('click', () => {
   $('#btnGridView').classList.remove('active');
 });
 
-// Infinite Scroll Observer
+// Infinite Scroll
 const sentinel = $('#sentinel');
 if (sentinel) {
   new IntersectionObserver(entries => {
@@ -300,6 +342,107 @@ if (sentinel) {
     }
   }, { rootMargin: '600px' }).observe(sentinel);
 }
+
+// Interactive Background Radar Canvas Animation
+function initRadarCanvas() {
+  const canvas = document.getElementById('radarCanvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  let angle = 0;
+  const blips = [
+    { x: 0.35, y: 0.25, size: 3, alpha: 0 },
+    { x: 0.65, y: 0.3, size: 2.5, alpha: 0 },
+    { x: 0.55, y: 0.45, size: 4, alpha: 0 },
+    { x: 0.2, y: 0.4, size: 3, alpha: 0 },
+    { x: 0.8, y: 0.2, size: 3.5, alpha: 0 }
+  ];
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const centerX = canvas.width / 2;
+    const centerY = Math.min(280, canvas.height * 0.32);
+    const maxRadius = Math.max(canvas.width, canvas.height) * 0.7;
+
+    // Draw concentric radar rings
+    ctx.strokeStyle = root.dataset.theme === 'dark' ? 'rgba(99, 102, 241, 0.07)' : 'rgba(99, 102, 241, 0.05)';
+    ctx.lineWidth = 1;
+    for (let r = 100; r < maxRadius; r += 140) {
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, r, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+
+    // Draw radar sweeping gradient cone
+    ctx.save();
+    ctx.translate(centerX, centerY);
+    ctx.rotate(angle);
+
+    const sweepGradient = ctx.createRadialGradient(0, 0, 10, 0, 0, maxRadius);
+    sweepGradient.addColorStop(0, 'rgba(99, 102, 241, 0.18)');
+    sweepGradient.addColorStop(0.5, 'rgba(6, 182, 212, 0.08)');
+    sweepGradient.addColorStop(1, 'transparent');
+
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.arc(0, 0, maxRadius, 0, Math.PI / 4);
+    ctx.closePath();
+    ctx.fillStyle = sweepGradient;
+    ctx.fill();
+
+    // Sweep line
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(maxRadius, 0);
+    ctx.strokeStyle = 'rgba(99, 102, 241, 0.4)';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    ctx.restore();
+
+    // Draw animated blips
+    blips.forEach(b => {
+      const bx = b.x * canvas.width;
+      const by = b.y * canvas.height;
+      const dx = bx - centerX;
+      const dy = by - centerY;
+      const blipAngle = (Math.atan2(dy, dx) + Math.PI * 2) % (Math.PI * 2);
+      const curAngle = (angle + Math.PI * 2) % (Math.PI * 2);
+
+      if (Math.abs(blipAngle - curAngle) < 0.1) {
+        b.alpha = 1;
+      } else {
+        b.alpha = Math.max(0, b.alpha - 0.015);
+      }
+
+      if (b.alpha > 0) {
+        ctx.beginPath();
+        ctx.arc(bx, by, b.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(16, 185, 129, ${b.alpha * 0.9})`;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(bx, by, b.size * 3 * (1 - b.alpha), 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(16, 185, 129, ${b.alpha * 0.5})`;
+        ctx.stroke();
+      }
+    });
+
+    angle = (angle + 0.012) % (Math.PI * 2);
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+}
+
+initRadarCanvas();
 
 // Initial Run
 resetAndLoad();
