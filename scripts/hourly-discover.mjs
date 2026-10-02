@@ -123,10 +123,15 @@ async function run() {
   // Read existing seed sites
   let existingSites = [];
   try {
-    const seedModule = await import('./src/sources/seed.js');
-    existingSites = seedModule.SEED_SITES || [];
-  } catch {
-    console.log('Reading seed file from disk...');
+    if (fs.existsSync(SEED_FILE)) {
+      const fileContent = fs.readFileSync(SEED_FILE, 'utf-8');
+      const jsonMatch = fileContent.match(/export const SEED_SITES = (\[[\s\S]*\]);/);
+      if (jsonMatch) {
+        existingSites = JSON.parse(jsonMatch[1]);
+      }
+    }
+  } catch (e) {
+    console.log('Notice reading seed file:', e.message);
   }
 
   const existingHostnames = new Set(existingSites.map(s => s.hostname.toLowerCase()));
