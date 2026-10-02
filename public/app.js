@@ -98,7 +98,12 @@ function getHostBadge(hostType) {
     'web.app': { label: 'Firebase', icon: ICONS.globe },
     'firebaseapp.com': { label: 'Firebase', icon: ICONS.globe },
     'surge.sh': { label: 'Surge', icon: ICONS.globe },
-    'herokuapp.com': { label: 'Heroku', icon: ICONS.server }
+    'herokuapp.com': { label: 'Heroku', icon: ICONS.server },
+    'infinityfreeapp.com': { label: 'InfinityFree', icon: ICONS.globe },
+    'epizy.com': { label: 'InfinityFree', icon: ICONS.globe },
+    'rf.gd': { label: 'InfinityFree', icon: ICONS.globe },
+    '42web.io': { label: 'InfinityFree', icon: ICONS.globe },
+    'great-site.net': { label: 'InfinityFree', icon: ICONS.globe }
   };
   const item = map[hostType] || { label: hostType, icon: ICONS.globe };
   return `${item.icon}<span>${esc(item.label)}</span>`;

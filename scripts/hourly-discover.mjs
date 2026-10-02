@@ -16,7 +16,11 @@ const TARGET_HOSTS = [
   'onrender.com',
   'fly.dev',
   'railway.app',
-  'web.app'
+  'web.app',
+  'epizy.com',
+  'rf.gd',
+  '42web.io',
+  'infinityfreeapp.com'
 ];
 
 // Discover fresh public candidate URLs via GitHub Search API & curated radar
@@ -90,7 +94,7 @@ async function verifySite(url) {
     else if (html.includes('@vite/client')) framework = 'Vite';
 
     const u = new URL(url);
-    const m = u.hostname.match(/(?:^|\.)(vercel\.app|netlify\.app|pages\.dev|workers\.dev|github\.io|onrender\.com|web\.app|firebaseapp\.com|herokuapp\.com|fly\.dev|railway\.app|surge\.sh)$/i);
+    const m = u.hostname.match(/(?:^|\.)(vercel\.app|netlify\.app|pages\.dev|workers\.dev|github\.io|onrender\.com|web\.app|firebaseapp\.com|herokuapp\.com|fly\.dev|railway\.app|surge\.sh|infinityfreeapp\.com|epizy\.com|rf\.gd|42web\.io|great-site\.net)$/i);
     const hostType = m?.[1] || 'other';
 
     return {

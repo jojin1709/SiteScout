@@ -141,6 +141,7 @@ SiteScout monitors and categorizes subdomains across 12 primary cloud and edge h
 | **🔥 Firebase Hosting** | `*.web.app`, `*.firebaseapp.com` | Google Cloud Static & Dynamic | TLS 1.3 |
 | **🌊 Surge** | `*.surge.sh` | Static Web Publishing | TLS 1.3 |
 | **🟣 Heroku** | `*.herokuapp.com` | Cloud Container Platform | TLS 1.3 |
+| **♾️ InfinityFree** | `*.epizy.com`, `*.rf.gd`, `*.42web.io`, `*.infinityfreeapp.com` | Free Cloud & PHP Hosting | TLS 1.3 |
 
 ---
 

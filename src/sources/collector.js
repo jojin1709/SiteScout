@@ -21,7 +21,7 @@ export function addSiteToFeed(site) {
 }
 
 function hostType(host) {
-  const m = host.match(/(?:^|\.)(vercel\.app|netlify\.app|pages\.dev|workers\.dev|github\.io|onrender\.com|web\.app|firebaseapp\.com|herokuapp\.com|fly\.dev|railway\.app|surge\.sh)$/i);
+  const m = host.match(/(?:^|\.)(vercel\.app|netlify\.app|pages\.dev|workers\.dev|github\.io|onrender\.com|web\.app|firebaseapp\.com|herokuapp\.com|fly\.dev|railway\.app|surge\.sh|infinityfreeapp\.com|epizy\.com|rf\.gd|42web\.io|great-site\.net)$/i);
   return m?.[1] || 'other';
 }
 
