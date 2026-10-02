@@ -1,14 +1,59 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="SiteScout website details and technical score.">
-  <title>SiteScout — Site</title><link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SiteScout — Deep Technical Inspection, Radar Score & Metadata Analyzer.">
+  <meta name="theme-color" content="#07090e">
+  <title>SiteScout — Inspection Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <header class="site-header"><a class="brand" href="/"><span class="brand-mark">◎</span> SiteScout</a><nav><a class="nav-link" href="/">Discover</a><a class="nav-link" href="/about.html">About</a></nav><button class="theme-toggle" id="themeToggle">☼</button></header>
-  <main class="detail-page"><a class="back-link" href="/">← Back to discovery</a><div id="detail"></div></main>
-  <footer class="site-footer"><span>SiteScout</span><span>Scores are automated technical signals, not quality judgments.</span></footer>
+
+  <!-- Top Navigation Header -->
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="SiteScout Home">
+      <div class="brand-radar"></div>
+      <div class="brand-text"><span>SiteScout</span></div>
+    </a>
+    
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a class="nav-item" href="/">Radar</a>
+      <a class="nav-item" href="/about.html">About & Tech</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark/light theme">
+        ☼
+      </button>
+    </div>
+  </header>
+
+  <!-- Inspection Container -->
+  <main class="detail-container">
+    <a class="btn-back" href="/">← Back to Radar</a>
+    <div id="detailView">
+      <div class="loader-spinner"></div>
+    </div>
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span>📋</span>
+    <span id="toastMsg">URL copied to clipboard!</span>
+  </div>
+
+  <footer class="site-footer">
+    <div>
+      <strong>SiteScout</strong> — Automated Technical Radar Inspection
+    </div>
+    <div class="footer-credits">
+      <span>Signals are algorithmic benchmarks</span>
+    </div>
+  </footer>
+
   <script type="module" src="/site.js"></script>
 </body>
 </html>

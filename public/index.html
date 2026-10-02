@@ -2,59 +2,189 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="SiteScout discovers publicly accessible websites deployed on free and test hosting domains.">
-  <meta name="theme-color" content="#f7f8fc">
-  <title>SiteScout — Discover deployed websites</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SiteScout — Live Radar & Visual Directory of Deployed Websites on Vercel, Cloudflare, Netlify, GitHub Pages, Render, and more.">
+  <meta name="theme-color" content="#07090e">
+  <title>SiteScout — Real-Time Deployed Web Directory & Radar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+
+  <!-- Top Navigation Header -->
   <header class="site-header">
-    <a class="brand" href="/" aria-label="SiteScout home"><span class="brand-mark">◎</span> SiteScout</a>
-    <nav aria-label="Primary navigation">
-      <a class="nav-link active" href="/">Discover</a>
-      <a class="nav-link" href="/about.html">About</a>
+    <a class="brand" href="/" aria-label="SiteScout Home">
+      <div class="brand-radar"></div>
+      <div class="brand-text"><span>SiteScout</span></div>
+    </a>
+    
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a class="nav-item active" href="/">Radar</a>
+      <a class="nav-item" href="/about.html">About & Tech</a>
     </nav>
-    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">☼</button>
+
+    <div class="header-actions">
+      <a class="btn-github" href="https://github.com/jojin1709/SiteScout" target="_blank" rel="noopener noreferrer" title="View Source on GitHub">
+        ★
+      </a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark/light theme" title="Toggle theme">
+        ☼
+      </button>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
-      <p class="eyebrow">PUBLIC WEB DISCOVERY</p>
-      <h1>Find what developers<br><span>are deploying.</span></h1>
-      <p class="hero-copy">Browse publicly discoverable projects hosted on free and test domains. Screenshot first, inspect the basics, then visit the site.</p>
-      <form id="searchForm" class="searchbar" role="search">
-        <span aria-hidden="true">⌕</span>
-        <input id="searchInput" name="q" autocomplete="off" placeholder="Search websites, titles, or domains…">
-        <button type="submit">Search</button>
-      </form>
-      <div class="host-pills" id="hostPills" aria-label="Hosting platforms"></div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="live-badge">
+      <span class="pulse-indicator"></span>
+      <span>Autonomous Edge Crawler & Radar</span>
+    </div>
+    
+    <h1>Find what developers<br><span class="gradient-text">are actually building.</span></h1>
+    
+    <p class="hero-subtitle">
+      Stateless visual directory indexing live web applications across 12+ free & test hosting domains. Screenshot-first with real-time technical Lighthouse-style scoring.
+    </p>
 
-    <section class="toolbar-wrap" aria-label="Directory controls">
+    <!-- Search Form -->
+    <form id="searchForm" class="search-wrapper" role="search">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input 
+          id="searchInput" 
+          class="search-input" 
+          name="q" 
+          type="text" 
+          autocomplete="off" 
+          placeholder="Search by title, domain, framework, or keyword (e.g. Next.js, 3D, blog)..."
+        >
+        <span class="shortcut-badge">/</span>
+        <button type="submit" class="btn-search">Search</button>
+      </div>
+    </form>
+
+    <!-- Platform Filter Pills -->
+    <div class="platform-chips" id="platformChips" aria-label="Hosting platforms filter">
+      <button type="button" class="platform-chip active" data-host="">✨ All Platforms</button>
+      <button type="button" class="platform-chip" data-host="vercel.app">▲ Vercel</button>
+      <button type="button" class="platform-chip" data-host="pages.dev">⚡ Cloudflare Pages</button>
+      <button type="button" class="platform-chip" data-host="workers.dev">⛅ Cloudflare Workers</button>
+      <button type="button" class="platform-chip" data-host="netlify.app">💎 Netlify</button>
+      <button type="button" class="platform-chip" data-host="github.io">🐙 GitHub Pages</button>
+      <button type="button" class="platform-chip" data-host="onrender.com">🚀 Render</button>
+      <button type="button" class="platform-chip" data-host="fly.dev">🎈 Fly.io</button>
+      <button type="button" class="platform-chip" data-host="railway.app">🚂 Railway</button>
+      <button type="button" class="platform-chip" data-host="web.app">🔥 Firebase</button>
+      <button type="button" class="platform-chip" data-host="surge.sh">🌊 Surge</button>
+    </div>
+  </section>
+
+  <!-- Live Statistics Strip -->
+  <section class="stats-strip" aria-label="Directory statistics">
+    <div class="stat-card">
+      <div class="stat-icon">🛰️</div>
+      <div>
+        <div class="stat-num" id="statPlatforms">12</div>
+        <div class="stat-label">Cloud Hosting Targets</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">⚡</div>
+      <div>
+        <div class="stat-num" id="statTotal">100%</div>
+        <div class="stat-label">Stateless Edge Architecture</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🎯</div>
+      <div>
+        <div class="stat-num">0–100</div>
+        <div class="stat-label">Automated Tech Scoring</div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🔒</div>
+      <div>
+        <div class="stat-num">Safe</div>
+        <div class="stat-label">Robots.txt & Security Audit</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Directory Feed -->
+  <main class="main-container">
+    
+    <!-- Toolbar Controls -->
+    <div class="toolbar" aria-label="Feed controls">
       <div class="sort-tabs" role="tablist">
-        <button class="sort-tab active" data-sort="newest" type="button">Newest</button>
-        <button class="sort-tab" data-sort="score" type="button">Top score</button>
-        <button class="sort-tab" data-sort="random" type="button">Random</button>
+        <button class="sort-tab active" data-sort="newest" type="button">✨ Newest</button>
+        <button class="sort-tab" data-sort="score" type="button">🏆 Top Score (90+)</button>
+        <button class="sort-tab" data-sort="fast" type="button">⚡ Fast Load (&lt;200ms)</button>
+        <button class="sort-tab" data-sort="random" type="button">🎲 Random</button>
       </div>
-      <div class="filters">
-        <label>Host <select id="hostFilter"><option value="">All hosts</option></select></label>
-        <label>Framework <select id="frameworkFilter"><option value="">All frameworks</option></select></label>
-        <label>Score <select id="scoreFilter"><option value="">Any score</option><option value="80">80+</option><option value="60">60+</option><option value="40">40+</option></select></label>
-      </div>
-    </section>
 
-    <section class="directory" aria-live="polite">
-      <div class="directory-head"><div><p class="eyebrow">DISCOVERY FEED</p><h2 id="resultTitle">Recently discovered</h2></div><span id="resultMeta" class="muted"></span></div>
-      <div id="grid" class="site-grid"></div>
-      <div id="empty" class="empty hidden"><strong>No sites found.</strong><span>Try another search or clear the filters.</span></div>
-      <div id="loader" class="loader hidden">Loading…</div>
-      <div id="sentinel" class="sentinel" aria-hidden="true"></div>
-    </section>
+      <div class="filter-group">
+        <select id="frameworkFilter" class="custom-select" aria-label="Filter by framework">
+          <option value="">All Frameworks</option>
+        </select>
+        
+        <select id="scoreFilter" class="custom-select" aria-label="Filter by minimum score">
+          <option value="">Any Score</option>
+          <option value="90">Exceptional (90+)</option>
+          <option value="80">Great (80+)</option>
+          <option value="60">Good (60+)</option>
+        </select>
+
+        <div class="layout-toggle" aria-label="Layout view">
+          <button class="layout-btn active" id="btnGridView" type="button" title="Grid view">⊞</button>
+          <button class="layout-btn" id="btnListView" type="button" title="List view">☰</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feed Header -->
+    <div class="feed-header">
+      <h2 class="feed-title" id="feedHeading">Discovered Deployments</h2>
+      <span class="feed-count" id="feedCount">Loading radar...</span>
+    </div>
+
+    <!-- Cards Grid -->
+    <div id="grid" class="site-grid" aria-live="polite"></div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="state-box hidden">
+      <div class="state-icon">🔭</div>
+      <div class="state-title">No projects match your filter</div>
+      <div class="state-desc">Try clearing your search query or choosing a different hosting provider or framework.</div>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader-spinner hidden"></div>
+
+    <div id="sentinel" style="height: 1px;"></div>
   </main>
 
-  <footer class="site-footer"><span>SiteScout</span><span>Public discovery · No accounts · No user profiles</span></footer>
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span>📋</span>
+    <span id="toastMsg">URL copied to clipboard!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div>
+      <strong>SiteScout</strong> — Public Web Discovery & Radar
+    </div>
+    <div class="footer-credits">
+      <span>100% Stateless</span>
+      <span>•</span>
+      <span>No Databases</span>
+      <span>•</span>
+      <span>Privacy First</span>
+    </div>
+  </footer>
+
   <script type="module" src="/app.js"></script>
 </body>
 </html>
