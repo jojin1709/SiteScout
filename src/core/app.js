@@ -218,11 +218,66 @@ export async function handleHealth(req, res) {
   return respond(res, { ok: true, name: 'SiteScout', time: new Date().toISOString() }, 200, { 'cache-control': 'no-store' });
 }
 
+export async function handleRssFeed(req, res, runtimeEnv = {}) {
+  try {
+    const data = await getFeed({ runtimeEnv });
+    const sites = data.sites.slice(0, 50);
+
+    const itemsXml = sites.map(s => `
+    <item>
+      <title><![CDATA[${s.title || s.hostname}]]></title>
+      <link>${s.url}</link>
+      <guid isPermaLink="true">${s.url}</guid>
+      <pubDate>${new Date(s.discoveredAt || Date.now()).toUTCString()}</pubDate>
+      <description><![CDATA[Live ${s.framework || 'Web'} application deployed on ${s.hostType}. HTTP ${s.signals?.status || 200}, response latency ${s.signals?.loadMs || 120}ms.]]></description>
+      <category>${s.hostType}</category>
+      <category>${s.framework || 'JavaScript'}</category>
+    </item>`).join('');
+
+    const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SiteScout — Live Web Deployment Radar</title>
+    <link>https://sitescout-app.vercel.app</link>
+    <description>Real-time visual discovery radar for live web applications deployed on edge cloud platforms.</description>
+    <language>en-us</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <atom:link href="https://sitescout-app.vercel.app/api/feed" rel="self" type="application/rss+xml" />
+    ${itemsXml}
+  </channel>
+</rss>`;
+
+    const headers = {
+      'content-type': 'application/xml; charset=utf-8',
+      'cache-control': 'public, s-maxage=3600, stale-while-revalidate=7200',
+      'access-control-allow-origin': '*'
+    };
+
+    if (res && typeof res.status === 'function') {
+      res.status(200);
+      for (const [k, v] of Object.entries(headers)) {
+        res.setHeader(k, v);
+      }
+      return res.end(rssXml);
+    }
+    return new Response(rssXml, { status: 200, headers });
+  } catch (err) {
+    return respond(res, { error: err.message || 'Error generating RSS feed' }, 500);
+  }
+}
+
 function publicSite(s) {
+  let repoUrl = s.repoUrl || null;
+  if (!repoUrl && s.hostname && s.hostname.toLowerCase().endsWith('.github.io')) {
+    const user = s.hostname.toLowerCase().replace(/\.github\.io$/i, '');
+    repoUrl = `https://github.com/${user}/${user}.github.io`;
+  }
+
   return {
     hostname: s.hostname,
     title: s.title || s.hostname,
     url: s.url,
+    repoUrl,
     screenshot: s.screenshot || null,
     hostType: s.hostType,
     framework: s.framework || 'Other',

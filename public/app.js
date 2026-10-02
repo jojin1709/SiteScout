@@ -104,7 +104,7 @@ function getHostBadge(hostType) {
   return `${item.icon}<span>${esc(item.label)}</span>`;
 }
 
-// Clean Live Card Renderer (No artificial points, rich SVG icons, clean fallback)
+// Clean Live Card Renderer
 function createCard(s) {
   const cleanTitle = cleanText(s.title || s.hostname);
   const screenshotUrl = s.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${s.hostname}`;
@@ -149,6 +149,11 @@ function createCard(s) {
             <span>Visit Website</span>
             ${ICONS.externalLink}
           </a>
+          ${s.repoUrl ? `
+            <a class="btn-card-repo" href="${esc(s.repoUrl)}" target="_blank" rel="noopener noreferrer" title="View Source Code Repository">
+              ${ICONS.github}
+            </a>
+          ` : ''}
           <button class="btn-card-inspect" type="button" onclick="window.inspectSite('${esc(s.hostname)}')" title="Inspect Specs & Headers">
             ${ICONS.search}
           </button>
@@ -160,6 +165,99 @@ function createCard(s) {
     </article>
   `;
 }
+
+// Live Tech Stack Radar Trends
+function updateTechTrends(sites) {
+  const track = $('#trendsBarTrack');
+  const legend = $('#trendsLegend');
+  if (!track || !legend || !sites || sites.length === 0) return;
+
+  const counts = {};
+  sites.forEach(s => {
+    const fw = s.framework || 'JavaScript';
+    counts[fw] = (counts[fw] || 0) + 1;
+  });
+
+  const total = sites.length;
+  const colors = {
+    'Next.js': '#38bdf8',
+    'React': '#60a5fa',
+    'Vue': '#34d399',
+    'Astro': '#fb923c',
+    'Svelte': '#f87171',
+    'Vite': '#a78bfa',
+    'Angular': '#f43f5e',
+    'JavaScript': '#94a3b8'
+  };
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  
+  track.innerHTML = sorted.map(([fw, count]) => {
+    const pct = ((count / total) * 100).toFixed(1);
+    const color = colors[fw] || '#818cf8';
+    return `<div class="trends-bar-seg" style="width: ${pct}%; background-color: ${color};" title="${esc(fw)}: ${pct}% (${count})"></div>`;
+  }).join('');
+
+  legend.innerHTML = sorted.map(([fw, count]) => {
+    const pct = ((count / total) * 100).toFixed(0);
+    const color = colors[fw] || '#818cf8';
+    return `
+      <div class="legend-item" onclick="window.filterByFramework('${esc(fw)}')">
+        <span class="legend-dot" style="background-color: ${color};"></span>
+        <span><strong>${esc(fw)}</strong> ${pct}%</span>
+      </div>
+    `;
+  }).join('');
+}
+
+window.filterByFramework = function(fw) {
+  const sel = $('#frameworkFilter');
+  if (sel) {
+    sel.value = fw;
+    state.framework = fw;
+    resetAndLoad();
+  }
+};
+
+// 1-Click JSON and CSV Export
+$('#btnExportJson')?.addEventListener('click', () => {
+  if (!state.allSites.length) return showToast('No sites loaded to export');
+  const blob = new Blob([JSON.stringify(state.allSites, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `sitescout-deployments-${Date.now()}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('Exported JSON dataset!');
+});
+
+$('#btnExportCsv')?.addEventListener('click', () => {
+  if (!state.allSites.length) return showToast('No sites loaded to export');
+  const headers = ['Hostname', 'Title', 'URL', 'Platform', 'Framework', 'Status', 'LatencyMs', 'HTTPS', 'RepoURL', 'DiscoveredAt'];
+  const rows = state.allSites.map(s => [
+    `"${(s.hostname || '').replace(/"/g, '""')}"`,
+    `"${(cleanText(s.title || s.hostname)).replace(/"/g, '""')}"`,
+    `"${s.url || ''}"`,
+    `"${s.hostType || ''}"`,
+    `"${s.framework || ''}"`,
+    s.signals?.status || 200,
+    s.signals?.loadMs || 120,
+    s.signals?.https ? 'TRUE' : 'FALSE',
+    `"${s.repoUrl || ''}"`,
+    `"${s.discoveredAt || ''}"`
+  ].join(','));
+
+  const csv = [headers.join(','), ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `sitescout-deployments-${Date.now()}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('Exported CSV dataset!');
+});
 
 function populateSelect(selectEl, items, defaultLabel) {
   if (!selectEl) return;
@@ -202,6 +300,7 @@ async function fetchSites(reset = false) {
       state.allSites.push(...data.sites);
       grid.insertAdjacentHTML('beforeend', data.sites.map(createCard).join(''));
       emptyState.classList.add('hidden');
+      updateTechTrends(state.allSites);
     } else if (state.page === 1) {
       emptyState.classList.remove('hidden');
     }
@@ -209,7 +308,7 @@ async function fetchSites(reset = false) {
     state.done = !data.nextPage;
     state.page++;
 
-    const total = data.totalHint || data.sites.length;
+    const total = data.totalHint || state.allSites.length;
     feedCount.textContent = `${total} live deployment${total === 1 ? '' : 's'} indexed`;
 
     if (reset && data.facets) {
@@ -290,6 +389,7 @@ submitForm?.addEventListener('submit', async e => {
     // Prepend to live grid with smooth reveal
     state.allSites.unshift(data.site);
     grid.insertAdjacentHTML('afterbegin', createCard(data.site));
+    updateTechTrends(state.allSites);
     showToast('✨ New site scanned and added to Radar!');
   } catch (err) {
     submitMsg.textContent = '✗ ' + err.message;
@@ -335,7 +435,7 @@ window.addEventListener('keydown', e => {
   }
 });
 
-// SaaS Live Inspector Modal
+// SaaS Live Inspector & Interactive Sandbox Modal
 window.inspectSite = function (hostname) {
   const site = state.allSites.find(s => s.hostname === hostname);
   const modal = $('#inspectModal');
@@ -352,7 +452,22 @@ window.inspectSite = function (hostname) {
     
     const screenshotUrl = site.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${site.hostname}`;
     $('#modalImg').src = screenshotUrl;
+    $('#modalSandboxFrame').src = site.url || `https://${site.hostname}`;
     $('#modalVisitLink').href = site.url || `https://${site.hostname}`;
+
+    // Repo Link
+    const repoBtn = $('#modalRepoLink');
+    if (repoBtn) {
+      if (site.repoUrl) {
+        repoBtn.href = site.repoUrl;
+        repoBtn.classList.remove('hidden');
+      } else {
+        repoBtn.classList.add('hidden');
+      }
+    }
+
+    // Default to snapshot view
+    $('#btnModalModeSnapshot')?.click();
 
     $('#btnModalCopy').onclick = () => window.copyUrl(null, site.url || `https://${site.hostname}`);
 
@@ -372,13 +487,30 @@ window.inspectSite = function (hostname) {
   }
 };
 
+// Modal View Switcher (Snapshot vs Interactive Sandbox)
+$('#btnModalModeSnapshot')?.addEventListener('click', () => {
+  $('#btnModalModeSnapshot').classList.add('active');
+  $('#btnModalModeSandbox').classList.remove('active');
+  $('#modalSnapshotWrap')?.classList.remove('hidden');
+  $('#modalSandboxWrap')?.classList.add('hidden');
+});
+
+$('#btnModalModeSandbox')?.addEventListener('click', () => {
+  $('#btnModalModeSandbox').classList.add('active');
+  $('#btnModalModeSnapshot').classList.remove('active');
+  $('#modalSandboxWrap')?.classList.remove('hidden');
+  $('#modalSnapshotWrap')?.classList.add('hidden');
+});
+
 $('#modalClose')?.addEventListener('click', () => {
   $('#inspectModal')?.classList.add('hidden');
+  $('#modalSandboxFrame').src = ''; // unload iframe
 });
 
 $('#inspectModal')?.addEventListener('click', e => {
   if (e.target === $('#inspectModal')) {
     $('#inspectModal').classList.add('hidden');
+    $('#modalSandboxFrame').src = '';
   }
 });
 
