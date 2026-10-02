@@ -1,0 +1,2 @@
+export async function fetchWithTimeout(url,{timeout=7000,headers={},redirect='manual'}={}){const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),timeout);const started=Date.now();try{const response=await fetch(url,{method:'GET',redirect,signal:controller.signal,headers});return {response,loadMs:Date.now()-started}}finally{clearTimeout(timer)}}
+export async function fetchText(url,opts={}){const {response,loadMs}=await fetchWithTimeout(url,opts);const text=await response.text();return {response,text,loadMs};}

@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sitescout-cron",
+  "main": "cloudflare/cron-worker.js",
+  "compatibility_date": "2026-10-01",
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  "vars": {
+    "PUBLIC_ORIGIN": "https://your-project.pages.dev"
+  }
+}

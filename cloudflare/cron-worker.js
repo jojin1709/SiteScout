@@ -1,0 +1,2 @@
+import {handleCron} from '../src/core/app.js';
+export default {async scheduled(controller,env){const request=new Request(`${env.PUBLIC_ORIGIN||'https://example.invalid'}/api/cron/collect`,{headers:{'x-cron-secret':env.CRON_SECRET||''}});try{const response=await handleCron(request,env);console.log('SiteScout cron',response.status,await response.text())}catch(error){console.error('SiteScout cron failed',error);controller.noRetry?.()}}};

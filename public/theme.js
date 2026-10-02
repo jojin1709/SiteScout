@@ -1,0 +1,1 @@
+const root=document.documentElement;const saved=localStorage.getItem('sitescout-theme');if(saved)root.dataset.theme=saved;document.getElementById('themeToggle')?.addEventListener('click',()=>{const next=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=next;localStorage.setItem('sitescout-theme',next)});

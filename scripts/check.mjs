@@ -1,0 +1,2 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));const required=['index.html','site.html','about.html','styles.css','app.js','site.js'];for(const f of required)if(!fs.existsSync(path.join(root,'public',f)))throw new Error(`Missing public/${f}`);for(const dir of ['api','functions/api','src/core','src/sources'])if(!fs.existsSync(path.join(root,dir)))throw new Error(`Missing ${dir}`);console.log('SiteScout structure OK');

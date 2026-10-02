@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SiteScout discovers publicly accessible websites deployed on free and test hosting domains.">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>SiteScout — Discover deployed websites</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="SiteScout home"><span class="brand-mark">◎</span> SiteScout</a>
+    <nav aria-label="Primary navigation">
+      <a class="nav-link active" href="/">Discover</a>
+      <a class="nav-link" href="/about.html">About</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">☼</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <p class="eyebrow">PUBLIC WEB DISCOVERY</p>
+      <h1>Find what developers<br><span>are deploying.</span></h1>
+      <p class="hero-copy">Browse publicly discoverable projects hosted on free and test domains. Screenshot first, inspect the basics, then visit the site.</p>
+      <form id="searchForm" class="searchbar" role="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" name="q" autocomplete="off" placeholder="Search websites, titles, or domains…">
+        <button type="submit">Search</button>
+      </form>
+      <div class="host-pills" id="hostPills" aria-label="Hosting platforms"></div>
+    </section>
+
+    <section class="toolbar-wrap" aria-label="Directory controls">
+      <div class="sort-tabs" role="tablist">
+        <button class="sort-tab active" data-sort="newest" type="button">Newest</button>
+        <button class="sort-tab" data-sort="score" type="button">Top score</button>
+        <button class="sort-tab" data-sort="random" type="button">Random</button>
+      </div>
+      <div class="filters">
+        <label>Host <select id="hostFilter"><option value="">All hosts</option></select></label>
+        <label>Framework <select id="frameworkFilter"><option value="">All frameworks</option></select></label>
+        <label>Score <select id="scoreFilter"><option value="">Any score</option><option value="80">80+</option><option value="60">60+</option><option value="40">40+</option></select></label>
+      </div>
+    </section>
+
+    <section class="directory" aria-live="polite">
+      <div class="directory-head"><div><p class="eyebrow">DISCOVERY FEED</p><h2 id="resultTitle">Recently discovered</h2></div><span id="resultMeta" class="muted"></span></div>
+      <div id="grid" class="site-grid"></div>
+      <div id="empty" class="empty hidden"><strong>No sites found.</strong><span>Try another search or clear the filters.</span></div>
+      <div id="loader" class="loader hidden">Loading…</div>
+      <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>SiteScout</span><span>Public discovery · No accounts · No user profiles</span></footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
