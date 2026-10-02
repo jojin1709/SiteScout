@@ -77,16 +77,68 @@ body {
   background-attachment: fixed;
 }
 
-/* Radar Background Canvas */
-#radarCanvas {
+/* Ambient Studio Lighting Mesh */
+.ambient-glow-bg {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.65;
+  overflow: hidden;
+}
+
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.45;
+  transition: all 1s ease;
+}
+
+.orb-1 {
+  top: -15%;
+  left: 25%;
+  width: 55vw;
+  height: 45vh;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.35) 0%, rgba(139, 92, 246, 0.15) 60%, transparent 80%);
+  animation: orbFloat1 18s ease-in-out infinite alternate;
+}
+
+.orb-2 {
+  top: 20%;
+  right: -10%;
+  width: 40vw;
+  height: 50vh;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.25) 0%, rgba(56, 189, 248, 0.12) 70%, transparent 85%);
+  animation: orbFloat2 22s ease-in-out infinite alternate;
+}
+
+.orb-3 {
+  bottom: 5%;
+  left: -5%;
+  width: 45vw;
+  height: 40vh;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.2) 0%, rgba(99, 102, 241, 0.1) 60%, transparent 80%);
+  animation: orbFloat3 20s ease-in-out infinite alternate;
+}
+
+@keyframes orbFloat1 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(60px, 40px) scale(1.08); }
+}
+
+@keyframes orbFloat2 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-50px, 60px) scale(0.95); }
+}
+
+@keyframes orbFloat3 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(40px, -50px) scale(1.05); }
+}
+
+:root[data-theme="light"] .glow-orb {
+  opacity: 0.25;
+  filter: blur(100px);
 }
 
 a {
