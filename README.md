@@ -3,7 +3,9 @@
 
 <div align="center">
 
-# 🛰️ SiteScout
+<img src="./public/favicon.svg" width="72" height="72" alt="SiteScout Logo" />
+
+# SiteScout
 
 ### Autonomous, stateless visual radar & directory for publicly discoverable web apps.
 
