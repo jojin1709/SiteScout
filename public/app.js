@@ -29,7 +29,8 @@ const state = {
   framework: '',
   loading: false,
   done: false,
-  view: 'grid'
+  view: 'grid',
+  allSites: []
 };
 
 const $ = s => document.querySelector(s);
@@ -47,8 +48,16 @@ const btnScanSubmit = $('#btnScanSubmit');
 const toast = $('#toast');
 const toastMsg = $('#toastMsg');
 
+// Decode common HTML entities cleanly
+function cleanText(str) {
+  if (!str) return '';
+  const txt = document.createElement('textarea');
+  txt.innerHTML = str;
+  return txt.value;
+}
+
 // HTML Escape helper
-const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
+const esc = s => String(cleanText(s) ?? '').replace(/[&<>"']/g, c => ({
   '&': '&amp;',
   '<': '&lt;',
   '>': '&gt;',
@@ -64,8 +73,10 @@ function showToast(msg) {
 }
 
 window.copyUrl = async function (e, url) {
-  e.preventDefault();
-  e.stopPropagation();
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
   try {
     await navigator.clipboard.writeText(url);
     showToast('Copied website URL to clipboard!');
@@ -93,14 +104,13 @@ function getHostBadge(hostType) {
   return `${item.icon}<span>${esc(item.label)}</span>`;
 }
 
-// Clean Live Card Renderer (No artificial points, rich SVG icons)
+// Clean Live Card Renderer (No artificial points, rich SVG icons, clean fallback)
 function createCard(s) {
+  const cleanTitle = cleanText(s.title || s.hostname);
   const screenshotUrl = s.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${s.hostname}`;
-  
-  const imgContent = `<img loading="lazy" src="${esc(screenshotUrl)}" alt="Live snapshot of ${esc(s.title || s.hostname)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\\'thumb-fallback\\'><div class=\\'thumb-fallback-icon\\'>${ICONS.globe}</div><div style=\\'font-weight:700;font-size:14px;\\'>${esc(s.hostname)}</div><div style=\\'font-size:11px;opacity:0.7;\\'>Live Deployment</div></div>'">`;
 
   return `
-    <article class="site-card">
+    <article class="site-card" data-hostname="${esc(s.hostname)}">
       <div class="card-browser-bar">
         <div class="window-dots">
           <span class="dot dot-red"></span>
@@ -111,7 +121,7 @@ function createCard(s) {
       </div>
 
       <div class="card-thumb">
-        ${imgContent}
+        <img loading="lazy" src="${esc(screenshotUrl)}" alt="Live snapshot of ${esc(cleanTitle)}" referrerpolicy="no-referrer" />
         <div class="status-pill" title="Live status and response time">
           <span class="live-dot"></span>
           <span>${s.signals?.loadMs ? `${s.signals.loadMs}ms` : 'Live 200'}</span>
@@ -119,7 +129,7 @@ function createCard(s) {
       </div>
 
       <div class="card-content">
-        <h3 class="card-title" title="${esc(s.title || s.hostname)}">${esc(s.title || s.hostname)}</h3>
+        <h3 class="card-title" title="${esc(cleanTitle)}">${esc(cleanTitle)}</h3>
         <div class="card-hostname">${esc(s.hostname)}</div>
 
         <div class="card-tags">
@@ -139,9 +149,9 @@ function createCard(s) {
             <span>Visit Website</span>
             ${ICONS.externalLink}
           </a>
-          <a class="btn-card-inspect" href="/site.html?host=${encodeURIComponent(s.hostname)}" title="Inspect Tech Stack">
+          <button class="btn-card-inspect" type="button" onclick="window.inspectSite('${esc(s.hostname)}')" title="Inspect Specs & Headers">
             ${ICONS.search}
-          </a>
+          </button>
           <button class="btn-card-share" type="button" onclick="window.copyUrl(event, '${esc(s.url)}')" title="Copy URL">
             ${ICONS.copy}
           </button>
@@ -185,9 +195,11 @@ async function fetchSites(reset = false) {
 
     if (reset) {
       grid.innerHTML = '';
+      state.allSites = [];
     }
 
     if (data.sites && data.sites.length > 0) {
+      state.allSites.push(...data.sites);
       grid.insertAdjacentHTML('beforeend', data.sites.map(createCard).join(''));
       emptyState.classList.add('hidden');
     } else if (state.page === 1) {
@@ -226,6 +238,28 @@ function resetAndLoad() {
   fetchSites(true);
 }
 
+// Omni-Console Mode Switcher (Search vs Scan)
+const modeTabSearch = $('#modeTabSearch');
+const modeTabScan = $('#modeTabScan');
+const panelSearch = $('#panelSearch');
+const panelScan = $('#panelScan');
+
+modeTabSearch?.addEventListener('click', () => {
+  modeTabSearch.classList.add('active');
+  modeTabScan.classList.remove('active');
+  panelSearch?.classList.remove('hidden');
+  panelScan?.classList.add('hidden');
+  searchInput?.focus();
+});
+
+modeTabScan?.addEventListener('click', () => {
+  modeTabScan.classList.add('active');
+  modeTabSearch.classList.remove('active');
+  panelScan?.classList.remove('hidden');
+  panelSearch?.classList.add('hidden');
+  submitInput?.focus();
+});
+
 // Submit / Scan Live URL
 submitForm?.addEventListener('submit', async e => {
   e.preventDefault();
@@ -233,7 +267,7 @@ submitForm?.addEventListener('submit', async e => {
   if (!url) return;
 
   btnScanSubmit.disabled = true;
-  btnScanSubmit.innerHTML = `<span>Scanning...</span>`;
+  btnScanSubmit.innerHTML = `<span>Probing...</span>`;
   submitMsg.className = 'submit-feedback hidden';
 
   try {
@@ -248,11 +282,13 @@ submitForm?.addEventListener('submit', async e => {
       throw new Error(data.error || 'Failed to scan website');
     }
 
-    submitMsg.textContent = `✓ Successfully verified and added "${data.site.title || data.site.hostname}"!`;
+    const cleanTitle = cleanText(data.site.title || data.site.hostname);
+    submitMsg.textContent = `✓ Successfully verified and added "${cleanTitle}"!`;
     submitMsg.className = 'submit-feedback success';
     submitInput.value = '';
 
     // Prepend to live grid with smooth reveal
+    state.allSites.unshift(data.site);
     grid.insertAdjacentHTML('afterbegin', createCard(data.site));
     showToast('✨ New site scanned and added to Radar!');
   } catch (err) {
@@ -260,7 +296,7 @@ submitForm?.addEventListener('submit', async e => {
     submitMsg.className = 'submit-feedback error';
   } finally {
     btnScanSubmit.disabled = false;
-    btnScanSubmit.innerHTML = `${ICONS.zap}<span>Scan & Add</span>`;
+    btnScanSubmit.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg><span>Scan & Add</span>`;
   }
 });
 
@@ -284,13 +320,65 @@ searchInput?.addEventListener('input', e => {
 window.addEventListener('keydown', e => {
   if (e.key === '/' && document.activeElement !== searchInput && document.activeElement !== submitInput) {
     e.preventDefault();
+    modeTabSearch?.click();
     searchInput.focus();
     searchInput.select();
-  } else if (e.key === 'Escape' && document.activeElement === searchInput) {
-    searchInput.value = '';
-    state.q = '';
-    searchInput.blur();
-    resetAndLoad();
+  } else if (e.key === 'Escape') {
+    if (document.getElementById('inspectModal')?.classList.contains('hidden') === false) {
+      document.getElementById('inspectModal').classList.add('hidden');
+    } else if (document.activeElement === searchInput) {
+      searchInput.value = '';
+      state.q = '';
+      searchInput.blur();
+      resetAndLoad();
+    }
+  }
+});
+
+// SaaS Live Inspector Modal
+window.inspectSite = function (hostname) {
+  const site = state.allSites.find(s => s.hostname === hostname);
+  const modal = $('#inspectModal');
+  if (!modal) return;
+
+  if (site) {
+    const cleanTitle = cleanText(site.title || site.hostname);
+    $('#modalTitle').textContent = cleanTitle;
+    $('#modalHost').textContent = site.hostname;
+    $('#modalUrlChip').textContent = `https://${site.hostname}`;
+    $('#modalPlatformVal').textContent = site.hostType;
+    $('#modalFrameworkVal').textContent = site.framework || 'JavaScript';
+    $('#modalLatencyVal').textContent = site.signals?.loadMs ? `${site.signals.loadMs}ms Latency` : '<120ms Latency';
+    
+    const screenshotUrl = site.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${site.hostname}`;
+    $('#modalImg').src = screenshotUrl;
+    $('#modalVisitLink').href = site.url || `https://${site.hostname}`;
+
+    $('#btnModalCopy').onclick = () => window.copyUrl(null, site.url || `https://${site.hostname}`);
+
+    const signalsList = $('#modalSignalsList');
+    if (signalsList) {
+      signalsList.innerHTML = `
+        <span class="tag-badge ${site.signals?.https ? 'host' : ''}">${ICONS.shield} HTTPS Enforced</span>
+        <span class="tag-badge ${site.signals?.status === 200 ? 'host' : ''}">${ICONS.check} HTTP 200 OK</span>
+        <span class="tag-badge ${site.signals?.viewport ? 'host' : ''}">${ICONS.code} Mobile Responsive</span>
+        <span class="tag-badge ${site.signals?.securityHeaders ? 'host' : ''}">${ICONS.zap} Security Headers</span>
+      `;
+    }
+
+    modal.classList.remove('hidden');
+  } else {
+    window.location.href = `/site.html?host=${encodeURIComponent(hostname)}`;
+  }
+};
+
+$('#modalClose')?.addEventListener('click', () => {
+  $('#inspectModal')?.classList.add('hidden');
+});
+
+$('#inspectModal')?.addEventListener('click', e => {
+  if (e.target === $('#inspectModal')) {
+    $('#inspectModal').classList.add('hidden');
   }
 });
 
