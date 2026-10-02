@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "growth-story-workspace.vercel.app",
+    "title": "辰南 · 创作工作台",
+    "url": "https://growth-story-workspace.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://growth-story-workspace.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 129,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:33.139Z"
+  },
+  {
+    "hostname": "egress-v1.vercel.app",
+    "title": "Egress - what it costs to leave",
+    "url": "https://egress-v1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://egress-v1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:33.376Z"
+  },
+  {
+    "hostname": "jagakota.vercel.app",
+    "title": "JagaKota — Jaga Kota Bersama: Skor KotaSiaga & Aksi Warga",
+    "url": "https://jagakota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jagakota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:34.420Z"
+  },
+  {
+    "hostname": "babysitter-two.vercel.app",
+    "title": "Kayla’s Little Chaos",
+    "url": "https://babysitter-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://babysitter-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 200,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:34.998Z"
+  },
+  {
+    "hostname": "workspace-fawn-eight.vercel.app",
+    "title": "前沿科技日报",
+    "url": "https://workspace-fawn-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://workspace-fawn-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:35.280Z"
+  },
+  {
+    "hostname": "awesome-tech-weekly-zh.netlify.app",
+    "title": "中文技术周刊精选 - awesome-tech-weekly-zh",
+    "url": "https://awesome-tech-weekly-zh.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://awesome-tech-weekly-zh.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 570,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:35.888Z"
+  },
+  {
+    "hostname": "algotables.github.io",
+    "title": "ALGO Tables – Tables for Algorand",
+    "url": "https://algotables.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://algotables.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:36.189Z"
+  },
+  {
+    "hostname": "agentrider.fly.dev",
+    "title": "Agent^Rider — Identity Credentials for AI Agent Fleets",
+    "url": "https://agentrider.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentrider.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T23:39:36.694Z"
+  },
+  {
+    "hostname": "neogrok-demo-web.fly.dev",
+    "title": "neogrok",
+    "url": "https://neogrok-demo-web.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neogrok-demo-web.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T23:39:36.848Z"
+  },
+  {
+    "hostname": "amtrader.fly.dev",
+    "title": "AM Trader — Value pets & check trade fairness",
+    "url": "https://amtrader.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://amtrader.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3786,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T23:39:40.642Z"
+  },
+  {
+    "hostname": "reel-picks-demo.up.railway.app",
+    "title": "Reel Picks",
+    "url": "https://reel-picks-demo.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reel-picks-demo.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T23:39:40.890Z"
+  },
+  {
     "hostname": "telehealth-mvp-roan.vercel.app",
     "title": "AURA — Care, without borders.",
     "url": "https://telehealth-mvp-roan.vercel.app",
