@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "insta-vid-edit.vercel.app",
+    "title": "FramePilot — AI Reel Editor",
+    "url": "https://insta-vid-edit.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://insta-vid-edit.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 461,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:06.107Z"
+  },
+  {
+    "hostname": "ugo-admin-panel.vercel.app",
+    "title": "UGO — Servicios On-Demand",
+    "url": "https://ugo-admin-panel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ugo-admin-panel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:06.418Z"
+  },
+  {
+    "hostname": "eco2query.vercel.app",
+    "title": "EcoQuery",
+    "url": "https://eco2query.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eco2query.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 350,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:09.934Z"
+  },
+  {
+    "hostname": "research-hub-ai-lime.vercel.app",
+    "title": "Soyog AI",
+    "url": "https://research-hub-ai-lime.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://research-hub-ai-lime.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 377,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:10.311Z"
+  },
+  {
+    "hostname": "ielts-practice-vietnamese.vercel.app",
+    "title": "IELTS Practice Vietnamese - Local Practice & Multi-Model AI Engine",
+    "url": "https://ielts-practice-vietnamese.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ielts-practice-vietnamese.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:10.815Z"
+  },
+  {
+    "hostname": "causvia-website.vercel.app",
+    "title": "Causvia | The R&amp;D lab for the hybrid workforce",
+    "url": "https://causvia-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://causvia-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 321,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:11.291Z"
+  },
+  {
+    "hostname": "ketner-ai.onrender.com",
+    "title": "Ketner AI",
+    "url": "https://ketner-ai.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ketner-ai.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T12:54:12.020Z"
+  },
+  {
+    "hostname": "shengji.fly.dev",
+    "title": "Sheng Ji 升级",
+    "url": "https://shengji.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shengji.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 181,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T12:54:12.203Z"
+  },
+  {
+    "hostname": "shoalow.fly.dev",
+    "title": "Shoalow",
+    "url": "https://shoalow.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shoalow.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 264,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:12.467Z"
+  },
+  {
+    "hostname": "card-shop-tracker.web.app",
+    "title": "Card Shop Tracker｜卡牌商品監控",
+    "url": "https://card-shop-tracker.web.app",
+    "hostType": "web.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://card-shop-tracker.web.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 233,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T12:54:12.701Z"
+  },
+  {
+    "hostname": "restorannusantara.infinityfreeapp.com",
+    "title": "restorannusantara.infinityfreeapp.com",
+    "url": "https://restorannusantara.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://restorannusantara.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 573,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T12:54:13.274Z"
+  },
+  {
     "hostname": "skillforge-delta-nine.vercel.app",
     "title": "SkillPath Africa — Learn Digital Skills. Build Your Future.",
     "url": "https://skillforge-delta-nine.vercel.app",
