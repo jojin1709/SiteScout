@@ -84,6 +84,18 @@
       Real-time visual directory of live websites on free and edge cloud subdomains. Live screenshot captures, instant technology inspection, and instant discovery.
     </p>
 
+    <!-- Dual Hero Action Buttons -->
+    <div class="hero-actions">
+      <a href="#directory" class="btn-hero-primary">
+        <span>Explore 50,000+ Live Apps</span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+      <a href="/about.html" class="btn-hero-secondary">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        <span>Architecture & Specs</span>
+      </a>
+    </div>
+
     <!-- SaaS Omni-Command Console -->
     <div class="omni-console">
       <!-- Mode Tabs -->
@@ -191,67 +203,81 @@
     </div>
   </section>
 
-  <!-- Live Statistics Strip -->
-  <section class="stats-strip" aria-label="Directory statistics">
-    <div class="stat-card">
-      <div class="stat-icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="8" x="2" y="2" rx="2"/><rect width="20" height="8" x="2" y="14" rx="2"/></svg>
-      </div>
-      <div>
-        <div class="stat-num" id="statPlatforms">12</div>
-        <div class="stat-label">Cloud Hosting Targets</div>
-      </div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-icon">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-      </div>
-      <div>
-        <div class="stat-num">100%</div>
-        <div class="stat-label">Stateless Edge Radar</div>
-      </div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-icon" style="color: var(--emerald);">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-      </div>
-      <div>
-        <div class="stat-num">200 OK</div>
-        <div class="stat-label">Verified Live Sites</div>
-      </div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-icon" style="color: var(--cyan);">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-      </div>
-      <div>
-        <div class="stat-num">TLS 1.3</div>
-        <div class="stat-label">HTTPS Enforced</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Live Tech Stack Analytics & Radar Trends -->
-  <section class="trends-section">
-    <div class="trends-card">
-      <div class="trends-header">
-        <div class="trends-title">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-          <span>Live Tech Stack Radar Trends</span>
+  <!-- High-End Bento Showcase Section -->
+  <section class="bento-section" aria-label="Engine Capabilities">
+    <div class="bento-grid">
+      <!-- Bento 1: Tech Trends Bar (Wide) -->
+      <div class="bento-card bento-wide reveal-on-scroll">
+        <div class="bento-card-glow"></div>
+        <div class="trends-header">
+          <div class="trends-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            <span>Live Tech Stack Adoption Radar</span>
+          </div>
+          <span class="trends-subtitle">Real-time framework adoption across indexed edge deployments</span>
         </div>
-        <span class="trends-subtitle">Real-time framework adoption across indexed edge deployments</span>
+        <div class="trends-bar-track" id="trendsBarTrack">
+          <!-- Populated dynamically -->
+        </div>
+        <div class="trends-legend" id="trendsLegend">
+          <!-- Populated dynamically -->
+        </div>
       </div>
-      <div class="trends-bar-track" id="trendsBarTrack">
-        <!-- Populated dynamically -->
+
+      <!-- Bento 2: 100% Stateless Edge -->
+      <div class="bento-card reveal-on-scroll">
+        <div class="bento-card-glow"></div>
+        <div class="bento-header">
+          <div class="bento-badge">
+            <span class="pulse-indicator"></span>
+            <span>Stateless Engine</span>
+          </div>
+          <h3 class="bento-title">0 bytes database. 100% Edge Speed.</h3>
+          <p class="bento-desc">Zero SQL or NoSQL database bottlenecks. In-memory runtime with sub-second response times.</p>
+        </div>
+        <div class="bento-metric-row">
+          <div class="bento-metric">
+            <div class="bento-metric-val">100%</div>
+            <div class="bento-metric-lbl">Stateless</div>
+          </div>
+          <div class="bento-metric">
+            <div class="bento-metric-val">TLS 1.3</div>
+            <div class="bento-metric-lbl">HTTPS Strict</div>
+          </div>
+          <div class="bento-metric">
+            <div class="bento-metric-val">&lt; 150ms</div>
+            <div class="bento-metric-lbl">Edge TTFB</div>
+          </div>
+        </div>
       </div>
-      <div class="trends-legend" id="trendsLegend">
-        <!-- Populated dynamically -->
+
+      <!-- Bento 3: Open Source Linker & Exports -->
+      <div class="bento-card reveal-on-scroll">
+        <div class="bento-card-glow"></div>
+        <div class="bento-header">
+          <div class="bento-badge" style="color: var(--cyan); border-color: rgba(56,189,248,0.3);">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <span>Direct Repo Linkage</span>
+          </div>
+          <h3 class="bento-title">1-Click Source Access & Feed</h3>
+          <p class="bento-desc">Instantly inspect GitHub repositories for deployed projects or subscribe to new discoveries via RSS 2.0.</p>
+        </div>
+        <div class="bento-actions-row">
+          <a href="/api/feed" target="_blank" class="bento-pill-btn">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+            <span>RSS 2.0 Feed</span>
+          </a>
+          <a href="https://github.com/jojin1709/SiteScout" target="_blank" class="bento-pill-btn">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub Source</span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Main Directory Feed -->
-  <main class="main-container">
+  <main class="main-container" id="directory">
     
     <!-- Toolbar Controls -->
     <div class="toolbar" aria-label="Feed controls">
@@ -430,6 +456,28 @@
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
     <span id="toastMsg">URL copied to clipboard!</span>
   </div>
+
+  <!-- Bottom Luxury CTA Banner -->
+  <section class="bottom-cta-banner reveal-on-scroll">
+    <div class="cta-banner-content">
+      <div class="bento-badge" style="margin: 0 auto 16px auto; width: fit-content;">
+        <span class="pulse-indicator"></span>
+        <span>100% Free & Open Visual Radar</span>
+      </div>
+      <h2>Stop guessing what's live.<br><span class="gradient-text">Discover it now.</span></h2>
+      <p>Search over 50,000+ live web applications across edge cloud providers in real-time.</p>
+      <div class="cta-btn-group">
+        <a href="#directory" class="btn-hero-primary">
+          <span>Explore Live Directory</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a href="https://github.com/sponsors/jojin1709" target="_blank" rel="noopener noreferrer" class="btn-hero-secondary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <span>Sponsor JOJIN JOHN</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="site-footer">
