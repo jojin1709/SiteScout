@@ -81,17 +81,12 @@ function getHostLabel(hostType) {
   return map[hostType] || hostType;
 }
 
-// Card Renderer
+// Card Renderer using Real Live Screenshots
 function createCard(s) {
   const scoreClass = s.score >= 90 ? 'high' : s.score >= 70 ? 'mid' : 'low';
+  const screenshotUrl = s.screenshot || `https://image.thum.io/get/width/600/crop/700/https://${s.hostname}`;
   
-  const imgContent = s.screenshot 
-    ? `<img loading="lazy" src="${esc(s.screenshot)}" alt="Screenshot of ${esc(s.title || s.hostname)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\\'thumb-fallback\\'><div class=\\'thumb-fallback-icon\\'>🌐</div><div>${esc(s.hostname)}</div></div>'">`
-    : `<div class="thumb-fallback">
-         <div class="thumb-fallback-icon">⚡</div>
-         <div><strong>${esc(s.hostname)}</strong></div>
-         <div style="font-size: 11px; opacity: 0.7;">Stateless Discovery Preview</div>
-       </div>`;
+  const imgContent = `<img loading="lazy" src="${esc(screenshotUrl)}" alt="Live capture of ${esc(s.title || s.hostname)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\\'thumb-fallback\\'><div class=\\'thumb-fallback-icon\\'>🌐</div><div style=\\'font-weight:700;font-size:14px;\\'>${esc(s.hostname)}</div><div style=\\'font-size:11px;opacity:0.7;\\'>Live Deployment</div></div>'">`;
 
   return `
     <article class="site-card">
