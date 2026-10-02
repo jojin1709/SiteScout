@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "opatrip-dashboard.vercel.app",
+    "title": "Opatrip Trace",
+    "url": "https://opatrip-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://opatrip-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:07.074Z"
+  },
+  {
+    "hostname": "we-chat-lac.vercel.app",
+    "title": "WECHAT | 1-to-1 Realtime Chat &amp; Calling",
+    "url": "https://we-chat-lac.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://we-chat-lac.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:07.221Z"
+  },
+  {
+    "hostname": "stockcurve.vercel.app",
+    "title": "BellCurve — launch tokens paired with tokenized stocks",
+    "url": "https://stockcurve.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stockcurve.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:07.523Z"
+  },
+  {
+    "hostname": "tamil-bridge.vercel.app",
+    "title": "Tamil Bridge — Learn through Tamil",
+    "url": "https://tamil-bridge.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tamil-bridge.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 276,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:07.800Z"
+  },
+  {
+    "hostname": "v0-ai-ad-creator-vert-nine.vercel.app",
+    "title": "AI Ad Creator",
+    "url": "https://v0-ai-ad-creator-vert-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://v0-ai-ad-creator-vert-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 327,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:08.128Z"
+  },
+  {
+    "hostname": "cv-app-topaz.vercel.app",
+    "title": "Generate CV",
+    "url": "https://cv-app-topaz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cv-app-topaz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 324,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:08.453Z"
+  },
+  {
+    "hostname": "nice-guy-ai.vercel.app",
+    "title": "Онлайн-тренажёры по книгам по психологии",
+    "url": "https://nice-guy-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nice-guy-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1486,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:09.941Z"
+  },
+  {
+    "hostname": "resume-hypergraph.vercel.app",
+    "title": "Resume hypergraph",
+    "url": "https://resume-hypergraph.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://resume-hypergraph.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:10.165Z"
+  },
+  {
+    "hostname": "lmna-monitor.vercel.app",
+    "title": "LMNA-Monitor: overzicht",
+    "url": "https://lmna-monitor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lmna-monitor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 398,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:10.691Z"
+  },
+  {
+    "hostname": "hippoxos.vercel.app",
+    "title": "HippoxOS - LLM-Native Operating System",
+    "url": "https://hippoxos.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hippoxos.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1870,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:12.587Z"
+  },
+  {
+    "hostname": "gatekeep-shop.vercel.app",
+    "title": "Gatekeep Shop",
+    "url": "https://gatekeep-shop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gatekeep-shop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 361,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:12.948Z"
+  },
+  {
+    "hostname": "xl-traders-b2b.pages.dev",
+    "title": "XL Traders - B2B Packaging Wholesale",
+    "url": "https://xl-traders-b2b.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xl-traders-b2b.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 131,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T13:44:13.079Z"
+  },
+  {
+    "hostname": "chaestblog.pages.dev",
+    "title": "Chase Xie · 市场工具与学习产品导航",
+    "url": "https://chaestblog.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chaestblog.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 264,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:13.346Z"
+  },
+  {
+    "hostname": "ameeradhwa92.github.io",
+    "title": "Ameer Adhwa — Full Stack Web Specialist · The Journey",
+    "url": "https://ameeradhwa92.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ameeradhwa92.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T13:44:13.520Z"
+  },
+  {
     "hostname": "insta-vid-edit.vercel.app",
     "title": "FramePilot — AI Reel Editor",
     "url": "https://insta-vid-edit.vercel.app",
