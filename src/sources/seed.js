@@ -1,5 +1,309 @@
 export const SEED_SITES = [
   {
+    "hostname": "skillforge-delta-nine.vercel.app",
+    "title": "SkillPath Africa — Learn Digital Skills. Build Your Future.",
+    "url": "https://skillforge-delta-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://skillforge-delta-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2690,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:31.562Z"
+  },
+  {
+    "hostname": "vision360-mobile.vercel.app",
+    "title": "Vision 360 Field App",
+    "url": "https://vision360-mobile.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vision360-mobile.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:31.722Z"
+  },
+  {
+    "hostname": "briefing-weld.vercel.app",
+    "title": "Russell Marine — East Coast Intelligence Brief",
+    "url": "https://briefing-weld.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://briefing-weld.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:32.935Z"
+  },
+  {
+    "hostname": "theprawnsplit.vercel.app",
+    "title": "The Prawn Split",
+    "url": "https://theprawnsplit.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://theprawnsplit.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 184,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:33.120Z"
+  },
+  {
+    "hostname": "tracker-mars-dt-nine.vercel.app",
+    "title": "Project Tracker - Input Data",
+    "url": "https://tracker-mars-dt-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tracker-mars-dt-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:33.289Z"
+  },
+  {
+    "hostname": "ballsai-teal.vercel.app",
+    "title": "BallDoenSai.com — แพลตฟอร์มกีฬาเด็กไทย",
+    "url": "https://ballsai-teal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ballsai-teal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1762,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:36.752Z"
+  },
+  {
+    "hostname": "emilo-labs.vercel.app",
+    "title": "Emilo Labs | Humanity first. Technology second.",
+    "url": "https://emilo-labs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://emilo-labs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:36.993Z"
+  },
+  {
+    "hostname": "schwingen-ml.vercel.app",
+    "title": "Schwingen ML — Gang-Prognose",
+    "url": "https://schwingen-ml.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://schwingen-ml.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:37.280Z"
+  },
+  {
+    "hostname": "cgcian-sahil.netlify.app",
+    "title": "Sahil | BCA Student & Data/AI Developer Portfolio",
+    "url": "https://cgcian-sahil.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cgcian-sahil.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:37.508Z"
+  },
+  {
+    "hostname": "danideer.github.io",
+    "title": "danideer.github.io",
+    "url": "https://danideer.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://danideer.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T10:24:37.643Z"
+  },
+  {
+    "hostname": "notnahid.rf.gd",
+    "title": "notnahid.rf.gd",
+    "url": "https://notnahid.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://notnahid.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 512,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T10:24:38.191Z"
+  },
+  {
+    "hostname": "nexthub.42web.io",
+    "title": "nexthub.42web.io",
+    "url": "https://nexthub.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexthub.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 573,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T10:24:38.764Z"
+  },
+  {
+    "hostname": "derelllicht.42web.io",
+    "title": "derelllicht.42web.io",
+    "url": "https://derelllicht.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://derelllicht.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 595,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T10:24:39.360Z"
+  },
+  {
+    "hostname": "alexweb.42web.io",
+    "title": "alexweb.42web.io",
+    "url": "https://alexweb.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alexweb.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 543,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T10:24:39.904Z"
+  },
+  {
+    "hostname": "gestionetablissement.42web.io",
+    "title": "gestionetablissement.42web.io",
+    "url": "https://gestionetablissement.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gestionetablissement.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 459,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T10:24:40.363Z"
+  },
+  {
+    "hostname": "muzza.infinityfreeapp.com",
+    "title": "muzza.infinityfreeapp.com",
+    "url": "https://muzza.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://muzza.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 451,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-02T10:24:40.815Z"
+  },
+  {
     "hostname": "vinay-portfolio-vert.vercel.app",
     "title": "Vinay Bharti | Senior Software Engineer | React, Next.js &amp; AI",
     "url": "https://vinay-portfolio-vert.vercel.app",
