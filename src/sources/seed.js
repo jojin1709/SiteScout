@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "telehealth-mvp-roan.vercel.app",
+    "title": "AURA — Care, without borders.",
+    "url": "https://telehealth-mvp-roan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://telehealth-mvp-roan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 608,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:12.477Z"
+  },
+  {
+    "hostname": "rd-cafe-bar.vercel.app",
+    "title": "RD Café & Bar",
+    "url": "https://rd-cafe-bar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rd-cafe-bar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:12.788Z"
+  },
+  {
+    "hostname": "gestion-leads-sociedad.vercel.app",
+    "title": "Gestión de Leads 2026 — Sociedad Actoral",
+    "url": "https://gestion-leads-sociedad.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gestion-leads-sociedad.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:17.225Z"
+  },
+  {
+    "hostname": "cardify-partner-platform.vercel.app",
+    "title": "TCGPlaytest Partner Platform - Manufacturing REST API",
+    "url": "https://cardify-partner-platform.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cardify-partner-platform.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 377,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:17.603Z"
+  },
+  {
+    "hostname": "eduqa-pe.vercel.app",
+    "title": "EDUQA.PE — Democratizando la educación en tecnología",
+    "url": "https://eduqa-pe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eduqa-pe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2861,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:20.517Z"
+  },
+  {
+    "hostname": "shopping-cart-xi-sable.vercel.app",
+    "title": "shopping-cart",
+    "url": "https://shopping-cart-xi-sable.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shopping-cart-xi-sable.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 256,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:20.774Z"
+  },
+  {
+    "hostname": "squashhub-rose.vercel.app",
+    "title": "SquashHub — Club Management Platform for Squash",
+    "url": "https://squashhub-rose.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://squashhub-rose.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:20.988Z"
+  },
+  {
+    "hostname": "ballast-v1.vercel.app",
+    "title": "Ballast - overnight risk transfer for tokenized US stocks",
+    "url": "https://ballast-v1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ballast-v1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:21.448Z"
+  },
+  {
+    "hostname": "misterjp.vercel.app",
+    "title": "SC Salgueiros U19",
+    "url": "https://misterjp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://misterjp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 239,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:21.687Z"
+  },
+  {
+    "hostname": "espetinho-vitoria.vercel.app",
+    "title": "Espetinho Vitória | Espetos, Açaí e Caldos",
+    "url": "https://espetinho-vitoria.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://espetinho-vitoria.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:22.206Z"
+  },
+  {
+    "hostname": "okulyonetim.github.io",
+    "title": "Koruk Asistan",
+    "url": "https://okulyonetim.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://okulyonetim.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:22.502Z"
+  },
+  {
+    "hostname": "netviz.up.railway.app",
+    "title": "Network Protocol Visualizer",
+    "url": "https://netviz.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://netviz.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-02T19:06:23.145Z"
+  },
+  {
     "hostname": "opatrip-dashboard.vercel.app",
     "title": "Opatrip Trace",
     "url": "https://opatrip-dashboard.vercel.app",
