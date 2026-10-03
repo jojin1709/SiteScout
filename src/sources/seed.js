@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "bandpay-two.vercel.app",
+    "title": "Bandpay",
+    "url": "https://bandpay-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bandpay-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:26.508Z"
+  },
+  {
+    "hostname": "elite-ai-agency-sooty.vercel.app",
+    "title": "Elite AI & Smart Systems — Google Review NFC Cards & Autonomous AI for Business",
+    "url": "https://elite-ai-agency-sooty.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://elite-ai-agency-sooty.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 267,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:26.776Z"
+  },
+  {
+    "hostname": "rag-chat-bot-lac.vercel.app",
+    "title": "HDFC MF FAQ Assistant",
+    "url": "https://rag-chat-bot-lac.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rag-chat-bot-lac.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:27.090Z"
+  },
+  {
+    "hostname": "pas-freight-quotation.vercel.app",
+    "title": "PAS Freight Services — Quotation Builder",
+    "url": "https://pas-freight-quotation.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pas-freight-quotation.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:27.732Z"
+  },
+  {
+    "hostname": "pravaha-cyan.vercel.app",
+    "title": "Pravaha — ask your recordings, watch the answer",
+    "url": "https://pravaha-cyan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pravaha-cyan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 429,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:28.164Z"
+  },
+  {
+    "hostname": "admit-hackathon.vercel.app",
+    "title": "Motion Dance: танцуй перед камерой",
+    "url": "https://admit-hackathon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://admit-hackathon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 287,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:28.452Z"
+  },
+  {
+    "hostname": "aleph-efes.vercel.app",
+    "title": "Aleph Efes (א=0 / א=1) — Hebrew Bible Research | Edan-David Eyon",
+    "url": "https://aleph-efes.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aleph-efes.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 289,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:28.741Z"
+  },
+  {
+    "hostname": "splitsignal-ten.vercel.app",
+    "title": "SplitSignal",
+    "url": "https://splitsignal-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://splitsignal-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 287,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:29.028Z"
+  },
+  {
+    "hostname": "saltit.vercel.app",
+    "title": "IT Support Saltdean | Home Computer &amp; Wi-Fi Help | Salt I.T.",
+    "url": "https://saltit.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://saltit.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:29.324Z"
+  },
+  {
+    "hostname": "antigravity-seven-delta.vercel.app",
+    "title": "Antigravity // Free Open AI Router",
+    "url": "https://antigravity-seven-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://antigravity-seven-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 300,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:29.625Z"
+  },
+  {
+    "hostname": "code-club-one.vercel.app",
+    "title": "Code Club",
+    "url": "https://code-club-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://code-club-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 320,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:29.946Z"
+  },
+  {
+    "hostname": "cyrcyrgo.github.io",
+    "title": "工作室 · 项目向导",
+    "url": "https://cyrcyrgo.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cyrcyrgo.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 127,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T10:18:30.074Z"
+  },
+  {
+    "hostname": "yzeyywebbb.rf.gd",
+    "title": "yzeyywebbb.rf.gd",
+    "url": "https://yzeyywebbb.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yzeyywebbb.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 955,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T10:18:31.158Z"
+  },
+  {
     "hostname": "frontend-lime-seven-qkegvufmqk.vercel.app",
     "title": "Tandoori Pizza Port Harcourt — Order Online",
     "url": "https://frontend-lime-seven-qkegvufmqk.vercel.app",
