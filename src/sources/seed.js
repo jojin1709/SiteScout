@@ -1,5 +1,328 @@
 export const SEED_SITES = [
   {
+    "hostname": "wallpapers-bheng.vercel.app",
+    "title": "Wallpapers - 40 plates, zero assets",
+    "url": "https://wallpapers-bheng.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wallpapers-bheng.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 340,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:16.230Z"
+  },
+  {
+    "hostname": "launchkit-bheng.vercel.app",
+    "title": "LaunchKit",
+    "url": "https://launchkit-bheng.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://launchkit-bheng.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:16.513Z"
+  },
+  {
+    "hostname": "jabri-com.vercel.app",
+    "title": "واحة الجبري - البوابة الرئيسية | Heaven Al-Jabri",
+    "url": "https://jabri-com.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jabri-com.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:16.742Z"
+  },
+  {
+    "hostname": "eternalword.vercel.app",
+    "title": "Eternal Word",
+    "url": "https://eternalword.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eternalword.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:18.099Z"
+  },
+  {
+    "hostname": "hackyeah-2026-hubmi.vercel.app",
+    "title": "MaloHUB — Twoja sprawa ma znaczenie",
+    "url": "https://hackyeah-2026-hubmi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hackyeah-2026-hubmi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 362,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:18.462Z"
+  },
+  {
+    "hostname": "country-defense-bheng.vercel.app",
+    "title": "Country Defense",
+    "url": "https://country-defense-bheng.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://country-defense-bheng.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:18.730Z"
+  },
+  {
+    "hostname": "fichatreino.vercel.app",
+    "title": "Ficha de Treino — Seu treino organizado",
+    "url": "https://fichatreino.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fichatreino.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 400,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:19.131Z"
+  },
+  {
+    "hostname": "country-fighter-bheng.vercel.app",
+    "title": "Country Fighter",
+    "url": "https://country-fighter-bheng.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://country-fighter-bheng.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 364,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:19.500Z"
+  },
+  {
+    "hostname": "ester-kypher.vercel.app",
+    "title": "Ester &amp; Kypher — Our Story",
+    "url": "https://ester-kypher.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ester-kypher.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 239,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:19.740Z"
+  },
+  {
+    "hostname": "simmons-dashboard-ten.vercel.app",
+    "title": "SIMMONS | 해외 매트리스 업계 동향",
+    "url": "https://simmons-dashboard-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://simmons-dashboard-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 261,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:20.274Z"
+  },
+  {
+    "hostname": "zulfira.vercel.app",
+    "title": "ZULFIRA — Futuristic Hair Care | Hair Oil &amp; Shampoo",
+    "url": "https://zulfira.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zulfira.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 319,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:20.731Z"
+  },
+  {
+    "hostname": "project-alpaca.pages.dev",
+    "title": "Project Alpaca",
+    "url": "https://project-alpaca.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project-alpaca.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 279,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T22:47:21.011Z"
+  },
+  {
+    "hostname": "dragonet-recnet.pages.dev",
+    "title": "n3xi0m",
+    "url": "https://dragonet-recnet.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dragonet-recnet.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 232,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T22:47:21.245Z"
+  },
+  {
+    "hostname": "masks.pages.dev",
+    "title": "masks | masks",
+    "url": "https://masks.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://masks.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 166,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T22:47:21.448Z"
+  },
+  {
+    "hostname": "das-wasser-traegt-den-berg.netlify.app",
+    "title": "Das Wasser trägt den Berg. Silberbergbau und Wasserwirtschaft im Oberharz 1520–1866",
+    "url": "https://das-wasser-traegt-den-berg.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://das-wasser-traegt-den-berg.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 212,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:21.662Z"
+  },
+  {
+    "hostname": "amitytobi.netlify.app",
+    "title": "Amity Ekoyi | Frontend Developer",
+    "url": "https://amitytobi.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://amitytobi.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T22:47:21.880Z"
+  },
+  {
+    "hostname": "autorise.infinityfreeapp.com",
+    "title": "autorise.infinityfreeapp.com",
+    "url": "https://autorise.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://autorise.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 685,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T22:47:22.752Z"
+  },
+  {
     "hostname": "weathergpt-kappa-pink.vercel.app",
     "title": "WeatherGPT – AI Weather & Disaster Intelligence",
     "url": "https://weathergpt-kappa-pink.vercel.app",
