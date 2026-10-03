@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "frontend-lime-seven-qkegvufmqk.vercel.app",
+    "title": "Tandoori Pizza Port Harcourt — Order Online",
+    "url": "https://frontend-lime-seven-qkegvufmqk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://frontend-lime-seven-qkegvufmqk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 344,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:18.345Z"
+  },
+  {
+    "hostname": "remont-pro-nine.vercel.app",
+    "title": "РЕМОНТФОРМА — ремонт под ключ в Казани",
+    "url": "https://remont-pro-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://remont-pro-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:18.654Z"
+  },
+  {
+    "hostname": "google-photos-search-assistant.vercel.app",
+    "title": "Google Photos Search Assistant",
+    "url": "https://google-photos-search-assistant.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://google-photos-search-assistant.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:18.881Z"
+  },
+  {
+    "hostname": "rateware.vercel.app",
+    "title": "Rateware | Freight Procurement Intelligence",
+    "url": "https://rateware.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rateware.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 149,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:19.031Z"
+  },
+  {
+    "hostname": "dialysis-stock-tracker.vercel.app",
+    "title": "Dialysis Stock Tracker",
+    "url": "https://dialysis-stock-tracker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dialysis-stock-tracker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 257,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:19.567Z"
+  },
+  {
+    "hostname": "orboretum.vercel.app",
+    "title": "The Joan Vermeulen Arboretum",
+    "url": "https://orboretum.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://orboretum.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:19.826Z"
+  },
+  {
+    "hostname": "hlx-monitoring.vercel.app",
+    "title": "Front Desk Status",
+    "url": "https://hlx-monitoring.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hlx-monitoring.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:20.096Z"
+  },
+  {
+    "hostname": "campuscoinpk.vercel.app",
+    "title": "Campus Coin",
+    "url": "https://campuscoinpk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://campuscoinpk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:20.362Z"
+  },
+  {
+    "hostname": "brayroai.vercel.app",
+    "title": "BRAYRO AI · Independent digital studio",
+    "url": "https://brayroai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brayroai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T04:51:20.584Z"
+  },
+  {
+    "hostname": "wcd.pages.dev",
+    "title": "Chendi Wu | wuchendi",
+    "url": "https://wcd.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wcd.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 353,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T04:51:20.938Z"
+  },
+  {
     "hostname": "growth-story-workspace.vercel.app",
     "title": "辰南 · 创作工作台",
     "url": "https://growth-story-workspace.vercel.app",
