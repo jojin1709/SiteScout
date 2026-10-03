@@ -1,5 +1,328 @@
 export const SEED_SITES = [
   {
+    "hostname": "sillapa.vercel.app",
+    "title": "SILLAPA — ศิลปะที่เป็นคุณ",
+    "url": "https://sillapa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sillapa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 268,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:15.317Z"
+  },
+  {
+    "hostname": "mai-reads.vercel.app",
+    "title": "Mai-Reads — Distraction-Free PDF &amp; DOCX Reader",
+    "url": "https://mai-reads.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mai-reads.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 378,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:15.696Z"
+  },
+  {
+    "hostname": "rukalun-page.vercel.app",
+    "title": "🖇るっかるんくりっぷ🖇 | Twitch Clip・配信切り抜き検索",
+    "url": "https://rukalun-page.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rukalun-page.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:15.920Z"
+  },
+  {
+    "hostname": "cospend-five.vercel.app",
+    "title": "CoSpend | One payment. Multiple wallets.",
+    "url": "https://cospend-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cospend-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 308,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:17.122Z"
+  },
+  {
+    "hostname": "frostedblocks-connect.vercel.app",
+    "title": "ICE Connect Backend",
+    "url": "https://frostedblocks-connect.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://frostedblocks-connect.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 367,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:17.491Z"
+  },
+  {
+    "hostname": "portfolio-ten-gold-16.vercel.app",
+    "title": "Arka Patra — Cyber Security Student & Security-Focused Developer",
+    "url": "https://portfolio-ten-gold-16.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-ten-gold-16.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:17.724Z"
+  },
+  {
+    "hostname": "gfl-dashboard.vercel.app",
+    "title": "Ball & Chain GFL",
+    "url": "https://gfl-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gfl-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:17.980Z"
+  },
+  {
+    "hostname": "hackathon-milano.vercel.app",
+    "title": "Hackathon Milano — Calendario e prossimi eventi",
+    "url": "https://hackathon-milano.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hackathon-milano.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 286,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:18.267Z"
+  },
+  {
+    "hostname": "byad12.pages.dev",
+    "title": "byAd12",
+    "url": "https://byad12.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://byad12.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T15:06:18.669Z"
+  },
+  {
+    "hostname": "pyglobegl.pages.dev",
+    "title": "Home - pyglobegl",
+    "url": "https://pyglobegl.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pyglobegl.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 195,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T15:06:18.865Z"
+  },
+  {
+    "hostname": "rq-acg.pages.dev",
+    "title": "RQ",
+    "url": "https://rq-acg.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rq-acg.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T15:06:18.984Z"
+  },
+  {
+    "hostname": "aiomoto.pages.dev",
+    "title": "Home - aiomoto",
+    "url": "https://aiomoto.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aiomoto.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T15:06:19.144Z"
+  },
+  {
+    "hostname": "ertpl.pages.dev",
+    "title": "ER-TPL",
+    "url": "https://ertpl.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ertpl.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T15:06:19.347Z"
+  },
+  {
+    "hostname": "pdfeditnow.pages.dev",
+    "title": "Free PDF Editor — Edit Text in Any PDF Online (No Sign-Up, No Subscription)",
+    "url": "https://pdfeditnow.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pdfeditnow.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T15:06:19.474Z"
+  },
+  {
+    "hostname": "eaststandart.github.io",
+    "title": "Творческая лаборатория познавательного развития",
+    "url": "https://eaststandart.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eaststandart.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:19.731Z"
+  },
+  {
+    "hostname": "nanobotco.github.io",
+    "title": "NaN — คุณแนน · Chiang Mai",
+    "url": "https://nanobotco.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nanobotco.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 144,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:19.879Z"
+  },
+  {
+    "hostname": "geogeeklab.github.io",
+    "title": "GeoGeek — Geo to see. Geek to build.",
+    "url": "https://geogeeklab.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://geogeeklab.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T15:06:20.132Z"
+  },
+  {
     "hostname": "bandpay-two.vercel.app",
     "title": "Bandpay",
     "url": "https://bandpay-two.vercel.app",
