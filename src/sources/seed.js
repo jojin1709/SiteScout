@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "weathergpt-kappa-pink.vercel.app",
+    "title": "WeatherGPT – AI Weather & Disaster Intelligence",
+    "url": "https://weathergpt-kappa-pink.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://weathergpt-kappa-pink.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:47.074Z"
+  },
+  {
+    "hostname": "corridor-in-a-box.vercel.app",
+    "title": "corridor-in-a-box — SEP-31 cross-border corridor engine",
+    "url": "https://corridor-in-a-box.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://corridor-in-a-box.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:47.324Z"
+  },
+  {
+    "hostname": "patent-prosecution-timeline-predict.vercel.app",
+    "title": "Patent Prosecution Timeline Predictor | USPTO & International IP Intelligence",
+    "url": "https://patent-prosecution-timeline-predict.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://patent-prosecution-timeline-predict.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 268,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:47.760Z"
+  },
+  {
+    "hostname": "pikaboo-mu.vercel.app",
+    "title": "Pikaboo — Shop &amp; Connect",
+    "url": "https://pikaboo-mu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pikaboo-mu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1434,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:49.638Z"
+  },
+  {
+    "hostname": "ajeyata-m-portfolio.vercel.app",
+    "title": "Ajeyata Maurya — CSE-DS &amp; AI Developer",
+    "url": "https://ajeyata-m-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ajeyata-m-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:50.357Z"
+  },
+  {
+    "hostname": "gymshot.vercel.app",
+    "title": "GymShot",
+    "url": "https://gymshot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gymshot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:50.630Z"
+  },
+  {
+    "hostname": "anima-js.vercel.app",
+    "title": "anima.js — インタラクティブ コンポーネントライブラリ",
+    "url": "https://anima-js.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anima-js.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:50.931Z"
+  },
+  {
+    "hostname": "mobile-ptof.vercel.app",
+    "title": "Pilares",
+    "url": "https://mobile-ptof.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mobile-ptof.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 186,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:51.120Z"
+  },
+  {
+    "hostname": "geoclick.netlify.app",
+    "title": "geoclick.netlify.app",
+    "url": "https://geoclick.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://geoclick.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-03T19:07:51.259Z"
+  },
+  {
+    "hostname": "rocq-dependency-visualizer.onrender.com",
+    "title": "Rocq Visualizer",
+    "url": "https://rocq-dependency-visualizer.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rocq-dependency-visualizer.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 400,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-03T19:07:52.181Z"
+  },
+  {
     "hostname": "sillapa.vercel.app",
     "title": "SILLAPA — ศิลปะที่เป็นคุณ",
     "url": "https://sillapa.vercel.app",
