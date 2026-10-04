@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "travel-stampbook.vercel.app",
+    "title": "StampBook · Travel stamp generator",
+    "url": "https://travel-stampbook.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://travel-stampbook.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:32:59.505Z"
+  },
+  {
+    "hostname": "amgusha-brewery.vercel.app",
+    "title": "אמגושא · AMGU'SHA — בירת קראפט ישראלית",
+    "url": "https://amgusha-brewery.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://amgusha-brewery.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:32:59.660Z"
+  },
+  {
+    "hostname": "vyaparmedia-nine.vercel.app",
+    "title": "VyaparMedia — India&#x27;s Premier Influencer Marketplace &amp; Escrow Platform",
+    "url": "https://vyaparmedia-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vyaparmedia-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1941,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:01.786Z"
+  },
+  {
+    "hostname": "flows-bheng.vercel.app",
+    "title": "Flows",
+    "url": "https://flows-bheng.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flows-bheng.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:01.904Z"
+  },
+  {
+    "hostname": "terajuciptabina.vercel.app",
+    "title": "Teraju Ciptabina Resources | Design & Build · BIM · Interior",
+    "url": "https://terajuciptabina.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://terajuciptabina.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:02.091Z"
+  },
+  {
+    "hostname": "noticiasinteticas.vercel.app",
+    "title": "noticia Sinteticas - Todo lo que está en una pantalla es mentira, la realidad es inabarcable.",
+    "url": "https://noticiasinteticas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://noticiasinteticas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 607,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:07.701Z"
+  },
+  {
+    "hostname": "delivering-happiness.vercel.app",
+    "title": "Delivering Happiness — CultureCode Community",
+    "url": "https://delivering-happiness.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://delivering-happiness.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:08.930Z"
+  },
+  {
+    "hostname": "field-service-management-intern.vercel.app",
+    "title": "fsm-frontend",
+    "url": "https://field-service-management-intern.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://field-service-management-intern.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:09.021Z"
+  },
+  {
+    "hostname": "moviebox-1.vercel.app",
+    "title": "Nexmovies - Watch Movies & TV Shows Online",
+    "url": "https://moviebox-1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://moviebox-1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 206,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:09.228Z"
+  },
+  {
+    "hostname": "daily-sheet-six.vercel.app",
+    "title": "Hamid OS",
+    "url": "https://daily-sheet-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daily-sheet-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:09.334Z"
+  },
+  {
+    "hostname": "beforework.netlify.app",
+    "title": "Beforework",
+    "url": "https://beforework.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beforework.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 64,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:09.404Z"
+  },
+  {
+    "hostname": "notroj.github.io",
+    "title": "notroj.github.io",
+    "url": "https://notroj.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://notroj.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T09:33:09.496Z"
+  },
+  {
+    "hostname": "paypilot.fly.dev",
+    "title": "PayPilot - AI dunning agent that recovers failed payments",
+    "url": "https://paypilot.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paypilot.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 195,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T09:33:09.773Z"
+  },
+  {
+    "hostname": "bakibondhu.infinityfreeapp.com",
+    "title": "bakibondhu.infinityfreeapp.com",
+    "url": "https://bakibondhu.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bakibondhu.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 579,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T09:33:10.352Z"
+  },
+  {
     "hostname": "mini-sistema-bancario.vercel.app",
     "title": "Cadastrar - APS Sistema Bancário",
     "url": "https://mini-sistema-bancario.vercel.app",
