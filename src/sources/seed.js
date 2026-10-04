@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "ori-platform.vercel.app",
+    "title": "Ori",
+    "url": "https://ori-platform.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ori-platform.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 398,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:08.283Z"
+  },
+  {
+    "hostname": "btcc-ten.vercel.app",
+    "title": "BTCC Hub",
+    "url": "https://btcc-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://btcc-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:08.611Z"
+  },
+  {
+    "hostname": "real-estate-platform-rust.vercel.app",
+    "title": "HeroRooms - Real Estate Management Platform",
+    "url": "https://real-estate-platform-rust.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://real-estate-platform-rust.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 398,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:09.010Z"
+  },
+  {
+    "hostname": "site-digital-work.vercel.app",
+    "title": "Digital Work — Solutions digitales",
+    "url": "https://site-digital-work.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://site-digital-work.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 358,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:09.368Z"
+  },
+  {
+    "hostname": "wedding-invitation-acme-1-f99a.vercel.app",
+    "title": "Wedding Invitation",
+    "url": "https://wedding-invitation-acme-1-f99a.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wedding-invitation-acme-1-f99a.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:11.394Z"
+  },
+  {
+    "hostname": "project-hcz3y.vercel.app",
+    "title": "BookTrail",
+    "url": "https://project-hcz3y.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project-hcz3y.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 323,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:11.718Z"
+  },
+  {
+    "hostname": "portafolio-peach-two.vercel.app",
+    "title": "Manuel Ortega | Ingeniero de Sistemas, backend y full stack",
+    "url": "https://portafolio-peach-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portafolio-peach-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 371,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:12.089Z"
+  },
+  {
+    "hostname": "ai-ops-analyst.vercel.app",
+    "title": "AIOpsAnalyst: thirty thousand events in, a short list of decisions out",
+    "url": "https://ai-ops-analyst.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-ops-analyst.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 290,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:12.381Z"
+  },
+  {
+    "hostname": "mansion-millions-play.vercel.app",
+    "title": "Mansion Millions",
+    "url": "https://mansion-millions-play.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mansion-millions-play.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:12.728Z"
+  },
+  {
+    "hostname": "kalyanbaraikdeveloper.netlify.app",
+    "title": "Kalyan Baraik — Full Stack Developer",
+    "url": "https://kalyanbaraikdeveloper.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kalyanbaraikdeveloper.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:12.981Z"
+  },
+  {
+    "hostname": "polishannoyancefilters.netlify.app",
+    "title": "polishannoyancefilters.netlify.app",
+    "url": "https://polishannoyancefilters.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://polishannoyancefilters.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 737,
+      "title": false,
+      "description": false,
+      "ogImage": true,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T19:24:13.719Z"
+  },
+  {
     "hostname": "rex-cloud-management.vercel.app",
     "title": "ORDO Workforce Studio",
     "url": "https://rex-cloud-management.vercel.app",
