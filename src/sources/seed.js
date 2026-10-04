@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "rex-cloud-management.vercel.app",
+    "title": "ORDO Workforce Studio",
+    "url": "https://rex-cloud-management.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rex-cloud-management.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 252,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:12:59.397Z"
+  },
+  {
+    "hostname": "prakruti-website-ruby.vercel.app",
+    "title": "प्रकृती (Prakruti) Homeopathic Hospital | Dr. Sayali Mahesh Patil (BHMS)",
+    "url": "https://prakruti-website-ruby.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://prakruti-website-ruby.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 291,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:12:59.689Z"
+  },
+  {
+    "hostname": "hr-dashboard-virid.vercel.app",
+    "title": "hr_dashboard",
+    "url": "https://hr-dashboard-virid.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hr-dashboard-virid.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 464,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:00.153Z"
+  },
+  {
+    "hostname": "alster-cafe.vercel.app",
+    "title": "Alstercafé – Café & Bäckerei in Hamburg-Hohenfelde",
+    "url": "https://alster-cafe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alster-cafe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:00.355Z"
+  },
+  {
+    "hostname": "life-rpg-telegram-five.vercel.app",
+    "title": "Life RPG",
+    "url": "https://life-rpg-telegram-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://life-rpg-telegram-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:00.633Z"
+  },
+  {
+    "hostname": "trustroyale.vercel.app",
+    "title": "TrustRoyale – Analyse et suivi de fiabilité Guerre de Clan",
+    "url": "https://trustroyale.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trustroyale.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:00.882Z"
+  },
+  {
+    "hostname": "dseliteevals.vercel.app",
+    "title": "DS Elite HQ",
+    "url": "https://dseliteevals.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dseliteevals.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:01.208Z"
+  },
+  {
+    "hostname": "saimo-tv.pages.dev",
+    "title": "Saimo TV",
+    "url": "https://saimo-tv.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://saimo-tv.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 304,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T15:13:01.890Z"
+  },
+  {
+    "hostname": "phone-whisper-server.pages.dev",
+    "title": "PhoneWhisper AI — Self-Hosted Multi-Modal AI on an Old Android Phone",
+    "url": "https://phone-whisper-server.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://phone-whisper-server.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 177,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T15:13:02.083Z"
+  },
+  {
+    "hostname": "myrurubday.netlify.app",
+    "title": "Happy Birthday, My Love ♥",
+    "url": "https://myrurubday.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://myrurubday.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:02.238Z"
+  },
+  {
+    "hostname": "maimai-japan-map.netlify.app",
+    "title": "全日本音遊機廳",
+    "url": "https://maimai-japan-map.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maimai-japan-map.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 260,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:02.583Z"
+  },
+  {
+    "hostname": "loomwatch.github.io",
+    "title": "LoomWatch — Put AI agents to work as a team",
+    "url": "https://loomwatch.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://loomwatch.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T15:13:02.809Z"
+  },
+  {
+    "hostname": "rep-mrbs-1.fly.dev",
+    "title": "REP Meeting Room Booking System",
+    "url": "https://rep-mrbs-1.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rep-mrbs-1.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3428,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T15:13:06.654Z"
+  },
+  {
     "hostname": "travel-stampbook.vercel.app",
     "title": "StampBook · Travel stamp generator",
     "url": "https://travel-stampbook.vercel.app",
