@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "turimoviesdatabase.vercel.app",
+    "title": "Diario de proyección",
+    "url": "https://turimoviesdatabase.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://turimoviesdatabase.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 249,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T22:56:36.789Z"
+  },
+  {
+    "hostname": "orhan-barber-st-albans.vercel.app",
+    "title": "ORHAN Barber · St Albans: cuts, skin fades and beards",
+    "url": "https://orhan-barber-st-albans.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://orhan-barber-st-albans.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T22:56:37.176Z"
+  },
+  {
+    "hostname": "glow-journal-alpha.vercel.app",
+    "title": "Researcher Access | Glow Journal",
+    "url": "https://glow-journal-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://glow-journal-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T22:56:37.567Z"
+  },
+  {
+    "hostname": "myk9-platform-myk9show.vercel.app",
+    "title": "myK9Show · Dog show management built for scent work",
+    "url": "https://myk9-platform-myk9show.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://myk9-platform-myk9show.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T22:56:37.705Z"
+  },
+  {
+    "hostname": "haccp-app-five.vercel.app",
+    "title": "Autocontrollo HACCP",
+    "url": "https://haccp-app-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haccp-app-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T22:56:38.044Z"
+  },
+  {
+    "hostname": "ai-mail-mauve.vercel.app",
+    "title": "r3alm AI-Mail — Executive Inbox Intelligence",
+    "url": "https://ai-mail-mauve.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-mail-mauve.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 322,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T22:56:38.367Z"
+  },
+  {
+    "hostname": "interviewpilot-bdzx.onrender.com",
+    "title": "InterviewPilot - AI interview prep",
+    "url": "https://interviewpilot-bdzx.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://interviewpilot-bdzx.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 665,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T22:56:39.589Z"
+  },
+  {
+    "hostname": "neon-agent-ali.fly.dev",
+    "title": "Do It Once",
+    "url": "https://neon-agent-ali.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neon-agent-ali.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-04T22:56:39.725Z"
+  },
+  {
     "hostname": "ori-platform.vercel.app",
     "title": "Ori",
     "url": "https://ori-platform.vercel.app",
