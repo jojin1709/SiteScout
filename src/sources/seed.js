@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "mini-sistema-bancario.vercel.app",
+    "title": "Cadastrar - APS Sistema Bancário",
+    "url": "https://mini-sistema-bancario.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mini-sistema-bancario.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:28:54.574Z"
+  },
+  {
+    "hostname": "partequipos.vercel.app",
+    "title": "Partequipos — Repuestos y maquinaria pesada en Colombia | Partequipos",
+    "url": "https://partequipos.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://partequipos.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3220,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:28:58.841Z"
+  },
+  {
+    "hostname": "ct-keno.vercel.app",
+    "title": "CT Keno — Today's Analysis",
+    "url": "https://ct-keno.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ct-keno.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 354,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:28:59.196Z"
+  },
+  {
+    "hostname": "connect-hive-gold.vercel.app",
+    "title": "TrueHive — Find Your Hive. Build Meaningful Connections.",
+    "url": "https://connect-hive-gold.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://connect-hive-gold.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:28:59.385Z"
+  },
+  {
+    "hostname": "piekne-ciala.vercel.app",
+    "title": "Piękne Ciała — głowa faceta po czterdziestce",
+    "url": "https://piekne-ciala.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://piekne-ciala.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:28:59.986Z"
+  },
+  {
+    "hostname": "farewell-microsite.vercel.app",
+    "title": "One Last Ping",
+    "url": "https://farewell-microsite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://farewell-microsite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:29:00.304Z"
+  },
+  {
+    "hostname": "smart-quote-main.vercel.app",
+    "title": "BridgeLogis — Global Express Freight Quoting Platform | by KS Ways",
+    "url": "https://smart-quote-main.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smart-quote-main.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:29:00.514Z"
+  },
+  {
+    "hostname": "v-nin1.vercel.app",
+    "title": "VNin1 — Tin tài chính Việt Nam, gọn trong một trang",
+    "url": "https://v-nin1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://v-nin1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 315,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:29:00.830Z"
+  },
+  {
+    "hostname": "tenmei-mori.pages.dev",
+    "title": "運勢・天命乃杜 | 今日の運勢おみくじ（無料）",
+    "url": "https://tenmei-mori.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tenmei-mori.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-04T02:29:01.108Z"
+  },
+  {
     "hostname": "wallpapers-bheng.vercel.app",
     "title": "Wallpapers - 40 plates, zero assets",
     "url": "https://wallpapers-bheng.vercel.app",
