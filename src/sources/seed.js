@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "sun-moon-tracker-a27p.vercel.app",
+    "title": "sunmoon-tracker",
+    "url": "https://sun-moon-tracker-a27p.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sun-moon-tracker-a27p.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 348,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:07.169Z"
+  },
+  {
+    "hostname": "shop-pulse-smoky.vercel.app",
+    "title": "Shop Pulse",
+    "url": "https://shop-pulse-smoky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shop-pulse-smoky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 405,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:07.581Z"
+  },
+  {
+    "hostname": "trabawho-kappa.vercel.app",
+    "title": "TrabaWho | Find Trusted Local Services",
+    "url": "https://trabawho-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trabawho-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 287,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:07.868Z"
+  },
+  {
+    "hostname": "qing-school.vercel.app",
+    "title": "Kayvlop Magnificent School | Education with Godliness",
+    "url": "https://qing-school.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://qing-school.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1152,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:09.023Z"
+  },
+  {
+    "hostname": "roznex-portfolio.vercel.app",
+    "title": "ROZNEX — Digital Intelligence Studio | Rozhan Behrouzi",
+    "url": "https://roznex-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://roznex-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 238,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:09.263Z"
+  },
+  {
+    "hostname": "nzptechnology.vercel.app",
+    "title": "Residual materials. New possibilities. | Net Zero Platforms",
+    "url": "https://nzptechnology.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nzptechnology.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:09.720Z"
+  },
+  {
+    "hostname": "vox-club.vercel.app",
+    "title": "VOX &mdash; Школьный Дебатный Клуб",
+    "url": "https://vox-club.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vox-club.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 40,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:09.763Z"
+  },
+  {
+    "hostname": "enzogrnz.github.io",
+    "title": "Enzo Gernez | Chargé de Communication & Événementiel",
+    "url": "https://enzogrnz.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://enzogrnz.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:10.097Z"
+  },
+  {
+    "hostname": "lynxer.onrender.com",
+    "title": "Lynxer &mdash; a small, statically-flavoured programming language",
+    "url": "https://lynxer.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lynxer.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 67,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T18:13:10.523Z"
+  },
+  {
+    "hostname": "recall-walrus-memory.fly.dev",
+    "title": "Recall — Remember Every Person",
+    "url": "https://recall-walrus-memory.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://recall-walrus-memory.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 398,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-05T18:13:10.930Z"
+  },
+  {
     "hostname": "github-unlimited-orgs.vercel.app",
     "title": "GitHub Unlimited Organizations API",
     "url": "https://github-unlimited-orgs.vercel.app",
