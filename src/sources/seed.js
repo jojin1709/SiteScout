@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "harbor-ledger-nine.vercel.app",
+    "title": "Harbor Ledger",
+    "url": "https://harbor-ledger-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://harbor-ledger-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:15.082Z"
+  },
+  {
+    "hostname": "evento-diagnostico-3.vercel.app",
+    "title": "Diagnóstico Empresarial",
+    "url": "https://evento-diagnostico-3.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://evento-diagnostico-3.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:15.610Z"
+  },
+  {
+    "hostname": "portafolio-page-inky.vercel.app",
+    "title": "Vicente Pareja",
+    "url": "https://portafolio-page-inky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portafolio-page-inky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1107,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:16.719Z"
+  },
+  {
+    "hostname": "the-stacks-one.vercel.app",
+    "title": "The Stacks",
+    "url": "https://the-stacks-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://the-stacks-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:16.973Z"
+  },
+  {
+    "hostname": "composer-nb.vercel.app",
+    "title": "Composer.nb — Music Composer Notebook",
+    "url": "https://composer-nb.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://composer-nb.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 226,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:17.199Z"
+  },
+  {
+    "hostname": "radar-xi-flax.vercel.app",
+    "title": "Webminds Radar",
+    "url": "https://radar-xi-flax.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://radar-xi-flax.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 255,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:17.454Z"
+  },
+  {
+    "hostname": "flight-connection-risk-checker.vercel.app",
+    "title": "بررسی ریسک کانکشن پرواز",
+    "url": "https://flight-connection-risk-checker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flight-connection-risk-checker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:17.669Z"
+  },
+  {
+    "hostname": "soy-indi.vercel.app",
+    "title": "INDI — Plataforma SaaS de Identidad Digital y Networking",
+    "url": "https://soy-indi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://soy-indi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T01:48:18.150Z"
+  },
+  {
+    "hostname": "pinpoint-dashboard-20z.pages.dev",
+    "title": "핀포인트 — 화성시 언론보도 대시보드",
+    "url": "https://pinpoint-dashboard-20z.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pinpoint-dashboard-20z.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 138,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-05T01:48:18.298Z"
+  },
+  {
     "hostname": "turimoviesdatabase.vercel.app",
     "title": "Diario de proyección",
     "url": "https://turimoviesdatabase.vercel.app",
