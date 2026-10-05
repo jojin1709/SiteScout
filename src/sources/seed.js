@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "github-unlimited-orgs.vercel.app",
+    "title": "GitHub Unlimited Organizations API",
+    "url": "https://github-unlimited-orgs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://github-unlimited-orgs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 748,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:35.008Z"
+  },
+  {
+    "hostname": "uwow-frontend-assessment.vercel.app",
+    "title": "UWow Frontend Assessment – Harry Fan",
+    "url": "https://uwow-frontend-assessment.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uwow-frontend-assessment.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:35.144Z"
+  },
+  {
+    "hostname": "gym-app-orpin-chi.vercel.app",
+    "title": "Gym-Log",
+    "url": "https://gym-app-orpin-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gym-app-orpin-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:35.291Z"
+  },
+  {
+    "hostname": "live-editor-lab.vercel.app",
+    "title": "Live Editor",
+    "url": "https://live-editor-lab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://live-editor-lab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 142,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:35.434Z"
+  },
+  {
+    "hostname": "messages-flax.vercel.app",
+    "title": "Anonymous Message",
+    "url": "https://messages-flax.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://messages-flax.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:35.530Z"
+  },
+  {
+    "hostname": "wash-room-dev-l639.vercel.app",
+    "title": "洗衣管理系統",
+    "url": "https://wash-room-dev-l639.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wash-room-dev-l639.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1233,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:36.765Z"
+  },
+  {
+    "hostname": "sunny-solar-frontend-gamma.vercel.app",
+    "title": "Sunny Solar | Premium Residential Solar & Battery Solutions",
+    "url": "https://sunny-solar-frontend-gamma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sunny-solar-frontend-gamma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:36.868Z"
+  },
+  {
+    "hostname": "gapless-market.vercel.app",
+    "title": "Gapless",
+    "url": "https://gapless-market.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gapless-market.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2611,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:39.625Z"
+  },
+  {
+    "hostname": "veshkinasveta-art.github.io",
+    "title": "Зарплата студии",
+    "url": "https://veshkinasveta-art.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veshkinasveta-art.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 65,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-05T08:45:40.603Z"
+  },
+  {
+    "hostname": "kiva.rf.gd",
+    "title": "kiva.rf.gd",
+    "url": "https://kiva.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kiva.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 450,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-05T08:45:41.173Z"
+  },
+  {
+    "hostname": "cafemidori.infinityfreeapp.com",
+    "title": "cafemidori.infinityfreeapp.com",
+    "url": "https://cafemidori.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cafemidori.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 484,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-05T08:45:41.658Z"
+  },
+  {
     "hostname": "harbor-ledger-nine.vercel.app",
     "title": "Harbor Ledger",
     "url": "https://harbor-ledger-nine.vercel.app",
