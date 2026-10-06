@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "anti-smuggling-news.vercel.app",
+    "title": "反走私动态 · 每日情报",
+    "url": "https://anti-smuggling-news.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anti-smuggling-news.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:14.266Z"
+  },
+  {
+    "hostname": "lp-originals.vercel.app",
+    "title": "LP Wears | Handmade cork-footbed sandals",
+    "url": "https://lp-originals.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lp-originals.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:14.476Z"
+  },
+  {
+    "hostname": "study-spark-237.vercel.app",
+    "title": "StudySpark - Cameroon GCE, BEPC, Probatoire, and Baccalaureat revision",
+    "url": "https://study-spark-237.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://study-spark-237.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1113,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:15.596Z"
+  },
+  {
+    "hostname": "choi-bujang-secret-vault-qkh6.vercel.app",
+    "title": "BYTE BACK | 점령된 자료실",
+    "url": "https://choi-bujang-secret-vault-qkh6.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://choi-bujang-secret-vault-qkh6.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:15.749Z"
+  },
+  {
+    "hostname": "campus-wall-ecru.vercel.app",
+    "title": "校园墙",
+    "url": "https://campus-wall-ecru.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://campus-wall-ecru.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 279,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:16.639Z"
+  },
+  {
+    "hostname": "cezart3.vercel.app",
+    "title": "Cezar Tocaciu — Backend &amp; machine-learning engineer",
+    "url": "https://cezart3.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cezart3.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 252,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:17.020Z"
+  },
+  {
+    "hostname": "the-happy-mart-inventory-management.vercel.app",
+    "title": "THE HAPPY MART - Inventory & Order Management System",
+    "url": "https://the-happy-mart-inventory-management.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://the-happy-mart-inventory-management.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 161,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:17.194Z"
+  },
+  {
+    "hostname": "zgjh-3d-campus.pages.dev",
+    "title": "竹光國中 3D 校園",
+    "url": "https://zgjh-3d-campus.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zgjh-3d-campus.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 79,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T07:24:17.402Z"
+  },
+  {
+    "hostname": "aghirculesei.pages.dev",
+    "title": "Mihaela Melania Aghirculesei — Fullstack Developer",
+    "url": "https://aghirculesei.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aghirculesei.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 90,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:17.494Z"
+  },
+  {
+    "hostname": "hallowdeep.netlify.app",
+    "title": "HallowDeep",
+    "url": "https://hallowdeep.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hallowdeep.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 180,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:17.739Z"
+  },
+  {
+    "hostname": "sinjhon1245-cell.github.io",
+    "title": "진진쌤 · 교육활동 아카이브",
+    "url": "https://sinjhon1245-cell.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sinjhon1245-cell.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 134,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:17.874Z"
+  },
+  {
+    "hostname": "maeedahammed.onrender.com",
+    "title": "Maeed Ahammed | Software Engineer",
+    "url": "https://maeedahammed.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maeedahammed.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 194,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T07:24:18.333Z"
+  },
+  {
+    "hostname": "gr8brik.rf.gd",
+    "title": "gr8brik.rf.gd",
+    "url": "https://gr8brik.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gr8brik.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 709,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T07:24:19.042Z"
+  },
+  {
     "hostname": "color-pallete-generate.vercel.app",
     "title": "Vite + React",
     "url": "https://color-pallete-generate.vercel.app",
