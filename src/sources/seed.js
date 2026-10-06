@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "tripremix.vercel.app",
+    "title": "RouteRiff — AI Itinerary Checker & Visual Route Optimizer",
+    "url": "https://tripremix.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tripremix.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 335,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:18.444Z"
+  },
+  {
+    "hostname": "lex-beryl.vercel.app",
+    "title": "Lex: o Código do Trabalho, na versão em vigor em cada data",
+    "url": "https://lex-beryl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lex-beryl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 321,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:18.766Z"
+  },
+  {
+    "hostname": "artist-portfolio-mu-snowy.vercel.app",
+    "title": "Thomasene Art",
+    "url": "https://artist-portfolio-mu-snowy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://artist-portfolio-mu-snowy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1159,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:19.927Z"
+  },
+  {
+    "hostname": "jaces-node.vercel.app",
+    "title": "JACES | Prêt-à-porter et accessoires contemporains",
+    "url": "https://jaces-node.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jaces-node.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:20.173Z"
+  },
+  {
+    "hostname": "micromart-admin.vercel.app",
+    "title": "Micromarket",
+    "url": "https://micromart-admin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://micromart-admin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 286,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:20.460Z"
+  },
+  {
+    "hostname": "code-eidter-apk-website.vercel.app",
+    "title": "Code Editor (TermCode IDE) - Official Download & Setup Guide",
+    "url": "https://code-eidter-apk-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://code-eidter-apk-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 360,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:20.821Z"
+  },
+  {
+    "hostname": "studio-banana-two.vercel.app",
+    "title": "STUDIO BANANA",
+    "url": "https://studio-banana-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://studio-banana-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:21.052Z"
+  },
+  {
+    "hostname": "thinktrailai.vercel.app",
+    "title": "ThinkTrail.AI — Study with a tutor who explains, not just answers",
+    "url": "https://thinktrailai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://thinktrailai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:21.270Z"
+  },
+  {
+    "hostname": "minimarketplace-six.vercel.app",
+    "title": "N5Deal — FinTech &amp; M&amp;A asset marketplace",
+    "url": "https://minimarketplace-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://minimarketplace-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1195,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:22.582Z"
+  },
+  {
+    "hostname": "gncsignal-site.vercel.app",
+    "title": "GnC Verdict — Gold n Crypto Traders",
+    "url": "https://gncsignal-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gncsignal-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:22.805Z"
+  },
+  {
+    "hostname": "synknode.vercel.app",
+    "title": "SynkNode",
+    "url": "https://synknode.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://synknode.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 34,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:22.840Z"
+  },
+  {
+    "hostname": "obsidianarc.pages.dev",
+    "title": "文档 | Obsidian Arc",
+    "url": "https://obsidianarc.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://obsidianarc.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T14:57:22.991Z"
+  },
+  {
+    "hostname": "aisharedchats.netlify.app",
+    "title": "AI Shared Chats",
+    "url": "https://aisharedchats.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aisharedchats.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 956,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:23.948Z"
+  },
+  {
+    "hostname": "sbgjim1006.github.io",
+    "title": "jimjcy",
+    "url": "https://sbgjim1006.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sbgjim1006.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T14:57:24.054Z"
+  },
+  {
     "hostname": "anti-smuggling-news.vercel.app",
     "title": "反走私动态 · 每日情报",
     "url": "https://anti-smuggling-news.vercel.app",
