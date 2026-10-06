@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "color-pallete-generate.vercel.app",
+    "title": "Vite + React",
+    "url": "https://color-pallete-generate.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://color-pallete-generate.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:02.217Z"
+  },
+  {
+    "hostname": "analytica-phi.vercel.app",
+    "title": "Analytica - Real-time Analytics for Modern Applications",
+    "url": "https://analytica-phi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://analytica-phi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:02.439Z"
+  },
+  {
+    "hostname": "portfolio-krsk.vercel.app",
+    "title": "portfolio_krsk — бумажные боты",
+    "url": "https://portfolio-krsk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-krsk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 170,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:02.609Z"
+  },
+  {
+    "hostname": "tebakang-edu-club-hub.vercel.app",
+    "title": "Tebakang Edu Club Hub",
+    "url": "https://tebakang-edu-club-hub.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tebakang-edu-club-hub.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:02.723Z"
+  },
+  {
+    "hostname": "escolinhanexus.vercel.app",
+    "title": "Nexus Vôlei | CT Escolinha de Vôlei",
+    "url": "https://escolinhanexus.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://escolinhanexus.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:02.918Z"
+  },
+  {
+    "hostname": "claude-community-bhopal.netlify.app",
+    "title": "Claude Community · Bhopal — Meetups, Workshops & Hackathons",
+    "url": "https://claude-community-bhopal.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://claude-community-bhopal.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:04.070Z"
+  },
+  {
+    "hostname": "kartik977.github.io",
+    "title": "Kartik Kataria | Backend Software Engineer",
+    "url": "https://kartik977.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kartik977.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 67,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T00:42:04.173Z"
+  },
+  {
+    "hostname": "nosecheckai-v2.onrender.com",
+    "title": "NoseCheck",
+    "url": "https://nosecheckai-v2.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nosecheckai-v2.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T00:42:04.326Z"
+  },
+  {
+    "hostname": "carbon-capture-app-v2-production.up.railway.app",
+    "title": "Streamlit",
+    "url": "https://carbon-capture-app-v2-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://carbon-capture-app-v2-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T00:42:04.418Z"
+  },
+  {
     "hostname": "sun-moon-tracker-a27p.vercel.app",
     "title": "sunmoon-tracker",
     "url": "https://sun-moon-tracker-a27p.vercel.app",
