@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "drafters-rho.vercel.app",
+    "title": "Drafters",
+    "url": "https://drafters-rho.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://drafters-rho.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 466,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:08.101Z"
+  },
+  {
+    "hostname": "miri-indol.vercel.app",
+    "title": "미리 재난취약자 사전 이송 배정",
+    "url": "https://miri-indol.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://miri-indol.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 419,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:09.080Z"
+  },
+  {
+    "hostname": "cyber2-2.vercel.app",
+    "title": "CyberGuard — Organisation Security",
+    "url": "https://cyber2-2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cyber2-2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 388,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:09.470Z"
+  },
+  {
+    "hostname": "goscm-ibp-suite.vercel.app",
+    "title": "GoSCM Suite",
+    "url": "https://goscm-ibp-suite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://goscm-ibp-suite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:10.979Z"
+  },
+  {
+    "hostname": "knowledge-graph-ecru.vercel.app",
+    "title": "knowledge-graph-ecru.vercel.app",
+    "url": "https://knowledge-graph-ecru.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://knowledge-graph-ecru.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1488,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:12.468Z"
+  },
+  {
+    "hostname": "neon-arcade-de.pages.dev",
+    "title": "Neon Arcade",
+    "url": "https://neon-arcade-de.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neon-arcade-de.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 561,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:13.173Z"
+  },
+  {
+    "hostname": "kappa-ui.pages.dev",
+    "title": "kappa-ui",
+    "url": "https://kappa-ui.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kappa-ui.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 536,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T20:09:13.718Z"
+  },
+  {
+    "hostname": "slimcity.netlify.app",
+    "title": "SlimCity",
+    "url": "https://slimcity.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://slimcity.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 731,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-06T20:09:14.449Z"
+  },
+  {
+    "hostname": "case-study-catalog.fly.dev",
+    "title": "Field Notes — A Catalog of AI Case Studies in Education",
+    "url": "https://case-study-catalog.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://case-study-catalog.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 142,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-06T20:09:14.959Z"
+  },
+  {
     "hostname": "tripremix.vercel.app",
     "title": "RouteRiff — AI Itinerary Checker & Visual Route Optimizer",
     "url": "https://tripremix.vercel.app",
