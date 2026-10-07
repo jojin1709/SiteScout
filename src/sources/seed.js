@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "personal-trainer-site-dusky.vercel.app",
+    "title": "Patrick Lira | Preparador Físico",
+    "url": "https://personal-trainer-site-dusky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://personal-trainer-site-dusky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:25.921Z"
+  },
+  {
+    "hostname": "gold-signal-ruby.vercel.app",
+    "title": "Gold Signal · สัญญาณเทรดทองคำ",
+    "url": "https://gold-signal-ruby.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gold-signal-ruby.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:27.182Z"
+  },
+  {
+    "hostname": "reportscompany-web.vercel.app",
+    "title": "TrendyReports — Branded Real Estate Market Reports on Autopilot",
+    "url": "https://reportscompany-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reportscompany-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 267,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:27.624Z"
+  },
+  {
+    "hostname": "voicescape.vercel.app",
+    "title": "Voicescape — Your blockpage, your vibe, on-chain tips",
+    "url": "https://voicescape.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voicescape.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:27.789Z"
+  },
+  {
+    "hostname": "cateringnusantara.vercel.app",
+    "title": "Katering Bogor | Nasi Box, Prasmanan & Tumpeng Mini | Catering Nusantara",
+    "url": "https://cateringnusantara.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cateringnusantara.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:28.012Z"
+  },
+  {
+    "hostname": "gold-queen-web.vercel.app",
+    "title": "Gold Queen — Tesouro real e portfólio backend",
+    "url": "https://gold-queen-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gold-queen-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 197,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:28.373Z"
+  },
+  {
+    "hostname": "famcode10.pages.dev",
+    "title": "SPORTLINK - FANCODE",
+    "url": "https://famcode10.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://famcode10.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T00:31:28.513Z"
+  },
+  {
+    "hostname": "styxx-org.netlify.app",
+    "title": "Styxx — verification for the agent era",
+    "url": "https://styxx-org.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://styxx-org.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 677,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T00:31:29.191Z"
+  },
+  {
+    "hostname": "billora.42web.io",
+    "title": "billora.42web.io",
+    "url": "https://billora.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://billora.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 853,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T00:31:30.397Z"
+  },
+  {
     "hostname": "drafters-rho.vercel.app",
     "title": "Drafters",
     "url": "https://drafters-rho.vercel.app",
