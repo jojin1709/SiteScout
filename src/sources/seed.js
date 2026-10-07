@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "sheets-llm.vercel.app",
+    "title": "SheetsLLM: Clean the same spreadsheet once, never again",
+    "url": "https://sheets-llm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sheets-llm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 534,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:15.058Z"
+  },
+  {
+    "hostname": "mcup-web.vercel.app",
+    "title": "2026 麥塊盃 | Minecraft 教育版運算思維創意大賽",
+    "url": "https://mcup-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mcup-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 479,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:15.633Z"
+  },
+  {
+    "hostname": "cosmos-arogya-q8i4.vercel.app",
+    "title": "COSMOS Arogya",
+    "url": "https://cosmos-arogya-q8i4.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cosmos-arogya-q8i4.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 345,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:16.941Z"
+  },
+  {
+    "hostname": "aptv-carplay-app.vercel.app",
+    "title": "Trung Play - Nghe Nhạc & Xem TV Trực Tuyến",
+    "url": "https://aptv-carplay-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aptv-carplay-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:17.130Z"
+  },
+  {
+    "hostname": "dilg-workmate.vercel.app",
+    "title": "DILG WORKMATE - COMPANION SYSTEM",
+    "url": "https://dilg-workmate.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dilg-workmate.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:17.438Z"
+  },
+  {
+    "hostname": "13-f-radar-omega.vercel.app",
+    "title": "13-f-radar-omega.vercel.app",
+    "url": "https://13-f-radar-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://13-f-radar-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:17.631Z"
+  },
+  {
+    "hostname": "livepowers.pages.dev",
+    "title": "Livepowers · 活产品范式技能包",
+    "url": "https://livepowers.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://livepowers.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T07:03:24.557Z"
+  },
+  {
+    "hostname": "tarang-tj.github.io",
+    "title": "TJ Jammalamadaka | Applied AI &amp; Forward-Deployed Engineering",
+    "url": "https://tarang-tj.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tarang-tj.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 318,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:25.156Z"
+  },
+  {
+    "hostname": "russian-practice.fly.dev",
+    "title": "Russian Word Practice",
+    "url": "https://russian-practice.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://russian-practice.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T07:03:25.370Z"
+  },
+  {
     "hostname": "personal-trainer-site-dusky.vercel.app",
     "title": "Patrick Lira | Preparador Físico",
     "url": "https://personal-trainer-site-dusky.vercel.app",
