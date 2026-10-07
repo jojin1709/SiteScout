@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "guia-acougue.vercel.app",
+    "title": "O Guia do Açougue — compre carne sem enrolação",
+    "url": "https://guia-acougue.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guia-acougue.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 268,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:00.266Z"
+  },
+  {
+    "hostname": "salper-ordenes.vercel.app",
+    "title": "SALPER · Sistema Operativo",
+    "url": "https://salper-ordenes.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://salper-ordenes.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:00.548Z"
+  },
+  {
+    "hostname": "newflowsync-5-24.vercel.app",
+    "title": "FlowSync — Drive every kind of delivery, your way",
+    "url": "https://newflowsync-5-24.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://newflowsync-5-24.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 238,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:00.791Z"
+  },
+  {
+    "hostname": "shop-inventory-one-omega.vercel.app",
+    "title": "Shop Inventory",
+    "url": "https://shop-inventory-one-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shop-inventory-one-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:02.202Z"
+  },
+  {
+    "hostname": "fantasy-web-ui.vercel.app",
+    "title": "Fantasy Web",
+    "url": "https://fantasy-web-ui.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fantasy-web-ui.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:02.505Z"
+  },
+  {
+    "hostname": "utm-lab.vercel.app",
+    "title": "UTM Lab — Suite Metrológica de Ensayos Mecánicos",
+    "url": "https://utm-lab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://utm-lab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 276,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:02.781Z"
+  },
+  {
+    "hostname": "strumenti-aba.pages.dev",
+    "title": "Strumenti ABA | VideoEdit, ABC Monitor e VideoCensor",
+    "url": "https://strumenti-aba.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://strumenti-aba.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T21:09:03.145Z"
+  },
+  {
+    "hostname": "executionos-mvp.netlify.app",
+    "title": "ExecutionOS",
+    "url": "https://executionos-mvp.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://executionos-mvp.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:03.374Z"
+  },
+  {
+    "hostname": "pau-hana-kitchen.onrender.com",
+    "title": "pau-hana-kitchen",
+    "url": "https://pau-hana-kitchen.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pau-hana-kitchen.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 184,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T21:09:03.917Z"
+  },
+  {
+    "hostname": "tohub.rf.gd",
+    "title": "tohub.rf.gd",
+    "url": "https://tohub.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tohub.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 669,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T21:09:04.586Z"
+  },
+  {
+    "hostname": "lockhub.infinityfreeapp.com",
+    "title": "lockhub.infinityfreeapp.com",
+    "url": "https://lockhub.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lockhub.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 525,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T21:09:05.112Z"
+  },
+  {
     "hostname": "post-ai-mu.vercel.app",
     "title": "NostOS · A postAI Odyssey",
     "url": "https://post-ai-mu.vercel.app",
