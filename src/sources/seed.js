@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "post-ai-mu.vercel.app",
+    "title": "NostOS · A postAI Odyssey",
+    "url": "https://post-ai-mu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://post-ai-mu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 580,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T15:25:01.048Z"
+  },
+  {
+    "hostname": "qn-technology-store.vercel.app",
+    "title": "QN Shop | Mua/bán đồ công nghệ giá rẻ",
+    "url": "https://qn-technology-store.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://qn-technology-store.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 877,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T15:25:07.323Z"
+  },
+  {
+    "hostname": "tint-gamma.vercel.app",
+    "title": "Tint UI",
+    "url": "https://tint-gamma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tint-gamma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 515,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T15:25:07.945Z"
+  },
+  {
+    "hostname": "wake-7k6.pages.dev",
+    "title": "Wake — терминал Lighter: перпы, копи-трейдинг, Predict",
+    "url": "https://wake-7k6.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wake-7k6.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T15:25:08.564Z"
+  },
+  {
+    "hostname": "ds-hospitality-pr02-aurora.netlify.app",
+    "title": "Aurora Travel – Butikowe biuro podróży",
+    "url": "https://ds-hospitality-pr02-aurora.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ds-hospitality-pr02-aurora.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 693,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T15:25:09.259Z"
+  },
+  {
+    "hostname": "ds-ceremonial-pr01-eternalrest.netlify.app",
+    "title": "Eternal Rest | Dom pogrzebowy premium w Tarnowie",
+    "url": "https://ds-ceremonial-pr01-eternalrest.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ds-ceremonial-pr01-eternalrest.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 815,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-07T15:25:10.123Z"
+  },
+  {
+    "hostname": "trust-road.onrender.com",
+    "title": "ЦУР 3. Здоровье и благополучие — ББИ-24-БА1",
+    "url": "https://trust-road.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trust-road.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 332,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-07T15:25:11.414Z"
+  },
+  {
     "hostname": "sheets-llm.vercel.app",
     "title": "SheetsLLM: Clean the same spreadsheet once, never again",
     "url": "https://sheets-llm.vercel.app",
