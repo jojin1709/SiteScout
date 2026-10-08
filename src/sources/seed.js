@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "yieldstream-app.vercel.app",
+    "title": "YieldStream Protocol",
+    "url": "https://yieldstream-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yieldstream-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:23.176Z"
+  },
+  {
+    "hostname": "maple-query.vercel.app",
+    "title": "MapleQuery · Ask hard questions of Canadian government data",
+    "url": "https://maple-query.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maple-query.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 385,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:23.562Z"
+  },
+  {
+    "hostname": "soroban-go-toolkit.vercel.app",
+    "title": "soroban-go-toolkit — Go Client for Soroban Smart Contracts",
+    "url": "https://soroban-go-toolkit.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://soroban-go-toolkit.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:23.693Z"
+  },
+  {
+    "hostname": "portale-squadre.vercel.app",
+    "title": "Portale Squadre · Nuovo Centro Coteto",
+    "url": "https://portale-squadre.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portale-squadre.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:23.802Z"
+  },
+  {
+    "hostname": "null-channel-client.vercel.app",
+    "title": "NullChannel",
+    "url": "https://null-channel-client.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://null-channel-client.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 134,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:23.937Z"
+  },
+  {
+    "hostname": "web-expense-manager.vercel.app",
+    "title": "Expense Dashboard",
+    "url": "https://web-expense-manager.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-expense-manager.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:24.097Z"
+  },
+  {
+    "hostname": "revior.vercel.app",
+    "title": "Revoir: see every offer again",
+    "url": "https://revior.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://revior.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:24.256Z"
+  },
+  {
+    "hostname": "roping-systems.vercel.app",
+    "title": "Roping Systems | Member and Event Management",
+    "url": "https://roping-systems.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://roping-systems.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 306,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:24.563Z"
+  },
+  {
+    "hostname": "pitcrewsensor.vercel.app",
+    "title": "Pothole Sensor",
+    "url": "https://pitcrewsensor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pitcrewsensor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 161,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:24.772Z"
+  },
+  {
+    "hostname": "rodriccrz.netlify.app",
+    "title": "Rodrigo Agustin Cisterna | Portfolio &amp; Systems",
+    "url": "https://rodriccrz.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rodriccrz.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 30,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:24.803Z"
+  },
+  {
+    "hostname": "jamessw-ntv.github.io",
+    "title": "jamessw · projects",
+    "url": "https://jamessw-ntv.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jamessw-ntv.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T21:56:24.934Z"
+  },
+  {
+    "hostname": "iggym.github.io",
+    "title": "Iggy Mwangi — Practical AI tools and notes",
+    "url": "https://iggym.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://iggym.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 71,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T21:56:25.118Z"
+  },
+  {
+    "hostname": "tx.42web.io",
+    "title": "tx.42web.io",
+    "url": "https://tx.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tx.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 515,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T21:56:25.669Z"
+  },
+  {
     "hostname": "deslizapp-app.vercel.app",
     "title": "deslizapp · Tu tienda",
     "url": "https://deslizapp-app.vercel.app",
