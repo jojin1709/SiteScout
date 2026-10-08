@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "veriflow-theta.vercel.app",
+    "title": "Veriflow — Otomatis QA Logistik",
+    "url": "https://veriflow-theta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veriflow-theta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4594,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:55.269Z"
+  },
+  {
+    "hostname": "integrated-hospital-management-syst.vercel.app",
+    "title": "Integrated Hospital Management System",
+    "url": "https://integrated-hospital-management-syst.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://integrated-hospital-management-syst.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:55.477Z"
+  },
+  {
+    "hostname": "oslearningplatform.vercel.app",
+    "title": "Operating Systems · A/L ICT · Free interactive course",
+    "url": "https://oslearningplatform.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oslearningplatform.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:55.720Z"
+  },
+  {
+    "hostname": "backup-log-analyzer.vercel.app",
+    "title": "Backup Log Analyzer",
+    "url": "https://backup-log-analyzer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://backup-log-analyzer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 371,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:56.092Z"
+  },
+  {
+    "hostname": "tempo-weather-market.vercel.app",
+    "title": "Tempo Weather Market",
+    "url": "https://tempo-weather-market.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tempo-weather-market.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:56.314Z"
+  },
+  {
+    "hostname": "ropvp2026.vercel.app",
+    "title": "RO-PVP-Class2 (2026) | เซิร์ฟเวอร์ Ragnarok Online PvP",
+    "url": "https://ropvp2026.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ropvp2026.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 258,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:56.824Z"
+  },
+  {
+    "hostname": "eklakh-portfolio.vercel.app",
+    "title": "Eklakh Ansari | Portfolio",
+    "url": "https://eklakh-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eklakh-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 329,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:57.155Z"
+  },
+  {
+    "hostname": "antescorregia.vercel.app",
+    "title": "Lápiz Verde — Corrección de tareas",
+    "url": "https://antescorregia.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://antescorregia.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 243,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:59.039Z"
+  },
+  {
+    "hostname": "e-safety.vercel.app",
+    "title": "전기안전 다국어 안전문서 자동생성 플랫폼 | 충북대학교 안전공학과",
+    "url": "https://e-safety.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://e-safety.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:42:59.262Z"
+  },
+  {
+    "hostname": "hana-music-api.netlify.app",
+    "title": "hana-music-api",
+    "url": "https://hana-music-api.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hana-music-api.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 840,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:43:00.104Z"
+  },
+  {
+    "hostname": "teddashh.github.io",
+    "title": "Ted Huang · Open-source projects",
+    "url": "https://teddashh.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://teddashh.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 138,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:43:00.244Z"
+  },
+  {
+    "hostname": "alexbaker0.github.io",
+    "title": "Alex's Lab",
+    "url": "https://alexbaker0.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alexbaker0.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T08:43:00.354Z"
+  },
+  {
+    "hostname": "gbc-cross-country-analysis.onrender.com",
+    "title": "Country conditions and company performance",
+    "url": "https://gbc-cross-country-analysis.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gbc-cross-country-analysis.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T08:43:00.712Z"
+  },
+  {
     "hostname": "salutti.vercel.app",
     "title": "Salutti",
     "url": "https://salutti.vercel.app",
