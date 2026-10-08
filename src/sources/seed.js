@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "deslizapp-app.vercel.app",
+    "title": "deslizapp · Tu tienda",
+    "url": "https://deslizapp-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deslizapp-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1863,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:06.375Z"
+  },
+  {
+    "hostname": "game-gold-miner-sepia.vercel.app",
+    "title": "Cat Mine Idle",
+    "url": "https://game-gold-miner-sepia.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://game-gold-miner-sepia.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:06.872Z"
+  },
+  {
+    "hostname": "scaleraizoomclone-frontend.vercel.app",
+    "title": "Zoom Workplace",
+    "url": "https://scaleraizoomclone-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scaleraizoomclone-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 276,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:07.149Z"
+  },
+  {
+    "hostname": "engineerxcscience-portfolio.vercel.app",
+    "title": "Engr. Blademir Pagayunan Rubia | Electrical Engineer & Computer Science",
+    "url": "https://engineerxcscience-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://engineerxcscience-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:07.390Z"
+  },
+  {
+    "hostname": "creative-engineering-consulting.vercel.app",
+    "title": "Creative Engineering — Your operations, engineered.",
+    "url": "https://creative-engineering-consulting.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://creative-engineering-consulting.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:07.685Z"
+  },
+  {
+    "hostname": "stock-portal-kappa.vercel.app",
+    "title": "Stock Portal",
+    "url": "https://stock-portal-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stock-portal-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:07.957Z"
+  },
+  {
+    "hostname": "muffinclicker.vercel.app",
+    "title": "Muffin Clicker",
+    "url": "https://muffinclicker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://muffinclicker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 373,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:08.331Z"
+  },
+  {
+    "hostname": "13-hkmmkk.vercel.app",
+    "title": "Testy OWE",
+    "url": "https://13-hkmmkk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://13-hkmmkk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 324,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:08.656Z"
+  },
+  {
+    "hostname": "googlehome-dashboard.vercel.app",
+    "title": "Dashboard",
+    "url": "https://googlehome-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://googlehome-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 436,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:09.093Z"
+  },
+  {
+    "hostname": "tejesh18.github.io",
+    "title": "tejesh18.github.io",
+    "url": "https://tejesh18.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tejesh18.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 107,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:09.338Z"
+  },
+  {
+    "hostname": "subhajitdesigns.github.io",
+    "title": "Subhajit's Design — Graphic Designer & Motion Designer",
+    "url": "https://subhajitdesigns.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://subhajitdesigns.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:09.584Z"
+  },
+  {
+    "hostname": "matthewgvc.github.io",
+    "title": "Matt Bloomfield — GVC Workspace",
+    "url": "https://matthewgvc.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://matthewgvc.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 93,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T16:18:09.677Z"
+  },
+  {
+    "hostname": "ilyomix.github.io",
+    "title": "Ilyes Abd-Lillah · Software &amp; Design Engineer in Toulouse",
+    "url": "https://ilyomix.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ilyomix.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T16:18:09.817Z"
+  },
+  {
+    "hostname": "porrtfolio.infinityfreeapp.com",
+    "title": "porrtfolio.infinityfreeapp.com",
+    "url": "https://porrtfolio.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://porrtfolio.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 563,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T16:18:10.751Z"
+  },
+  {
     "hostname": "veriflow-theta.vercel.app",
     "title": "Veriflow — Otomatis QA Logistik",
     "url": "https://veriflow-theta.vercel.app",
