@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "salutti.vercel.app",
+    "title": "Salutti",
+    "url": "https://salutti.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://salutti.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 481,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:41:58.375Z"
+  },
+  {
+    "hostname": "veil-blush-two.vercel.app",
+    "title": "Veil — find the photographer who already shoots your wedding",
+    "url": "https://veil-blush-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veil-blush-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 331,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:41:58.708Z"
+  },
+  {
+    "hostname": "goat-hoopers-site.vercel.app",
+    "title": "GOAT Hoopers — Fantasy Basketball League",
+    "url": "https://goat-hoopers-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://goat-hoopers-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1559,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:00.334Z"
+  },
+  {
+    "hostname": "developer-portfolio-iota-ten.vercel.app",
+    "title": "Kalabe Kebede | Senior Software Engineer &amp; Forward Deployed Engineer",
+    "url": "https://developer-portfolio-iota-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://developer-portfolio-iota-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 697,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:02.202Z"
+  },
+  {
+    "hostname": "acreledger.vercel.app",
+    "title": "AcreLedger — Precision Agriculture Manager",
+    "url": "https://acreledger.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://acreledger.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 407,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:03.607Z"
+  },
+  {
+    "hostname": "it-learning-hub-three.vercel.app",
+    "title": "IT Learning Hub",
+    "url": "https://it-learning-hub-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://it-learning-hub-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 292,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:03.900Z"
+  },
+  {
+    "hostname": "sistema-tesinas.vercel.app",
+    "title": "frontend",
+    "url": "https://sistema-tesinas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sistema-tesinas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 309,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:04.209Z"
+  },
+  {
+    "hostname": "kaleidohedra.vercel.app",
+    "title": "Kaleidohedra by DICTO — Shearable Lattices and the Euclid–Kepler–Pacioli Cell",
+    "url": "https://kaleidohedra.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kaleidohedra.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 345,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:04.556Z"
+  },
+  {
+    "hostname": "sivtr.pages.dev",
+    "title": "sivtr | sivtr",
+    "url": "https://sivtr.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sivtr.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 364,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T01:42:04.922Z"
+  },
+  {
+    "hostname": "brickbreaker-live.netlify.app",
+    "title": "Generate Brick Breaker - Live Preview Studio",
+    "url": "https://brickbreaker-live.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brickbreaker-live.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 629,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:05.552Z"
+  },
+  {
+    "hostname": "dyannpointillistic77.github.io",
+    "title": "📱 android-home-server - Use old phones as home servers | Dyannpointillistic77",
+    "url": "https://dyannpointillistic77.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dyannpointillistic77.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:05.825Z"
+  },
+  {
+    "hostname": "princeya3822.github.io",
+    "title": "BevelDesk - Your Vintage Desktop Experience",
+    "url": "https://princeya3822.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://princeya3822.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 143,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-08T01:42:05.969Z"
+  },
+  {
+    "hostname": "menos-pior.up.railway.app",
+    "title": "Menos Pior",
+    "url": "https://menos-pior.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://menos-pior.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 77,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-08T01:42:06.170Z"
+  },
+  {
     "hostname": "guia-acougue.vercel.app",
     "title": "O Guia do Açougue — compre carne sem enrolação",
     "url": "https://guia-acougue.vercel.app",
