@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "tripsz.vercel.app",
+    "title": "tripsz — o melhor roteiro de futebol para sua viagem",
+    "url": "https://tripsz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tripsz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:22.447Z"
+  },
+  {
+    "hostname": "moe-africa-mvp.vercel.app",
+    "title": "MOE - African Artisan Marketplace | Built For Africa, By Us",
+    "url": "https://moe-africa-mvp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://moe-africa-mvp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 363,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:22.811Z"
+  },
+  {
+    "hostname": "seeing-stars-agency.vercel.app",
+    "title": "Seeing Stars Agency | Brand and business support for emerging artists",
+    "url": "https://seeing-stars-agency.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://seeing-stars-agency.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:23.671Z"
+  },
+  {
+    "hostname": "ftn-nastavni-portal.vercel.app",
+    "title": "FTN — Nastavni materijali",
+    "url": "https://ftn-nastavni-portal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ftn-nastavni-portal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:23.908Z"
+  },
+  {
+    "hostname": "dermovit-lite-blond.vercel.app",
+    "title": "DermoViT-Lite · Skin Lesion Screening",
+    "url": "https://dermovit-lite-blond.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dermovit-lite-blond.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:24.125Z"
+  },
+  {
+    "hostname": "spacematch1-flax.vercel.app",
+    "title": "SpaceMatch Addis | Roommate Matching &amp; Housing Ecosystem",
+    "url": "https://spacematch1-flax.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://spacematch1-flax.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:29.411Z"
+  },
+  {
+    "hostname": "plantas-qr.vercel.app",
+    "title": "PlantaQR · Árboles del Parque de Chitagá",
+    "url": "https://plantas-qr.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://plantas-qr.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:29.639Z"
+  },
+  {
+    "hostname": "plan-cw.pages.dev",
+    "title": "Harmonogram Collegium Witelona",
+    "url": "https://plan-cw.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://plan-cw.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 218,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T21:32:29.857Z"
+  },
+  {
+    "hostname": "davidwise01.github.io",
+    "title": "ROOT0 — David Lee Wise / TriPod LLC",
+    "url": "https://davidwise01.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://davidwise01.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:30.168Z"
+  },
+  {
+    "hostname": "mockrep.onrender.com",
+    "title": "MockRep - AI interview prep",
+    "url": "https://mockrep.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mockrep.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T21:32:30.397Z"
+  },
+  {
+    "hostname": "e-voce-o-que-acha.up.railway.app",
+    "title": "E Você, O Que Acha?",
+    "url": "https://e-voce-o-que-acha.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://e-voce-o-que-acha.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T21:32:30.625Z"
+  },
+  {
     "hostname": "aria-a-ivoice-agent.vercel.app",
     "title": "Aria - Aura Skincare voice support",
     "url": "https://aria-a-ivoice-agent.vercel.app",
