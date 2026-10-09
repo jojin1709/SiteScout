@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "aria-a-ivoice-agent.vercel.app",
+    "title": "Aria - Aura Skincare voice support",
+    "url": "https://aria-a-ivoice-agent.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aria-a-ivoice-agent.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 386,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:01:58.696Z"
+  },
+  {
+    "hostname": "playgtav.vercel.app",
+    "title": "Play GTA 5 in Browser | GTA 5 Web Edition Online",
+    "url": "https://playgtav.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://playgtav.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 332,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:01:59.029Z"
+  },
+  {
+    "hostname": "surf-dracula-site.vercel.app",
+    "title": "Surf Dracula ($SURFDRAC) | The coin that skips the backstory",
+    "url": "https://surf-dracula-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://surf-dracula-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 274,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:01:59.399Z"
+  },
+  {
+    "hostname": "mmariacosta.vercel.app",
+    "title": "Maria Costa · Desenvolvedora ADVPL e Cibersegurança",
+    "url": "https://mmariacosta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mmariacosta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:01:59.684Z"
+  },
+  {
+    "hostname": "adewaleclassroom.vercel.app",
+    "title": "ADEWALE CLASSROOM — official tutoring portal",
+    "url": "https://adewaleclassroom.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://adewaleclassroom.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 285,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:01:59.970Z"
+  },
+  {
+    "hostname": "wwlight.vercel.app",
+    "title": "wwlight - wwlight.github.io",
+    "url": "https://wwlight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wwlight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 536,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:02:00.507Z"
+  },
+  {
+    "hostname": "zavod-chi.vercel.app",
+    "title": "ZAVOD",
+    "url": "https://zavod-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zavod-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 486,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:02:02.387Z"
+  },
+  {
+    "hostname": "cuentas-jefes.vercel.app",
+    "title": "Cuentas | Gerencia",
+    "url": "https://cuentas-jefes.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cuentas-jefes.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 275,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:02:03.076Z"
+  },
+  {
+    "hostname": "iran-internet-monitor.pages.dev",
+    "title": "IranNet Monitor — پایش اینترنت ایران",
+    "url": "https://iran-internet-monitor.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://iran-internet-monitor.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 206,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T16:02:03.285Z"
+  },
+  {
+    "hostname": "cappelladegliscrovegni.netlify.app",
+    "title": "Loading...",
+    "url": "https://cappelladegliscrovegni.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cappelladegliscrovegni.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 789,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T16:02:04.074Z"
+  },
+  {
+    "hostname": "my-ecommerce.42web.io",
+    "title": "my-ecommerce.42web.io",
+    "url": "https://my-ecommerce.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://my-ecommerce.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 669,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T16:02:04.868Z"
+  },
+  {
     "hostname": "lalla-pearl.vercel.app",
     "title": "LALLAT | Louez caftans et takchitas entre particulières, partout en Belgique",
     "url": "https://lalla-pearl.vercel.app",
