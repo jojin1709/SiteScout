@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "cafe-zaytouna.vercel.app",
+    "title": "Café Zaytouna · Café, matcha et crème brûlée à Montréal",
+    "url": "https://cafe-zaytouna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cafe-zaytouna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 254,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T01:57:40.362Z"
+  },
+  {
+    "hostname": "jam-hai-jam-date.vercel.app",
+    "title": "Will you go on a date with me? 🌸",
+    "url": "https://jam-hai-jam-date.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jam-hai-jam-date.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 173,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T01:57:40.536Z"
+  },
+  {
+    "hostname": "fire-ai-classroom.vercel.app",
+    "title": "소방학교 AI 강의실",
+    "url": "https://fire-ai-classroom.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fire-ai-classroom.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T01:57:40.784Z"
+  },
+  {
+    "hostname": "gm-dashboard-two.vercel.app",
+    "title": "SOC Team Manager",
+    "url": "https://gm-dashboard-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gm-dashboard-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 980,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T01:57:41.765Z"
+  },
+  {
+    "hostname": "compracar.vercel.app",
+    "title": "CompraCar — Compra y vende tu auto seminuevo",
+    "url": "https://compracar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://compracar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T01:57:41.969Z"
+  },
+  {
+    "hostname": "ckpool-sentinel.vercel.app",
+    "title": "CKPool Sentinel | Bitcoin Solo Mining Live Dashboard",
+    "url": "https://ckpool-sentinel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ckpool-sentinel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 278,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T01:57:42.248Z"
+  },
+  {
+    "hostname": "joystick-go-store.pages.dev",
+    "title": "Joystick Go Store",
+    "url": "https://joystick-go-store.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://joystick-go-store.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T01:57:42.619Z"
+  },
+  {
     "hostname": "yieldstream-app.vercel.app",
     "title": "YieldStream Protocol",
     "url": "https://yieldstream-app.vercel.app",
