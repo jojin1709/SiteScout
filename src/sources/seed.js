@@ -1,5 +1,100 @@
 export const SEED_SITES = [
   {
+    "hostname": "lalla-pearl.vercel.app",
+    "title": "LALLAT | Louez caftans et takchitas entre particulières, partout en Belgique",
+    "url": "https://lalla-pearl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lalla-pearl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 368,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T08:52:37.906Z"
+  },
+  {
+    "hostname": "la-graffa.vercel.app",
+    "title": "LaGraffa &mdash; Notizie con contesto",
+    "url": "https://la-graffa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://la-graffa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T08:52:44.138Z"
+  },
+  {
+    "hostname": "revive-ai-one.vercel.app",
+    "title": "ReviveAI — Revenue Recovery OS",
+    "url": "https://revive-ai-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://revive-ai-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-09T08:52:45.718Z"
+  },
+  {
+    "hostname": "inclusivecity.onrender.com",
+    "title": "ICity — доступная карта",
+    "url": "https://inclusivecity.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://inclusivecity.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 184,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T08:52:46.040Z"
+  },
+  {
+    "hostname": "travelindiaguide.infinityfreeapp.com",
+    "title": "travelindiaguide.infinityfreeapp.com",
+    "url": "https://travelindiaguide.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://travelindiaguide.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 667,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-09T08:52:46.708Z"
+  },
+  {
     "hostname": "cafe-zaytouna.vercel.app",
     "title": "Café Zaytouna · Café, matcha et crème brûlée à Montréal",
     "url": "https://cafe-zaytouna.vercel.app",
