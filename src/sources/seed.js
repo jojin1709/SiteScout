@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "event-intelligence-dashboard-indol.vercel.app",
+    "title": "Event Intel — Opportunity Dashboard",
+    "url": "https://event-intelligence-dashboard-indol.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://event-intelligence-dashboard-indol.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 241,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:26.051Z"
+  },
+  {
+    "hostname": "starter-blog-brown.vercel.app",
+    "title": "Nix Echo",
+    "url": "https://starter-blog-brown.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://starter-blog-brown.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:26.380Z"
+  },
+  {
+    "hostname": "frutos-secos-drab.vercel.app",
+    "title": "Colo Shop — tienda online",
+    "url": "https://frutos-secos-drab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://frutos-secos-drab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 448,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:26.830Z"
+  },
+  {
+    "hostname": "flaxon-website.vercel.app",
+    "title": "Flaxon – Simple Python. Serious Applications.",
+    "url": "https://flaxon-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flaxon-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:27.067Z"
+  },
+  {
+    "hostname": "react-resizable-panels.vercel.app",
+    "title": "react-resizable-panels | flexible layout components",
+    "url": "https://react-resizable-panels.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://react-resizable-panels.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:27.312Z"
+  },
+  {
+    "hostname": "aplicacion-senalesyregistros.vercel.app",
+    "title": "VELTRIX · Tu centro de trading en vivo",
+    "url": "https://aplicacion-senalesyregistros.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aplicacion-senalesyregistros.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 241,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:27.554Z"
+  },
+  {
+    "hostname": "f1-strategy-engine.vercel.app",
+    "title": "F1SE / F1 OS — the F1 app that predicts, and shows its work",
+    "url": "https://f1-strategy-engine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://f1-strategy-engine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 304,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:27.859Z"
+  },
+  {
+    "hostname": "libero-multi.vercel.app",
+    "title": "Libero's Multi",
+    "url": "https://libero-multi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://libero-multi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 432,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:28.293Z"
+  },
+  {
+    "hostname": "yasno-snake-game.netlify.app",
+    "title": "Онлайн Iгра Змійки",
+    "url": "https://yasno-snake-game.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yasno-snake-game.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 634,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:28.933Z"
+  },
+  {
+    "hostname": "stenalrodrigues.github.io",
+    "title": "Stenal Rodrigues | Data Portfolio",
+    "url": "https://stenalrodrigues.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stenalrodrigues.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 102,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:29.152Z"
+  },
+  {
+    "hostname": "finpulse-frontend-jrsd.onrender.com",
+    "title": "FinPulseAI",
+    "url": "https://finpulse-frontend-jrsd.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finpulse-frontend-jrsd.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T15:10:29.411Z"
+  },
+  {
+    "hostname": "outfallwatch.onrender.com",
+    "title": "OutfallWatch — Detect Change. Protect the Coast.",
+    "url": "https://outfallwatch.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://outfallwatch.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T15:10:29.602Z"
+  },
+  {
+    "hostname": "e-rechnung-api.fly.dev",
+    "title": "ZUGFeRD & Factur-X API | E-Rechnungen leicht gemacht",
+    "url": "https://e-rechnung-api.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://e-rechnung-api.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 359,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T15:10:29.997Z"
+  },
+  {
     "hostname": "idea-forge-wine.vercel.app",
     "title": "IdeaForge",
     "url": "https://idea-forge-wine.vercel.app",
