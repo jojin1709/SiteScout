@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "banda-nova-york.vercel.app",
+    "title": "Banda Nova York · Música, performance e energia",
+    "url": "https://banda-nova-york.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://banda-nova-york.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T01:36:40.937Z"
+  },
+  {
+    "hostname": "lifetracker-md.vercel.app",
+    "title": "frontend",
+    "url": "https://lifetracker-md.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lifetracker-md.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 179,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T01:36:41.117Z"
+  },
+  {
+    "hostname": "project3-03.vercel.app",
+    "title": "DormCRU — หาหอพักใกล้ราชภัฏเชียงราย",
+    "url": "https://project3-03.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project3-03.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T01:36:41.410Z"
+  },
+  {
+    "hostname": "origoni-site.vercel.app",
+    "title": "Claudia Origoni, scrittrice e saggista",
+    "url": "https://origoni-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://origoni-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 132,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T01:36:41.543Z"
+  },
+  {
+    "hostname": "logistica-app-nu.vercel.app",
+    "title": "LogiObra - Sistema de Logística",
+    "url": "https://logistica-app-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://logistica-app-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 402,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T01:36:41.946Z"
+  },
+  {
+    "hostname": "maple-guild-tracker.vercel.app",
+    "title": "거울 길드 대시보드",
+    "url": "https://maple-guild-tracker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maple-guild-tracker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 744,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T01:36:42.794Z"
+  },
+  {
+    "hostname": "cambibak.rf.gd",
+    "title": "cambibak.rf.gd",
+    "url": "https://cambibak.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cambibak.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 622,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T01:36:43.564Z"
+  },
+  {
     "hostname": "tripsz.vercel.app",
     "title": "tripsz — o melhor roteiro de futebol para sua viagem",
     "url": "https://tripsz.vercel.app",
