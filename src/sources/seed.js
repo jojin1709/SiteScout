@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "idea-forge-wine.vercel.app",
+    "title": "IdeaForge",
+    "url": "https://idea-forge-wine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://idea-forge-wine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 629,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:27.781Z"
+  },
+  {
+    "hostname": "rimtown.vercel.app",
+    "title": "邊境鎮 - AI 小鎮模擬",
+    "url": "https://rimtown.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rimtown.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 335,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:28.117Z"
+  },
+  {
+    "hostname": "flowpay-tau-sand.vercel.app",
+    "title": "Flowpay",
+    "url": "https://flowpay-tau-sand.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flowpay-tau-sand.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1105,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:30.304Z"
+  },
+  {
+    "hostname": "palixa-site.vercel.app",
+    "title": "Palixia",
+    "url": "https://palixa-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://palixa-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 369,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:30.674Z"
+  },
+  {
+    "hostname": "kino-telegram-mini-app.vercel.app",
+    "title": "NTV",
+    "url": "https://kino-telegram-mini-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kino-telegram-mini-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:30.871Z"
+  },
+  {
+    "hostname": "nakama-website.vercel.app",
+    "title": "Nakama Growth — Be the brand they already know.",
+    "url": "https://nakama-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nakama-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 404,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:31.278Z"
+  },
+  {
+    "hostname": "parvbajaj.github.io",
+    "title": "Parv Bajaj Porfolio",
+    "url": "https://parvbajaj.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://parvbajaj.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:31.810Z"
+  },
+  {
+    "hostname": "hireready-1-0hvc.onrender.com",
+    "title": "HireReady | AI-Powered Interview Practice &amp; Mock Interviews",
+    "url": "https://hireready-1-0hvc.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hireready-1-0hvc.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T08:19:32.259Z"
+  },
+  {
+    "hostname": "finalairbnb-9.onrender.com",
+    "title": "airbnb Home",
+    "url": "https://finalairbnb-9.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finalairbnb-9.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 458,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T08:19:32.719Z"
+  },
+  {
+    "hostname": "samar-learnify.infinityfreeapp.com",
+    "title": "samar-learnify.infinityfreeapp.com",
+    "url": "https://samar-learnify.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://samar-learnify.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 623,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T08:19:38.343Z"
+  },
+  {
     "hostname": "banda-nova-york.vercel.app",
     "title": "Banda Nova York · Música, performance e energia",
     "url": "https://banda-nova-york.vercel.app",
