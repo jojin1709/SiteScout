@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "nexworth-ten.vercel.app",
+    "title": "NexWorth — AI Financial Intelligence",
+    "url": "https://nexworth-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexworth-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:06.227Z"
+  },
+  {
+    "hostname": "ux-technique-gallery.vercel.app",
+    "title": "UX Technique Gallery · 매일의 UX/UI 클론 연습 아카이브",
+    "url": "https://ux-technique-gallery.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ux-technique-gallery.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:06.446Z"
+  },
+  {
+    "hostname": "xavierwongzh.vercel.app",
+    "title": "Xavier Wong | Aviation Systems • Optimization • Analytics",
+    "url": "https://xavierwongzh.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xavierwongzh.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:06.744Z"
+  },
+  {
+    "hostname": "vixrex-public.vercel.app",
+    "title": "Vixrex — İşletmenin dijital vitrini, dakikalar içinde",
+    "url": "https://vixrex-public.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vixrex-public.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:06.907Z"
+  },
+  {
+    "hostname": "streamhd.vercel.app",
+    "title": "STREAM HD | MOVIE BOX EDITION",
+    "url": "https://streamhd.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://streamhd.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 80,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:07.112Z"
+  },
+  {
+    "hostname": "vimmik.vercel.app",
+    "title": "VIMMIK | For Your Smart Future",
+    "url": "https://vimmik.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vimmik.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:07.491Z"
+  },
+  {
+    "hostname": "rushmore-bank.vercel.app",
+    "title": "Beans",
+    "url": "https://rushmore-bank.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rushmore-bank.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:07.670Z"
+  },
+  {
+    "hostname": "truss-gray.vercel.app",
+    "title": "TRUSS · release admission",
+    "url": "https://truss-gray.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://truss-gray.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 140,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T19:56:07.810Z"
+  },
+  {
+    "hostname": "jowch.github.io",
+    "title": "Jonathan Chen",
+    "url": "https://jowch.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jowch.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 49,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T19:56:08.192Z"
+  },
+  {
+    "hostname": "voxshift134.up.railway.app",
+    "title": "Live Voice Translator — Persian → English",
+    "url": "https://voxshift134.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voxshift134.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 31,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T19:56:13.254Z"
+  },
+  {
     "hostname": "event-intelligence-dashboard-indol.vercel.app",
     "title": "Event Intel — Opportunity Dashboard",
     "url": "https://event-intelligence-dashboard-indol.vercel.app",
