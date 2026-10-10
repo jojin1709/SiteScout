@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "bazar-dor-hazel-ten.vercel.app",
+    "title": "বাজার দর — আজকের বাজারদর এক নজরে",
+    "url": "https://bazar-dor-hazel-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bazar-dor-hazel-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 254,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:24:57.714Z"
+  },
+  {
+    "hostname": "runner-app-six.vercel.app",
+    "title": "Runner App",
+    "url": "https://runner-app-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://runner-app-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 460,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:24:58.175Z"
+  },
+  {
+    "hostname": "cyber-siege-chi.vercel.app",
+    "title": "Cyber Siege: Line Wars | 1v1 Multiplayer Tower Defense",
+    "url": "https://cyber-siege-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cyber-siege-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:24:59.916Z"
+  },
+  {
+    "hostname": "uprix.vercel.app",
+    "title": "Uprix",
+    "url": "https://uprix.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uprix.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 925,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:25:01.831Z"
+  },
+  {
+    "hostname": "bonfirely.vercel.app",
+    "title": "Bonfirely — Windows e Android Alpha",
+    "url": "https://bonfirely.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bonfirely.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:25:01.928Z"
+  },
+  {
+    "hostname": "residual-teal.vercel.app",
+    "title": "RESIDUAL · Event Neutral Earnings Agent",
+    "url": "https://residual-teal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://residual-teal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 403,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:25:02.333Z"
+  },
+  {
+    "hostname": "ciszunetwork.vercel.app",
+    "title": "Ciszu Network | HOME",
+    "url": "https://ciszunetwork.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ciszunetwork.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1866,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:25:04.203Z"
+  },
+  {
+    "hostname": "odin-rpg.pages.dev",
+    "title": "O.D.I.N.: kostenloses Horror-Rollenspiel auf Deutsch als PDF",
+    "url": "https://odin-rpg.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://odin-rpg.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T23:25:05.590Z"
+  },
+  {
+    "hostname": "1990-arcade.pages.dev",
+    "title": "1990 Arcade",
+    "url": "https://1990-arcade.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://1990-arcade.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-10T23:25:05.745Z"
+  },
+  {
+    "hostname": "mnemosyne-systems.github.io",
+    "title": "mnemosyne systems — intelligent open source for PostgreSQL &amp; developers",
+    "url": "https://mnemosyne-systems.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mnemosyne-systems.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-10T23:25:05.903Z"
+  },
+  {
     "hostname": "nexworth-ten.vercel.app",
     "title": "NexWorth — AI Financial Intelligence",
     "url": "https://nexworth-ten.vercel.app",
