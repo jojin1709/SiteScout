@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "nikhilxagr.vercel.app",
+    "title": "Nikhil Agrahari | Best Full Stack Developer in Lucknow & Prayagraj",
+    "url": "https://nikhilxagr.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nikhilxagr.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 316,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:43.904Z"
+  },
+  {
+    "hostname": "metro-route-finder-beige.vercel.app",
+    "title": "Delhi Metro Route Finder | Classic Transit Edition",
+    "url": "https://metro-route-finder-beige.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://metro-route-finder-beige.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 285,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:44.190Z"
+  },
+  {
+    "hostname": "carona-campus-aluno.vercel.app",
+    "title": "CaronaCampus",
+    "url": "https://carona-campus-aluno.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://carona-campus-aluno.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:44.508Z"
+  },
+  {
+    "hostname": "pawnote-frontend.vercel.app",
+    "title": "Goldito",
+    "url": "https://pawnote-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pawnote-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:45.916Z"
+  },
+  {
+    "hostname": "bazar-dor-omega-six.vercel.app",
+    "title": "বাজার দর - দৈনন্দিন পণ্যের সঠিক বাজার মূল্য",
+    "url": "https://bazar-dor-omega-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bazar-dor-omega-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 194,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:47.763Z"
+  },
+  {
+    "hostname": "prompt-engineering-ai.vercel.app",
+    "title": "Bodha AI",
+    "url": "https://prompt-engineering-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://prompt-engineering-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 335,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:48.099Z"
+  },
+  {
+    "hostname": "acme-salary-manager.vercel.app",
+    "title": "ACME Salary Manager",
+    "url": "https://acme-salary-manager.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://acme-salary-manager.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:48.369Z"
+  },
+  {
+    "hostname": "ringside-dashboard.vercel.app",
+    "title": "Ringside | Private Payments for AI Agents",
+    "url": "https://ringside-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ringside-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 565,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:48.936Z"
+  },
+  {
+    "hostname": "guspot-demo.pages.dev",
+    "title": "GuSpot — Estacionamiento cerca, con precio claro",
+    "url": "https://guspot-demo.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guspot-demo.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:49.244Z"
+  },
+  {
+    "hostname": "saugi.pages.dev",
+    "title": "Roscoe",
+    "url": "https://saugi.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://saugi.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T17:57:49.491Z"
+  },
+  {
+    "hostname": "cosmicastrax.netlify.app",
+    "title": "CosmicAstraX",
+    "url": "https://cosmicastrax.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cosmicastrax.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 236,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T17:57:49.777Z"
+  },
+  {
+    "hostname": "aircraftengine.fly.dev",
+    "title": "Aircraft Engine Simulator",
+    "url": "https://aircraftengine.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aircraftengine.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 263,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T17:57:50.267Z"
+  },
+  {
     "hostname": "apt-dashboard-five.vercel.app",
     "title": "아파트 실거래가 대시보드",
     "url": "https://apt-dashboard-five.vercel.app",
