@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "stem-cloud.vercel.app",
+    "title": "STEM Cloud · Digitalized Learning Platform for G.C.E. O/L",
+    "url": "https://stem-cloud.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Astro",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stem-cloud.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 215,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T05:15:53.443Z"
+  },
+  {
+    "hostname": "upl-30-0.vercel.app",
+    "title": "30-0 УПЛ",
+    "url": "https://upl-30-0.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://upl-30-0.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T05:15:53.653Z"
+  },
+  {
+    "hostname": "zyfay-official.vercel.app",
+    "title": "zyfay-official.vercel.app",
+    "url": "https://zyfay-official.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zyfay-official.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2133,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T05:15:56.943Z"
+  },
+  {
+    "hostname": "futureofjobs.vercel.app",
+    "title": "future_of_jobs",
+    "url": "https://futureofjobs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://futureofjobs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 177,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T05:15:57.120Z"
+  },
+  {
+    "hostname": "desktoppet-e9e.pages.dev",
+    "title": "desktop pet · 广场与制作工作台",
+    "url": "https://desktoppet-e9e.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://desktoppet-e9e.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T05:15:57.515Z"
+  },
+  {
+    "hostname": "s2u2.netlify.app",
+    "title": "Scheme to URL — 将链接或 URL Scheme 转换为跳转链接",
+    "url": "https://s2u2.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://s2u2.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 126,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T05:15:57.641Z"
+  },
+  {
+    "hostname": "nexus2231.netlify.app",
+    "title": "Nexus — Open Source Commit Engine",
+    "url": "https://nexus2231.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexus2231.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 200,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T05:15:57.844Z"
+  },
+  {
+    "hostname": "rs-sdk-demo.fly.dev",
+    "title": "2004Scape Bot Client",
+    "url": "https://rs-sdk-demo.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rs-sdk-demo.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T05:15:58.707Z"
+  },
+  {
+    "hostname": "fantasy-f1-kb7njg.fly.dev",
+    "title": "Fantasy F1 - Team Builder &amp; Predictor",
+    "url": "https://fantasy-f1-kb7njg.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fantasy-f1-kb7njg.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2851,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T05:16:01.559Z"
+  },
+  {
+    "hostname": "copyaja.rf.gd",
+    "title": "copyaja.rf.gd",
+    "url": "https://copyaja.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://copyaja.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 709,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T05:16:02.268Z"
+  },
+  {
     "hostname": "bazar-dor-hazel-ten.vercel.app",
     "title": "বাজার দর — আজকের বাজারদর এক নজরে",
     "url": "https://bazar-dor-hazel-ten.vercel.app",
