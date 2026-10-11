@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "f1-race-visualizer-alpha.vercel.app",
+    "title": "RaceLines — every position change, lap by lap",
+    "url": "https://f1-race-visualizer-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://f1-race-visualizer-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 344,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:50.649Z"
+  },
+  {
+    "hostname": "lateralzr-client.vercel.app",
+    "title": "Lateralzr",
+    "url": "https://lateralzr-client.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lateralzr-client.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:50.870Z"
+  },
+  {
+    "hostname": "meltech-invoice.vercel.app",
+    "title": "Meltech &#8212; Invoices & Quotations",
+    "url": "https://meltech-invoice.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://meltech-invoice.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:51.052Z"
+  },
+  {
+    "hostname": "all-in-1-delta.vercel.app",
+    "title": "Golf App",
+    "url": "https://all-in-1-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://all-in-1-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:51.842Z"
+  },
+  {
+    "hostname": "juego-invasion.vercel.app",
+    "title": "SUPER INVASORES",
+    "url": "https://juego-invasion.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://juego-invasion.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:52.139Z"
+  },
+  {
+    "hostname": "crys-store.vercel.app",
+    "title": "Chrys Store",
+    "url": "https://crys-store.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://crys-store.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1273,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:53.415Z"
+  },
+  {
+    "hostname": "camp-district-3-en-1-2026.vercel.app",
+    "title": "Camp de District 3 en 1 — Garango 2026",
+    "url": "https://camp-district-3-en-1-2026.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://camp-district-3-en-1-2026.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:53.921Z"
+  },
+  {
+    "hostname": "flyrpro.vercel.app",
+    "title": "WolfGrid — Field Prospecting, Connected",
+    "url": "https://flyrpro.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flyrpro.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:54.239Z"
+  },
+  {
+    "hostname": "tamaninah.netlify.app",
+    "title": "طمأنينة | Tamaninah — من تجربة تعيشها إلى معرفة تكتشفها",
+    "url": "https://tamaninah.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tamaninah.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 95,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T21:47:54.487Z"
+  },
+  {
     "hostname": "nikhilxagr.vercel.app",
     "title": "Nikhil Agrahari | Best Full Stack Developer in Lucknow & Prayagraj",
     "url": "https://nikhilxagr.vercel.app",
