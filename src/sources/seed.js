@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "apt-dashboard-five.vercel.app",
+    "title": "아파트 실거래가 대시보드",
+    "url": "https://apt-dashboard-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apt-dashboard-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:55.943Z"
+  },
+  {
+    "hostname": "reddit-scraper-lyart.vercel.app",
+    "title": "Daily Reader",
+    "url": "https://reddit-scraper-lyart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reddit-scraper-lyart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1348,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:57.316Z"
+  },
+  {
+    "hostname": "hyundai-autoever-hr-portfolio.vercel.app",
+    "title": "이준호 | 현대오토에버 HR Portfolio",
+    "url": "https://hyundai-autoever-hr-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hyundai-autoever-hr-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:57.773Z"
+  },
+  {
+    "hostname": "rooftop-rumble-lake.vercel.app",
+    "title": "Rooftop Rumble — Play in your browser",
+    "url": "https://rooftop-rumble-lake.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rooftop-rumble-lake.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:58.115Z"
+  },
+  {
+    "hostname": "reactsupabase.vercel.app",
+    "title": "명화 감상 노트",
+    "url": "https://reactsupabase.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reactsupabase.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 252,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:58.368Z"
+  },
+  {
+    "hostname": "ai-in-academic-libraries.vercel.app",
+    "title": "AI for Academic Libraries",
+    "url": "https://ai-in-academic-libraries.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-in-academic-libraries.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 264,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:59.834Z"
+  },
+  {
+    "hostname": "hangman-cipher.netlify.app",
+    "title": "Cipher × Hangman — Menu",
+    "url": "https://hangman-cipher.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hangman-cipher.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:30:59.972Z"
+  },
+  {
+    "hostname": "genai-frontend-ixp0.onrender.com",
+    "title": "frontend",
+    "url": "https://genai-frontend-ixp0.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://genai-frontend-ixp0.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 389,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:31:00.921Z"
+  },
+  {
+    "hostname": "kb-chat-1.onrender.com",
+    "title": "Kryzen — Connect. Chat. Share.",
+    "url": "https://kb-chat-1.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kb-chat-1.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 350,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-11T12:31:01.272Z"
+  },
+  {
+    "hostname": "nigeria-rp-production.up.railway.app",
+    "title": "Nigeria Roleplay - Port Harcourt Build",
+    "url": "https://nigeria-rp-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nigeria-rp-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 126,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-11T12:31:01.533Z"
+  },
+  {
     "hostname": "stem-cloud.vercel.app",
     "title": "STEM Cloud · Digitalized Learning Platform for G.C.E. O/L",
     "url": "https://stem-cloud.vercel.app",
