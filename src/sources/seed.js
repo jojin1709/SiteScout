@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "drop-pulse.vercel.app",
+    "title": "DropFlex · Tus productos listos para vender",
+    "url": "https://drop-pulse.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://drop-pulse.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 832,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:34.267Z"
+  },
+  {
+    "hostname": "digesto-unsl.vercel.app",
+    "title": "Digesto Administrativo UNSL",
+    "url": "https://digesto-unsl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://digesto-unsl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:34.502Z"
+  },
+  {
+    "hostname": "pusula-delta.vercel.app",
+    "title": "Pusula",
+    "url": "https://pusula-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pusula-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:34.716Z"
+  },
+  {
+    "hostname": "tabatha-vert.vercel.app",
+    "title": "Tabatha: Alt+Tab for your Chrome tabs",
+    "url": "https://tabatha-vert.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tabatha-vert.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 51,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:34.975Z"
+  },
+  {
+    "hostname": "iron-sight-drab.vercel.app",
+    "title": "Iron Sight",
+    "url": "https://iron-sight-drab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://iron-sight-drab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:36.225Z"
+  },
+  {
+    "hostname": "school-management-system-client-livid.vercel.app",
+    "title": "School Management System",
+    "url": "https://school-management-system-client-livid.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://school-management-system-client-livid.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:36.454Z"
+  },
+  {
+    "hostname": "excel-csv-reporting-automation.vercel.app",
+    "title": "Sales Reporting Automation | Synthetic Demo",
+    "url": "https://excel-csv-reporting-automation.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://excel-csv-reporting-automation.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 170,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:36.754Z"
+  },
+  {
+    "hostname": "rommygames.netlify.app",
+    "title": "Rommy Games",
+    "url": "https://rommygames.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rommygames.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 336,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:37.217Z"
+  },
+  {
+    "hostname": "dynahtwentyfirst674.github.io",
+    "title": "Roblox-Hide-Assist User Guide",
+    "url": "https://dynahtwentyfirst674.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dynahtwentyfirst674.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 128,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T18:54:37.347Z"
+  },
+  {
+    "hostname": "samar-learnify.rf.gd",
+    "title": "samar-learnify.rf.gd",
+    "url": "https://samar-learnify.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://samar-learnify.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 963,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-12T18:54:38.411Z"
+  },
+  {
+    "hostname": "php-blog-mvc.infinityfreeapp.com",
+    "title": "php-blog-mvc.infinityfreeapp.com",
+    "url": "https://php-blog-mvc.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://php-blog-mvc.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 632,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-12T18:54:39.043Z"
+  },
+  {
     "hostname": "inventory-management-sigma-henna.vercel.app",
     "title": "Inventory helper",
     "url": "https://inventory-management-sigma-henna.vercel.app",
