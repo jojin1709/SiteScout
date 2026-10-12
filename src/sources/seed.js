@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "inventory-management-sigma-henna.vercel.app",
+    "title": "Inventory helper",
+    "url": "https://inventory-management-sigma-henna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://inventory-management-sigma-henna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:21.732Z"
+  },
+  {
+    "hostname": "money-tracker-beta-teal.vercel.app",
+    "title": "เงินวันนี้ — บันทึกรายรับรายจ่าย",
+    "url": "https://money-tracker-beta-teal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://money-tracker-beta-teal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 272,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:22.005Z"
+  },
+  {
+    "hostname": "jobquest-taupe.vercel.app",
+    "title": "JobQuest — Recherche d&#x27;emploi",
+    "url": "https://jobquest-taupe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jobquest-taupe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:22.300Z"
+  },
+  {
+    "hostname": "chip-happens.vercel.app",
+    "title": "Chip Happens",
+    "url": "https://chip-happens.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chip-happens.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 313,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:22.614Z"
+  },
+  {
+    "hostname": "portfolio-gamma-hazel-24.vercel.app",
+    "title": "portfolio-gamma-hazel-24.vercel.app",
+    "url": "https://portfolio-gamma-hazel-24.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-gamma-hazel-24.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": false,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:23.146Z"
+  },
+  {
+    "hostname": "tarlapusulav27.vercel.app",
+    "title": "TarlaPusula",
+    "url": "https://tarlapusulav27.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tarlapusulav27.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:23.365Z"
+  },
+  {
+    "hostname": "interpreter-for-koreans.pages.dev",
+    "title": "Tercüman · 한국어 튀르키예어 영어 일본어 중국어 통역",
+    "url": "https://interpreter-for-koreans.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://interpreter-for-koreans.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-12T08:57:23.819Z"
+  },
+  {
+    "hostname": "yim2412.github.io",
+    "title": "프로젝트",
+    "url": "https://yim2412.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yim2412.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T08:57:24.064Z"
+  },
+  {
+    "hostname": "invoice-calculator.infinityfreeapp.com",
+    "title": "invoice-calculator.infinityfreeapp.com",
+    "url": "https://invoice-calculator.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://invoice-calculator.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 569,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-12T08:57:24.775Z"
+  },
+  {
     "hostname": "choi-bujang-secret-vault-3-8kqo.vercel.app",
     "title": "BYTE BACK | 점령된 자료실",
     "url": "https://choi-bujang-secret-vault-3-8kqo.vercel.app",
