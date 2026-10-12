@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "choi-bujang-secret-vault-3-8kqo.vercel.app",
+    "title": "BYTE BACK | 점령된 자료실",
+    "url": "https://choi-bujang-secret-vault-3-8kqo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://choi-bujang-secret-vault-3-8kqo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:34.127Z"
+  },
+  {
+    "hostname": "rag-chatbot-jade-pi.vercel.app",
+    "title": "RAG 챗봇",
+    "url": "https://rag-chatbot-jade-pi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rag-chatbot-jade-pi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 302,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:35.491Z"
+  },
+  {
+    "hostname": "pisos-mecanicos-app.vercel.app",
+    "title": "QuinTech — Ronda de Equipos",
+    "url": "https://pisos-mecanicos-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pisos-mecanicos-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 356,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:36.063Z"
+  },
+  {
+    "hostname": "explorer-app-anderson-u20240406.vercel.app",
+    "title": "Explorer App — Inicio",
+    "url": "https://explorer-app-anderson-u20240406.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://explorer-app-anderson-u20240406.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:36.164Z"
+  },
+  {
+    "hostname": "ai-discussion-club-psi.vercel.app",
+    "title": "Make DC the City for Innovators",
+    "url": "https://ai-discussion-club-psi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-discussion-club-psi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 593,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:38.111Z"
+  },
+  {
+    "hostname": "labbrilliancehi.netlify.app",
+    "title": "LabBrillianceHi - IGI Certified Lab-Grown Diamonds in Hawaii",
+    "url": "https://labbrilliancehi.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://labbrilliancehi.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:38.331Z"
+  },
+  {
+    "hostname": "dizzy-by-sirius.netlify.app",
+    "title": "Dizzy — Watch together. Your media, your rules.",
+    "url": "https://dizzy-by-sirius.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dizzy-by-sirius.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 692,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-12T01:07:39.040Z"
+  },
+  {
     "hostname": "f1-race-visualizer-alpha.vercel.app",
     "title": "RaceLines — every position change, lap by lap",
     "url": "https://f1-race-visualizer-alpha.vercel.app",
