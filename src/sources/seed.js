@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "tominiko.vercel.app",
+    "title": "Casa di Stefano | Tominiko Beans &amp; Coffee",
+    "url": "https://tominiko.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tominiko.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2988,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:12.726Z"
+  },
+  {
+    "hostname": "navi-v1.vercel.app",
+    "title": "Navi — מסלולים בתלת מימד",
+    "url": "https://navi-v1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://navi-v1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 350,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:13.078Z"
+  },
+  {
+    "hostname": "gyrs-system.vercel.app",
+    "title": "GYRS — Home | Gujarat Yuva Registration System",
+    "url": "https://gyrs-system.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gyrs-system.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:13.334Z"
+  },
+  {
+    "hostname": "project-mabisa.vercel.app",
+    "title": "BRHP-MSAM",
+    "url": "https://project-mabisa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project-mabisa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:13.563Z"
+  },
+  {
+    "hostname": "buildora-ten.vercel.app",
+    "title": "Buildora — One Team. One Vision. One Perfect Home.",
+    "url": "https://buildora-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://buildora-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 238,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:13.802Z"
+  },
+  {
+    "hostname": "getride-snowy.vercel.app",
+    "title": "GET.ride",
+    "url": "https://getride-snowy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://getride-snowy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:13.970Z"
+  },
+  {
+    "hostname": "codescope.vercel.app",
+    "title": "CodeScope: Understand your codebase. Improve your engineering.",
+    "url": "https://codescope.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codescope.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:14.191Z"
+  },
+  {
+    "hostname": "vibe-coding-portfolio-tan.vercel.app",
+    "title": "Renaldo Recchiuti — Vibe Coding Portfolio",
+    "url": "https://vibe-coding-portfolio-tan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vibe-coding-portfolio-tan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:14.370Z"
+  },
+  {
+    "hostname": "shiftstage.vercel.app",
+    "title": "Enter MyDancr",
+    "url": "https://shiftstage.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shiftstage.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 62,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T09:12:14.435Z"
+  },
+  {
     "hostname": "offlinegames-eight.vercel.app",
     "title": "Pocket Party — 12 Mini Games for Friends",
     "url": "https://offlinegames-eight.vercel.app",
