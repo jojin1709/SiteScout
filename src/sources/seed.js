@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "offlinegames-eight.vercel.app",
+    "title": "Pocket Party — 12 Mini Games for Friends",
+    "url": "https://offlinegames-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://offlinegames-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 142,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:33.073Z"
+  },
+  {
+    "hostname": "sipintar-v3.vercel.app",
+    "title": "SIPINTAR | Sistem Penilaian Terintegrasi",
+    "url": "https://sipintar-v3.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sipintar-v3.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:33.258Z"
+  },
+  {
+    "hostname": "site-falcon-ridge-digital.vercel.app",
+    "title": "Falcon Ridge Digital — Real Estate Digital Marketing Services",
+    "url": "https://site-falcon-ridge-digital.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://site-falcon-ridge-digital.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 43,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:33.427Z"
+  },
+  {
+    "hostname": "assistente-ark.vercel.app",
+    "title": "Assistente Ark — Automação Inteligente para WhatsApp Business",
+    "url": "https://assistente-ark.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://assistente-ark.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 467,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:34.030Z"
+  },
+  {
+    "hostname": "wilson360-labs.vercel.app",
+    "title": "Wilson.E — Desarrollador Web Full Stack | CodeHub Guatemala",
+    "url": "https://wilson360-labs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wilson360-labs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 134,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:34.172Z"
+  },
+  {
+    "hostname": "calrank.vercel.app",
+    "title": "2026 마라톤 대회 일정 | 전국 마라톤·트레일러닝·자전거 접수 캘린더 - calrank",
+    "url": "https://calrank.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://calrank.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:34.325Z"
+  },
+  {
+    "hostname": "open-sun.vercel.app",
+    "title": "Open Sun: a free solarpunk library",
+    "url": "https://open-sun.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://open-sun.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:34.540Z"
+  },
+  {
+    "hostname": "creatio-accounts.vercel.app",
+    "title": "Cuentas · Creatio",
+    "url": "https://creatio-accounts.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://creatio-accounts.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 151,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T01:12:34.886Z"
+  },
+  {
     "hostname": "drop-pulse.vercel.app",
     "title": "DropFlex · Tus productos listos para vender",
     "url": "https://drop-pulse.vercel.app",
