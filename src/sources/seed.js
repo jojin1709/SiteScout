@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "fiverr-sanitizer-flame.vercel.app",
+    "title": "Fiverr Message Sanitizer",
+    "url": "https://fiverr-sanitizer-flame.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fiverr-sanitizer-flame.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:53.652Z"
+  },
+  {
+    "hostname": "web-trainghiem.vercel.app",
+    "title": "PPS VIETNAM - Trải nghiệm 3 Phương Pháp",
+    "url": "https://web-trainghiem.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-trainghiem.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 266,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:54.173Z"
+  },
+  {
+    "hostname": "tradestatus.vercel.app",
+    "title": "TurnUp — one card in their wallet, not a pile of emails",
+    "url": "https://tradestatus.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tradestatus.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:54.492Z"
+  },
+  {
+    "hostname": "dragon-ai-five.vercel.app",
+    "title": "DRAGON AI",
+    "url": "https://dragon-ai-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dragon-ai-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 239,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:54.731Z"
+  },
+  {
+    "hostname": "portfolio-green-mu-vwcs1vbveo.vercel.app",
+    "title": "Aman Mishra (Calligraphy Guruji) | Software Developer | C++ • React • AI/ML",
+    "url": "https://portfolio-green-mu-vwcs1vbveo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-green-mu-vwcs1vbveo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 313,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:56.079Z"
+  },
+  {
+    "hostname": "freeingtheparrot2.vercel.app",
+    "title": "Freeing the Parrot 2.0",
+    "url": "https://freeingtheparrot2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://freeingtheparrot2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:56.299Z"
+  },
+  {
+    "hostname": "seo-tools-index.pages.dev",
+    "title": "SEO360 — Free Visual DataForSEO API Client &amp; Lightweight SEO Tools",
+    "url": "https://seo-tools-index.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://seo-tools-index.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-13T17:28:56.880Z"
+  },
+  {
+    "hostname": "kadantiscam.netlify.app",
+    "title": "KAD - Przekręty | Filtry blokujące polskojęzyczne strony phishingowe",
+    "url": "https://kadantiscam.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kadantiscam.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 334,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:57.240Z"
+  },
+  {
+    "hostname": "on-the-beat.fly.dev",
+    "title": "On The Beat",
+    "url": "https://on-the-beat.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://on-the-beat.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 302,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T17:28:57.543Z"
+  },
+  {
     "hostname": "tominiko.vercel.app",
     "title": "Casa di Stefano | Tominiko Beans &amp; Coffee",
     "url": "https://tominiko.vercel.app",
