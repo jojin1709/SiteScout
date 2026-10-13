@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "ai-sentiment-forecast.vercel.app",
+    "title": "AI Sentiment Forecast — Daily AI Investor Sentiment + SPY Calls",
+    "url": "https://ai-sentiment-forecast.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-sentiment-forecast.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:11.429Z"
+  },
+  {
+    "hostname": "tester-three-cyan.vercel.app",
+    "title": "FindMyInk — Chromium Live Tester",
+    "url": "https://tester-three-cyan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tester-three-cyan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:11.615Z"
+  },
+  {
+    "hostname": "ask-the-finance-guy.vercel.app",
+    "title": "Ask The Finance Guy — New Era Finance &amp; Sales Manager Training",
+    "url": "https://ask-the-finance-guy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ask-the-finance-guy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 151,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:11.767Z"
+  },
+  {
+    "hostname": "lobby-navy.vercel.app",
+    "title": "Lobby de juegos",
+    "url": "https://lobby-navy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lobby-navy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:12.183Z"
+  },
+  {
+    "hostname": "cue-sigma-ten.vercel.app",
+    "title": "Cue — speak with intention",
+    "url": "https://cue-sigma-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cue-sigma-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 361,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:12.545Z"
+  },
+  {
+    "hostname": "tempo-scheduler.vercel.app",
+    "title": "Tempo — make time feel possible",
+    "url": "https://tempo-scheduler.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tempo-scheduler.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 413,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:12.958Z"
+  },
+  {
+    "hostname": "aegisdeno.fly.dev",
+    "title": "Aegis — Discord Moderation &amp; Automation Bot",
+    "url": "https://aegisdeno.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aegisdeno.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 206,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-13T22:31:14.285Z"
+  },
+  {
+    "hostname": "light-report-production.up.railway.app",
+    "title": "light-report — one lit/dark light for any build, test or check",
+    "url": "https://light-report-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://light-report-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-13T22:31:14.455Z"
+  },
+  {
     "hostname": "fiverr-sanitizer-flame.vercel.app",
     "title": "Fiverr Message Sanitizer",
     "url": "https://fiverr-sanitizer-flame.vercel.app",
