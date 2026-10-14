@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "ciclita.vercel.app",
+    "title": "Ciclita · Registro menstrual",
+    "url": "https://ciclita.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ciclita.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 376,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:22:58.630Z"
+  },
+  {
+    "hostname": "psych-brown.vercel.app",
+    "title": "Ψυχιατρική Ειδικότητα",
+    "url": "https://psych-brown.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://psych-brown.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 419,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:22:59.051Z"
+  },
+  {
+    "hostname": "taxkit-wine.vercel.app",
+    "title": "TaxKit · 세무 마감 헬퍼",
+    "url": "https://taxkit-wine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://taxkit-wine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 357,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:22:59.490Z"
+  },
+  {
+    "hostname": "pqtabs.vercel.app",
+    "title": "PQTABS — Give agents spending power. Never give them your treasury.",
+    "url": "https://pqtabs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pqtabs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 557,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:00.050Z"
+  },
+  {
+    "hostname": "babdoduk.vercel.app",
+    "title": "밥도둑 Babdoduk",
+    "url": "https://babdoduk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://babdoduk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:00.362Z"
+  },
+  {
+    "hostname": "jeongwon-vault.vercel.app",
+    "title": "BYTE BACK | 내 자료실",
+    "url": "https://jeongwon-vault.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jeongwon-vault.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 413,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:01.137Z"
+  },
+  {
+    "hostname": "doyouevenlogbro.vercel.app",
+    "title": "Do You Even Log Bro",
+    "url": "https://doyouevenlogbro.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://doyouevenlogbro.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 784,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:02.919Z"
+  },
+  {
+    "hostname": "aiml-club-oct-recruitment.vercel.app",
+    "title": "Official Announcement: AI & ML Club Recruitment 2026–27 | Oriental College of Technology, Bhopal",
+    "url": "https://aiml-club-oct-recruitment.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aiml-club-oct-recruitment.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 343,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:03.264Z"
+  },
+  {
+    "hostname": "choi-bujang-secret-vault-black.vercel.app",
+    "title": "BYTE BACK | 점령된 자료실",
+    "url": "https://choi-bujang-secret-vault-black.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://choi-bujang-secret-vault-black.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 370,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:03.635Z"
+  },
+  {
+    "hostname": "cosmic-opus.pages.dev",
+    "title": "จักรวาลสองบาน · Made with Claude Opus 5.5",
+    "url": "https://cosmic-opus.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cosmic-opus.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-14T07:23:03.738Z"
+  },
+  {
+    "hostname": "producer456.github.io",
+    "title": "David's Study Apps",
+    "url": "https://producer456.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://producer456.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 173,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:03.913Z"
+  },
+  {
+    "hostname": "weihubeats.github.io",
+    "title": "weihubeats",
+    "url": "https://weihubeats.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://weihubeats.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:04.117Z"
+  },
+  {
+    "hostname": "pcapplusplus.github.io",
+    "title": "PcapPlusPlus",
+    "url": "https://pcapplusplus.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pcapplusplus.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 142,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T07:23:04.587Z"
+  },
+  {
+    "hostname": "bubbly-reprieve-production-4d0b.up.railway.app",
+    "title": "Task Manager",
+    "url": "https://bubbly-reprieve-production-4d0b.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bubbly-reprieve-production-4d0b.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-14T07:23:05.370Z"
+  },
+  {
     "hostname": "gacha-hub-two.vercel.app",
     "title": "Gacha Hub",
     "url": "https://gacha-hub-two.vercel.app",
