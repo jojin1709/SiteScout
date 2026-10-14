@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "tutor-booking-system-eight.vercel.app",
+    "title": "tutor-booking-system",
+    "url": "https://tutor-booking-system-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tutor-booking-system-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 423,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:17.368Z"
+  },
+  {
+    "hostname": "outfit-assistant-brown.vercel.app",
+    "title": "Outfit Assistant",
+    "url": "https://outfit-assistant-brown.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://outfit-assistant-brown.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:18.572Z"
+  },
+  {
+    "hostname": "chaser-frontend-two.vercel.app",
+    "title": "Invoice Chaser — AR Collections",
+    "url": "https://chaser-frontend-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chaser-frontend-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 344,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:18.916Z"
+  },
+  {
+    "hostname": "intelradar.vercel.app",
+    "title": "IntelRadar — Public Intelligence Dashboard",
+    "url": "https://intelradar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://intelradar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 356,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:19.423Z"
+  },
+  {
+    "hostname": "drop-examples.netlify.app",
+    "title": "Netlify Drop examples",
+    "url": "https://drop-examples.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://drop-examples.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:19.979Z"
+  },
+  {
+    "hostname": "dan-quirky.github.io",
+    "title": "My Website",
+    "url": "https://dan-quirky.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dan-quirky.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 143,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:20.123Z"
+  },
+  {
+    "hostname": "stationsbord.fly.dev",
+    "title": "Stationsbord · It’s on the board",
+    "url": "https://stationsbord.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stationsbord.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 466,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T22:10:20.695Z"
+  },
+  {
+    "hostname": "kanto-league.infinityfreeapp.com",
+    "title": "kanto-league.infinityfreeapp.com",
+    "url": "https://kanto-league.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kanto-league.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 605,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-14T22:10:21.302Z"
+  },
+  {
     "hostname": "toki-japan-fashion-guide.vercel.app",
     "title": "日本買衣服最直覺的品牌與城市攻略 | TOKI 日本品牌選物誌",
     "url": "https://toki-japan-fashion-guide.vercel.app",
