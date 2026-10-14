@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "pin-automation.vercel.app",
+    "title": "Pin Batch — Auto Pin Generator",
+    "url": "https://pin-automation.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pin-automation.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 469,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:01.325Z"
+  },
+  {
+    "hostname": "portofolio-cosmin.vercel.app",
+    "title": "Cosmin Pantea - Photography",
+    "url": "https://portofolio-cosmin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portofolio-cosmin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 324,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:01.650Z"
+  },
+  {
+    "hostname": "whatsap-indo.vercel.app",
+    "title": "Whatsap Indo",
+    "url": "https://whatsap-indo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://whatsap-indo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 377,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:02.339Z"
+  },
+  {
+    "hostname": "wibohealth-app.vercel.app",
+    "title": "موقع ويبو هيلث | WiBo Health - دليلك الصحي مع المؤشر الجلايسيمي ومؤشر الأنسولين",
+    "url": "https://wibohealth-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wibohealth-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 593,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:02.936Z"
+  },
+  {
+    "hostname": "worldscript-studio.vercel.app",
+    "title": "WorldScript Studio",
+    "url": "https://worldscript-studio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://worldscript-studio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 642,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:03.578Z"
+  },
+  {
+    "hostname": "code-dump-snowy.vercel.app",
+    "title": "CodeDump",
+    "url": "https://code-dump-snowy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://code-dump-snowy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 327,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:03.905Z"
+  },
+  {
+    "hostname": "bullpen-log.vercel.app",
+    "title": "Bullpen Log",
+    "url": "https://bullpen-log.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bullpen-log.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 614,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:04.523Z"
+  },
+  {
+    "hostname": "veritydb.vercel.app",
+    "title": "Quaestio + VerityDB — multi-LLM AI chat aggregator: ask ChatGPT, Claude, Gemini & Grok at once",
+    "url": "https://veritydb.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veritydb.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 212,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:04.736Z"
+  },
+  {
+    "hostname": "dvizhuha-mc.github.io",
+    "title": "Движуха — лаунчер сервера",
+    "url": "https://dvizhuha-mc.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dvizhuha-mc.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:05.346Z"
+  },
+  {
+    "hostname": "charly-vibes.github.io",
+    "title": "Charly Vibes",
+    "url": "https://charly-vibes.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://charly-vibes.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:05.784Z"
+  },
+  {
+    "hostname": "douglascshun.github.io",
+    "title": "Douglas Cshunderlick — Offensive Security",
+    "url": "https://douglascshun.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://douglascshun.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T13:32:06.001Z"
+  },
+  {
+    "hostname": "naverogq.onrender.com",
+    "title": "CADLens | 도면 자동 검사",
+    "url": "https://naverogq.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://naverogq.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 200,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-14T13:32:06.330Z"
+  },
+  {
     "hostname": "ciclita.vercel.app",
     "title": "Ciclita · Registro menstrual",
     "url": "https://ciclita.vercel.app",
