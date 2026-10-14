@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "toki-japan-fashion-guide.vercel.app",
+    "title": "日本買衣服最直覺的品牌與城市攻略 | TOKI 日本品牌選物誌",
+    "url": "https://toki-japan-fashion-guide.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://toki-japan-fashion-guide.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:00.741Z"
+  },
+  {
+    "hostname": "interactive-3d-website-pi.vercel.app",
+    "title": "FORM / FIELD — Scroll-Driven 3D Study",
+    "url": "https://interactive-3d-website-pi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://interactive-3d-website-pi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:00.935Z"
+  },
+  {
+    "hostname": "sipav-lt.vercel.app",
+    "title": "SIPAV LT — Sistema de Planejamento de Avanço",
+    "url": "https://sipav-lt.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sipav-lt.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:01.094Z"
+  },
+  {
+    "hostname": "commonweave-app.vercel.app",
+    "title": "Commonweave",
+    "url": "https://commonweave-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://commonweave-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 198,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:01.368Z"
+  },
+  {
+    "hostname": "tmdwar.vercel.app",
+    "title": "TMD-WAR — Platform Lelang Online &amp; House of Curated Auctions",
+    "url": "https://tmdwar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tmdwar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1770,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:03.141Z"
+  },
+  {
+    "hostname": "petroleumacademia.vercel.app",
+    "title": "Petroleum Academia | Practical Petroleum Engineering Education",
+    "url": "https://petroleumacademia.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://petroleumacademia.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:03.303Z"
+  },
+  {
+    "hostname": "coop-ledger-five.vercel.app",
+    "title": "The Co-op Ledger",
+    "url": "https://coop-ledger-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://coop-ledger-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 184,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:03.494Z"
+  },
+  {
+    "hostname": "scalable-designs.vercel.app",
+    "title": "Escala Tokens — Token generator",
+    "url": "https://scalable-designs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scalable-designs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:03.698Z"
+  },
+  {
+    "hostname": "endritsportfolio.netlify.app",
+    "title": "Endrit Bejta — Software Engineer",
+    "url": "https://endritsportfolio.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://endritsportfolio.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 126,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:05.090Z"
+  },
+  {
+    "hostname": "maximilianfeix.github.io",
+    "title": "Maximilian Feix – Creative Software Developer",
+    "url": "https://maximilianfeix.github.io",
+    "hostType": "github.io",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maximilianfeix.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 194,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:05.287Z"
+  },
+  {
+    "hostname": "dgvai.github.io",
+    "title": "dgvai.github.io",
+    "url": "https://dgvai.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dgvai.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": false,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T18:27:05.410Z"
+  },
+  {
+    "hostname": "jsrothwell.github.io",
+    "title": "Jamie Rothwell — Code &amp; Projects",
+    "url": "https://jsrothwell.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jsrothwell.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 71,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-14T18:27:05.482Z"
+  },
+  {
+    "hostname": "infocamiri.rf.gd",
+    "title": "infocamiri.rf.gd",
+    "url": "https://infocamiri.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://infocamiri.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 505,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-14T18:27:06.127Z"
+  },
+  {
     "hostname": "pin-automation.vercel.app",
     "title": "Pin Batch — Auto Pin Generator",
     "url": "https://pin-automation.vercel.app",
