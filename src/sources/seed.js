@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "gacha-hub-two.vercel.app",
+    "title": "Gacha Hub",
+    "url": "https://gacha-hub-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gacha-hub-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:14.629Z"
+  },
+  {
+    "hostname": "curious-coffee.vercel.app",
+    "title": "Curious Coffee - Ann Arbor, MI",
+    "url": "https://curious-coffee.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://curious-coffee.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:14.818Z"
+  },
+  {
+    "hostname": "danom-new.vercel.app",
+    "title": "Danom: agent credit on Monad",
+    "url": "https://danom-new.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://danom-new.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:15.062Z"
+  },
+  {
+    "hostname": "jasa-perijinan-csms.vercel.app",
+    "title": "Konsultan CSMS - Jasa Pembuatan Dokumen Sistem Manajemen Keselamatan Kontraktor",
+    "url": "https://jasa-perijinan-csms.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jasa-perijinan-csms.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:15.169Z"
+  },
+  {
+    "hostname": "mira-eight-tau.vercel.app",
+    "title": "Mira | Customer service for your business, day and night",
+    "url": "https://mira-eight-tau.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mira-eight-tau.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 378,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:15.548Z"
+  },
+  {
+    "hostname": "docfix-frontend.vercel.app",
+    "title": "DocFix — Free Private File Tools",
+    "url": "https://docfix-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://docfix-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:15.787Z"
+  },
+  {
+    "hostname": "seoul-guide-v2.vercel.app",
+    "title": "MYSEOULDROP — Seoul Beauty Guide",
+    "url": "https://seoul-guide-v2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://seoul-guide-v2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:15.978Z"
+  },
+  {
+    "hostname": "japanese-dictionary-pdk-web.vercel.app",
+    "title": "日本語 — Học tiếng Nhật",
+    "url": "https://japanese-dictionary-pdk-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://japanese-dictionary-pdk-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 174,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:16.153Z"
+  },
+  {
+    "hostname": "voaureabrasil.vercel.app",
+    "title": "Abrigo Vó Áurea - Resgate e Proteção Animal em Cubatão",
+    "url": "https://voaureabrasil.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voaureabrasil.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 263,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:16.418Z"
+  },
+  {
+    "hostname": "bertioga-application.vercel.app",
+    "title": "Bertioga 2026",
+    "url": "https://bertioga-application.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bertioga-application.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 100,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:16.518Z"
+  },
+  {
+    "hostname": "sunday-reset-exploration-merge.vercel.app",
+    "title": "Sunday Reset",
+    "url": "https://sunday-reset-exploration-merge.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sunday-reset-exploration-merge.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:16.678Z"
+  },
+  {
+    "hostname": "action-learning.vercel.app",
+    "title": "AI 메모리 시나리오 대시보드 — 삼성전자 메모리사업부",
+    "url": "https://action-learning.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://action-learning.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:16.782Z"
+  },
+  {
+    "hostname": "gozly-beta.vercel.app",
+    "title": "Gozly",
+    "url": "https://gozly-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gozly-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:16.985Z"
+  },
+  {
+    "hostname": "dj-visualizer.onrender.com",
+    "title": "DJ Visualizer Generator",
+    "url": "https://dj-visualizer.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dj-visualizer.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 274,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-14T01:44:17.496Z"
+  },
+  {
     "hostname": "ai-sentiment-forecast.vercel.app",
     "title": "AI Sentiment Forecast — Daily AI Investor Sentiment + SPY Calls",
     "url": "https://ai-sentiment-forecast.vercel.app",
