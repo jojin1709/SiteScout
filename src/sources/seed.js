@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "ethio-keyboard-launch.vercel.app",
+    "title": "Ethio Amharic Keyboard – type Amharic on iPhone, iPad and Mac",
+    "url": "https://ethio-keyboard-launch.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ethio-keyboard-launch.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T01:20:35.860Z"
+  },
+  {
+    "hostname": "fadiman-atlas.vercel.app",
+    "title": "The Fadiman Knowledge Atlas — James Fadiman Archive &amp; Knowledge Infrastructure",
+    "url": "https://fadiman-atlas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fadiman-atlas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T01:20:36.051Z"
+  },
+  {
+    "hostname": "wyndhamparkhoa.vercel.app",
+    "title": "Wyndham Park HOA | Preview",
+    "url": "https://wyndhamparkhoa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wyndhamparkhoa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T01:20:36.332Z"
+  },
+  {
+    "hostname": "barods-global-sable.vercel.app",
+    "title": "Barods Global Limited — Real Estate and Construction",
+    "url": "https://barods-global-sable.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://barods-global-sable.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2600,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T01:20:39.002Z"
+  },
+  {
+    "hostname": "choi-bujang-secret-vault-myh6.vercel.app",
+    "title": "BYTE BACK | 점령된 자료실",
+    "url": "https://choi-bujang-secret-vault-myh6.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://choi-bujang-secret-vault-myh6.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 269,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T01:20:39.272Z"
+  },
+  {
+    "hostname": "pos-sible.vercel.app",
+    "title": "POS-sible: More than a POS",
+    "url": "https://pos-sible.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pos-sible.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1015,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T01:20:40.800Z"
+  },
+  {
+    "hostname": "aureon-production.up.railway.app",
+    "title": "Aureon — Multi-Asset Pre-Trade Governance Dashboard",
+    "url": "https://aureon-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aureon-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 85,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T01:20:41.058Z"
+  },
+  {
     "hostname": "tutor-booking-system-eight.vercel.app",
     "title": "tutor-booking-system",
     "url": "https://tutor-booking-system-eight.vercel.app",
