@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "dj-alexander-technique.vercel.app",
+    "title": "Alexander Technique — NYC Techno DJ, Producer &amp; Label Owner",
+    "url": "https://dj-alexander-technique.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dj-alexander-technique.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 364,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:15.765Z"
+  },
+  {
+    "hostname": "manual-do-sobrevivente.vercel.app",
+    "title": "Mapa Tático — TacticalGIS",
+    "url": "https://manual-do-sobrevivente.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://manual-do-sobrevivente.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1330,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:17.115Z"
+  },
+  {
+    "hostname": "pechadophin.vercel.app",
+    "title": "Pechadophin",
+    "url": "https://pechadophin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pechadophin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 162,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:17.290Z"
+  },
+  {
+    "hostname": "vibely-sigma-roan.vercel.app",
+    "title": "Vibely — Where two souls sync. Pure private connection.",
+    "url": "https://vibely-sigma-roan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vibely-sigma-roan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1292,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:20.057Z"
+  },
+  {
+    "hostname": "swing-agent.vercel.app",
+    "title": "Swing Trading Agent",
+    "url": "https://swing-agent.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://swing-agent.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:20.271Z"
+  },
+  {
+    "hostname": "tv-display-three.vercel.app",
+    "title": "dashboard",
+    "url": "https://tv-display-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tv-display-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:20.492Z"
+  },
+  {
+    "hostname": "x402-doctor.onrender.com",
+    "title": "x402 Doctor — diagnose a broken x402 payment flow",
+    "url": "https://x402-doctor.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://x402-doctor.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T18:09:21.220Z"
+  },
+  {
     "hostname": "vardaan-bajaj.vercel.app",
     "title": "Vardaan Bajaj | Machine Learning & Software Engineer",
     "url": "https://vardaan-bajaj.vercel.app",
