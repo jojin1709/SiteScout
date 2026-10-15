@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "zimplifai.vercel.app",
+    "title": "ZimplifAI — Simplifico procesos. Implanto IA.",
+    "url": "https://zimplifai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zimplifai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 320,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T07:14:00.830Z"
+  },
+  {
+    "hostname": "halloween-quiz-flax.vercel.app",
+    "title": "Haunted Quiz",
+    "url": "https://halloween-quiz-flax.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://halloween-quiz-flax.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 311,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T07:14:01.289Z"
+  },
+  {
+    "hostname": "rentflow-tan-seven.vercel.app",
+    "title": "RentFlow",
+    "url": "https://rentflow-tan-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rentflow-tan-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T07:14:01.647Z"
+  },
+  {
+    "hostname": "avx-beta.vercel.app",
+    "title": "AVX — AV Production Copilot",
+    "url": "https://avx-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://avx-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 256,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T07:14:02.012Z"
+  },
+  {
+    "hostname": "hanzigo-chinese-learning.vercel.app",
+    "title": "HanziGo · Học Tiếng Trung",
+    "url": "https://hanzigo-chinese-learning.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hanzigo-chinese-learning.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 390,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T07:14:02.404Z"
+  },
+  {
+    "hostname": "openctrlc.pages.dev",
+    "title": "OpenCtrlC — an open source AI coding agent",
+    "url": "https://openctrlc.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://openctrlc.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 401,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T07:14:02.806Z"
+  },
+  {
+    "hostname": "toolweather.pages.dev",
+    "title": "Toolweather — is this MCP tool safe to call right now?",
+    "url": "https://toolweather.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://toolweather.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T07:14:02.931Z"
+  },
+  {
+    "hostname": "yasyf.github.io",
+    "title": "Yasyf Mohamedali's GitHub",
+    "url": "https://yasyf.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yasyf.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 95,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T07:14:03.026Z"
+  },
+  {
+    "hostname": "broker-ai-agent-yung.fly.dev",
+    "title": "Broker Portfolio Agent",
+    "url": "https://broker-ai-agent-yung.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://broker-ai-agent-yung.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T07:14:03.691Z"
+  },
+  {
+    "hostname": "flambe.fly.dev",
+    "title": "flambé🔥",
+    "url": "https://flambe.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flambe.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 151,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T07:14:03.843Z"
+  },
+  {
+    "hostname": "isp-ai-agent-production.up.railway.app",
+    "title": "Streamlit",
+    "url": "https://isp-ai-agent-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://isp-ai-agent-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 287,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T07:14:04.130Z"
+  },
+  {
     "hostname": "ethio-keyboard-launch.vercel.app",
     "title": "Ethio Amharic Keyboard – type Amharic on iPhone, iPad and Mac",
     "url": "https://ethio-keyboard-launch.vercel.app",
