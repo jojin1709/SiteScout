@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "vardaan-bajaj.vercel.app",
+    "title": "Vardaan Bajaj | Machine Learning & Software Engineer",
+    "url": "https://vardaan-bajaj.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vardaan-bajaj.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 102,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T13:15:53.526Z"
+  },
+  {
+    "hostname": "joshuafink-website.vercel.app",
+    "title": "Joshua Fink | Top Realtor in Middle Tennessee | Compass Real Estate",
+    "url": "https://joshuafink-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://joshuafink-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 129,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T13:15:53.704Z"
+  },
+  {
+    "hostname": "ms-project-clone-indol.vercel.app",
+    "title": "Microsoft Project 2010 - PT-BR",
+    "url": "https://ms-project-clone-indol.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ms-project-clone-indol.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T13:15:58.343Z"
+  },
+  {
+    "hostname": "localops-nine.vercel.app",
+    "title": "LocalOps | Service Management",
+    "url": "https://localops-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://localops-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 291,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T13:15:59.555Z"
+  },
+  {
+    "hostname": "impactframe-2ekf.vercel.app",
+    "title": "IMPACTFRAME — Cinematic Media Collective | Create. Conserve. Inspire.",
+    "url": "https://impactframe-2ekf.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://impactframe-2ekf.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 170,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T13:15:59.726Z"
+  },
+  {
+    "hostname": "hit-alpha.vercel.app",
+    "title": "הפוגע | ניתוח ספורט חכם",
+    "url": "https://hit-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hit-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 175,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T13:15:59.915Z"
+  },
+  {
+    "hostname": "sportlinks-tv.pages.dev",
+    "title": "Sportlink - Live Sports Streaming, Match Highlights & Scores",
+    "url": "https://sportlinks-tv.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sportlinks-tv.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T13:16:00.114Z"
+  },
+  {
+    "hostname": "fitforge-gym-and-track.pages.dev",
+    "title": "FitForge — Your move, your progress.",
+    "url": "https://fitforge-gym-and-track.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fitforge-gym-and-track.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-15T13:16:00.309Z"
+  },
+  {
     "hostname": "zimplifai.vercel.app",
     "title": "ZimplifAI — Simplifico procesos. Implanto IA.",
     "url": "https://zimplifai.vercel.app",
