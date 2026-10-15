@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "whitedot-inky.vercel.app",
+    "title": "WHITEDOT",
+    "url": "https://whitedot-inky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://whitedot-inky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:18.306Z"
+  },
+  {
+    "hostname": "campus-toolkit-seven.vercel.app",
+    "title": "數位校園工具箱",
+    "url": "https://campus-toolkit-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://campus-toolkit-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 491,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:18.799Z"
+  },
+  {
+    "hostname": "sirvinci-waitlist.vercel.app",
+    "title": "Sirvinci Academy — Learn to Design Like a Professional, From Your Phone",
+    "url": "https://sirvinci-waitlist.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sirvinci-waitlist.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:18.986Z"
+  },
+  {
+    "hostname": "pravrudhi-app.vercel.app",
+    "title": "Pravrudhi-Nyaya",
+    "url": "https://pravrudhi-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pravrudhi-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 173,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:19.161Z"
+  },
+  {
+    "hostname": "tum-rci-all-in-one.vercel.app",
+    "title": "TUM RCI All-in-One",
+    "url": "https://tum-rci-all-in-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tum-rci-all-in-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 170,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:19.334Z"
+  },
+  {
+    "hostname": "daily-news-umber.vercel.app",
+    "title": "每日新闻 · 国际视野，AI 前沿",
+    "url": "https://daily-news-umber.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daily-news-umber.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 175,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:19.510Z"
+  },
+  {
+    "hostname": "portfolio-eko-yannick.vercel.app",
+    "title": "Eko Yannick — Développeur FullStack et designer UX/UI",
+    "url": "https://portfolio-eko-yannick.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-eko-yannick.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:19.672Z"
+  },
+  {
+    "hostname": "andale-ops.vercel.app",
+    "title": "àndale Operaciones",
+    "url": "https://andale-ops.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://andale-ops.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 186,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:19.858Z"
+  },
+  {
+    "hostname": "bellwether-app.netlify.app",
+    "title": "Bellwether",
+    "url": "https://bellwether-app.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bellwether-app.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-15T22:04:20.106Z"
+  },
+  {
     "hostname": "dj-alexander-technique.vercel.app",
     "title": "Alexander Technique — NYC Techno DJ, Producer &amp; Label Owner",
     "url": "https://dj-alexander-technique.vercel.app",
