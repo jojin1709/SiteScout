@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "devcompanion-ai.vercel.app",
+    "title": "Create Next App",
+    "url": "https://devcompanion-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://devcompanion-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 400,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:10.250Z"
+  },
+  {
+    "hostname": "tartarus-guide.vercel.app",
+    "title": "Tartarus Guide",
+    "url": "https://tartarus-guide.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tartarus-guide.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 373,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:10.624Z"
+  },
+  {
+    "hostname": "influencer-frontend-kappa.vercel.app",
+    "title": "Influence Platform",
+    "url": "https://influencer-frontend-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://influencer-frontend-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:10.737Z"
+  },
+  {
+    "hostname": "hydromental.vercel.app",
+    "title": "Elementals — A playful science playground",
+    "url": "https://hydromental.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hydromental.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 232,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:10.969Z"
+  },
+  {
+    "hostname": "omniassist-frontend.vercel.app",
+    "title": "frontend",
+    "url": "https://omniassist-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://omniassist-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 179,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:11.578Z"
+  },
+  {
+    "hostname": "frontend-black-seven-54.vercel.app",
+    "title": "Aqrar İnvest · Qarabağ investisiya müsabiqəsi portalı",
+    "url": "https://frontend-black-seven-54.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://frontend-black-seven-54.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:11.766Z"
+  },
+  {
+    "hostname": "verdictgame.vercel.app",
+    "title": "판결의 무게",
+    "url": "https://verdictgame.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://verdictgame.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:11.977Z"
+  },
+  {
+    "hostname": "just-recipes-v2.netlify.app",
+    "title": "just-recipes-v2",
+    "url": "https://just-recipes-v2.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://just-recipes-v2.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:12.166Z"
+  },
+  {
+    "hostname": "wlunlocker.github.io",
+    "title": "WLUnlocker",
+    "url": "https://wlunlocker.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wlunlocker.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T06:57:12.445Z"
+  },
+  {
     "hostname": "nexus-data-steel.vercel.app",
     "title": "澳門停車場實時車位",
     "url": "https://nexus-data-steel.vercel.app",
