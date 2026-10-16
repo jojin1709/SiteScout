@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "aplicacion-servir-sjp.vercel.app",
+    "title": "Consulta Empadronados — San José Pinula",
+    "url": "https://aplicacion-servir-sjp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aplicacion-servir-sjp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:52.508Z"
+  },
+  {
+    "hostname": "quant-dcf.vercel.app",
+    "title": "QuantDCF India — Institutional DCF Valuation Platform",
+    "url": "https://quant-dcf.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quant-dcf.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 594,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:53.105Z"
+  },
+  {
+    "hostname": "shortdrama-demo.vercel.app",
+    "title": "短劇場 · Demo",
+    "url": "https://shortdrama-demo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shortdrama-demo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:53.272Z"
+  },
+  {
+    "hostname": "ziggy-ai-pi.vercel.app",
+    "title": "Ziggy AI",
+    "url": "https://ziggy-ai-pi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ziggy-ai-pi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:53.556Z"
+  },
+  {
+    "hostname": "cine-two-theta.vercel.app",
+    "title": "Plano — Tu vida, en películas",
+    "url": "https://cine-two-theta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cine-two-theta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 120,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:53.757Z"
+  },
+  {
+    "hostname": "detalks.vercel.app",
+    "title": "DeTalks",
+    "url": "https://detalks.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://detalks.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:53.878Z"
+  },
+  {
+    "hostname": "armadoporcota.vercel.app",
+    "title": "Disponibilidad navegable",
+    "url": "https://armadoporcota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://armadoporcota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 226,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:54.130Z"
+  },
+  {
+    "hostname": "time-dissonance.vercel.app",
+    "title": "Time Dissonance",
+    "url": "https://time-dissonance.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://time-dissonance.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 128,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:54.258Z"
+  },
+  {
+    "hostname": "socioeconomic-inequality-data-minin.vercel.app",
+    "title": "Socio-Economic Inequality Mining | UN SDG 10",
+    "url": "https://socioeconomic-inequality-data-minin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://socioeconomic-inequality-data-minin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:54.714Z"
+  },
+  {
+    "hostname": "concelhos-portugal.vercel.app",
+    "title": "Jogo dos Concelhos",
+    "url": "https://concelhos-portugal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://concelhos-portugal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 320,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T17:16:55.047Z"
+  },
+  {
+    "hostname": "ohah.github.io",
+    "title": "ohah",
+    "url": "https://ohah.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ohah.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T17:16:55.666Z"
+  },
+  {
+    "hostname": "haalarimerkkidex.fly.dev",
+    "title": "Haalarimerkki DEX - HaalarimerkkiDEX",
+    "url": "https://haalarimerkkidex.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haalarimerkkidex.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2726,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T17:16:58.518Z"
+  },
+  {
     "hostname": "seguimiento-proyecto-2026-2.vercel.app",
     "title": "Seguimiento Proyecto e-Learning UST 2026-2",
     "url": "https://seguimiento-proyecto-2026-2.vercel.app",
