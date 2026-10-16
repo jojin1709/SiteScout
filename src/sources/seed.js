@@ -1,5 +1,290 @@
 export const SEED_SITES = [
   {
+    "hostname": "countryflagbattle.vercel.app",
+    "title": "Country Flag Battle Game — 195 Country Flag Battle Online Free, Live Simulator & Download (PC/Mobile)",
+    "url": "https://countryflagbattle.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://countryflagbattle.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 243,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:27.627Z"
+  },
+  {
+    "hostname": "pulso-mundial-tango.vercel.app",
+    "title": "PULSO · Tango World Championship Results 2026",
+    "url": "https://pulso-mundial-tango.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pulso-mundial-tango.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:27.732Z"
+  },
+  {
+    "hostname": "nuclear-central-command.vercel.app",
+    "title": "Nuclear Command Center",
+    "url": "https://nuclear-central-command.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nuclear-central-command.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 389,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:28.122Z"
+  },
+  {
+    "hostname": "healthiest-food.vercel.app",
+    "title": "Good Food, Long Game | HealthiestFood",
+    "url": "https://healthiest-food.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://healthiest-food.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:28.339Z"
+  },
+  {
+    "hostname": "beat-vegas.vercel.app",
+    "title": "Beat Vegas — College Football Betting System",
+    "url": "https://beat-vegas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beat-vegas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 681,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:29.291Z"
+  },
+  {
+    "hostname": "afterhours-sentinel.vercel.app",
+    "title": "AfterHours Sentinel",
+    "url": "https://afterhours-sentinel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://afterhours-sentinel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:29.538Z"
+  },
+  {
+    "hostname": "keymivo-site.vercel.app",
+    "title": "Keymivo — The AI copilot for buyer agents",
+    "url": "https://keymivo-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://keymivo-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 264,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:29.803Z"
+  },
+  {
+    "hostname": "brian-portfolio-amber.vercel.app",
+    "title": "Brian Tea, P.E. | Portfolio",
+    "url": "https://brian-portfolio-amber.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brian-portfolio-amber.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 295,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:30.100Z"
+  },
+  {
+    "hostname": "portfolio-nakkshh.vercel.app",
+    "title": "Nakshatra Jain — Backend & Cloud Engineer",
+    "url": "https://portfolio-nakkshh.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-nakkshh.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:30.354Z"
+  },
+  {
+    "hostname": "voidstrapp.pages.dev",
+    "title": "Voidstrap",
+    "url": "https://voidstrapp.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voidstrapp.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 195,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:30.699Z"
+  },
+  {
+    "hostname": "k8s-versioned-schemas.pages.dev",
+    "title": "k8s-versioned-schemas",
+    "url": "https://k8s-versioned-schemas.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://k8s-versioned-schemas.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 239,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T20:49:30.949Z"
+  },
+  {
+    "hostname": "altanonat.github.io",
+    "title": "Altan Onat — Associate Professor",
+    "url": "https://altanonat.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://altanonat.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:31.055Z"
+  },
+  {
+    "hostname": "qaevelyn.github.io",
+    "title": "Evelyn Caro — A Mirror of My Becoming™",
+    "url": "https://qaevelyn.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://qaevelyn.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:31.313Z"
+  },
+  {
+    "hostname": "narmstore.onrender.com",
+    "title": "نرم‌استور | فروشگاه فارسی نرم‌افزار اندروید",
+    "url": "https://narmstore.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://narmstore.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 197,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T20:49:32.500Z"
+  },
+  {
+    "hostname": "gameforge.fly.dev",
+    "title": "GameForge - Board Game Studio",
+    "url": "https://gameforge.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gameforge.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T20:49:32.730Z"
+  },
+  {
     "hostname": "aplicacion-servir-sjp.vercel.app",
     "title": "Consulta Empadronados — San José Pinula",
     "url": "https://aplicacion-servir-sjp.vercel.app",
