@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "seguimiento-proyecto-2026-2.vercel.app",
+    "title": "Seguimiento Proyecto e-Learning UST 2026-2",
+    "url": "https://seguimiento-proyecto-2026-2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://seguimiento-proyecto-2026-2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 232,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:15:57.293Z"
+  },
+  {
+    "hostname": "cooperativa-cultural-social.vercel.app",
+    "title": "CCS | Cooperativa Cultural Social",
+    "url": "https://cooperativa-cultural-social.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cooperativa-cultural-social.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:15:57.499Z"
+  },
+  {
+    "hostname": "aurapdf-one.vercel.app",
+    "title": "tesis",
+    "url": "https://aurapdf-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aurapdf-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 169,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:15:59.079Z"
+  },
+  {
+    "hostname": "vectra-market.vercel.app",
+    "title": "Vectra — a basket that maintains itself",
+    "url": "https://vectra-market.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vectra-market.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 353,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:15:59.433Z"
+  },
+  {
+    "hostname": "riccardo-portfolio-ripetizioni.vercel.app",
+    "title": "Riccardo Buzzolan | Portfolio e ripetizioni a Schio · Bozza",
+    "url": "https://riccardo-portfolio-ripetizioni.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://riccardo-portfolio-ripetizioni.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 184,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:15:59.619Z"
+  },
+  {
+    "hostname": "rent-a-ride-nu.vercel.app",
+    "title": "Rent-a-Ride | Modern &amp; Reliable Car Rental Platform",
+    "url": "https://rent-a-ride-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rent-a-ride-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 286,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:15:59.907Z"
+  },
+  {
+    "hostname": "mdrabbiahsankhanrajin.github.io",
+    "title": "Rajin Labs · Solo Developer, Dhaka",
+    "url": "https://mdrabbiahsankhanrajin.github.io",
+    "hostType": "github.io",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mdrabbiahsankhanrajin.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:16:00.203Z"
+  },
+  {
+    "hostname": "mar.fly.dev",
+    "title": "MAR · Mis Apps Review",
+    "url": "https://mar.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mar.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T12:16:00.480Z"
+  },
+  {
     "hostname": "devcompanion-ai.vercel.app",
     "title": "Create Next App",
     "url": "https://devcompanion-ai.vercel.app",
