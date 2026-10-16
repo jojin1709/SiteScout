@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "finanzas-mvp-wp-bot.vercel.app",
+    "title": "Finanzas",
+    "url": "https://finanzas-mvp-wp-bot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finanzas-mvp-wp-bot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 841,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:44.003Z"
+  },
+  {
+    "hostname": "oanquan-delta.vercel.app",
+    "title": "Ô Ăn Quan — trò chơi dân gian Việt Nam",
+    "url": "https://oanquan-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oanquan-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:44.296Z"
+  },
+  {
+    "hostname": "openedulab.vercel.app",
+    "title": "OpenEduLab — Khám phá · Sáng tạo · Chia sẻ",
+    "url": "https://openedulab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://openedulab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:44.387Z"
+  },
+  {
+    "hostname": "myroom-teal.vercel.app",
+    "title": "Pete's Room",
+    "url": "https://myroom-teal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://myroom-teal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:44.483Z"
+  },
+  {
+    "hostname": "riu-jev-bridge.vercel.app",
+    "title": "YAIWES · Organización",
+    "url": "https://riu-jev-bridge.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://riu-jev-bridge.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:44.595Z"
+  },
+  {
+    "hostname": "usebillsplitr.netlify.app",
+    "title": "Split the Bill Calculator – Free, No Sign-up | BillSplitr",
+    "url": "https://usebillsplitr.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://usebillsplitr.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 701,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:45.345Z"
+  },
+  {
+    "hostname": "stephen-psaradellis.github.io",
+    "title": "Stephen Psaradellis - website fixes and checks for small businesses",
+    "url": "https://stephen-psaradellis.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stephen-psaradellis.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 131,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:45.477Z"
+  },
+  {
+    "hostname": "vicecheengage.github.io",
+    "title": "MTProxy Список — 65 живых прокси для Телеграма на 22:22 МСК",
+    "url": "https://vicecheengage.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vicecheengage.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T23:23:45.683Z"
+  },
+  {
+    "hostname": "apex-analytics.infinityfreeapp.com",
+    "title": "apex-analytics.infinityfreeapp.com",
+    "url": "https://apex-analytics.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apex-analytics.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 712,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T23:23:47.275Z"
+  },
+  {
     "hostname": "countryflagbattle.vercel.app",
     "title": "Country Flag Battle Game — 195 Country Flag Battle Online Free, Live Simulator & Download (PC/Mobile)",
     "url": "https://countryflagbattle.vercel.app",
