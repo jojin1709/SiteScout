@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "nexus-data-steel.vercel.app",
+    "title": "澳門停車場實時車位",
+    "url": "https://nexus-data-steel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexus-data-steel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:18.863Z"
+  },
+  {
+    "hostname": "site-helena-mere.vercel.app",
+    "title": "Helena Mêre Corretora | Imóveis em Contagem e Belo Horizonte",
+    "url": "https://site-helena-mere.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://site-helena-mere.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 615,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:19.480Z"
+  },
+  {
+    "hostname": "vistaarx.vercel.app",
+    "title": "VISTAR — Founder-Led Software Engineering &amp; Business Automation Studio",
+    "url": "https://vistaarx.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vistaarx.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 298,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:20.701Z"
+  },
+  {
+    "hostname": "maplesheet-website.vercel.app",
+    "title": "MapleSheet Co. — Canadian TFSA, RRSP & RESP Trackers",
+    "url": "https://maplesheet-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maplesheet-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 38,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:20.740Z"
+  },
+  {
+    "hostname": "une-unwrapped.vercel.app",
+    "title": "UNE Unwrapped — Resumen anual del SEN de La Habana",
+    "url": "https://une-unwrapped.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://une-unwrapped.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 29,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:20.770Z"
+  },
+  {
+    "hostname": "sastabazaar-web-five.vercel.app",
+    "title": "SastaBazaar — सस्ते सामान का बाज़ार",
+    "url": "https://sastabazaar-web-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sastabazaar-web-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:20.897Z"
+  },
+  {
+    "hostname": "panel-alertas-chaco.netlify.app",
+    "title": "Ríos y Clima del Chaco",
+    "url": "https://panel-alertas-chaco.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://panel-alertas-chaco.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 608,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-16T01:06:21.559Z"
+  },
+  {
+    "hostname": "online-drink-develop.up.railway.app",
+    "title": "登入 - SELA 快點來點餐",
+    "url": "https://online-drink-develop.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://online-drink-develop.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 381,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T01:06:21.940Z"
+  },
+  {
+    "hostname": "zombieempire.rf.gd",
+    "title": "zombieempire.rf.gd",
+    "url": "https://zombieempire.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zombieempire.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 636,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-16T01:06:22.578Z"
+  },
+  {
     "hostname": "whitedot-inky.vercel.app",
     "title": "WHITEDOT",
     "url": "https://whitedot-inky.vercel.app",
