@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "solved-stbb-books.vercel.app",
+    "title": "Solved Sindh Textbook Board Books — Solved Exercises Sindhi, Urdu & English Medium, Free Preview | Sindh Board",
+    "url": "https://solved-stbb-books.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://solved-stbb-books.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:29.715Z"
+  },
+  {
+    "hostname": "herminio-cultura.vercel.app",
+    "title": "Herminio · La cultura entra en escena",
+    "url": "https://herminio-cultura.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Astro",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://herminio-cultura.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:31.316Z"
+  },
+  {
+    "hostname": "pearceand-sons.vercel.app",
+    "title": "Pearce &amp; Sons — Staff Transport",
+    "url": "https://pearceand-sons.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pearceand-sons.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 87,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:31.403Z"
+  },
+  {
+    "hostname": "ateam-swart.vercel.app",
+    "title": "ATEAM - 팀관리 슈퍼에이전트",
+    "url": "https://ateam-swart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ateam-swart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:31.510Z"
+  },
+  {
+    "hostname": "haircut-fi.vercel.app",
+    "title": "Haircut: what a tokenized stock costs to trade",
+    "url": "https://haircut-fi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haircut-fi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 313,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:31.823Z"
+  },
+  {
+    "hostname": "curioverse-beta.vercel.app",
+    "title": "Curioverse · A curious mind lives here",
+    "url": "https://curioverse-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://curioverse-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:32.375Z"
+  },
+  {
+    "hostname": "rt05takeda.vercel.app",
+    "title": "RT 05 Takeda — Taman Kedaung, Ciputat",
+    "url": "https://rt05takeda.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rt05takeda.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 90,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:32.465Z"
+  },
+  {
+    "hostname": "reto-skool-7-dias.vercel.app",
+    "title": "Skooly: Reto de Skool en 7 Días",
+    "url": "https://reto-skool-7-dias.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reto-skool-7-dias.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1434,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:33.900Z"
+  },
+  {
+    "hostname": "apollo-ems-zms2.vercel.app",
+    "title": "ApolloEMS | Comprehensive EMS Operations Platform",
+    "url": "https://apollo-ems-zms2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apollo-ems-zms2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 331,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:34.232Z"
+  },
+  {
+    "hostname": "thirdhub.pages.dev",
+    "title": "第三方聚合站",
+    "url": "https://thirdhub.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://thirdhub.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:34.447Z"
+  },
+  {
+    "hostname": "trymarlo.pages.dev",
+    "title": "Marlo: an accessibility checker that publishes its own error rate",
+    "url": "https://trymarlo.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trymarlo.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 243,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:34.692Z"
+  },
+  {
+    "hostname": "sitright.pages.dev",
+    "title": "SitRight - Smart Webcam Posture Monitor",
+    "url": "https://sitright.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sitright.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 195,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:34.887Z"
+  },
+  {
+    "hostname": "robo-scene.netlify.app",
+    "title": "Console ROBO-SCÈNE",
+    "url": "https://robo-scene.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://robo-scene.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:35.078Z"
+  },
+  {
+    "hostname": "mono-libs.netlify.app",
+    "title": "Mono",
+    "url": "https://mono-libs.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mono-libs.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 956,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T03:56:36.051Z"
+  },
+  {
     "hostname": "finanzas-mvp-wp-bot.vercel.app",
     "title": "Finanzas",
     "url": "https://finanzas-mvp-wp-bot.vercel.app",
