@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "dvir-designs.vercel.app",
+    "title": "DVIR DESIGNS · Luxury Textiles for Events",
+    "url": "https://dvir-designs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dvir-designs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 95,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:13.539Z"
+  },
+  {
+    "hostname": "niyantran-six.vercel.app",
+    "title": "NIYANTRAN TERMINAL",
+    "url": "https://niyantran-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://niyantran-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:13.716Z"
+  },
+  {
+    "hostname": "safar-guard.vercel.app",
+    "title": "SafarGuard — Autonomous Smog Collision Prevention Engine",
+    "url": "https://safar-guard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://safar-guard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 86,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:13.803Z"
+  },
+  {
+    "hostname": "keysytemdemo.vercel.app",
+    "title": "999MS — Key System &amp; Loader",
+    "url": "https://keysytemdemo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://keysytemdemo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 173,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:13.978Z"
+  },
+  {
+    "hostname": "adgyn.vercel.app",
+    "title": "adgyn – Local advertising, reimagined",
+    "url": "https://adgyn.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://adgyn.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 272,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:14.251Z"
+  },
+  {
+    "hostname": "bear-trap-calculator.vercel.app",
+    "title": "Bear Trap Squad Calculator",
+    "url": "https://bear-trap-calculator.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bear-trap-calculator.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 77,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:14.329Z"
+  },
+  {
+    "hostname": "inbox-bubble-map.vercel.app",
+    "title": "Inbox Bubble Map",
+    "url": "https://inbox-bubble-map.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://inbox-bubble-map.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 85,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:14.415Z"
+  },
+  {
+    "hostname": "rays-auto-collision-mockup.netlify.app",
+    "title": "Ray's Auto Collision — Collision Repair in Vinemont, AL",
+    "url": "https://rays-auto-collision-mockup.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rays-auto-collision-mockup.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 20,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:14.730Z"
+  },
+  {
+    "hostname": "wendells-roofing-mockup.netlify.app",
+    "title": "Wendell's Roofing Company — Roofing Contractor in Pampa, TX",
+    "url": "https://wendells-roofing-mockup.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wendells-roofing-mockup.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 547,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:15.278Z"
+  },
+  {
+    "hostname": "pytra.up.railway.app",
+    "title": "Pytra",
+    "url": "https://pytra.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pytra.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 23,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T16:16:15.391Z"
+  },
+  {
+    "hostname": "briceno.infinityfreeapp.com",
+    "title": "briceno.infinityfreeapp.com",
+    "url": "https://briceno.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://briceno.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 371,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-17T16:16:16.054Z"
+  },
+  {
     "hostname": "lojall.vercel.app",
     "title": "Loja LL Samples",
     "url": "https://lojall.vercel.app",
