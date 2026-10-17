@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "lojall.vercel.app",
+    "title": "Loja LL Samples",
+    "url": "https://lojall.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lojall.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 350,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T12:51:53.365Z"
+  },
+  {
+    "hostname": "radar-kpop.vercel.app",
+    "title": "Radar K-pop · 케이팝 레이더",
+    "url": "https://radar-kpop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://radar-kpop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T12:51:53.689Z"
+  },
+  {
+    "hostname": "for-schedule-maker.vercel.app",
+    "title": "FOF Ops",
+    "url": "https://for-schedule-maker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://for-schedule-maker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 382,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T12:51:54.072Z"
+  },
+  {
+    "hostname": "agentia-web.pages.dev",
+    "title": "Agentia — 声明式 Agent 服务开发框架",
+    "url": "https://agentia-web.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentia-web.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 166,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-17T12:51:56.231Z"
+  },
+  {
+    "hostname": "trainedhierar.github.io",
+    "title": "Your Download is Ready",
+    "url": "https://trainedhierar.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trainedhierar.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 145,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T12:51:56.377Z"
+  },
+  {
+    "hostname": "fakegen.infinityfreeapp.com",
+    "title": "fakegen.infinityfreeapp.com",
+    "url": "https://fakegen.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fakegen.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 723,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-17T12:51:57.665Z"
+  },
+  {
     "hostname": "twinkleai.vercel.app",
     "title": "Twinkle AI",
     "url": "https://twinkleai.vercel.app",
