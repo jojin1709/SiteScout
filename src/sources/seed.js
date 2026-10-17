@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "asep-2gb-2026.vercel.app",
+    "title": "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub — Αποτελέσματα, Χάρτης &amp; AI Βοηθός",
+    "url": "https://asep-2gb-2026.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://asep-2gb-2026.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 311,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:10.853Z"
+  },
+  {
+    "hostname": "ksu-asset-manager-demo01.vercel.app",
+    "title": "ทะเบียนครุภัณฑ์ · คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "url": "https://ksu-asset-manager-demo01.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ksu-asset-manager-demo01.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1078,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:11.942Z"
+  },
+  {
+    "hostname": "deep-research-agent-henna.vercel.app",
+    "title": "Deep Research Agent",
+    "url": "https://deep-research-agent-henna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deep-research-agent-henna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:12.163Z"
+  },
+  {
+    "hostname": "clicker-dev.vercel.app",
+    "title": "PROJECT CLICKER",
+    "url": "https://clicker-dev.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://clicker-dev.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 303,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:12.681Z"
+  },
+  {
+    "hostname": "travel-trucks-eight-iota.vercel.app",
+    "title": "TravelTrucks | Camper rentals",
+    "url": "https://travel-trucks-eight-iota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://travel-trucks-eight-iota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 325,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:13.007Z"
+  },
+  {
+    "hostname": "fly-away-one.vercel.app",
+    "title": "Fly Away",
+    "url": "https://fly-away-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fly-away-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 236,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:13.243Z"
+  },
+  {
+    "hostname": "bunyang-app.vercel.app",
+    "title": "분양알리미",
+    "url": "https://bunyang-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bunyang-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:13.473Z"
+  },
+  {
+    "hostname": "uniquecars.vercel.app",
+    "title": "Unique Cars (NZ) Ltd · Vehicle Finance Auckland | Manurewa",
+    "url": "https://uniquecars.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uniquecars.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 239,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T22:07:13.715Z"
+  },
+  {
     "hostname": "docconnect-mocha.vercel.app",
     "title": "Find &amp; Book Doctors Online in India | ProMedicoz",
     "url": "https://docconnect-mocha.vercel.app",
