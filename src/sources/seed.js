@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "docconnect-mocha.vercel.app",
+    "title": "Find &amp; Book Doctors Online in India | ProMedicoz",
+    "url": "https://docconnect-mocha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://docconnect-mocha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 114,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:51.800Z"
+  },
+  {
+    "hostname": "opensky-flight-tracking.vercel.app",
+    "title": "SkyTrace · Live flight tracker",
+    "url": "https://opensky-flight-tracking.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://opensky-flight-tracking.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:51.970Z"
+  },
+  {
+    "hostname": "hey-pitch-frontend.vercel.app",
+    "title": "HeyPitch. Pick a style. Get the video.",
+    "url": "https://hey-pitch-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hey-pitch-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 180,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:52.151Z"
+  },
+  {
+    "hostname": "krit-omega.vercel.app",
+    "title": "Krit",
+    "url": "https://krit-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://krit-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 537,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:52.691Z"
+  },
+  {
+    "hostname": "findit-nearby.vercel.app",
+    "title": "FindIt Nearby",
+    "url": "https://findit-nearby.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://findit-nearby.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:52.808Z"
+  },
+  {
+    "hostname": "app-engine-chi.vercel.app",
+    "title": "Describe a problem. Open a live starter.",
+    "url": "https://app-engine-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://app-engine-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:54.030Z"
+  },
+  {
+    "hostname": "cartuchin.vercel.app",
+    "title": "Cartuchin",
+    "url": "https://cartuchin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cartuchin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:54.210Z"
+  },
+  {
+    "hostname": "mintcam.netlify.app",
+    "title": "MintCam — Lightweight Webcam Studio for Linux Mint",
+    "url": "https://mintcam.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mintcam.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 519,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T19:09:54.731Z"
+  },
+  {
+    "hostname": "gagoar.github.io",
+    "title": "Gago — architecture, infra and AI",
+    "url": "https://gagoar.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gagoar.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 43,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-17T19:09:54.775Z"
+  },
+  {
     "hostname": "dvir-designs.vercel.app",
     "title": "DVIR DESIGNS · Luxury Textiles for Events",
     "url": "https://dvir-designs.vercel.app",
