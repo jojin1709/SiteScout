@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "twinkleai.vercel.app",
+    "title": "Twinkle AI",
+    "url": "https://twinkleai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://twinkleai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:43.159Z"
+  },
+  {
+    "hostname": "sandeep-shield-up-india.vercel.app",
+    "title": "SANDEEP SHIELD UP INDIA REALTIME FINAL",
+    "url": "https://sandeep-shield-up-india.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sandeep-shield-up-india.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:43.436Z"
+  },
+  {
+    "hostname": "anthimewillmann.vercel.app",
+    "title": "Anthime Willmann",
+    "url": "https://anthimewillmann.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anthimewillmann.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:43.656Z"
+  },
+  {
+    "hostname": "sunnypotfolio-beryl.vercel.app",
+    "title": "Gogikar Sunny | Portfolio",
+    "url": "https://sunnypotfolio-beryl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sunnypotfolio-beryl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:44.418Z"
+  },
+  {
+    "hostname": "quorlyth.vercel.app",
+    "title": "Quorlyth",
+    "url": "https://quorlyth.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quorlyth.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:44.663Z"
+  },
+  {
+    "hostname": "stable-manager-app-react.vercel.app",
+    "title": "stable-manager-app-react",
+    "url": "https://stable-manager-app-react.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stable-manager-app-react.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 215,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:44.878Z"
+  },
+  {
+    "hostname": "project-buildasur.vercel.app",
+    "title": "SlotSync 🌱 clash-free timetables, no cap",
+    "url": "https://project-buildasur.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project-buildasur.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:45.251Z"
+  },
+  {
+    "hostname": "billsetu.vercel.app",
+    "title": "BillSetu — Smart GST Billing for Every Business",
+    "url": "https://billsetu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://billsetu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:45.492Z"
+  },
+  {
+    "hostname": "salvadoshop.vercel.app",
+    "title": "SalvadoShop",
+    "url": "https://salvadoshop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://salvadoshop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1481,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-17T08:28:47.009Z"
+  },
+  {
+    "hostname": "winklo.pages.dev",
+    "title": "Winklo — Daily solo puzzles",
+    "url": "https://winklo.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://winklo.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-17T08:28:47.105Z"
+  },
+  {
+    "hostname": "tropical-tidbits-material.pages.dev",
+    "title": "Tropical Tidbits — Current Storms",
+    "url": "https://tropical-tidbits-material.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tropical-tidbits-material.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 190,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-17T08:28:47.296Z"
+  },
+  {
     "hostname": "solved-stbb-books.vercel.app",
     "title": "Solved Sindh Textbook Board Books — Solved Exercises Sindhi, Urdu & English Medium, Free Preview | Sindh Board",
     "url": "https://solved-stbb-books.vercel.app",
