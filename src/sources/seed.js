@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "omsai-portfolio-murex.vercel.app",
+    "title": "Omsai Dasari | RTL and VLSI Portfolio",
+    "url": "https://omsai-portfolio-murex.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://omsai-portfolio-murex.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:45:53.161Z"
+  },
+  {
+    "hostname": "hax-baby-1.vercel.app",
+    "title": "Pip · Junior Dream Engineer",
+    "url": "https://hax-baby-1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hax-baby-1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:45:53.284Z"
+  },
+  {
+    "hostname": "moovi-three.vercel.app",
+    "title": "Moovi · the AI video director you hire",
+    "url": "https://moovi-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://moovi-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 315,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:45:53.601Z"
+  },
+  {
+    "hostname": "dansiamamulet.vercel.app",
+    "title": "Dan Siam Amulets · พระเครื่องแท้ · 丹暹罗佛牌",
+    "url": "https://dansiamamulet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dansiamamulet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 797,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:45:57.378Z"
+  },
+  {
+    "hostname": "ifti-gold.vercel.app",
+    "title": "Ifti's Notebook",
+    "url": "https://ifti-gold.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ifti-gold.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:45:57.523Z"
+  },
+  {
+    "hostname": "growth-os-liard.vercel.app",
+    "title": "GrowthOS",
+    "url": "https://growth-os-liard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://growth-os-liard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4252,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:46:01.783Z"
+  },
+  {
+    "hostname": "proposalhub-eta.vercel.app",
+    "title": "ProposalHub",
+    "url": "https://proposalhub-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://proposalhub-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 356,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T10:46:02.140Z"
+  },
+  {
+    "hostname": "cloudcart.pages.dev",
+    "title": "CloudCart",
+    "url": "https://cloudcart.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cloudcart.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 344,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T10:46:02.490Z"
+  },
+  {
     "hostname": "mlbb-draft-coach-six.vercel.app",
     "title": "MLBB Draft Coach",
     "url": "https://mlbb-draft-coach-six.vercel.app",
