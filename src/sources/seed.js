@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "aura-multimodal-ai-assistant-voice.vercel.app",
+    "title": "Aura",
+    "url": "https://aura-multimodal-ai-assistant-voice.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aura-multimodal-ai-assistant-voice.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:48.735Z"
+  },
+  {
+    "hostname": "facebook-ads-teal.vercel.app",
+    "title": "Meta Ads Report",
+    "url": "https://facebook-ads-teal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://facebook-ads-teal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:48.929Z"
+  },
+  {
+    "hostname": "benny-xi.vercel.app",
+    "title": "Benny — Penguin Palace",
+    "url": "https://benny-xi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://benny-xi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1766,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:50.946Z"
+  },
+  {
+    "hostname": "deshparcel-frontend.vercel.app",
+    "title": "DeshParcel - Logistics &amp; Co.",
+    "url": "https://deshparcel-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deshparcel-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 329,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:51.277Z"
+  },
+  {
+    "hostname": "inspiria-careers.vercel.app",
+    "title": "Inspiria Careers | Professional Guidance &amp; Academic Counselling",
+    "url": "https://inspiria-careers.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://inspiria-careers.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 57,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:51.335Z"
+  },
+  {
+    "hostname": "hangyeol-match.vercel.app",
+    "title": "한결 | 결이 맞는 사람",
+    "url": "https://hangyeol-match.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hangyeol-match.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 612,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:51.948Z"
+  },
+  {
+    "hostname": "demo-financeiro-cj.vercel.app",
+    "title": "Gestor Financeiro Familiar | PWA",
+    "url": "https://demo-financeiro-cj.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://demo-financeiro-cj.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:52.062Z"
+  },
+  {
+    "hostname": "academicpages.github.io",
+    "title": "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites - Your Name / Site Title",
+    "url": "https://academicpages.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://academicpages.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 49,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:52.232Z"
+  },
+  {
+    "hostname": "moss-and-moon.up.railway.app",
+    "title": "Moss &amp; Moon · slow coffee café",
+    "url": "https://moss-and-moon.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://moss-and-moon.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 60,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T17:56:52.401Z"
+  },
+  {
+    "hostname": "agentbump.up.railway.app",
+    "title": "AgentBump",
+    "url": "https://agentbump.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentbump.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 90,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T17:56:52.497Z"
+  },
+  {
     "hostname": "quickstartrot.vercel.app",
     "title": "QuickstartRot: do developer quickstarts still work?",
     "url": "https://quickstartrot.vercel.app",
