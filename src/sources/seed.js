@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "flamaautos.vercel.app",
+    "title": "Flama Autos | Berazategui",
+    "url": "https://flamaautos.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flamaautos.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1515,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T20:29:51.667Z"
+  },
+  {
+    "hostname": "planilha-inteligente-liart.vercel.app",
+    "title": "Planilha Inteligente — Entrar",
+    "url": "https://planilha-inteligente-liart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://planilha-inteligente-liart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 38,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T20:29:51.775Z"
+  },
+  {
+    "hostname": "streako-elite.vercel.app",
+    "title": "Cadence — find your rhythm",
+    "url": "https://streako-elite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://streako-elite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 34,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T20:29:51.995Z"
+  },
+  {
+    "hostname": "evb-player.vercel.app",
+    "title": "EVB Player · Free player that remembers your place in every file",
+    "url": "https://evb-player.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://evb-player.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1491,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T20:29:53.581Z"
+  },
+  {
+    "hostname": "subasta-salvaje.vercel.app",
+    "title": "Subasta Salvaje",
+    "url": "https://subasta-salvaje.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://subasta-salvaje.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1604,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T20:29:55.187Z"
+  },
+  {
+    "hostname": "fuyuiro.pages.dev",
+    "title": "@オーバーライド — 冬色の個人サイト",
+    "url": "https://fuyuiro.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fuyuiro.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 381,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T20:29:55.677Z"
+  },
+  {
+    "hostname": "voltgecko.pages.dev",
+    "title": "VoltGecko",
+    "url": "https://voltgecko.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voltgecko.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T20:29:55.832Z"
+  },
+  {
+    "hostname": "netwonite-ops-1.onrender.com",
+    "title": "Netwonite - Enterprise Team & Task Management",
+    "url": "https://netwonite-ops-1.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://netwonite-ops-1.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 288,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T20:29:56.705Z"
+  },
+  {
+    "hostname": "nomoresilence.rf.gd",
+    "title": "nomoresilence.rf.gd",
+    "url": "https://nomoresilence.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nomoresilence.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2366,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T20:30:04.072Z"
+  },
+  {
+    "hostname": "jobhunter-md-ammar.rf.gd",
+    "title": "jobhunter-md-ammar.rf.gd",
+    "url": "https://jobhunter-md-ammar.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jobhunter-md-ammar.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1121,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T20:30:05.193Z"
+  },
+  {
     "hostname": "aura-multimodal-ai-assistant-voice.vercel.app",
     "title": "Aura",
     "url": "https://aura-multimodal-ai-assistant-voice.vercel.app",
