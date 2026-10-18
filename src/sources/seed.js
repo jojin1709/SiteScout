@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "drag-net.vercel.app",
+    "title": "DragNet | Compliance Training",
+    "url": "https://drag-net.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://drag-net.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:58.152Z"
+  },
+  {
+    "hostname": "richmont-drab.vercel.app",
+    "title": "Richmont Furniture | Muebles a medida en Paraguay",
+    "url": "https://richmont-drab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://richmont-drab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:58.394Z"
+  },
+  {
+    "hostname": "mcp-guard-iota.vercel.app",
+    "title": "MCP 安檢｜獨立稽核總表",
+    "url": "https://mcp-guard-iota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mcp-guard-iota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:58.509Z"
+  },
+  {
+    "hostname": "clarissa-engineering-log.vercel.app",
+    "title": "Clarissa Edwards — Backend Software Engineer &amp; Dev Journal",
+    "url": "https://clarissa-engineering-log.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://clarissa-engineering-log.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:58.844Z"
+  },
+  {
+    "hostname": "alvrich.vercel.app",
+    "title": "Álvaro Rodríguez Molina · Software Engineer",
+    "url": "https://alvrich.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alvrich.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:59.026Z"
+  },
+  {
+    "hostname": "epsilonacademy.vercel.app",
+    "title": "Epsilon Academy · Tutores IB verificados en Perú",
+    "url": "https://epsilonacademy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://epsilonacademy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:59.124Z"
+  },
+  {
+    "hostname": "desafio-sistema-banc-rio-python.vercel.app",
+    "title": "SEPPEN-RJ | CICC & SISPEN — Complexo de Gericinó (KML Oficial)",
+    "url": "https://desafio-sistema-banc-rio-python.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://desafio-sistema-banc-rio-python.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T22:55:59.453Z"
+  },
+  {
+    "hostname": "lamina-demo.pages.dev",
+    "title": "Hello, lamina — lamina",
+    "url": "https://lamina-demo.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lamina-demo.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 258,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T22:55:59.713Z"
+  },
+  {
     "hostname": "flamaautos.vercel.app",
     "title": "Flama Autos | Berazategui",
     "url": "https://flamaautos.vercel.app",
