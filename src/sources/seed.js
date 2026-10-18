@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "rounds-tau.vercel.app",
+    "title": "Rounds",
+    "url": "https://rounds-tau.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rounds-tau.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:07.181Z"
+  },
+  {
+    "hostname": "contability-app-front.vercel.app",
+    "title": "Kontia",
+    "url": "https://contability-app-front.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://contability-app-front.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 208,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:07.538Z"
+  },
+  {
+    "hostname": "remote-job-safety-review.vercel.app",
+    "title": "Remote Job Safety Review | Check Remote Job Warning Signs",
+    "url": "https://remote-job-safety-review.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://remote-job-safety-review.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 215,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:07.754Z"
+  },
+  {
+    "hostname": "edward-game.vercel.app",
+    "title": "EDWARD GAME",
+    "url": "https://edward-game.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://edward-game.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:07.943Z"
+  },
+  {
+    "hostname": "3b-international.vercel.app",
+    "title": "3B International – Application officielle Black Blanc Beur",
+    "url": "https://3b-international.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://3b-international.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 288,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:08.232Z"
+  },
+  {
+    "hostname": "strong-eta.vercel.app",
+    "title": "Strong Properties | Find Your Place in Ghana",
+    "url": "https://strong-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://strong-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1114,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:09.360Z"
+  },
+  {
+    "hostname": "career-tracks-amber.vercel.app",
+    "title": "Career Tracks Handbook",
+    "url": "https://career-tracks-amber.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://career-tracks-amber.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 359,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:09.956Z"
+  },
+  {
+    "hostname": "sj-jhs2.vercel.app",
+    "title": "신정개발 연구소 현황",
+    "url": "https://sj-jhs2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sj-jhs2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 212,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:10.169Z"
+  },
+  {
+    "hostname": "pioneirasealem.netlify.app",
+    "title": "Pioneiras & Além",
+    "url": "https://pioneirasealem.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pioneirasealem.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 461,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:10.636Z"
+  },
+  {
+    "hostname": "hotelpro-21bl.onrender.com",
+    "title": "HotelPro — Stays, Made Special",
+    "url": "https://hotelpro-21bl.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hotelpro-21bl.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 166,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:10.880Z"
+  },
+  {
+    "hostname": "nocapgaming.onrender.com",
+    "title": "ClassiCade: classic games with anyone, anywhere",
+    "url": "https://nocapgaming.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nocapgaming.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T00:47:11.027Z"
+  },
+  {
     "hostname": "asep-2gb-2026.vercel.app",
     "title": "ΑΣΕΠ 2ΓΒ/2026 Analytics Hub — Αποτελέσματα, Χάρτης &amp; AI Βοηθός",
     "url": "https://asep-2gb-2026.vercel.app",
