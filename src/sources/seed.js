@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "quickstartrot.vercel.app",
+    "title": "QuickstartRot: do developer quickstarts still work?",
+    "url": "https://quickstartrot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quickstartrot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 678,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:33.576Z"
+  },
+  {
+    "hostname": "pass-web-dun.vercel.app",
+    "title": "PASS — See a trade. Know the trader. Take the trade.",
+    "url": "https://pass-web-dun.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pass-web-dun.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:34.800Z"
+  },
+  {
+    "hostname": "self-employed-budget.vercel.app",
+    "title": "Self Employed Budget — income & expenses",
+    "url": "https://self-employed-budget.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://self-employed-budget.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 119,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:34.920Z"
+  },
+  {
+    "hostname": "nullspace-lemon.vercel.app",
+    "title": "NULLSPACE",
+    "url": "https://nullspace-lemon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nullspace-lemon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:35.168Z"
+  },
+  {
+    "hostname": "ojo-workspace.vercel.app",
+    "title": "ojo",
+    "url": "https://ojo-workspace.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ojo-workspace.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:35.413Z"
+  },
+  {
+    "hostname": "pastamania-srilanka.vercel.app",
+    "title": "PastaMania Club",
+    "url": "https://pastamania-srilanka.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pastamania-srilanka.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:35.661Z"
+  },
+  {
+    "hostname": "mydincharya.vercel.app",
+    "title": "Dincharya – log your day by voice",
+    "url": "https://mydincharya.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mydincharya.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:35.884Z"
+  },
+  {
+    "hostname": "association-gm.vercel.app",
+    "title": "Association GM",
+    "url": "https://association-gm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://association-gm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:37.139Z"
+  },
+  {
+    "hostname": "fila-de-deploys.vercel.app",
+    "title": "Deploy Queue · Fila de deploys",
+    "url": "https://fila-de-deploys.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fila-de-deploys.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:37.341Z"
+  },
+  {
+    "hostname": "oral-cancer-detect.netlify.app",
+    "title": "OralAID | Explainable AI for oral cancer screening",
+    "url": "https://oral-cancer-detect.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oral-cancer-detect.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T14:25:37.576Z"
+  },
+  {
+    "hostname": "minecord-8vg2.onrender.com",
+    "title": "MINECORD",
+    "url": "https://minecord-8vg2.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://minecord-8vg2.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 274,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T14:25:38.117Z"
+  },
+  {
+    "hostname": "bookmystay-m1dn.onrender.com",
+    "title": "Welcome to BookMyStay!",
+    "url": "https://bookmystay-m1dn.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bookmystay-m1dn.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 688,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T14:25:38.807Z"
+  },
+  {
+    "hostname": "autonoc-project.fly.dev",
+    "title": "SuliNOC · Network Command",
+    "url": "https://autonoc-project.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://autonoc-project.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 305,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T14:25:39.113Z"
+  },
+  {
+    "hostname": "darkrevolution.fly.dev",
+    "title": "DarkRevolution",
+    "url": "https://darkrevolution.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://darkrevolution.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 266,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T14:25:39.379Z"
+  },
+  {
     "hostname": "omsai-portfolio-murex.vercel.app",
     "title": "Omsai Dasari | RTL and VLSI Portfolio",
     "url": "https://omsai-portfolio-murex.vercel.app",
