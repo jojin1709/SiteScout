@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "mlbb-draft-coach-six.vercel.app",
+    "title": "MLBB Draft Coach",
+    "url": "https://mlbb-draft-coach-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mlbb-draft-coach-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1183,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:42.634Z"
+  },
+  {
+    "hostname": "alta-densidad-page.vercel.app",
+    "title": "Fragancias de Alta Densidad | Lo que permanece · Medellín",
+    "url": "https://alta-densidad-page.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alta-densidad-page.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:42.952Z"
+  },
+  {
+    "hostname": "spectre-ghostty-config.vercel.app",
+    "title": "Spectre - Ghostty Config Generator",
+    "url": "https://spectre-ghostty-config.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://spectre-ghostty-config.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 428,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:43.382Z"
+  },
+  {
+    "hostname": "nullreceiver-monitor.vercel.app",
+    "title": "NullReceiver Monitor | Ethereum C2 Dead-Drop Resolver",
+    "url": "https://nullreceiver-monitor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nullreceiver-monitor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 323,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:43.705Z"
+  },
+  {
+    "hostname": "parallax-physics.vercel.app",
+    "title": "Parallax",
+    "url": "https://parallax-physics.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://parallax-physics.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:44.016Z"
+  },
+  {
+    "hostname": "wedjatrsm.vercel.app",
+    "title": "Lilo Cafe and Restaurant — Restaurant Management System",
+    "url": "https://wedjatrsm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wedjatrsm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 436,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:44.453Z"
+  },
+  {
+    "hostname": "isgy-intern-plus.vercel.app",
+    "title": "ISGY Intern Plus – isgy-intern.de, endlich übersichtlich",
+    "url": "https://isgy-intern-plus.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://isgy-intern-plus.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 475,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:44.931Z"
+  },
+  {
+    "hostname": "forge-os-ebon.vercel.app",
+    "title": "Hami",
+    "url": "https://forge-os-ebon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://forge-os-ebon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 409,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:45.433Z"
+  },
+  {
+    "hostname": "gaibang.pages.dev",
+    "title": "丐帮官网 - 丐帮官方网站 | 江湖新闻与帮派动态",
+    "url": "https://gaibang.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gaibang.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T05:38:46.662Z"
+  },
+  {
+    "hostname": "one-step-programing.netlify.app",
+    "title": "OneStep - プログラミング学習",
+    "url": "https://one-step-programing.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://one-step-programing.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 327,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:47.108Z"
+  },
+  {
+    "hostname": "homebysix.github.io",
+    "title": "Redirecting to elliotjordan.com",
+    "url": "https://homebysix.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://homebysix.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T05:38:47.261Z"
+  },
+  {
+    "hostname": "beepboop2025.github.io",
+    "title": "moo — developer",
+    "url": "https://beepboop2025.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beepboop2025.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-18T05:38:47.371Z"
+  },
+  {
+    "hostname": "academicoracle.onrender.com",
+    "title": "Universal Academic Oracle | Guided Learning Platform",
+    "url": "https://academicoracle.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://academicoracle.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 606,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T05:38:47.979Z"
+  },
+  {
+    "hostname": "cti-dashboard.fly.dev",
+    "title": "Streamlit",
+    "url": "https://cti-dashboard.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cti-dashboard.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 396,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-18T05:38:48.378Z"
+  },
+  {
     "hostname": "rounds-tau.vercel.app",
     "title": "Rounds",
     "url": "https://rounds-tau.vercel.app",
