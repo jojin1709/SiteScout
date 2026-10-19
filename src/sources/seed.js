@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "myticket-shared-whatsapp-inbox.vercel.app",
+    "title": "Myticket Shared Inbox",
+    "url": "https://myticket-shared-whatsapp-inbox.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://myticket-shared-whatsapp-inbox.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 483,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:26:56.536Z"
+  },
+  {
+    "hostname": "murekkep.vercel.app",
+    "title": "Mürekkep - Köşe Yazarları",
+    "url": "https://murekkep.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://murekkep.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:26:56.762Z"
+  },
+  {
+    "hostname": "sagar-portfolio-gamma-six.vercel.app",
+    "title": "Sagar Soni | AI & Data Science",
+    "url": "https://sagar-portfolio-gamma-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sagar-portfolio-gamma-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:26:57.139Z"
+  },
+  {
+    "hostname": "trial-navigator.vercel.app",
+    "title": "TrialNavigator — Rare Disease Clinical Trial Finder",
+    "url": "https://trial-navigator.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trial-navigator.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 254,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:26:57.394Z"
+  },
+  {
+    "hostname": "olivia-agent-smoky.vercel.app",
+    "title": "포토클리닉 AI 에이전트",
+    "url": "https://olivia-agent-smoky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://olivia-agent-smoky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1310,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:26:58.909Z"
+  },
+  {
+    "hostname": "sevelin-pos-oficial.vercel.app",
+    "title": "Sistema POS - Sevelin",
+    "url": "https://sevelin-pos-oficial.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sevelin-pos-oficial.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:26:59.085Z"
+  },
+  {
+    "hostname": "agentic-ev-analytics-platform.vercel.app",
+    "title": "Linework — Sports market intelligence",
+    "url": "https://agentic-ev-analytics-platform.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentic-ev-analytics-platform.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1727,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:27:00.860Z"
+  },
+  {
+    "hostname": "reed-home-solutions.vercel.app",
+    "title": "Vail Valley Remodeling Contractor | Reed Home Solutions",
+    "url": "https://reed-home-solutions.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reed-home-solutions.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:27:01.026Z"
+  },
+  {
+    "hostname": "hpr-cpp.netlify.app",
+    "title": "HPR — Human Pattern Recorder",
+    "url": "https://hpr-cpp.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hpr-cpp.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 609,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:27:01.647Z"
+  },
+  {
+    "hostname": "oekit.github.io",
+    "title": "oekit",
+    "url": "https://oekit.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oekit.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 85,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T15:27:01.733Z"
+  },
+  {
     "hostname": "nextplay-eta.vercel.app",
     "title": "NextPlay — game releases, your backlog &amp; your next play",
     "url": "https://nextplay-eta.vercel.app",
