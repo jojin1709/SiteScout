@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "sans-vision.vercel.app",
+    "title": "Plant Pals",
+    "url": "https://sans-vision.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sans-vision.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:17.020Z"
+  },
+  {
+    "hostname": "civilization-chess.vercel.app",
+    "title": "문명체스 · Civilization Chess",
+    "url": "https://civilization-chess.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://civilization-chess.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:18.811Z"
+  },
+  {
+    "hostname": "vector-praxis-japan-hub.vercel.app",
+    "title": "Vector Praxis Works Hub｜AIを使う・作る・収益につなげる",
+    "url": "https://vector-praxis-japan-hub.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vector-praxis-japan-hub.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:19.049Z"
+  },
+  {
+    "hostname": "fish-lens-ruddy.vercel.app",
+    "title": "Figma Make App",
+    "url": "https://fish-lens-ruddy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fish-lens-ruddy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 114,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:19.467Z"
+  },
+  {
+    "hostname": "aninews-hub.pages.dev",
+    "title": "AniNews Hub — Anime, Japan &amp; Culture News",
+    "url": "https://aninews-hub.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aninews-hub.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 285,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T01:02:19.753Z"
+  },
+  {
+    "hostname": "vow-17x.pages.dev",
+    "title": "VOW | Lista de espera",
+    "url": "https://vow-17x.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vow-17x.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 341,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T01:02:20.095Z"
+  },
+  {
+    "hostname": "cashoptimizer.pages.dev",
+    "title": "Cash Optimizer",
+    "url": "https://cashoptimizer.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cashoptimizer.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T01:02:20.288Z"
+  },
+  {
+    "hostname": "usdc-meter.netlify.app",
+    "title": "USDC Meter — Prepaid metered billing on Arc",
+    "url": "https://usdc-meter.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://usdc-meter.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 424,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:20.712Z"
+  },
+  {
+    "hostname": "pi-lang.netlify.app",
+    "title": "Pilang | Programming Language and Playground",
+    "url": "https://pi-lang.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pi-lang.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 786,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:21.499Z"
+  },
+  {
+    "hostname": "patronmarina.github.io",
+    "title": "Прокси Навигатор: 73 рабочих MTProxy для Telegram, обновлено 22:31 МСК",
+    "url": "https://patronmarina.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://patronmarina.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T01:02:21.767Z"
+  },
+  {
     "hostname": "drag-net.vercel.app",
     "title": "DragNet | Compliance Training",
     "url": "https://drag-net.vercel.app",
