@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "nextplay-eta.vercel.app",
+    "title": "NextPlay — game releases, your backlog &amp; your next play",
+    "url": "https://nextplay-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nextplay-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:28.500Z"
+  },
+  {
+    "hostname": "vercel-temp-lac.vercel.app",
+    "title": "Green Network - Protect Earth",
+    "url": "https://vercel-temp-lac.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vercel-temp-lac.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 428,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:28.929Z"
+  },
+  {
+    "hostname": "shisho-rho.vercel.app",
+    "title": "Shishō",
+    "url": "https://shisho-rho.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shisho-rho.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:29.142Z"
+  },
+  {
+    "hostname": "arklings-main-deploy.vercel.app",
+    "title": "아클링스: 한국 신화·고대사 기반 IP 스튜디오",
+    "url": "https://arklings-main-deploy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arklings-main-deploy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 274,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:29.419Z"
+  },
+  {
+    "hostname": "svmtraders.vercel.app",
+    "title": "SVM Traders | Natural Leaf Plates &amp; Wholesale Supply in Hyderabad",
+    "url": "https://svmtraders.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://svmtraders.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 206,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:29.941Z"
+  },
+  {
+    "hostname": "wattlehealth.vercel.app",
+    "title": "Wattle",
+    "url": "https://wattlehealth.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wattlehealth.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 481,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:30.685Z"
+  },
+  {
+    "hostname": "tu-golf.vercel.app",
+    "title": "Golfers+ — Se gana con la mente",
+    "url": "https://tu-golf.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tu-golf.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 745,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:31.432Z"
+  },
+  {
+    "hostname": "adtone.vercel.app",
+    "title": "Focal",
+    "url": "https://adtone.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://adtone.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:31.585Z"
+  },
+  {
+    "hostname": "bugwatcher-pings.vercel.app",
+    "title": "BugWatcher Pings — real-time error monitoring and alerts",
+    "url": "https://bugwatcher-pings.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bugwatcher-pings.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:31.791Z"
+  },
+  {
+    "hostname": "rgb-docs.github.io",
+    "title": "Home | RGB Protocol Docs",
+    "url": "https://rgb-docs.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rgb-docs.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 169,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T07:34:31.962Z"
+  },
+  {
     "hostname": "sans-vision.vercel.app",
     "title": "Plant Pals",
     "url": "https://sans-vision.vercel.app",
