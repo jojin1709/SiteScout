@@ -1,5 +1,290 @@
 export const SEED_SITES = [
   {
+    "hostname": "sharewise.vercel.app",
+    "title": "Sharewise",
+    "url": "https://sharewise.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sharewise.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 402,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:14.368Z"
+  },
+  {
+    "hostname": "thework-studio.vercel.app",
+    "title": "Team Planner — Scheduling, Teams &amp; Notebook",
+    "url": "https://thework-studio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://thework-studio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1280,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:15.650Z"
+  },
+  {
+    "hostname": "paranacito-noticias.vercel.app",
+    "title": "Paranacito Noticias | Feed en Vivo del Delta",
+    "url": "https://paranacito-noticias.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paranacito-noticias.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:16.229Z"
+  },
+  {
+    "hostname": "taskflow-one.vercel.app",
+    "title": "TaskFlow",
+    "url": "https://taskflow-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://taskflow-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 481,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:16.710Z"
+  },
+  {
+    "hostname": "agent-kb-autopublish.vercel.app",
+    "title": "AI Agent Failure Patterns — Field Guide to Agent Failures",
+    "url": "https://agent-kb-autopublish.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agent-kb-autopublish.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:16.849Z"
+  },
+  {
+    "hostname": "motor-originac-srm.vercel.app",
+    "title": "Motor Originação SRM",
+    "url": "https://motor-originac-srm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://motor-originac-srm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 129,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:16.979Z"
+  },
+  {
+    "hostname": "rankfix-app.vercel.app",
+    "title": "RankFix AI — SEO &amp; GEO Audit met concrete fixes",
+    "url": "https://rankfix-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rankfix-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1754,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:18.791Z"
+  },
+  {
+    "hostname": "finnish-grid-atlas.vercel.app",
+    "title": "Finnish Grid Atlas — Independent grid research",
+    "url": "https://finnish-grid-atlas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finnish-grid-atlas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3028,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:21.832Z"
+  },
+  {
+    "hostname": "originwise.pages.dev",
+    "title": "OriginWise — Quick China-related product check",
+    "url": "https://originwise.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://originwise.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 444,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T20:57:22.495Z"
+  },
+  {
+    "hostname": "bitter-buffalo-art.pages.dev",
+    "title": "Bitter Buffalo Art | Art from the High Country",
+    "url": "https://bitter-buffalo-art.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bitter-buffalo-art.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T20:57:22.651Z"
+  },
+  {
+    "hostname": "scentora.pages.dev",
+    "title": "Scentora — A premium fragrance boutique offering designer and niche scents in decanted sizes from 3 ml to 15 ml.",
+    "url": "https://scentora.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scentora.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 349,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T20:57:23.004Z"
+  },
+  {
+    "hostname": "hpcflow.github.io",
+    "title": "Redirecting to https://hpcflow.github.io/docs",
+    "url": "https://hpcflow.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hpcflow.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 79,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:23.083Z"
+  },
+  {
+    "hostname": "driftless-cast.fly.dev",
+    "title": "Driftless Cast — trout fishing forecast for the Driftless Area",
+    "url": "https://driftless-cast.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://driftless-cast.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-19T20:57:23.294Z"
+  },
+  {
+    "hostname": "hiresense-ai-production-56b9.up.railway.app",
+    "title": "HireSense AI — Smarter Hiring Starts Here",
+    "url": "https://hiresense-ai-production-56b9.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hiresense-ai-production-56b9.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T20:57:23.478Z"
+  },
+  {
+    "hostname": "little-league-production.up.railway.app",
+    "title": "Roster Lab — Little League Championship Series",
+    "url": "https://little-league-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://little-league-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-19T20:57:23.677Z"
+  },
+  {
     "hostname": "myticket-shared-whatsapp-inbox.vercel.app",
     "title": "Myticket Shared Inbox",
     "url": "https://myticket-shared-whatsapp-inbox.vercel.app",
