@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "zhidengren-design.vercel.app",
+    "title": "执灯人 · 三个形式",
+    "url": "https://zhidengren-design.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zhidengren-design.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:37.360Z"
+  },
+  {
+    "hostname": "lorenz-allen26-itelect4-project-it.vercel.app",
+    "title": "lorenzallen26-itelect4-project-it4b-main2-main",
+    "url": "https://lorenz-allen26-itelect4-project-it.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lorenz-allen26-itelect4-project-it.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:37.586Z"
+  },
+  {
+    "hostname": "ai-daily-web-r.vercel.app",
+    "title": "Create Next App",
+    "url": "https://ai-daily-web-r.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-daily-web-r.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:37.775Z"
+  },
+  {
+    "hostname": "laprol-lapra.vercel.app",
+    "title": "Lapról Lapra",
+    "url": "https://laprol-lapra.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://laprol-lapra.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:37.881Z"
+  },
+  {
+    "hostname": "ninety-coral.vercel.app",
+    "title": "Ninety — Schengen days left",
+    "url": "https://ninety-coral.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ninety-coral.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 161,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:38.043Z"
+  },
+  {
+    "hostname": "learntrackfinal.vercel.app",
+    "title": "online-learning",
+    "url": "https://learntrackfinal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://learntrackfinal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:38.156Z"
+  },
+  {
+    "hostname": "encorp.vercel.app",
+    "title": "ENCORP — Enciclopédia de Enfermagem",
+    "url": "https://encorp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://encorp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:38.253Z"
+  },
+  {
+    "hostname": "clockify-cli.netlify.app",
+    "title": "Clockify CLI",
+    "url": "https://clockify-cli.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://clockify-cli.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:38.389Z"
+  },
+  {
+    "hostname": "deepwork-pomodoro.netlify.app",
+    "title": "DeepWork — Free Pomodoro Timer, Tasks &amp; Reminders",
+    "url": "https://deepwork-pomodoro.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deepwork-pomodoro.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 69,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:38.461Z"
+  },
+  {
+    "hostname": "openvlharness.github.io",
+    "title": "OpenVLHarness: Real-World Visual Agentic Tool-Use with Multimodal Memory",
+    "url": "https://openvlharness.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://openvlharness.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 46,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T05:48:38.509Z"
+  },
+  {
+    "hostname": "library-management-system-1-1ep1.onrender.com",
+    "title": "The Library",
+    "url": "https://library-management-system-1-1ep1.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://library-management-system-1-1ep1.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T05:48:38.609Z"
+  },
+  {
     "hostname": "coffee-meetup.vercel.app",
     "title": "Meet · Coffee, somewhere between",
     "url": "https://coffee-meetup.vercel.app",
