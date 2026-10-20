@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "ridery-academy.vercel.app",
+    "title": "Ridery Academy",
+    "url": "https://ridery-academy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ridery-academy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 547,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:27.343Z"
+  },
+  {
+    "hostname": "claudina-clean.vercel.app",
+    "title": "Claudina App",
+    "url": "https://claudina-clean.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://claudina-clean.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 608,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:27.952Z"
+  },
+  {
+    "hostname": "imanservice-com.vercel.app",
+    "title": "i Man Service | IT Infrastructure, Network Audit & AMC Lahore",
+    "url": "https://imanservice-com.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://imanservice-com.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:28.292Z"
+  },
+  {
+    "hostname": "rollcafe.vercel.app",
+    "title": "Hex Roulette | Color Map",
+    "url": "https://rollcafe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rollcafe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:28.588Z"
+  },
+  {
+    "hostname": "material-select-ai-web.vercel.app",
+    "title": "MaterialSelect AI — seleção de materiais pelo método de Ashby",
+    "url": "https://material-select-ai-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://material-select-ai-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:28.790Z"
+  },
+  {
+    "hostname": "welcomescore.vercel.app",
+    "title": "WelcomeScore — Is your repo ready for first-time contributors?",
+    "url": "https://welcomescore.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://welcomescore.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 427,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:29.328Z"
+  },
+  {
+    "hostname": "thenewsjw.netlify.app",
+    "title": "News App",
+    "url": "https://thenewsjw.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://thenewsjw.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 184,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T16:41:29.513Z"
+  },
+  {
+    "hostname": "launchpad.rf.gd",
+    "title": "launchpad.rf.gd",
+    "url": "https://launchpad.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://launchpad.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 731,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T16:41:30.714Z"
+  },
+  {
+    "hostname": "rustam-auth.infinityfreeapp.com",
+    "title": "rustam-auth.infinityfreeapp.com",
+    "url": "https://rustam-auth.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rustam-auth.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 662,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T16:41:31.765Z"
+  },
+  {
     "hostname": "fieldpoint-zeta.vercel.app",
     "title": "FieldPoint · Sistema",
     "url": "https://fieldpoint-zeta.vercel.app",
