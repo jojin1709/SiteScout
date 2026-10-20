@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "fieldpoint-zeta.vercel.app",
+    "title": "FieldPoint · Sistema",
+    "url": "https://fieldpoint-zeta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fieldpoint-zeta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 169,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:16:57.502Z"
+  },
+  {
+    "hostname": "jumia-co-ke-blackfriday.vercel.app",
+    "title": "Jumia Black Friday 2026 Kenya: Best Deals and Offers",
+    "url": "https://jumia-co-ke-blackfriday.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jumia-co-ke-blackfriday.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 286,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:16:57.790Z"
+  },
+  {
+    "hostname": "china-license-membership.vercel.app",
+    "title": "차이나 라이센스 | 중국 운전면허 필기시험 문제은행",
+    "url": "https://china-license-membership.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://china-license-membership.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:16:58.268Z"
+  },
+  {
+    "hostname": "surdhara.vercel.app",
+    "title": "SURDHARA — Your Sounds, Your Feelings",
+    "url": "https://surdhara.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://surdhara.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:16:58.488Z"
+  },
+  {
+    "hostname": "linkpulse-alpha.vercel.app",
+    "title": "LinkPulse — Every link. Smarter insights.",
+    "url": "https://linkpulse-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://linkpulse-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:16:59.744Z"
+  },
+  {
+    "hostname": "kendang-pasunanda1.vercel.app",
+    "title": "Kendang Pasunanda",
+    "url": "https://kendang-pasunanda1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kendang-pasunanda1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 211,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:16:59.956Z"
+  },
+  {
+    "hostname": "fund-valuation-system-3hok.vercel.app",
+    "title": "📊 基金估值雷达 - 全网最丰富",
+    "url": "https://fund-valuation-system-3hok.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fund-valuation-system-3hok.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:17:00.202Z"
+  },
+  {
+    "hostname": "matherion-fleet.vercel.app",
+    "title": "Gestionale flotta e noleggi",
+    "url": "https://matherion-fleet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://matherion-fleet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 357,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:17:00.760Z"
+  },
+  {
+    "hostname": "atlas-demo-kappa.vercel.app",
+    "title": "Atlas — CMN Operations",
+    "url": "https://atlas-demo-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://atlas-demo-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:17:01.032Z"
+  },
+  {
+    "hostname": "zachroute.pages.dev",
+    "title": "ZachRoute",
+    "url": "https://zachroute.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zachroute.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T11:17:01.277Z"
+  },
+  {
+    "hostname": "morphy-demo.fly.dev",
+    "title": "morphy",
+    "url": "https://morphy-demo.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://morphy-demo.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T11:17:02.109Z"
+  },
+  {
+    "hostname": "hearth-production-8551.up.railway.app",
+    "title": "Hearth — Voice House Record & Emergency Runbooks (Alexa+ MCP)",
+    "url": "https://hearth-production-8551.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hearth-production-8551.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 198,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T11:17:02.386Z"
+  },
+  {
     "hostname": "zhidengren-design.vercel.app",
     "title": "执灯人 · 三个形式",
     "url": "https://zhidengren-design.vercel.app",
