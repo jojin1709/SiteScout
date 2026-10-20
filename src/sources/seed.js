@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "scales-viewer.vercel.app",
+    "title": "Scales viewer by Jean-Yves Pelletier",
+    "url": "https://scales-viewer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scales-viewer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 387,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:12.623Z"
+  },
+  {
+    "hostname": "normalizacao-sql.vercel.app",
+    "title": "Normalização SQL | Apresentação do projeto",
+    "url": "https://normalizacao-sql.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://normalizacao-sql.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 306,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:12.930Z"
+  },
+  {
+    "hostname": "uxsur.vercel.app",
+    "title": "ux.sur — Product UX Designer",
+    "url": "https://uxsur.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uxsur.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1754,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:16.044Z"
+  },
+  {
+    "hostname": "platinum-choice-pink.vercel.app",
+    "title": "HR &amp; Workforce Solutions Firm | Platinum Choice Consulting",
+    "url": "https://platinum-choice-pink.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://platinum-choice-pink.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 258,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:16.303Z"
+  },
+  {
+    "hostname": "lumen-fde.vercel.app",
+    "title": "Lumen · FDE Study System",
+    "url": "https://lumen-fde.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lumen-fde.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 504,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:16.807Z"
+  },
+  {
+    "hostname": "travelgrin20.vercel.app",
+    "title": "TravelGrin - Viajar por oportunidades | Conecta con el mundo",
+    "url": "https://travelgrin20.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://travelgrin20.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1081,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:17.888Z"
+  },
+  {
+    "hostname": "shah-abdul-mazid-portfolio.vercel.app",
+    "title": "Shah Abdul Mazid Portfolio",
+    "url": "https://shah-abdul-mazid-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shah-abdul-mazid-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:18.113Z"
+  },
+  {
+    "hostname": "sci-club-chiari.vercel.app",
+    "title": "Sci club Chiari - Home Page",
+    "url": "https://sci-club-chiari.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sci-club-chiari.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 359,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:18.473Z"
+  },
+  {
+    "hostname": "examplan-kappa.vercel.app",
+    "title": "ExamPlan: daily study plans for law and IR exams",
+    "url": "https://examplan-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://examplan-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 571,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T20:23:19.596Z"
+  },
+  {
+    "hostname": "paritytech.github.io",
+    "title": "Index | Parity",
+    "url": "https://paritytech.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paritytech.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 119,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T20:23:20.454Z"
+  },
+  {
     "hostname": "ridery-academy.vercel.app",
     "title": "Ridery Academy",
     "url": "https://ridery-academy.vercel.app",
