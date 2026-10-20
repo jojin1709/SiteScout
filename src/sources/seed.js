@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "presentations-three-phi.vercel.app",
+    "title": "El programa · Presentaciones con IA",
+    "url": "https://presentations-three-phi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://presentations-three-phi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 180,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:39.666Z"
+  },
+  {
+    "hostname": "fluencia-em-ingles.vercel.app",
+    "title": "Fluência em Inglês | Do zero ao avançado",
+    "url": "https://fluencia-em-ingles.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fluencia-em-ingles.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:39.949Z"
+  },
+  {
+    "hostname": "mmt510.vercel.app",
+    "title": "Projects | Mason Thompson",
+    "url": "https://mmt510.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mmt510.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 254,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:40.365Z"
+  },
+  {
+    "hostname": "final-freshcart-sigma.vercel.app",
+    "title": "FreshCart | Fresh Groceries, Fashion &amp; More",
+    "url": "https://final-freshcart-sigma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://final-freshcart-sigma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 668,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:41.572Z"
+  },
+  {
+    "hostname": "food-shopping-os.vercel.app",
+    "title": "Forq — Tell Forq what you are eating",
+    "url": "https://food-shopping-os.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://food-shopping-os.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2328,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:43.900Z"
+  },
+  {
+    "hostname": "mdsakibmollah.vercel.app",
+    "title": "MD Sakib Mollah | Full-Stack Web, Mobile &amp; AI Developer",
+    "url": "https://mdsakibmollah.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mdsakibmollah.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:44.184Z"
+  },
+  {
+    "hostname": "royalblue-web.vercel.app",
+    "title": "RoyalBlue MFB",
+    "url": "https://royalblue-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://royalblue-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 243,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:44.427Z"
+  },
+  {
+    "hostname": "nurse-navigator-dashboard-pt83.vercel.app",
+    "title": "nurse-navigator-dashboard-pt83.vercel.app",
+    "url": "https://nurse-navigator-dashboard-pt83.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nurse-navigator-dashboard-pt83.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 289,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:44.717Z"
+  },
+  {
+    "hostname": "lonekeem.github.io",
+    "title": "Kemy App by Lone Keem Studios | Free Kemy Pals, 3D Pal Park &amp; Games",
+    "url": "https://lonekeem.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lonekeem.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 132,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T23:43:45.399Z"
+  },
+  {
     "hostname": "scales-viewer.vercel.app",
     "title": "Scales viewer by Jean-Yves Pelletier",
     "url": "https://scales-viewer.vercel.app",
