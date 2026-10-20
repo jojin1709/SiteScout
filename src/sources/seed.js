@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "coffee-meetup.vercel.app",
+    "title": "Meet · Coffee, somewhere between",
+    "url": "https://coffee-meetup.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://coffee-meetup.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 127,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:00.741Z"
+  },
+  {
+    "hostname": "portafolio-five-lemon-79.vercel.app",
+    "title": "Denis Jamil Tineo Huancas | Backend Developer Java &amp; Spring Boot",
+    "url": "https://portafolio-five-lemon-79.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portafolio-five-lemon-79.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 68,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:00.958Z"
+  },
+  {
+    "hostname": "grokbothackathon.vercel.app",
+    "title": "Garage Sale Town · Snap it. Sold.",
+    "url": "https://grokbothackathon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://grokbothackathon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:01.095Z"
+  },
+  {
+    "hostname": "guitar-dice.vercel.app",
+    "title": "Guitar Dice",
+    "url": "https://guitar-dice.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guitar-dice.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:01.185Z"
+  },
+  {
+    "hostname": "solucionfabrick.vercel.app",
+    "title": "Soluciones Fabrick | Construcción, Remodelación y Reparación en Chile",
+    "url": "https://solucionfabrick.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://solucionfabrick.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1854,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:03.053Z"
+  },
+  {
+    "hostname": "researchmind-app.vercel.app",
+    "title": "ResearchMind — AI Research Agent",
+    "url": "https://researchmind-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://researchmind-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 327,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:03.434Z"
+  },
+  {
+    "hostname": "foldkit-plus.pages.dev",
+    "title": "Foldkit Plus: ready-made patterns for Foldkit",
+    "url": "https://foldkit-plus.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://foldkit-plus.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-20T00:13:03.654Z"
+  },
+  {
+    "hostname": "knowledge-desk.fly.dev",
+    "title": "Knowledge Desk",
+    "url": "https://knowledge-desk.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://knowledge-desk.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4860,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-20T00:13:08.555Z"
+  },
+  {
     "hostname": "sharewise.vercel.app",
     "title": "Sharewise",
     "url": "https://sharewise.vercel.app",
