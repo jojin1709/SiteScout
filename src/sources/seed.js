@@ -1,5 +1,290 @@
 export const SEED_SITES = [
   {
+    "hostname": "apps-kulibert.vercel.app",
+    "title": "The Tech Room · apps.kulibert.net",
+    "url": "https://apps-kulibert.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apps-kulibert.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:17.058Z"
+  },
+  {
+    "hostname": "beautyalleyibms.vercel.app",
+    "title": "The Beauty Alley · Salon OS",
+    "url": "https://beautyalleyibms.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beautyalleyibms.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:17.172Z"
+  },
+  {
+    "hostname": "footlife-eta.vercel.app",
+    "title": "FootLife - 足球人生模擬器",
+    "url": "https://footlife-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://footlife-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:17.312Z"
+  },
+  {
+    "hostname": "kaisyncwebsite.vercel.app",
+    "title": "KaiSync Workforce — Run operations without the chaos",
+    "url": "https://kaisyncwebsite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kaisyncwebsite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:17.463Z"
+  },
+  {
+    "hostname": "brainura.vercel.app",
+    "title": "Brainura — Brain Training in 5 Minutes a Day",
+    "url": "https://brainura.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brainura.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:17.671Z"
+  },
+  {
+    "hostname": "sunritjana.vercel.app",
+    "title": "Sunrit Jana",
+    "url": "https://sunritjana.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sunritjana.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 273,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:23.221Z"
+  },
+  {
+    "hostname": "indiranagar.vercel.app",
+    "title": "Indiranagar Island",
+    "url": "https://indiranagar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://indiranagar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:23.333Z"
+  },
+  {
+    "hostname": "psc-supersprint.vercel.app",
+    "title": "PSC Supersprint | 2026",
+    "url": "https://psc-supersprint.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://psc-supersprint.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 596,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:23.936Z"
+  },
+  {
+    "hostname": "project-manager-rho-nine.vercel.app",
+    "title": "Project 관리",
+    "url": "https://project-manager-rho-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project-manager-rho-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:24.139Z"
+  },
+  {
+    "hostname": "movaindia.pages.dev",
+    "title": "movaindia — सवाल से समझ तक",
+    "url": "https://movaindia.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://movaindia.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-21T09:57:24.292Z"
+  },
+  {
+    "hostname": "automatastudio.pages.dev",
+    "title": "AutomataStudio — An IDE for Automata and Formal Languages",
+    "url": "https://automatastudio.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://automatastudio.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-21T09:57:24.498Z"
+  },
+  {
+    "hostname": "pwa-sharing.pages.dev",
+    "title": "PWA sharing",
+    "url": "https://pwa-sharing.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pwa-sharing.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-21T09:57:24.726Z"
+  },
+  {
+    "hostname": "borsa-raporlari.pages.dev",
+    "title": "BIST 30 Günlük Raporlar",
+    "url": "https://borsa-raporlari.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://borsa-raporlari.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 140,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:24.867Z"
+  },
+  {
+    "hostname": "ankitkumartiwari.netlify.app",
+    "title": "Ankit Tiwari | Developer, Designer &amp; AI Explorer",
+    "url": "https://ankitkumartiwari.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ankitkumartiwari.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 251,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:25.173Z"
+  },
+  {
+    "hostname": "everest.github.io",
+    "title": "Redirecting...",
+    "url": "https://everest.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://everest.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 273,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T09:57:25.446Z"
+  },
+  {
     "hostname": "neda-al-qalam-school.vercel.app",
     "title": "مکتب خصوصی نداالقلم | سیستم مدیریت مکتب",
     "url": "https://neda-al-qalam-school.vercel.app",
