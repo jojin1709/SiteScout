@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "news-pusher.vercel.app",
+    "title": "News Pusher | BPC Integration",
+    "url": "https://news-pusher.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://news-pusher.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 356,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:16.523Z"
+  },
+  {
+    "hostname": "yt-onyx.vercel.app",
+    "title": "YT Onyx — Artisan onyx &amp; marble, hand-worked since 1992",
+    "url": "https://yt-onyx.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yt-onyx.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1226,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:17.862Z"
+  },
+  {
+    "hostname": "agentstoz-guide.vercel.app",
+    "title": "AgentsToZ 아주 쉬운 시작 설명서",
+    "url": "https://agentstoz-guide.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentstoz-guide.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 263,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:18.125Z"
+  },
+  {
+    "hostname": "lexa-green.vercel.app",
+    "title": "LEXA | Business Operating System",
+    "url": "https://lexa-green.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lexa-green.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 618,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:18.744Z"
+  },
+  {
+    "hostname": "design-meetup-web-swart.vercel.app",
+    "title": "Design Meetup",
+    "url": "https://design-meetup-web-swart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://design-meetup-web-swart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:19.127Z"
+  },
+  {
+    "hostname": "ev-charging-mu-steel.vercel.app",
+    "title": "EV Command Center",
+    "url": "https://ev-charging-mu-steel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ev-charging-mu-steel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 305,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:19.432Z"
+  },
+  {
+    "hostname": "tribunal-eta.vercel.app",
+    "title": "Tribunal do Casal ⚖️",
+    "url": "https://tribunal-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tribunal-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:19.623Z"
+  },
+  {
+    "hostname": "33jack-v2.vercel.app",
+    "title": "33JACK — AI Finance Operator for Global Businesses",
+    "url": "https://33jack-v2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://33jack-v2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:19.854Z"
+  },
+  {
+    "hostname": "prizmproject.vercel.app",
+    "title": "Prizm — AI-Powered NBA Prop Analysis",
+    "url": "https://prizmproject.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://prizmproject.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2865,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:22.743Z"
+  },
+  {
+    "hostname": "pg-finder-ashesh.netlify.app",
+    "title": "PGFinder — Find Verified PGs & Flats",
+    "url": "https://pg-finder-ashesh.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pg-finder-ashesh.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:22.899Z"
+  },
+  {
+    "hostname": "mjamiltanoli.github.io",
+    "title": "THE JAMIL DOCTRINE - V78 Chest Open - Italic Outclass",
+    "url": "https://mjamiltanoli.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mjamiltanoli.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T20:00:23.397Z"
+  },
+  {
     "hostname": "bet-calculator-xi.vercel.app",
     "title": "bet-calculator",
     "url": "https://bet-calculator-xi.vercel.app",
