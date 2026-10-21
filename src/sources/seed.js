@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "site-sweet-coffee-week.vercel.app",
+    "title": "Sweet & Coffee Week | Festival de doces e cafés em Natal",
+    "url": "https://site-sweet-coffee-week.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://site-sweet-coffee-week.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:36.368Z"
+  },
+  {
+    "hostname": "salonbook-web-theta.vercel.app",
+    "title": "SalonBook · Book your salon appointment online",
+    "url": "https://salonbook-web-theta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://salonbook-web-theta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1103,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:37.562Z"
+  },
+  {
+    "hostname": "house-help-connect-one.vercel.app",
+    "title": "House Help Connect — Trusted Home Services",
+    "url": "https://house-help-connect-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://house-help-connect-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:37.678Z"
+  },
+  {
+    "hostname": "cv11-one.vercel.app",
+    "title": "Free CV Builder for Students &amp; Graduates | CV11",
+    "url": "https://cv11-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cv11-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 316,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:38.002Z"
+  },
+  {
+    "hostname": "small-space-lab.vercel.app",
+    "title": "Small Space Planner",
+    "url": "https://small-space-lab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://small-space-lab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:38.229Z"
+  },
+  {
+    "hostname": "esure-testnet.vercel.app",
+    "title": "Esure — Stellar scenario testing",
+    "url": "https://esure-testnet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://esure-testnet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 162,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:38.392Z"
+  },
+  {
+    "hostname": "codigo-mate-landing.vercel.app",
+    "title": "Código Mate · Agentes de IA para tu web",
+    "url": "https://codigo-mate-landing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codigo-mate-landing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:38.542Z"
+  },
+  {
+    "hostname": "strike-log-app.vercel.app",
+    "title": "STRIKE LOG",
+    "url": "https://strike-log-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://strike-log-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 211,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:38.754Z"
+  },
+  {
+    "hostname": "sepia-md.netlify.app",
+    "title": "Sépia",
+    "url": "https://sepia-md.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sepia-md.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 758,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:40.530Z"
+  },
+  {
+    "hostname": "sckyzo.github.io",
+    "title": "sckyzo.github.io | Tom",
+    "url": "https://sckyzo.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sckyzo.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 107,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-21T23:13:40.638Z"
+  },
+  {
+    "hostname": "oznurakaro04.github.io",
+    "title": "Telegram не соединяется: последовательная проверка прокси",
+    "url": "https://oznurakaro04.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oznurakaro04.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 78,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T23:13:40.717Z"
+  },
+  {
     "hostname": "news-pusher.vercel.app",
     "title": "News Pusher | BPC Integration",
     "url": "https://news-pusher.vercel.app",
