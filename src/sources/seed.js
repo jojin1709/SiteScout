@@ -1,5 +1,309 @@
 export const SEED_SITES = [
   {
+    "hostname": "bet-calculator-xi.vercel.app",
+    "title": "bet-calculator",
+    "url": "https://bet-calculator-xi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bet-calculator-xi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:25.986Z"
+  },
+  {
+    "hostname": "nerdyretentionplaybook.vercel.app",
+    "title": "Retention Playbook",
+    "url": "https://nerdyretentionplaybook.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nerdyretentionplaybook.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:26.090Z"
+  },
+  {
+    "hostname": "yaakoveisenberger-com.vercel.app",
+    "title": "Yaakov Eisenberger",
+    "url": "https://yaakoveisenberger-com.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yaakoveisenberger-com.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 422,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:26.514Z"
+  },
+  {
+    "hostname": "godly-god-gange-game.vercel.app",
+    "title": "Gangriket · Et lite regneeventyr",
+    "url": "https://godly-god-gange-game.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://godly-god-gange-game.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 60,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:26.574Z"
+  },
+  {
+    "hostname": "proposales-technical-case-six.vercel.app",
+    "title": "Inbox to Draft",
+    "url": "https://proposales-technical-case-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://proposales-technical-case-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 352,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:26.927Z"
+  },
+  {
+    "hostname": "tareas-congregacion.vercel.app",
+    "title": "Tareas Congregación",
+    "url": "https://tareas-congregacion.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tareas-congregacion.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:27.024Z"
+  },
+  {
+    "hostname": "codice-web.vercel.app",
+    "title": "CÓDICE",
+    "url": "https://codice-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codice-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:27.171Z"
+  },
+  {
+    "hostname": "quipus-nine.vercel.app",
+    "title": "Quipus — Every conversation, connected.",
+    "url": "https://quipus-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quipus-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:27.449Z"
+  },
+  {
+    "hostname": "aura-gateway.vercel.app",
+    "title": "Aura Gateway",
+    "url": "https://aura-gateway.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aura-gateway.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:27.683Z"
+  },
+  {
+    "hostname": "aurapilot.vercel.app",
+    "title": "Aura — Hybrid Marketplace",
+    "url": "https://aurapilot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aurapilot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:27.787Z"
+  },
+  {
+    "hostname": "aura-storefront.pages.dev",
+    "title": "Aura — Hybrid Marketplace",
+    "url": "https://aura-storefront.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aura-storefront.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 204,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:27.992Z"
+  },
+  {
+    "hostname": "aurapilot.netlify.app",
+    "title": "Aura — Hybrid Marketplace",
+    "url": "https://aurapilot.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aurapilot.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 701,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:28.694Z"
+  },
+  {
+    "hostname": "strawberrybreath.github.io",
+    "title": "草莓味口气｜她的影单",
+    "url": "https://strawberrybreath.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://strawberrybreath.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:28.963Z"
+  },
+  {
+    "hostname": "aura-storefront.onrender.com",
+    "title": "Aura — Hybrid Marketplace",
+    "url": "https://aura-storefront.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aura-storefront.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 341,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T15:03:29.616Z"
+  },
+  {
+    "hostname": "y8-web-jason-sprouse.fly.dev",
+    "title": "Home | Y8",
+    "url": "https://y8-web-jason-sprouse.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://y8-web-jason-sprouse.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-21T15:03:29.735Z"
+  },
+  {
+    "hostname": "deepgram-agent-examples.fly.dev",
+    "title": "Deepgram Agent Widget — Examples",
+    "url": "https://deepgram-agent-examples.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deepgram-agent-examples.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2102,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-21T15:03:31.838Z"
+  },
+  {
     "hostname": "apps-kulibert.vercel.app",
     "title": "The Tech Room · apps.kulibert.net",
     "url": "https://apps-kulibert.vercel.app",
