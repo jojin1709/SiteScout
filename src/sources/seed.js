@@ -1,5 +1,385 @@
 export const SEED_SITES = [
   {
+    "hostname": "neda-al-qalam-school.vercel.app",
+    "title": "مکتب خصوصی نداالقلم | سیستم مدیریت مکتب",
+    "url": "https://neda-al-qalam-school.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neda-al-qalam-school.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 383,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:17.654Z"
+  },
+  {
+    "hostname": "airtrafficcontrol-cc.vercel.app",
+    "title": "Air Traffic Control — Live Radar Operations",
+    "url": "https://airtrafficcontrol-cc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://airtrafficcontrol-cc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 262,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:17.918Z"
+  },
+  {
+    "hostname": "bubblefm.vercel.app",
+    "title": "BubbleFM - Last.fm Charts & Milestone Counter Visualizer",
+    "url": "https://bubblefm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bubblefm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:18.552Z"
+  },
+  {
+    "hostname": "orbital-vision-olive.vercel.app",
+    "title": "ORBITAL VISION",
+    "url": "https://orbital-vision-olive.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://orbital-vision-olive.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:19.908Z"
+  },
+  {
+    "hostname": "nft-marketplace-ebon-delta.vercel.app",
+    "title": "Kurio — Marketplace de NFTs",
+    "url": "https://nft-marketplace-ebon-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nft-marketplace-ebon-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 407,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:20.316Z"
+  },
+  {
+    "hostname": "al-papers.vercel.app",
+    "title": "Past Papers",
+    "url": "https://al-papers.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://al-papers.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 358,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:20.675Z"
+  },
+  {
+    "hostname": "os-tracker-1.vercel.app",
+    "title": "Signal Desk · Robinhood Mint Radar",
+    "url": "https://os-tracker-1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://os-tracker-1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:20.911Z"
+  },
+  {
+    "hostname": "realmap-green.vercel.app",
+    "title": "리얼맵 - 지도로 보는 토지·건물·실거래가 정보",
+    "url": "https://realmap-green.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://realmap-green.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:21.159Z"
+  },
+  {
+    "hostname": "smash-booking-pink.vercel.app",
+    "title": "Smash Booking — Book a Badminton Court",
+    "url": "https://smash-booking-pink.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smash-booking-pink.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:21.384Z"
+  },
+  {
+    "hostname": "scbee.vercel.app",
+    "title": "ScBee: where agents find each other",
+    "url": "https://scbee.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scbee.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 433,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:21.818Z"
+  },
+  {
+    "hostname": "trykit.pages.dev",
+    "title": "Kit — Browser tools that stay private",
+    "url": "https://trykit.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trykit.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:22.368Z"
+  },
+  {
+    "hostname": "epsilon-y-beta.netlify.app",
+    "title": "Epsilon y Beta — Estadística y econometría",
+    "url": "https://epsilon-y-beta.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://epsilon-y-beta.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:22.848Z"
+  },
+  {
+    "hostname": "dialectica-y-mercado.netlify.app",
+    "title": "Dialéctica y Mercado — Filosofía, historia y economía política",
+    "url": "https://dialectica-y-mercado.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dialectica-y-mercado.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:22.993Z"
+  },
+  {
+    "hostname": "actus-mercator.netlify.app",
+    "title": "Actus Mercator — Gestión empresarial y proyectos",
+    "url": "https://actus-mercator.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://actus-mercator.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 181,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:23.212Z"
+  },
+  {
+    "hostname": "axiomata.netlify.app",
+    "title": "Axiomata — Matemáticas",
+    "url": "https://axiomata.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://axiomata.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:23.417Z"
+  },
+  {
+    "hostname": "aequilibria.netlify.app",
+    "title": "Aequilibria — Macroeconomía",
+    "url": "https://aequilibria.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aequilibria.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:23.586Z"
+  },
+  {
+    "hostname": "gh-activity.netlify.app",
+    "title": "GitHub Activity",
+    "url": "https://gh-activity.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Astro",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gh-activity.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 169,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:23.755Z"
+  },
+  {
+    "hostname": "methodica.netlify.app",
+    "title": "Methodica — Metodología de la investigación",
+    "url": "https://methodica.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://methodica.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 181,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:23.966Z"
+  },
+  {
+    "hostname": "cehinds.github.io",
+    "title": "cehinds.github.io",
+    "url": "https://cehinds.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cehinds.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:24.353Z"
+  },
+  {
+    "hostname": "chesslytics.onrender.com",
+    "title": "Chesslytics",
+    "url": "https://chesslytics.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chesslytics.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 179,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-21T04:14:24.649Z"
+  },
+  {
     "hostname": "presentations-three-phi.vercel.app",
     "title": "El programa · Presentaciones con IA",
     "url": "https://presentations-three-phi.vercel.app",
