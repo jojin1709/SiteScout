@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "aasthi-chain.vercel.app",
+    "title": "Fractional Real Estate Investing from ₹500 | AasthiChain",
+    "url": "https://aasthi-chain.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aasthi-chain.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T09:57:22.957Z"
+  },
+  {
+    "hostname": "smetra.vercel.app",
+    "title": "Сметра — от первой идеи до оплаченной работы",
+    "url": "https://smetra.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smetra.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T09:57:23.347Z"
+  },
+  {
+    "hostname": "horizon-three-mu.vercel.app",
+    "title": "Horizon: OR Workbench",
+    "url": "https://horizon-three-mu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://horizon-three-mu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T09:57:23.629Z"
+  },
+  {
+    "hostname": "fitarena-three.vercel.app",
+    "title": "FitArena",
+    "url": "https://fitarena-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fitarena-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T09:57:24.987Z"
+  },
+  {
+    "hostname": "configurateur-praticables.vercel.app",
+    "title": "Configurateur Praticables ASD",
+    "url": "https://configurateur-praticables.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://configurateur-praticables.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T09:57:25.280Z"
+  },
+  {
+    "hostname": "what-i-have-learned.pages.dev",
+    "title": "What I&#39;ve learned today",
+    "url": "https://what-i-have-learned.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://what-i-have-learned.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 361,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T09:57:25.916Z"
+  },
+  {
+    "hostname": "wmkeyboard.pages.dev",
+    "title": "WM Keyboard — privacy-first Android keyboard, 843 languages",
+    "url": "https://wmkeyboard.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wmkeyboard.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T09:57:26.071Z"
+  },
+  {
+    "hostname": "palladius.github.io",
+    "title": "Il Blog 🎭 di Riccardo",
+    "url": "https://palladius.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://palladius.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T09:57:26.467Z"
+  },
+  {
     "hostname": "dosiq-ai-web-app.vercel.app",
     "title": "dosiq AI — Family Medical Vault & Clinical Co-Pilot",
     "url": "https://dosiq-ai-web-app.vercel.app",
