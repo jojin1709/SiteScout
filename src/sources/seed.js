@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "smart-meal-nu.vercel.app",
+    "title": "SmartMeal | Anurag University Canteen",
+    "url": "https://smart-meal-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smart-meal-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 46,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T19:53:51.502Z"
+  },
+  {
+    "hostname": "ecommerce-storefront-client.vercel.app",
+    "title": "THANGAM STORES — Authentic Natural Healthcare &amp; Herbal Remedies",
+    "url": "https://ecommerce-storefront-client.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ecommerce-storefront-client.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T19:53:51.760Z"
+  },
+  {
+    "hostname": "minerva-green.vercel.app",
+    "title": "Minerva — Less driving. More jobs done.",
+    "url": "https://minerva-green.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://minerva-green.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 57,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T19:53:51.818Z"
+  },
+  {
+    "hostname": "palazstrategy.vercel.app",
+    "title": "Palaz Strategy Company | Palaz Design Studio — Branding &amp; Design Estratégico",
+    "url": "https://palazstrategy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://palazstrategy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 842,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T19:53:52.699Z"
+  },
+  {
+    "hostname": "sushizen-shift-pwa.vercel.app",
+    "title": "Sushi ZEN Workforce OS",
+    "url": "https://sushizen-shift-pwa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sushizen-shift-pwa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T19:53:53.909Z"
+  },
+  {
+    "hostname": "controle-de-trilhos.vercel.app",
+    "title": "Controle de Trilhos",
+    "url": "https://controle-de-trilhos.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://controle-de-trilhos.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 866,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T19:53:54.835Z"
+  },
+  {
+    "hostname": "nyxosky.pages.dev",
+    "title": "nyxosky.pages.dev",
+    "url": "https://nyxosky.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nyxosky.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": false,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T19:53:54.966Z"
+  },
+  {
+    "hostname": "openpress-news.pages.dev",
+    "title": "OpenPress | Free, independent news for everyone",
+    "url": "https://openpress-news.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://openpress-news.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 985,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T19:53:55.958Z"
+  },
+  {
     "hostname": "murly-saas.vercel.app",
     "title": "Murly: англійська, яку хочеться вчити",
     "url": "https://murly-saas.vercel.app",
