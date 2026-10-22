@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "justa-apuesta.vercel.app",
+    "title": "Justa Apuesta",
+    "url": "https://justa-apuesta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://justa-apuesta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 243,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T23:08:47.199Z"
+  },
+  {
+    "hostname": "repo-khaki-phi.vercel.app",
+    "title": "Zonal Sovereignty Atlas — Африка, крипто-режимы 2013–2026",
+    "url": "https://repo-khaki-phi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://repo-khaki-phi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T23:08:47.448Z"
+  },
+  {
+    "hostname": "duna-pi.vercel.app",
+    "title": "Дюна — грузоперевозки и расчет стоимости",
+    "url": "https://duna-pi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://duna-pi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T23:08:47.870Z"
+  },
+  {
+    "hostname": "ravi-ranjan-portfolio.vercel.app",
+    "title": "Ravi Ranjan · Full-stack Developer",
+    "url": "https://ravi-ranjan-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ravi-ranjan-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 269,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T23:08:48.139Z"
+  },
+  {
+    "hostname": "qdelicia-caixas.vercel.app",
+    "title": "Qdelícia Frutas · Controle de Caixas",
+    "url": "https://qdelicia-caixas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://qdelicia-caixas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T23:08:48.551Z"
+  },
+  {
+    "hostname": "studyquest-ovn2.onrender.com",
+    "title": "StudyQuest",
+    "url": "https://studyquest-ovn2.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://studyquest-ovn2.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T23:08:49.145Z"
+  },
+  {
     "hostname": "smart-meal-nu.vercel.app",
     "title": "SmartMeal | Anurag University Canteen",
     "url": "https://smart-meal-nu.vercel.app",
