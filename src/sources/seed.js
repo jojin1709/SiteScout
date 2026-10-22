@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "murly-saas.vercel.app",
+    "title": "Murly: англійська, яку хочеться вчити",
+    "url": "https://murly-saas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://murly-saas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1105,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T15:03:55.858Z"
+  },
+  {
+    "hostname": "quest-academy-chi.vercel.app",
+    "title": "Quest Academy",
+    "url": "https://quest-academy-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quest-academy-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 107,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T15:03:56.064Z"
+  },
+  {
+    "hostname": "asp-plataform.vercel.app",
+    "title": "Plataforma ASP",
+    "url": "https://asp-plataform.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://asp-plataform.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1298,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T15:03:58.341Z"
+  },
+  {
+    "hostname": "url-shortner-tan-iota.vercel.app",
+    "title": "Shortly — URL shortener",
+    "url": "https://url-shortner-tan-iota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://url-shortner-tan-iota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T15:03:58.586Z"
+  },
+  {
+    "hostname": "lotka-volterra-sim.netlify.app",
+    "title": "Lotka-Volterra Modeli Simulyasiyası",
+    "url": "https://lotka-volterra-sim.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lotka-volterra-sim.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 628,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T15:03:59.215Z"
+  },
+  {
+    "hostname": "east-african-hearts-production.up.railway.app",
+    "title": "East African Hearts - Dating Platform",
+    "url": "https://east-african-hearts-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://east-african-hearts-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 20,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T15:03:59.270Z"
+  },
+  {
+    "hostname": "lostandfounditmp.42web.io",
+    "title": "lostandfounditmp.42web.io",
+    "url": "https://lostandfounditmp.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lostandfounditmp.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 512,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T15:03:59.782Z"
+  },
+  {
     "hostname": "aasthi-chain.vercel.app",
     "title": "Fractional Real Estate Investing from ₹500 | AasthiChain",
     "url": "https://aasthi-chain.vercel.app",
