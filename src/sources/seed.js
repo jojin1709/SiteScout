@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "dosiq-ai-web-app.vercel.app",
+    "title": "dosiq AI — Family Medical Vault & Clinical Co-Pilot",
+    "url": "https://dosiq-ai-web-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dosiq-ai-web-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 323,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:31.942Z"
+  },
+  {
+    "hostname": "eater-nu.vercel.app",
+    "title": "Eater 먹킷리스트",
+    "url": "https://eater-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eater-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:32.212Z"
+  },
+  {
+    "hostname": "riskcom-stn.vercel.app",
+    "title": "คลังสื่อสารความเสี่ยง จังหวัดสตูล",
+    "url": "https://riskcom-stn.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://riskcom-stn.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 913,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:38.990Z"
+  },
+  {
+    "hostname": "sugar-job-system.vercel.app",
+    "title": "Sugar · 求职系统",
+    "url": "https://sugar-job-system.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sugar-job-system.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:39.180Z"
+  },
+  {
+    "hostname": "sources-orpin.vercel.app",
+    "title": "Sources: fantasy football trades for Sleeper leagues",
+    "url": "https://sources-orpin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sources-orpin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:39.297Z"
+  },
+  {
+    "hostname": "mytranslate.pages.dev",
+    "title": "MyTranslate - Dịch Nhật - Việt ngay trong Teams và Slack",
+    "url": "https://mytranslate.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mytranslate.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 179,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T04:14:39.622Z"
+  },
+  {
+    "hostname": "2026-incident-briefing.pages.dev",
+    "title": "OCT 2026 — Incident Briefing",
+    "url": "https://2026-incident-briefing.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://2026-incident-briefing.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:39.978Z"
+  },
+  {
+    "hostname": "echosphere-2jf.pages.dev",
+    "title": "EchoSphere",
+    "url": "https://echosphere-2jf.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://echosphere-2jf.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T04:14:40.187Z"
+  },
+  {
+    "hostname": "optima-ai.pages.dev",
+    "title": "Optima — Find the Perfect AI Tool in Seconds",
+    "url": "https://optima-ai.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://optima-ai.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 913,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T04:14:41.105Z"
+  },
+  {
+    "hostname": "cardputer-installers.netlify.app",
+    "title": "Cardputer ADV Installers",
+    "url": "https://cardputer-installers.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cardputer-installers.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 777,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-22T04:14:41.982Z"
+  },
+  {
+    "hostname": "dead-west-railway.fly.dev",
+    "title": "Dead West Railway — The line remembers",
+    "url": "https://dead-west-railway.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dead-west-railway.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4631,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T04:14:46.896Z"
+  },
+  {
+    "hostname": "web-production-563b7.up.railway.app",
+    "title": "Experiments, a working build for Prediction Lab",
+    "url": "https://web-production-563b7.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-production-563b7.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T04:14:47.009Z"
+  },
+  {
+    "hostname": "tachyon.rf.gd",
+    "title": "tachyon.rf.gd",
+    "url": "https://tachyon.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tachyon.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 869,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-22T04:14:47.878Z"
+  },
+  {
     "hostname": "site-sweet-coffee-week.vercel.app",
     "title": "Sweet & Coffee Week | Festival de doces e cafés em Natal",
     "url": "https://site-sweet-coffee-week.vercel.app",
