@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "generador-apis-gratuitas.vercel.app",
+    "title": "Taller — crea tu API gratis, para siempre",
+    "url": "https://generador-apis-gratuitas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://generador-apis-gratuitas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:25.413Z"
+  },
+  {
+    "hostname": "pixora-teal-two.vercel.app",
+    "title": "Pixora – Private Face-Based Photo Sharing",
+    "url": "https://pixora-teal-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pixora-teal-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 375,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:26.158Z"
+  },
+  {
+    "hostname": "arf-one-school.vercel.app",
+    "title": "ARF One School",
+    "url": "https://arf-one-school.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arf-one-school.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 251,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:26.411Z"
+  },
+  {
+    "hostname": "factoria-two.vercel.app",
+    "title": "Un mes de contenido con IA, en minutos | Emet Córdova",
+    "url": "https://factoria-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://factoria-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:26.628Z"
+  },
+  {
+    "hostname": "dneskai.vercel.app",
+    "title": "DNESKAi: To podstatné z AI. Každý den.",
+    "url": "https://dneskai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dneskai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:26.851Z"
+  },
+  {
+    "hostname": "controldeasistencia-rust.vercel.app",
+    "title": "Control de Asistencia · Sistema Web/Móvil",
+    "url": "https://controldeasistencia-rust.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://controldeasistencia-rust.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 367,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:27.219Z"
+  },
+  {
+    "hostname": "hachiko-store.vercel.app",
+    "title": "Hachiko · Productos Coreanos",
+    "url": "https://hachiko-store.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hachiko-store.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3052,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:32.211Z"
+  },
+  {
+    "hostname": "visreal-shadowfall.netlify.app",
+    "title": "Shadowfall",
+    "url": "https://visreal-shadowfall.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://visreal-shadowfall.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 759,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:33.112Z"
+  },
+  {
+    "hostname": "eduardobatista-glitch.github.io",
+    "title": "Eduardo Batista | Portfólio",
+    "url": "https://eduardobatista-glitch.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eduardobatista-glitch.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 255,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:33.369Z"
+  },
+  {
+    "hostname": "boatraceopenapi.github.io",
+    "title": "Boatrace Open API",
+    "url": "https://boatraceopenapi.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://boatraceopenapi.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T04:18:33.507Z"
+  },
+  {
+    "hostname": "codefortoyama.github.io",
+    "title": "Code for Toyama City | 富山の未来を、みんなでつくる。",
+    "url": "https://codefortoyama.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codefortoyama.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T04:18:33.633Z"
+  },
+  {
+    "hostname": "meikova-relay.onrender.com",
+    "title": "Meikova Relay — Zero-Distance Control",
+    "url": "https://meikova-relay.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://meikova-relay.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1004,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T04:18:34.869Z"
+  },
+  {
+    "hostname": "meikova-auth.onrender.com",
+    "title": "Meikova Auth — Trung Tâm Quản Lý Xác Thực & Danh Tính",
+    "url": "https://meikova-auth.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://meikova-auth.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 346,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T04:18:35.223Z"
+  },
+  {
+    "hostname": "fourth-dimension-studio.infinityfreeapp.com",
+    "title": "fourth-dimension-studio.infinityfreeapp.com",
+    "url": "https://fourth-dimension-studio.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fourth-dimension-studio.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 592,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T04:18:41.141Z"
+  },
+  {
     "hostname": "justa-apuesta.vercel.app",
     "title": "Justa Apuesta",
     "url": "https://justa-apuesta.vercel.app",
