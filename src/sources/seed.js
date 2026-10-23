@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "lessons-present-tool.vercel.app",
+    "title": "Lectures Presenter",
+    "url": "https://lessons-present-tool.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lessons-present-tool.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:19.781Z"
+  },
+  {
+    "hostname": "ml-portfolio-rho.vercel.app",
+    "title": "AIRaML — Free machine learning &amp; AI tools in your browser",
+    "url": "https://ml-portfolio-rho.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ml-portfolio-rho.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1361,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:21.155Z"
+  },
+  {
+    "hostname": "khunflow.vercel.app",
+    "title": "KhunFlow — ระบบจัดการต้นทุนและสต็อกร้านอาหาร",
+    "url": "https://khunflow.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://khunflow.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:26.375Z"
+  },
+  {
+    "hostname": "sandbox-sigma-two.vercel.app",
+    "title": "Sandbox IA na Educação",
+    "url": "https://sandbox-sigma-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sandbox-sigma-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 530,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:31.907Z"
+  },
+  {
+    "hostname": "sudu-delivery.vercel.app",
+    "title": "Sudu, your fav foods to PAU",
+    "url": "https://sudu-delivery.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sudu-delivery.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 786,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:34.226Z"
+  },
+  {
+    "hostname": "ergo-block-timestamps.vercel.app",
+    "title": "Ergo Block Timestamps | degens.world",
+    "url": "https://ergo-block-timestamps.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ergo-block-timestamps.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 232,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:34.459Z"
+  },
+  {
+    "hostname": "truthound.netlify.app",
+    "title": "Truthound — Data Quality Workflow",
+    "url": "https://truthound.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://truthound.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 649,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:35.146Z"
+  },
+  {
+    "hostname": "damu7341.github.io",
+    "title": "Gondi Damodhar Naidu | Personal Site",
+    "url": "https://damu7341.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://damu7341.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 198,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T14:50:35.345Z"
+  },
+  {
     "hostname": "zidou-xiyou-ffcr.vercel.app",
     "title": "一字成军",
     "url": "https://zidou-xiyou-ffcr.vercel.app",
