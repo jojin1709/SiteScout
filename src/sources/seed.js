@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "dewa-biryani.vercel.app",
+    "title": "دیوه بریاني | اصلي خوند په هره مړۍ کې",
+    "url": "https://dewa-biryani.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dewa-biryani.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 350,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:28.699Z"
+  },
+  {
+    "hostname": "lo-weather.vercel.app",
+    "title": "Lake Oswego Weather",
+    "url": "https://lo-weather.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lo-weather.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 302,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:29.002Z"
+  },
+  {
+    "hostname": "taxmate-app.vercel.app",
+    "title": "TaxMate Solutions",
+    "url": "https://taxmate-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://taxmate-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:29.518Z"
+  },
+  {
+    "hostname": "aryan-portfolio-rouge.vercel.app",
+    "title": "Aryan Aglawe — Full-stack developer",
+    "url": "https://aryan-portfolio-rouge.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aryan-portfolio-rouge.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 383,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:30.467Z"
+  },
+  {
+    "hostname": "archiciva.vercel.app",
+    "title": "ArchiCiva | مراكن ونوافير لتنسيق المساحات في السعودية",
+    "url": "https://archiciva.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://archiciva.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 439,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:30.911Z"
+  },
+  {
+    "hostname": "git-prasaaran.netlify.app",
+    "title": "Git-Prasaaran",
+    "url": "https://git-prasaaran.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://git-prasaaran.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 788,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:31.700Z"
+  },
+  {
+    "hostname": "shisan-web.onrender.com",
+    "title": "shisan-api",
+    "url": "https://shisan-web.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shisan-web.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 345,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T19:00:32.196Z"
+  },
+  {
     "hostname": "lessons-present-tool.vercel.app",
     "title": "Lectures Presenter",
     "url": "https://lessons-present-tool.vercel.app",
