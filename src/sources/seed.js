@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "the-indian-wholesale-club.vercel.app",
+    "title": "The Indian Wholesale Club",
+    "url": "https://the-indian-wholesale-club.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://the-indian-wholesale-club.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:22.543Z"
+  },
+  {
+    "hostname": "hex-amm.vercel.app",
+    "title": "HEX",
+    "url": "https://hex-amm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hex-amm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 114,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:22.659Z"
+  },
+  {
+    "hostname": "greengate-greengatemarket.vercel.app",
+    "title": "Green Gate — The marketplace for everyone",
+    "url": "https://greengate-greengatemarket.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://greengate-greengatemarket.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:22.839Z"
+  },
+  {
+    "hostname": "ckb-tracker.vercel.app",
+    "title": "CKB Tracker",
+    "url": "https://ckb-tracker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ckb-tracker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:23.008Z"
+  },
+  {
+    "hostname": "rung-club.vercel.app",
+    "title": "Rung Club · A seat at the table",
+    "url": "https://rung-club.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rung-club.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:23.133Z"
+  },
+  {
+    "hostname": "shademapnav.vercel.app",
+    "title": "Umbra",
+    "url": "https://shademapnav.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shademapnav.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:23.270Z"
+  },
+  {
+    "hostname": "littmd.vercel.app",
+    "title": "litt.md Gallery",
+    "url": "https://littmd.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://littmd.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 143,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:23.415Z"
+  },
+  {
+    "hostname": "graduation-invitation-one-teal.vercel.app",
+    "title": "Keza Manzi Leila · 15 November 2026 · Kigali",
+    "url": "https://graduation-invitation-one-teal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://graduation-invitation-one-teal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 145,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:23.560Z"
+  },
+  {
+    "hostname": "quiz-me-baby-eta.vercel.app",
+    "title": "Quiz Me Baby — Party",
+    "url": "https://quiz-me-baby-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quiz-me-baby-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T22:59:23.678Z"
+  },
+  {
+    "hostname": "volyxlens.pages.dev",
+    "title": "Volyx Lens — Choose what your AI sees",
+    "url": "https://volyxlens.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://volyxlens.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T22:59:23.804Z"
+  },
+  {
+    "hostname": "dg-devrel-juniper-front-desk.fly.dev",
+    "title": "Juniper Front Desk",
+    "url": "https://dg-devrel-juniper-front-desk.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dg-devrel-juniper-front-desk.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2653,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T22:59:26.543Z"
+  },
+  {
     "hostname": "dewa-biryani.vercel.app",
     "title": "دیوه بریاني | اصلي خوند په هره مړۍ کې",
     "url": "https://dewa-biryani.vercel.app",
