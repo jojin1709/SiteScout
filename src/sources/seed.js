@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "zidou-xiyou-ffcr.vercel.app",
+    "title": "一字成军",
+    "url": "https://zidou-xiyou-ffcr.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zidou-xiyou-ffcr.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 100,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:19.248Z"
+  },
+  {
+    "hostname": "cbs-project8.vercel.app",
+    "title": "Sọt phim - Đặt vé xem phim trực tuyến",
+    "url": "https://cbs-project8.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cbs-project8.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 80,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:19.329Z"
+  },
+  {
+    "hostname": "dar-haccp.vercel.app",
+    "title": "دار الضيافة HACCP",
+    "url": "https://dar-haccp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dar-haccp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:19.677Z"
+  },
+  {
+    "hostname": "booktuning.vercel.app",
+    "title": "북튜닝 (Book Tuning) v4.3 - 노션 독서 서재",
+    "url": "https://booktuning.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://booktuning.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 338,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:20.112Z"
+  },
+  {
+    "hostname": "costars-guide.vercel.app",
+    "title": "CoStars: Event Guide",
+    "url": "https://costars-guide.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://costars-guide.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:20.212Z"
+  },
+  {
+    "hostname": "mnnitchessclub.pages.dev",
+    "title": "mnnitchessclub.pages.dev",
+    "url": "https://mnnitchessclub.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mnnitchessclub.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T09:52:20.440Z"
+  },
+  {
+    "hostname": "music-collection.pages.dev",
+    "title": "我的音乐收藏",
+    "url": "https://music-collection.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://music-collection.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 359,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T09:52:20.801Z"
+  },
+  {
+    "hostname": "supplier-catalog-frontend.pages.dev",
+    "title": "Supplier Catalog — Multi-Tenant Operations Portal",
+    "url": "https://supplier-catalog-frontend.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://supplier-catalog-frontend.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-23T09:52:21.025Z"
+  },
+  {
+    "hostname": "cyber-syntax.netlify.app",
+    "title": "Web Developer & Creative Designer | CYBER_SYNTAX",
+    "url": "https://cyber-syntax.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cyber-syntax.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 363,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:21.389Z"
+  },
+  {
+    "hostname": "lin1chun.github.io",
+    "title": "https://lin1chun.github.io/en/",
+    "url": "https://lin1chun.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lin1chun.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-23T09:52:21.546Z"
+  },
+  {
     "hostname": "generador-apis-gratuitas.vercel.app",
     "title": "Taller — crea tu API gratis, para siempre",
     "url": "https://generador-apis-gratuitas.vercel.app",
