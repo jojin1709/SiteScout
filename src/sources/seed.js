@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "fathom-steel-ten.vercel.app",
+    "title": "Fathom · Cambridge AS &amp; A Level",
+    "url": "https://fathom-steel-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fathom-steel-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 549,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:30.467Z"
+  },
+  {
+    "hostname": "ai-dementia-glasses.vercel.app",
+    "title": "MemoryCue — Memory, when you need it.",
+    "url": "https://ai-dementia-glasses.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-dementia-glasses.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 359,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:30.827Z"
+  },
+  {
+    "hostname": "solpump-provably-fair.vercel.app",
+    "title": "Solpump Fairness Lab",
+    "url": "https://solpump-provably-fair.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://solpump-provably-fair.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:30.974Z"
+  },
+  {
+    "hostname": "tis-tan.vercel.app",
+    "title": "TIS Portal",
+    "url": "https://tis-tan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tis-tan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:31.201Z"
+  },
+  {
+    "hostname": "tailwind-css-starter-blog-jade-theta.vercel.app",
+    "title": "ChillincoolBLOG",
+    "url": "https://tailwind-css-starter-blog-jade-theta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tailwind-css-starter-blog-jade-theta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 177,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:31.522Z"
+  },
+  {
+    "hostname": "kiraye-az.vercel.app",
+    "title": "Kirayə maşın, ev və avadanlıq elanları | kirayeal.az",
+    "url": "https://kiraye-az.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kiraye-az.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:31.793Z"
+  },
+  {
+    "hostname": "quill-green.vercel.app",
+    "title": "Quill",
+    "url": "https://quill-green.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quill-green.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:32.240Z"
+  },
+  {
+    "hostname": "zhenzhen-guo.github.io",
+    "title": "Zhenzhen Guo",
+    "url": "https://zhenzhen-guo.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zhenzhen-guo.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T19:21:32.538Z"
+  },
+  {
+    "hostname": "runescape-wiki-mcp.fly.dev",
+    "title": "RuneScape Wiki MCP",
+    "url": "https://runescape-wiki-mcp.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://runescape-wiki-mcp.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4890,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T19:21:37.564Z"
+  },
+  {
     "hostname": "mars-supply-sim.vercel.app",
     "title": "Ares Supply — Mission Survival Planner",
     "url": "https://mars-supply-sim.vercel.app",
