@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "kazanime.vercel.app",
+    "title": "Kazanime - Streaming Anime Multi Sub",
+    "url": "https://kazanime.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kazanime.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:40.496Z"
+  },
+  {
+    "hostname": "eugene-desk.vercel.app",
+    "title": "Eugene Desk · Eugene",
+    "url": "https://eugene-desk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eugene-desk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 337,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:40.855Z"
+  },
+  {
+    "hostname": "finderdom-landing.vercel.app",
+    "title": "FinderDom.pl — Wyszukiwarka ogłoszeń nieruchomości ze wszystkich portali",
+    "url": "https://finderdom-landing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finderdom-landing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:40.978Z"
+  },
+  {
+    "hostname": "limitleague.vercel.app",
+    "title": "LimitLeague — Strategies ranked by discipline",
+    "url": "https://limitleague.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://limitleague.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:41.145Z"
+  },
+  {
+    "hostname": "daily-dev-track.vercel.app",
+    "title": "DevTrack — developer progress dashboard",
+    "url": "https://daily-dev-track.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daily-dev-track.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1256,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:42.403Z"
+  },
+  {
+    "hostname": "dermhandoff.vercel.app",
+    "title": "부원장 진료 노트",
+    "url": "https://dermhandoff.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dermhandoff.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 306,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:42.930Z"
+  },
+  {
+    "hostname": "slimon-beta.vercel.app",
+    "title": "Slimon | The model proposes. The risk gate decides.",
+    "url": "https://slimon-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://slimon-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:43.158Z"
+  },
+  {
+    "hostname": "port-smoky-delta.vercel.app",
+    "title": "G Yuvaraj - The Portfolio Console",
+    "url": "https://port-smoky-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://port-smoky-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:43.430Z"
+  },
+  {
+    "hostname": "storia-di-pasta-delta.vercel.app",
+    "title": "Storia di Pasta — A little place. Good company.",
+    "url": "https://storia-di-pasta-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://storia-di-pasta-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:43.546Z"
+  },
+  {
+    "hostname": "job-hunt-topaz.vercel.app",
+    "title": "JobPipe",
+    "url": "https://job-hunt-topaz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://job-hunt-topaz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:44.250Z"
+  },
+  {
+    "hostname": "ds-construction-pr02-axiom.netlify.app",
+    "title": "Axiom Construction — firma budowlano-remontowa",
+    "url": "https://ds-construction-pr02-axiom.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ds-construction-pr02-axiom.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 813,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T07:05:45.247Z"
+  },
+  {
+    "hostname": "prediction-arena-81d9.onrender.com",
+    "title": "Prediction Arena — The Decentralized AI-Driven Prediction Market",
+    "url": "https://prediction-arena-81d9.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://prediction-arena-81d9.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T07:05:45.470Z"
+  },
+  {
+    "hostname": "gullboutique.infinityfreeapp.com",
+    "title": "gullboutique.infinityfreeapp.com",
+    "url": "https://gullboutique.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gullboutique.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 729,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T07:05:46.199Z"
+  },
+  {
+    "hostname": "sricodeboon.infinityfreeapp.com",
+    "title": "sricodeboon.infinityfreeapp.com",
+    "url": "https://sricodeboon.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sricodeboon.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 686,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T07:05:46.885Z"
+  },
+  {
     "hostname": "hanwong-builder.vercel.app",
     "title": "Windner — 10일치 러닝 복장, 미리 정해 드려요",
     "url": "https://hanwong-builder.vercel.app",
