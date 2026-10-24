@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "utulivu.vercel.app",
+    "title": "Utulivu — Hospitality Management",
+    "url": "https://utulivu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://utulivu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:07.573Z"
+  },
+  {
+    "hostname": "tasdid-snowy.vercel.app",
+    "title": "Tasdid — chèques et échéances",
+    "url": "https://tasdid-snowy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tasdid-snowy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:08.080Z"
+  },
+  {
+    "hostname": "ken-975q-theta.vercel.app",
+    "title": "Kennedy Dhryx Pronto — Full-Stack &amp; Application Developer",
+    "url": "https://ken-975q-theta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ken-975q-theta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 337,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:08.418Z"
+  },
+  {
+    "hostname": "comete-filante.vercel.app",
+    "title": "Comète Filante",
+    "url": "https://comete-filante.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://comete-filante.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:08.659Z"
+  },
+  {
+    "hostname": "ricepia-judge.vercel.app",
+    "title": "精米品質AI判定｜写真で白度・光沢・割れを12項目採点 - らいすぴあ（近藤米穀店）",
+    "url": "https://ricepia-judge.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ricepia-judge.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 283,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:10.025Z"
+  },
+  {
+    "hostname": "portfolio-kappa-dun-65.vercel.app",
+    "title": "CyberAudit &amp; Solutions",
+    "url": "https://portfolio-kappa-dun-65.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-kappa-dun-65.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 218,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:10.244Z"
+  },
+  {
+    "hostname": "productivity99.pages.dev",
+    "title": "Prod99 — Study on your own clock",
+    "url": "https://productivity99.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://productivity99.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 283,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T12:34:10.898Z"
+  },
+  {
+    "hostname": "sidhu1512.github.io",
+    "title": "Siddharth Bhadu — Software Engineer",
+    "url": "https://sidhu1512.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sidhu1512.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 100,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T12:34:11.133Z"
+  },
+  {
+    "hostname": "kaloai.infinityfreeapp.com",
+    "title": "kaloai.infinityfreeapp.com",
+    "url": "https://kaloai.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kaloai.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 580,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T12:34:12.013Z"
+  },
+  {
     "hostname": "kazanime.vercel.app",
     "title": "Kazanime - Streaming Anime Multi Sub",
     "url": "https://kazanime.vercel.app",
