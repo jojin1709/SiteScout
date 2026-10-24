@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "hanwong-builder.vercel.app",
+    "title": "Windner — 10일치 러닝 복장, 미리 정해 드려요",
+    "url": "https://hanwong-builder.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hanwong-builder.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 454,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T01:30:01.431Z"
+  },
+  {
+    "hostname": "boltech-group.vercel.app",
+    "title": "Boltech Group • Obtén paz mental en tu negocio • Agentes de IA",
+    "url": "https://boltech-group.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://boltech-group.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T01:30:03.185Z"
+  },
+  {
+    "hostname": "ryl-docs.pages.dev",
+    "title": "Home - ryl",
+    "url": "https://ryl-docs.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ryl-docs.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T01:30:03.437Z"
+  },
+  {
+    "hostname": "do-not-feed-it.pages.dev",
+    "title": "Do Not Feed It",
+    "url": "https://do-not-feed-it.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://do-not-feed-it.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 609,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T01:30:04.047Z"
+  },
+  {
+    "hostname": "lawyer-workbench-public.pages.dev",
+    "title": "律师工作台",
+    "url": "https://lawyer-workbench-public.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lawyer-workbench-public.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 257,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T01:30:04.305Z"
+  },
+  {
+    "hostname": "noor-al.netlify.app",
+    "title": "Noor · Kurani dhe Hadithi në shqip",
+    "url": "https://noor-al.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://noor-al.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 341,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T01:30:04.719Z"
+  },
+  {
     "hostname": "the-indian-wholesale-club.vercel.app",
     "title": "The Indian Wholesale Club",
     "url": "https://the-indian-wholesale-club.vercel.app",
