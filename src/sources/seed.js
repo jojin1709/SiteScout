@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "mafia-game-opal.vercel.app",
+    "title": "Mafia Game",
+    "url": "https://mafia-game-opal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mafia-game-opal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:49.665Z"
+  },
+  {
+    "hostname": "bajardor-live.vercel.app",
+    "title": "বাজারদর — এক সার্চে চার সাইটের দাম",
+    "url": "https://bajardor-live.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bajardor-live.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:49.805Z"
+  },
+  {
+    "hostname": "squared-peach.vercel.app",
+    "title": "squared.today: a mindful daily journal, one square a day",
+    "url": "https://squared-peach.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://squared-peach.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 180,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:49.986Z"
+  },
+  {
+    "hostname": "controle-cc.vercel.app",
+    "title": "Finanças Pessoais",
+    "url": "https://controle-cc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://controle-cc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 114,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:50.100Z"
+  },
+  {
+    "hostname": "faith-tech-gold.vercel.app",
+    "title": "Global Baptism Event",
+    "url": "https://faith-tech-gold.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://faith-tech-gold.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:50.237Z"
+  },
+  {
+    "hostname": "mce-eta.vercel.app",
+    "title": "Events by Emcee Co. | To Balloons & Beyond",
+    "url": "https://mce-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mce-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:50.339Z"
+  },
+  {
+    "hostname": "bolo-sgreeners.vercel.app",
+    "title": "Bolo Sgreeners",
+    "url": "https://bolo-sgreeners.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bolo-sgreeners.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 578,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:50.919Z"
+  },
+  {
+    "hostname": "torneo-tejo-resistencia.vercel.app",
+    "title": "Tejo Hockey - Resistencia de Jugones",
+    "url": "https://torneo-tejo-resistencia.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://torneo-tejo-resistencia.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:51.201Z"
+  },
+  {
+    "hostname": "ordax-site-dev.vercel.app",
+    "title": "OrdaX — ideias organizam realidades",
+    "url": "https://ordax-site-dev.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ordax-site-dev.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 140,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:51.343Z"
+  },
+  {
+    "hostname": "catalyst-waitlist-card.vercel.app",
+    "title": "Catalyst Waitlist Hype Card",
+    "url": "https://catalyst-waitlist-card.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://catalyst-waitlist-card.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:51.574Z"
+  },
+  {
+    "hostname": "hostalmayelewoo.netlify.app",
+    "title": "Hostal Mayelewoo - Córdoba, Argentina",
+    "url": "https://hostalmayelewoo.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hostalmayelewoo.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 79,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:51.773Z"
+  },
+  {
+    "hostname": "beastdistributor.github.io",
+    "title": "MTProxy Шлюз — 70 живых прокси для Телеграма на 01:06 МСК",
+    "url": "https://beastdistributor.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beastdistributor.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 67,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T22:21:51.842Z"
+  },
+  {
+    "hostname": "saksham-aicte.onrender.com",
+    "title": "Overview · SAKSHAM",
+    "url": "https://saksham-aicte.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://saksham-aicte.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 396,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-24T22:21:52.239Z"
+  },
+  {
     "hostname": "fathom-steel-ten.vercel.app",
     "title": "Fathom · Cambridge AS &amp; A Level",
     "url": "https://fathom-steel-ten.vercel.app",
