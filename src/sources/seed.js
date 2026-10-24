@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "mars-supply-sim.vercel.app",
+    "title": "Ares Supply — Mission Survival Planner",
+    "url": "https://mars-supply-sim.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mars-supply-sim.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:08.839Z"
+  },
+  {
+    "hostname": "clinicadocarro.vercel.app",
+    "title": "Estética Automotiva em Joinville | Clínica do Carro",
+    "url": "https://clinicadocarro.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://clinicadocarro.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 908,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:09.764Z"
+  },
+  {
+    "hostname": "2026ordinationofdeaconesses.vercel.app",
+    "title": "권사 임직 감사예배 · 하나로교회",
+    "url": "https://2026ordinationofdeaconesses.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://2026ordinationofdeaconesses.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:09.916Z"
+  },
+  {
+    "hostname": "food-safety-horizon-scan.vercel.app",
+    "title": "Food Safety Horizon Scanning · Global Recall Intelligence",
+    "url": "https://food-safety-horizon-scan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://food-safety-horizon-scan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 82,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:10.000Z"
+  },
+  {
+    "hostname": "exactdraft.vercel.app",
+    "title": "ExactDraft — same file, independently verified",
+    "url": "https://exactdraft.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://exactdraft.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1165,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:11.215Z"
+  },
+  {
+    "hostname": "ingot-six-blush.vercel.app",
+    "title": "Ingot · CBAM carbon passports that count every tonne once",
+    "url": "https://ingot-six-blush.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ingot-six-blush.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:11.438Z"
+  },
+  {
+    "hostname": "civic-help-setu.vercel.app",
+    "title": "civic-help-setu",
+    "url": "https://civic-help-setu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://civic-help-setu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 183,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:11.621Z"
+  },
+  {
+    "hostname": "musecode.pages.dev",
+    "title": "Muse 邀请码互助站",
+    "url": "https://musecode.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://musecode.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:12.692Z"
+  },
+  {
+    "hostname": "arenadosjogos.github.io",
+    "title": "Arena dos Jogos",
+    "url": "https://arenadosjogos.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arenadosjogos.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 48,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-24T16:30:12.834Z"
+  },
+  {
     "hostname": "utulivu.vercel.app",
     "title": "Utulivu — Hospitality Management",
     "url": "https://utulivu.vercel.app",
