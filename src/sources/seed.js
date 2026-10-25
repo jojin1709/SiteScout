@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "mozintelligence.vercel.app",
+    "title": "MozIntelligence | E-commerce Growth Intelligence",
+    "url": "https://mozintelligence.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mozintelligence.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 369,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:50.963Z"
+  },
+  {
+    "hostname": "srt-splitter.vercel.app",
+    "title": "SRT Splitter — Dubbing Studio",
+    "url": "https://srt-splitter.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://srt-splitter.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 365,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:51.330Z"
+  },
+  {
+    "hostname": "quay-web.vercel.app",
+    "title": "Stellar Checkout",
+    "url": "https://quay-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quay-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 171,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:51.502Z"
+  },
+  {
+    "hostname": "teish-taka.vercel.app",
+    "title": "তেইশ টাকা — চিঠি, যা ভালবাসা বাড়ায়",
+    "url": "https://teish-taka.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://teish-taka.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 236,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:51.739Z"
+  },
+  {
+    "hostname": "dockershowcase.vercel.app",
+    "title": "Docker Samples Showcase",
+    "url": "https://dockershowcase.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dockershowcase.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:52.072Z"
+  },
+  {
+    "hostname": "ducky-snowy.vercel.app",
+    "title": "Ducky: talk it through",
+    "url": "https://ducky-snowy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ducky-snowy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:52.499Z"
+  },
+  {
+    "hostname": "sg-mobile-fix-setia-alam.pages.dev",
+    "title": "SG Mobile Fix Setia Alam - smartphone services & repairing",
+    "url": "https://sg-mobile-fix-setia-alam.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sg-mobile-fix-setia-alam.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-25T15:54:52.695Z"
+  },
+  {
+    "hostname": "student-management-st.netlify.app",
+    "title": "student-management-local",
+    "url": "https://student-management-st.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://student-management-st.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 138,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:52.834Z"
+  },
+  {
+    "hostname": "nexus-pathology.netlify.app",
+    "title": "Vite + React",
+    "url": "https://nexus-pathology.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexus-pathology.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 143,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:53.149Z"
+  },
+  {
+    "hostname": "yuvrajsinghnain.github.io",
+    "title": "Yuvraj Singh Nain",
+    "url": "https://yuvrajsinghnain.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yuvrajsinghnain.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:53.251Z"
+  },
+  {
+    "hostname": "watervision-vr.web.app",
+    "title": "WaterVision VR - פרויקט גמר",
+    "url": "https://watervision-vr.web.app",
+    "hostType": "web.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://watervision-vr.web.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T15:54:53.556Z"
+  },
+  {
     "hostname": "pmonline.vercel.app",
     "title": "RE: 여신전쟁",
     "url": "https://pmonline.vercel.app",
