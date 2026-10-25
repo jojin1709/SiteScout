@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "fhuoef-frontend.vercel.app",
+    "title": "Wind Forecast Dashboard",
+    "url": "https://fhuoef-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fhuoef-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T00:57:25.681Z"
+  },
+  {
+    "hostname": "yanzen-e-farmer.vercel.app",
+    "title": "Yanzen E-Farmer",
+    "url": "https://yanzen-e-farmer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yanzen-e-farmer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1000,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T00:57:26.685Z"
+  },
+  {
+    "hostname": "appadoracao.vercel.app",
+    "title": "Adoração · Ministério de Louvor",
+    "url": "https://appadoracao.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://appadoracao.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 206,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T00:57:27.260Z"
+  },
+  {
+    "hostname": "hackohiooctober2026.vercel.app",
+    "title": "Keystone",
+    "url": "https://hackohiooctober2026.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hackohiooctober2026.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T00:57:27.478Z"
+  },
+  {
+    "hostname": "codyssey-final-geo.vercel.app",
+    "title": "GEO 진단 | 우리 가게의 AI 노출 점검",
+    "url": "https://codyssey-final-geo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codyssey-final-geo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T00:57:27.576Z"
+  },
+  {
+    "hostname": "daily-metahunt.onrender.com",
+    "title": "Daily Metahunt",
+    "url": "https://daily-metahunt.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daily-metahunt.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 183,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T00:57:27.794Z"
+  },
+  {
     "hostname": "mafia-game-opal.vercel.app",
     "title": "Mafia Game",
     "url": "https://mafia-game-opal.vercel.app",
