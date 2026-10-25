@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "pmonline.vercel.app",
+    "title": "RE: 여신전쟁",
+    "url": "https://pmonline.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pmonline.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:51.837Z"
+  },
+  {
+    "hostname": "nur-apk.vercel.app",
+    "title": "Nur oqiw",
+    "url": "https://nur-apk.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nur-apk.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:51.975Z"
+  },
+  {
+    "hostname": "devfili.vercel.app",
+    "title": "DevFili — get your OAuth app approved swiftly",
+    "url": "https://devfili.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://devfili.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 321,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:52.303Z"
+  },
+  {
+    "hostname": "drouter-demo.vercel.app",
+    "title": "deRoute | Private AI Routing",
+    "url": "https://drouter-demo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://drouter-demo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:52.491Z"
+  },
+  {
+    "hostname": "epm-botbuilder-uo51.vercel.app",
+    "title": "Executive Prime Markets | Automated Trading, Built Your Way",
+    "url": "https://epm-botbuilder-uo51.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://epm-botbuilder-uo51.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 227,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:52.720Z"
+  },
+  {
+    "hostname": "life-os-web-azure.vercel.app",
+    "title": "LifeOS",
+    "url": "https://life-os-web-azure.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://life-os-web-azure.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:52.936Z"
+  },
+  {
+    "hostname": "buckeyebites.vercel.app",
+    "title": "BuckeyeBites · Your plate, planned.",
+    "url": "https://buckeyebites.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://buckeyebites.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 249,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:53.246Z"
+  },
+  {
+    "hostname": "nz-election-2026-compare.vercel.app",
+    "title": "NZ Election 2026 — Compare the Parties Side by Side",
+    "url": "https://nz-election-2026-compare.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nz-election-2026-compare.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:53.425Z"
+  },
+  {
+    "hostname": "remote-ai-one.vercel.app",
+    "title": "RemoteAI - Cloud Dashboard",
+    "url": "https://remote-ai-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://remote-ai-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T11:08:53.834Z"
+  },
+  {
     "hostname": "sensen-xi.vercel.app",
     "title": "SenSen: grocery prices near you",
     "url": "https://sensen-xi.vercel.app",
