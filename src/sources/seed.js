@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "biolicensing.vercel.app",
+    "title": "BioLicensing · Give research a future.",
+    "url": "https://biolicensing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://biolicensing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:46.964Z"
+  },
+  {
+    "hostname": "rank-forge-blue.vercel.app",
+    "title": "RankForge — Automated technical SEO fixes, shipped as pull requests",
+    "url": "https://rank-forge-blue.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rank-forge-blue.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:47.204Z"
+  },
+  {
+    "hostname": "barcelonavsrealmadridfans.vercel.app",
+    "title": "Clásico Night · Barça vs Madrid",
+    "url": "https://barcelonavsrealmadridfans.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://barcelonavsrealmadridfans.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:47.316Z"
+  },
+  {
+    "hostname": "broskis-dun.vercel.app",
+    "title": "Broskis",
+    "url": "https://broskis-dun.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://broskis-dun.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:47.419Z"
+  },
+  {
+    "hostname": "rollcall-seven-theta.vercel.app",
+    "title": "IIMPresent",
+    "url": "https://rollcall-seven-theta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rollcall-seven-theta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:47.517Z"
+  },
+  {
+    "hostname": "kueper-com.vercel.app",
+    "title": "Kueper.com Archiv — Wissenschaftliche Wissensbasis für literarische Werke",
+    "url": "https://kueper-com.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kueper-com.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 285,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:47.803Z"
+  },
+  {
+    "hostname": "couchwave-host.vercel.app",
+    "title": "Couchwave",
+    "url": "https://couchwave-host.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://couchwave-host.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:47.906Z"
+  },
+  {
+    "hostname": "sportlink-fancode10.pages.dev",
+    "title": "SPORTLINK - FANCODE",
+    "url": "https://sportlink-fancode10.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sportlink-fancode10.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-25T18:50:48.018Z"
+  },
+  {
+    "hostname": "neophylo.netlify.app",
+    "title": "NeoPhylo",
+    "url": "https://neophylo.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neophylo.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 771,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:48.789Z"
+  },
+  {
+    "hostname": "johanes-mg.github.io",
+    "title": "Johanès Falitiana",
+    "url": "https://johanes-mg.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://johanes-mg.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T18:50:48.945Z"
+  },
+  {
     "hostname": "mozintelligence.vercel.app",
     "title": "MozIntelligence | E-commerce Growth Intelligence",
     "url": "https://mozintelligence.vercel.app",
