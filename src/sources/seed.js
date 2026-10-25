@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "sensen-xi.vercel.app",
+    "title": "SenSen: grocery prices near you",
+    "url": "https://sensen-xi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sensen-xi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 261,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T05:55:36.442Z"
+  },
+  {
+    "hostname": "vocablab-one.vercel.app",
+    "title": "VocabLab — Learn vocabulary from your Google Sheet",
+    "url": "https://vocablab-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vocablab-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T05:55:36.661Z"
+  },
+  {
+    "hostname": "krishisetu-ai-mu.vercel.app",
+    "title": "KrishiSetu AI | National Digital Agriculture Platform",
+    "url": "https://krishisetu-ai-mu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://krishisetu-ai-mu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 263,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T05:55:36.925Z"
+  },
+  {
+    "hostname": "standclear.vercel.app",
+    "title": "StandClear — NYC Subway Tracker",
+    "url": "https://standclear.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://standclear.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 556,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T05:55:37.484Z"
+  },
+  {
+    "hostname": "toobstube-site.pages.dev",
+    "title": "ToobsTube",
+    "url": "https://toobstube-site.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://toobstube-site.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-25T05:55:37.673Z"
+  },
+  {
+    "hostname": "ledgio.pages.dev",
+    "title": "Ledgio — The Intelligent Private Financial Ledger",
+    "url": "https://ledgio.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ledgio.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-25T05:55:37.799Z"
+  },
+  {
+    "hostname": "delicate-kheer-1bc786.netlify.app",
+    "title": "VectorForge — Free Online Vector Editor &amp; Design Studio",
+    "url": "https://delicate-kheer-1bc786.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://delicate-kheer-1bc786.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 126,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T05:55:37.925Z"
+  },
+  {
+    "hostname": "trustvault-app.onrender.com",
+    "title": "TrustVault",
+    "url": "https://trustvault-app.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trustvault-app.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 327,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-25T05:55:38.922Z"
+  },
+  {
+    "hostname": "longdong.web.app",
+    "title": "龍洞攀岩資料庫",
+    "url": "https://longdong.web.app",
+    "hostType": "web.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://longdong.web.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T05:55:39.201Z"
+  },
+  {
     "hostname": "fhuoef-frontend.vercel.app",
     "title": "Wind Forecast Dashboard",
     "url": "https://fhuoef-frontend.vercel.app",
