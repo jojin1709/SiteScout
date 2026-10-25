@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "alongtable.vercel.app",
+    "title": "ALongTable",
+    "url": "https://alongtable.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alongtable.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 74,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T21:35:34.803Z"
+  },
+  {
+    "hostname": "tamluxe.vercel.app",
+    "title": "TamLuxe",
+    "url": "https://tamluxe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tamluxe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T21:35:35.084Z"
+  },
+  {
+    "hostname": "portafolio-modelaje.vercel.app",
+    "title": "Tomás Benosilio — Modelo · Mar del Plata / Buenos Aires",
+    "url": "https://portafolio-modelaje.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portafolio-modelaje.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T21:35:36.107Z"
+  },
+  {
+    "hostname": "prezio-jade.vercel.app",
+    "title": "Prezio",
+    "url": "https://prezio-jade.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://prezio-jade.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 431,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T21:35:36.560Z"
+  },
+  {
+    "hostname": "folder-locker-my-first-app.vercel.app",
+    "title": "Folder Locker — Install",
+    "url": "https://folder-locker-my-first-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://folder-locker-my-first-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T21:35:36.753Z"
+  },
+  {
+    "hostname": "investimentos-pro-2.vercel.app",
+    "title": "investimentos-pro-2.vercel.app",
+    "url": "https://investimentos-pro-2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://investimentos-pro-2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-25T21:35:36.967Z"
+  },
+  {
     "hostname": "biolicensing.vercel.app",
     "title": "BioLicensing · Give research a future.",
     "url": "https://biolicensing.vercel.app",
