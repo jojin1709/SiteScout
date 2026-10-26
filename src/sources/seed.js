@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "mind-game-pink.vercel.app",
+    "title": "내 마음이 들리니 - 마음 공방",
+    "url": "https://mind-game-pink.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mind-game-pink.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 37,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:27.305Z"
+  },
+  {
+    "hostname": "habit-hub-phi.vercel.app",
+    "title": "HabitHub | Habit tracker",
+    "url": "https://habit-hub-phi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://habit-hub-phi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 40,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.086Z"
+  },
+  {
+    "hostname": "menupan-jin.vercel.app",
+    "title": "메뉴판",
+    "url": "https://menupan-jin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://menupan-jin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.230Z"
+  },
+  {
+    "hostname": "starotaku.vercel.app",
+    "title": "Starotaku",
+    "url": "https://starotaku.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://starotaku.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 44,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.275Z"
+  },
+  {
+    "hostname": "local402.vercel.app",
+    "title": "Local402 · Cobra en tu moneda",
+    "url": "https://local402.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://local402.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 102,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.378Z"
+  },
+  {
+    "hostname": "kronos-sooty.vercel.app",
+    "title": "Kronos 2.0 — Timetable Builder",
+    "url": "https://kronos-sooty.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kronos-sooty.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 70,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.448Z"
+  },
+  {
+    "hostname": "lula-ladrao.vercel.app",
+    "title": "Kit Comemorativo da Vitória | Edição especial",
+    "url": "https://lula-ladrao.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lula-ladrao.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 28,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.478Z"
+  },
+  {
+    "hostname": "portfolio-dlp1.vercel.app",
+    "title": "Abhishek Kumar Gautam — Full-Stack Developer",
+    "url": "https://portfolio-dlp1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-dlp1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 129,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.781Z"
+  },
+  {
+    "hostname": "teksher-hub.netlify.app",
+    "title": "TEKSHER HUB – база знаний маркировки",
+    "url": "https://teksher-hub.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://teksher-hub.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:28.930Z"
+  },
+  {
+    "hostname": "tkporl.github.io",
+    "title": "Tsinho资源库 · 下载中心",
+    "url": "https://tkporl.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tkporl.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:29.048Z"
+  },
+  {
+    "hostname": "vuranimation767-byte.github.io",
+    "title": "vuranimation767-byte.github.io | vuranimation767-byte",
+    "url": "https://vuranimation767-byte.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vuranimation767-byte.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T05:54:29.221Z"
+  },
+  {
+    "hostname": "aarogyavoice.onrender.com",
+    "title": "AarogyaVoice — Multi-Indic Sovereign AI Pre-Triage Assistant",
+    "url": "https://aarogyavoice.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aarogyavoice.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 594,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T05:54:29.815Z"
+  },
+  {
+    "hostname": "second-brain-production-e19a.up.railway.app",
+    "title": "Второй мозг",
+    "url": "https://second-brain-production-e19a.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://second-brain-production-e19a.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 204,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T05:54:30.020Z"
+  },
+  {
+    "hostname": "lorytry.infinityfreeapp.com",
+    "title": "lorytry.infinityfreeapp.com",
+    "url": "https://lorytry.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lorytry.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 856,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T05:54:30.876Z"
+  },
+  {
     "hostname": "financas-com-dados-site.vercel.app",
     "title": "Finanças com Dados — Modelo FCD",
     "url": "https://financas-com-dados-site.vercel.app",
