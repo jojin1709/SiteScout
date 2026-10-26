@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "financas-com-dados-site.vercel.app",
+    "title": "Finanças com Dados — Modelo FCD",
+    "url": "https://financas-com-dados-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://financas-com-dados-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:11.978Z"
+  },
+  {
+    "hostname": "for-kwongane.vercel.app",
+    "title": "사우디 현황 모아보기",
+    "url": "https://for-kwongane.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://for-kwongane.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 406,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:12.384Z"
+  },
+  {
+    "hostname": "chokepoint-demo.vercel.app",
+    "title": "Chokepoint v3.0 — Least-privilege &amp; Tamper-evident Audit for Sensitive Ops — Humans and AI Agents",
+    "url": "https://chokepoint-demo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chokepoint-demo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:12.586Z"
+  },
+  {
+    "hostname": "velum-app-cyan.vercel.app",
+    "title": "VÉLUME",
+    "url": "https://velum-app-cyan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://velum-app-cyan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:12.801Z"
+  },
+  {
+    "hostname": "league-web-app.vercel.app",
+    "title": "Turnpoint · League of Legends match analysis",
+    "url": "https://league-web-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://league-web-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1184,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:14.208Z"
+  },
+  {
+    "hostname": "theggdoula.vercel.app",
+    "title": "Grit + Grace Doula | Birth & Postpartum Support",
+    "url": "https://theggdoula.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://theggdoula.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:15.391Z"
+  },
+  {
+    "hostname": "educ-ecole.vercel.app",
+    "title": "L’Atelier des mots",
+    "url": "https://educ-ecole.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://educ-ecole.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:15.499Z"
+  },
+  {
+    "hostname": "vibedj-one.vercel.app",
+    "title": "VibeDJ",
+    "url": "https://vibedj-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vibedj-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:15.593Z"
+  },
+  {
+    "hostname": "project-opus.netlify.app",
+    "title": "Free, open-source React component library",
+    "url": "https://project-opus.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://project-opus.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 630,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:16.285Z"
+  },
+  {
+    "hostname": "candela-terminal.netlify.app",
+    "title": "Candela Terminal",
+    "url": "https://candela-terminal.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://candela-terminal.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:16.468Z"
+  },
+  {
+    "hostname": "pulseinhypnotize6.github.io",
+    "title": "47 проверенных прокси Telegram — Прокси Опора, 02:45 МСК",
+    "url": "https://pulseinhypnotize6.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pulseinhypnotize6.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:16.615Z"
+  },
+  {
+    "hostname": "bobs-org.github.io",
+    "title": "Bob - Bob",
+    "url": "https://bobs-org.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bobs-org.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T00:01:16.757Z"
+  },
+  {
+    "hostname": "edvexa-data-quality-etl-monitor.onrender.com",
+    "title": "EDVEXA — Data Quality & ETL Monitor",
+    "url": "https://edvexa-data-quality-etl-monitor.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://edvexa-data-quality-etl-monitor.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 854,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T00:01:17.734Z"
+  },
+  {
+    "hostname": "fate-of-the-adventurers-twitch-production.up.railway.app",
+    "title": "Connect with Twitch",
+    "url": "https://fate-of-the-adventurers-twitch-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fate-of-the-adventurers-twitch-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1138,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T00:01:18.872Z"
+  },
+  {
     "hostname": "alongtable.vercel.app",
     "title": "ALongTable",
     "url": "https://alongtable.vercel.app",
