@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "pro-hr-ai.vercel.app",
+    "title": "ProHR AI",
+    "url": "https://pro-hr-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pro-hr-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:27.599Z"
+  },
+  {
+    "hostname": "geravale-app.vercel.app",
+    "title": "Gera Vale — Gestão de Contratos",
+    "url": "https://geravale-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://geravale-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 304,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:27.904Z"
+  },
+  {
+    "hostname": "alloy-stellar.vercel.app",
+    "title": "Alloy on Stellar",
+    "url": "https://alloy-stellar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alloy-stellar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 94,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:27.998Z"
+  },
+  {
+    "hostname": "bunkometer.vercel.app",
+    "title": "Bunk-o-Meter",
+    "url": "https://bunkometer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bunkometer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:28.256Z"
+  },
+  {
+    "hostname": "xzz-two.vercel.app",
+    "title": "1337 — Фриланс биржа",
+    "url": "https://xzz-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xzz-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 300,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:28.731Z"
+  },
+  {
+    "hostname": "openchessbot-github.vercel.app",
+    "title": "OpenChessBot — MuJoCo Robotics Lab",
+    "url": "https://openchessbot-github.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://openchessbot-github.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:28.828Z"
+  },
+  {
+    "hostname": "guillermoalcuaz.vercel.app",
+    "title": "Guillermo Alcuaz · Software &amp; AI",
+    "url": "https://guillermoalcuaz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guillermoalcuaz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:28.920Z"
+  },
+  {
+    "hostname": "xanswitch2.vercel.app",
+    "title": "XAN Switch — Catálogo",
+    "url": "https://xanswitch2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xanswitch2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 581,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:29.504Z"
+  },
+  {
+    "hostname": "axon-forge.vercel.app",
+    "title": "Axon Forge",
+    "url": "https://axon-forge.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://axon-forge.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 102,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:29.607Z"
+  },
+  {
+    "hostname": "nanimejs.netlify.app",
+    "title": "Anime.js Composables for Nuxt and Vue 3 - nanime",
+    "url": "https://nanimejs.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nanimejs.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1074,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:30.700Z"
+  },
+  {
+    "hostname": "ghostbuster-ai-js5l.onrender.com",
+    "title": "GhostBuster AI",
+    "url": "https://ghostbuster-ai-js5l.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ghostbuster-ai-js5l.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T19:06:30.859Z"
+  },
+  {
+    "hostname": "medicine-finder.up.railway.app",
+    "title": "Medicine Brand Finder",
+    "url": "https://medicine-finder.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://medicine-finder.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 309,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T19:06:31.430Z"
+  },
+  {
     "hostname": "book-flow-eight.vercel.app",
     "title": "BookFlow",
     "url": "https://book-flow-eight.vercel.app",
