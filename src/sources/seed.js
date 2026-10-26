@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "book-flow-eight.vercel.app",
+    "title": "BookFlow",
+    "url": "https://book-flow-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://book-flow-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1202,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:36.204Z"
+  },
+  {
+    "hostname": "printedge-omega.vercel.app",
+    "title": "PrintEase - Online Xerox & Document Printing Service",
+    "url": "https://printedge-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://printedge-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 302,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:36.508Z"
+  },
+  {
+    "hostname": "atlas-frontend-pearl.vercel.app",
+    "title": "ATLAS | AI Learning OS",
+    "url": "https://atlas-frontend-pearl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://atlas-frontend-pearl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 474,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:36.983Z"
+  },
+  {
+    "hostname": "advibe-nu.vercel.app",
+    "title": "Outdoor &amp; Mobile Advertising on Every Journey | AdVibe",
+    "url": "https://advibe-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://advibe-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 565,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:37.551Z"
+  },
+  {
+    "hostname": "rin-world-io.vercel.app",
+    "title": "Bearingworld.io",
+    "url": "https://rin-world-io.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rin-world-io.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 345,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:38.821Z"
+  },
+  {
+    "hostname": "ayojan-ace.vercel.app",
+    "title": "Aayojan Ace — Your celebration, perfectly planned.",
+    "url": "https://ayojan-ace.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ayojan-ace.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 417,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:39.239Z"
+  },
+  {
+    "hostname": "proctored-testing.vercel.app",
+    "title": "AeroSoc BIT Mesra | Online Testing Platform",
+    "url": "https://proctored-testing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://proctored-testing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 625,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:40.074Z"
+  },
+  {
+    "hostname": "afterlife-ruhin.vercel.app",
+    "title": "Afterlife — Device Lifecycle Intelligence",
+    "url": "https://afterlife-ruhin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://afterlife-ruhin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 306,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:40.381Z"
+  },
+  {
+    "hostname": "khuvuontrithuc.vercel.app",
+    "title": "Khu Vườn Tri Thức – Mầm Non Vui Học",
+    "url": "https://khuvuontrithuc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://khuvuontrithuc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:40.603Z"
+  },
+  {
+    "hostname": "westbay-surfing.vercel.app",
+    "title": "西灣衝浪社",
+    "url": "https://westbay-surfing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://westbay-surfing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 571,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:41.176Z"
+  },
+  {
+    "hostname": "yurt-playground.pages.dev",
+    "title": "Yurt playground",
+    "url": "https://yurt-playground.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yurt-playground.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:41.472Z"
+  },
+  {
+    "hostname": "chy13506767231-stack.github.io",
+    "title": "木木酱の工作台",
+    "url": "https://chy13506767231-stack.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chy13506767231-stack.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:41.654Z"
+  },
+  {
+    "hostname": "ritmo-sx4k.onrender.com",
+    "title": "Ritmo — Hábitos que fluem",
+    "url": "https://ritmo-sx4k.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ritmo-sx4k.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 52,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T12:40:41.815Z"
+  },
+  {
     "hostname": "mind-game-pink.vercel.app",
     "title": "내 마음이 들리니 - 마음 공방",
     "url": "https://mind-game-pink.vercel.app",
