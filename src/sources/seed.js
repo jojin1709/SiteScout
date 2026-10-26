@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "bargain-bay-two.vercel.app",
+    "title": "Bargain Bay — Discount Appliances Pickering &amp; Scarborough | Tested &amp; Working",
+    "url": "https://bargain-bay-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bargain-bay-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 499,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:50.669Z"
+  },
+  {
+    "hostname": "peakstamp-gemini-api.vercel.app",
+    "title": "PeakStamp | Audio Highlights",
+    "url": "https://peakstamp-gemini-api.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://peakstamp-gemini-api.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:50.836Z"
+  },
+  {
+    "hostname": "propped-alpha.vercel.app",
+    "title": "Propped",
+    "url": "https://propped-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://propped-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 148,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:50.985Z"
+  },
+  {
+    "hostname": "sociality22.vercel.app",
+    "title": "Sociality22",
+    "url": "https://sociality22.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sociality22.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 267,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:51.253Z"
+  },
+  {
+    "hostname": "react-window.vercel.app",
+    "title": "react-window | render everything",
+    "url": "https://react-window.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://react-window.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 148,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:51.401Z"
+  },
+  {
+    "hostname": "cordeiro-farol-comercial.vercel.app",
+    "title": "Farol Cordeiro Comercial · Grupo Cordeiro",
+    "url": "https://cordeiro-farol-comercial.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cordeiro-farol-comercial.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:51.601Z"
+  },
+  {
+    "hostname": "codingskanetra.vercel.app",
+    "title": "Coding Skanetra — Belajar ngoding bareng",
+    "url": "https://codingskanetra.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codingskanetra.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 197,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:51.799Z"
+  },
+  {
+    "hostname": "fitness-app-drj.pages.dev",
+    "title": "Workout Planner",
+    "url": "https://fitness-app-drj.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fitness-app-drj.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T23:40:51.909Z"
+  },
+  {
+    "hostname": "careercompass-jobs.netlify.app",
+    "title": "Career Compass — A Free Resource Hub for Job Seekers",
+    "url": "https://careercompass-jobs.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://careercompass-jobs.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 743,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-26T23:40:52.670Z"
+  },
+  {
+    "hostname": "daggerok.github.io",
+    "title": "daggerok",
+    "url": "https://daggerok.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daggerok.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T23:40:52.818Z"
+  },
+  {
+    "hostname": "owlcms-cloud.fly.dev",
+    "title": "owlcms-cloud.fly.dev",
+    "url": "https://owlcms-cloud.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://owlcms-cloud.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 69,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-26T23:40:52.888Z"
+  },
+  {
     "hostname": "pro-hr-ai.vercel.app",
     "title": "ProHR AI",
     "url": "https://pro-hr-ai.vercel.app",
