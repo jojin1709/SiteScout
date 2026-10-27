@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "portfoliorank.vercel.app",
+    "title": "PortfolioRank — the best developer portfolios, ranked",
+    "url": "https://portfoliorank.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfoliorank.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 258,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:55.684Z"
+  },
+  {
+    "hostname": "haejastock.vercel.app",
+    "title": "밸류노트 ValueNote · 적정 주가와 가치투자 점수, 그레이엄·워렌 버핏 기준",
+    "url": "https://haejastock.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haejastock.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 319,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:57.112Z"
+  },
+  {
+    "hostname": "nexoralaw.vercel.app",
+    "title": "Nexora Law Firm | Advocates &amp; Legal Consultants",
+    "url": "https://nexoralaw.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexoralaw.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 263,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:57.543Z"
+  },
+  {
+    "hostname": "abrevia-beta.vercel.app",
+    "title": "Abrevia | Secure Business Translation App",
+    "url": "https://abrevia-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://abrevia-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:57.770Z"
+  },
+  {
+    "hostname": "looku-ai-mvp.vercel.app",
+    "title": "LOOKU — Your style, understood.",
+    "url": "https://looku-ai-mvp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://looku-ai-mvp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 487,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:58.258Z"
+  },
+  {
+    "hostname": "pickatime-phi.vercel.app",
+    "title": "언제봐?",
+    "url": "https://pickatime-phi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pickatime-phi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:58.650Z"
+  },
+  {
+    "hostname": "burrowtrailhub.github.io",
+    "title": "MTProxy Сканер | 79 MTProxy с проверкой, обновлено 07:20 МСК",
+    "url": "https://burrowtrailhub.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://burrowtrailhub.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T04:34:59.010Z"
+  },
+  {
+    "hostname": "blockchains.github.io",
+    "title": "Blockchain Lab Hub — 79 free blockchain tools, data APIs, AI briefs and monitors",
+    "url": "https://blockchains.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://blockchains.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T04:34:59.148Z"
+  },
+  {
+    "hostname": "mdsumner.github.io",
+    "title": "Michael Sumner",
+    "url": "https://mdsumner.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mdsumner.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T04:34:59.307Z"
+  },
+  {
     "hostname": "bargain-bay-two.vercel.app",
     "title": "Bargain Bay — Discount Appliances Pickering &amp; Scarborough | Tested &amp; Working",
     "url": "https://bargain-bay-two.vercel.app",
