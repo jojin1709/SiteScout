@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "coldcall-guide-two.vercel.app",
+    "title": "Call Guide",
+    "url": "https://coldcall-guide-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://coldcall-guide-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 215,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:21.607Z"
+  },
+  {
+    "hostname": "anshdev-tau.vercel.app",
+    "title": "Ansh Singh — Full-Stack &amp; Agentic AI Engineer",
+    "url": "https://anshdev-tau.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anshdev-tau.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1040,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:22.649Z"
+  },
+  {
+    "hostname": "ask-jesus-lake.vercel.app",
+    "title": "ASK JESUS",
+    "url": "https://ask-jesus-lake.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ask-jesus-lake.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 268,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:22.920Z"
+  },
+  {
+    "hostname": "neuronaut-swart.vercel.app",
+    "title": "Neuronaut",
+    "url": "https://neuronaut-swart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neuronaut-swart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:23.144Z"
+  },
+  {
+    "hostname": "deuce-archive.vercel.app",
+    "title": "DEUCE — Todo el tenis, partido a partido",
+    "url": "https://deuce-archive.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deuce-archive.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 353,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:23.498Z"
+  },
+  {
+    "hostname": "mercy-shop.vercel.app",
+    "title": "მერსი - ონლაინ მაღაზია",
+    "url": "https://mercy-shop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mercy-shop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 211,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:23.709Z"
+  },
+  {
+    "hostname": "noctis-ai.vercel.app",
+    "title": "Noctis AI - Custom AI Solutions for Business",
+    "url": "https://noctis-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://noctis-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 480,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:24.192Z"
+  },
+  {
+    "hostname": "khutwaa.pages.dev",
+    "title": "مساحة التعلّم",
+    "url": "https://khutwaa.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://khutwaa.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 183,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T21:10:24.412Z"
+  },
+  {
+    "hostname": "madarek.onrender.com",
+    "title": "مدارك · منصّة التعليم الذكي",
+    "url": "https://madarek.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://madarek.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 174,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T21:10:24.820Z"
+  },
+  {
     "hostname": "projectdetective.vercel.app",
     "title": "DetectiveAI — Autonomous Data Forensics &amp; Statistical Intelligence Engine",
     "url": "https://projectdetective.vercel.app",
