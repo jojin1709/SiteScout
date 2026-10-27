@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "digisurvivor.vercel.app",
+    "title": "DigiSurvivor",
+    "url": "https://digisurvivor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://digisurvivor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 337,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:37.517Z"
+  },
+  {
+    "hostname": "crime-intelligence-six.vercel.app",
+    "title": "Cross-Station Crime Intelligence | Police Operations & Evidence Exploration",
+    "url": "https://crime-intelligence-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://crime-intelligence-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 404,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:37.922Z"
+  },
+  {
+    "hostname": "vegaz-web.vercel.app",
+    "title": "Vegaz",
+    "url": "https://vegaz-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vegaz-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 383,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:38.307Z"
+  },
+  {
+    "hostname": "termux-monorepo.vercel.app",
+    "title": "termux-monorepo — demo portal",
+    "url": "https://termux-monorepo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://termux-monorepo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 239,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:38.548Z"
+  },
+  {
+    "hostname": "invitation-quran-khawani.vercel.app",
+    "title": "Quran Khawani Invitation — Muhammad Azam",
+    "url": "https://invitation-quran-khawani.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://invitation-quran-khawani.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 355,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:38.903Z"
+  },
+  {
+    "hostname": "ai-career-copilot-v2.vercel.app",
+    "title": "AI Career Copilot",
+    "url": "https://ai-career-copilot-v2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-career-copilot-v2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:39.214Z"
+  },
+  {
+    "hostname": "rapid-chat-app.vercel.app",
+    "title": "FlashCom",
+    "url": "https://rapid-chat-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rapid-chat-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 339,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:39.553Z"
+  },
+  {
+    "hostname": "civ-8-world-builder.vercel.app",
+    "title": "CoW",
+    "url": "https://civ-8-world-builder.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://civ-8-world-builder.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 325,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:39.878Z"
+  },
+  {
+    "hostname": "principles-website.pages.dev",
+    "title": "Principles Disciple | Turn corrections into the Agent's next behavior",
+    "url": "https://principles-website.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://principles-website.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T10:18:40.363Z"
+  },
+  {
+    "hostname": "booklyn.pages.dev",
+    "title": "Booklyn: keep your lights on",
+    "url": "https://booklyn.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://booklyn.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 93,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:40.457Z"
+  },
+  {
+    "hostname": "signature-music.netlify.app",
+    "title": "Haiere Signature Music — Muhaajir | Hi-Res Web Player",
+    "url": "https://signature-music.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://signature-music.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 745,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T10:18:41.203Z"
+  },
+  {
     "hostname": "portfoliorank.vercel.app",
     "title": "PortfolioRank — the best developer portfolios, ranked",
     "url": "https://portfoliorank.vercel.app",
