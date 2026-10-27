@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "projectdetective.vercel.app",
+    "title": "DetectiveAI — Autonomous Data Forensics &amp; Statistical Intelligence Engine",
+    "url": "https://projectdetective.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://projectdetective.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 278,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T16:19:59.886Z"
+  },
+  {
+    "hostname": "pedido-unificado.vercel.app",
+    "title": "Pedido Unificado a Fábrica",
+    "url": "https://pedido-unificado.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pedido-unificado.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 148,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T16:20:00.036Z"
+  },
+  {
+    "hostname": "suwoodays-site.vercel.app",
+    "title": "SUWOODAYS | 가족 장기여행 노트",
+    "url": "https://suwoodays-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://suwoodays-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T16:20:00.445Z"
+  },
+  {
+    "hostname": "spectra-omega-sooty.vercel.app",
+    "title": "SPECTRA — AI-Powered Deepfake & Synthetic Media Forensics Platform",
+    "url": "https://spectra-omega-sooty.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://spectra-omega-sooty.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-27T16:20:00.639Z"
+  },
+  {
+    "hostname": "ai-link-official.pages.dev",
+    "title": "AI-LINK v2.0.0 · NEXUS 全域 3D 智能网关",
+    "url": "https://ai-link-official.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-link-official.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T16:20:00.849Z"
+  },
+  {
+    "hostname": "ttomilin.github.io",
+    "title": "Tristan Tomilin | PhD Candidate in Reinforcement Learning",
+    "url": "https://ttomilin.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ttomilin.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T16:20:00.969Z"
+  },
+  {
+    "hostname": "muffet-dashboard.onrender.com",
+    "title": "MuffetBot — El bot de Twitch con personalidad",
+    "url": "https://muffet-dashboard.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://muffet-dashboard.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T16:20:01.188Z"
+  },
+  {
+    "hostname": "solvia-mini.fly.dev",
+    "title": "Solvia Mini | Free On-Page SEO Audit",
+    "url": "https://solvia-mini.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://solvia-mini.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 119,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T16:20:01.308Z"
+  },
+  {
+    "hostname": "mzansimunch.infinityfreeapp.com",
+    "title": "mzansimunch.infinityfreeapp.com",
+    "url": "https://mzansimunch.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mzansimunch.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3026,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-27T16:20:06.262Z"
+  },
+  {
     "hostname": "digisurvivor.vercel.app",
     "title": "DigiSurvivor",
     "url": "https://digisurvivor.vercel.app",
