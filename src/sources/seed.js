@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "fleetmanagement-flame.vercel.app",
+    "title": "FILSCORE",
+    "url": "https://fleetmanagement-flame.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fleetmanagement-flame.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:49.439Z"
+  },
+  {
+    "hostname": "porra-liga.vercel.app",
+    "title": "La Porra",
+    "url": "https://porra-liga.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://porra-liga.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:49.576Z"
+  },
+  {
+    "hostname": "nexora-logistic-os.vercel.app",
+    "title": "Nexora OS · Operaciones",
+    "url": "https://nexora-logistic-os.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexora-logistic-os.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:49.847Z"
+  },
+  {
+    "hostname": "stock-website-boshiang.vercel.app",
+    "title": "Market Current",
+    "url": "https://stock-website-boshiang.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stock-website-boshiang.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 463,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:50.470Z"
+  },
+  {
+    "hostname": "autonomous-alpha.vercel.app",
+    "title": "Halo · AI Market Intelligence",
+    "url": "https://autonomous-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://autonomous-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 179,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:50.650Z"
+  },
+  {
+    "hostname": "ibrahim-adnan.vercel.app",
+    "title": "Ibrahim Adnan | Full-Stack Software Engineer &amp; Web Developer",
+    "url": "https://ibrahim-adnan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ibrahim-adnan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 411,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:51.066Z"
+  },
+  {
+    "hostname": "greenlight-rfp.vercel.app",
+    "title": "RFP Monitoring System",
+    "url": "https://greenlight-rfp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://greenlight-rfp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:51.201Z"
+  },
+  {
+    "hostname": "persona-lite.vercel.app",
+    "title": "PersonaLite",
+    "url": "https://persona-lite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://persona-lite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:51.410Z"
+  },
+  {
+    "hostname": "sushant-nemade.github.io",
+    "title": "sushant nemade — data, AI and digital transformation",
+    "url": "https://sushant-nemade.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sushant-nemade.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T01:04:51.646Z"
+  },
+  {
     "hostname": "coldcall-guide-two.vercel.app",
     "title": "Call Guide",
     "url": "https://coldcall-guide-two.vercel.app",
