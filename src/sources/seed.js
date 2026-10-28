@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "histori-axe.vercel.app",
+    "title": "HistoriAxe - Le quiz chronologique de l'Histoire",
+    "url": "https://histori-axe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://histori-axe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:40.476Z"
+  },
+  {
+    "hostname": "modoker.vercel.app",
+    "title": "Modoker — Tus juegos. Tus reglas.",
+    "url": "https://modoker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://modoker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:40.594Z"
+  },
+  {
+    "hostname": "rivsan-web.vercel.app",
+    "title": "RIVSAN · Formación Táctica Inmersiva",
+    "url": "https://rivsan-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rivsan-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:40.709Z"
+  },
+  {
+    "hostname": "simiaru.vercel.app",
+    "title": "SimiAru - Aprende Quechua y Aymara",
+    "url": "https://simiaru.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://simiaru.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:41.045Z"
+  },
+  {
+    "hostname": "locapp-ruby.vercel.app",
+    "title": "Locapp | Informação útil perto de si",
+    "url": "https://locapp-ruby.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://locapp-ruby.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:41.151Z"
+  },
+  {
+    "hostname": "hotplayer-shop.vercel.app",
+    "title": "Activation HotPlayer",
+    "url": "https://hotplayer-shop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hotplayer-shop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:46.465Z"
+  },
+  {
+    "hostname": "lifeonrpg.vercel.app",
+    "title": "LifeonRPG — Sua rotina é a aventura",
+    "url": "https://lifeonrpg.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lifeonrpg.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:46.572Z"
+  },
+  {
+    "hostname": "osintalpha-frontend.vercel.app",
+    "title": "OSINT Alpha — Analyst Research Workbench",
+    "url": "https://osintalpha-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://osintalpha-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 116,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T20:53:46.689Z"
+  },
+  {
+    "hostname": "therealtkh.github.io",
+    "title": "tkh's GitHub Page",
+    "url": "https://therealtkh.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://therealtkh.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 175,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-28T20:53:46.865Z"
+  },
+  {
+    "hostname": "zawadi-q4m2.onrender.com",
+    "title": "Zawadi Kiganjani 🎁 | Tengeneza surprise ya kugusa moyo",
+    "url": "https://zawadi-q4m2.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zawadi-q4m2.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 206,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-28T20:53:47.668Z"
+  },
+  {
+    "hostname": "webvault.42web.io",
+    "title": "webvault.42web.io",
+    "url": "https://webvault.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://webvault.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 873,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-28T20:53:48.542Z"
+  },
+  {
     "hostname": "hai-my-wedding.vercel.app",
     "title": "Hải Phạm & Mỹ Nguyễn | Wedding Invitation",
     "url": "https://hai-my-wedding.vercel.app",
