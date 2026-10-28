@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "klasbeheer.vercel.app",
+    "title": "Klasbeheer",
+    "url": "https://klasbeheer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://klasbeheer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 100,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T08:09:51.318Z"
+  },
+  {
+    "hostname": "js-job-portal.vercel.app",
+    "title": "Job Finder",
+    "url": "https://js-job-portal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://js-job-portal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T08:09:51.422Z"
+  },
+  {
+    "hostname": "findmyinvite.vercel.app",
+    "title": "Wedding Websites and Invitation Videos | FindMyInvite",
+    "url": "https://findmyinvite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://findmyinvite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T08:09:51.569Z"
+  },
+  {
+    "hostname": "ai-presentation-coach-eta.vercel.app",
+    "title": "AI Presentation Coach",
+    "url": "https://ai-presentation-coach-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-presentation-coach-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T08:09:51.671Z"
+  },
+  {
+    "hostname": "bharathdrive-ai.github.io",
+    "title": "InstaScan AI",
+    "url": "https://bharathdrive-ai.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bharathdrive-ai.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 305,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T08:09:52.715Z"
+  },
+  {
+    "hostname": "koreaolympics.github.io",
+    "title": "올림픽예선 | 코리아 올림픽스",
+    "url": "https://koreaolympics.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://koreaolympics.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 186,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T08:09:52.903Z"
+  },
+  {
+    "hostname": "multiplecurrencyconverter.fly.dev",
+    "title": "Currency Converter Pro",
+    "url": "https://multiplecurrencyconverter.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://multiplecurrencyconverter.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1284,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-28T08:09:54.370Z"
+  },
+  {
     "hostname": "fleetmanagement-flame.vercel.app",
     "title": "FILSCORE",
     "url": "https://fleetmanagement-flame.vercel.app",
