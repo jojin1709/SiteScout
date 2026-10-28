@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "hai-my-wedding.vercel.app",
+    "title": "Hải Phạm & Mỹ Nguyễn | Wedding Invitation",
+    "url": "https://hai-my-wedding.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hai-my-wedding.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:33.539Z"
+  },
+  {
+    "hostname": "az104-exam-simulator-drab.vercel.app",
+    "title": "Exam Simulator",
+    "url": "https://az104-exam-simulator-drab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://az104-exam-simulator-drab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:38.893Z"
+  },
+  {
+    "hostname": "ducks-vercel-api.vercel.app",
+    "title": "Stay Safe from Scams",
+    "url": "https://ducks-vercel-api.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ducks-vercel-api.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:39.144Z"
+  },
+  {
+    "hostname": "yoshlar-ishi-site.vercel.app",
+    "title": "Yoshlar-Ishi — G‘oyadan amalga",
+    "url": "https://yoshlar-ishi-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yoshlar-ishi-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 264,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:39.822Z"
+  },
+  {
+    "hostname": "flowpilot-aicte-portal.vercel.app",
+    "title": "FlowPilot — one file for AICTE approvals",
+    "url": "https://flowpilot-aicte-portal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flowpilot-aicte-portal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 30,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:39.853Z"
+  },
+  {
+    "hostname": "compass-kappa-nine.vercel.app",
+    "title": "Compass — AI Copilot for Students, Developers &amp; Hackathons",
+    "url": "https://compass-kappa-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://compass-kappa-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:45.070Z"
+  },
+  {
+    "hostname": "snapcal-web-roan.vercel.app",
+    "title": "Sylla — snap a schedule, get a calendar",
+    "url": "https://snapcal-web-roan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://snapcal-web-roan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:45.383Z"
+  },
+  {
+    "hostname": "soul-sanctum.vercel.app",
+    "title": "Soul Sanctum - Catholic Daily Companion and Liturgical Treasury",
+    "url": "https://soul-sanctum.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://soul-sanctum.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 279,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:45.662Z"
+  },
+  {
+    "hostname": "sandstone.pages.dev",
+    "title": "Sandstone",
+    "url": "https://sandstone.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sandstone.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 251,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-28T15:51:45.952Z"
+  },
+  {
+    "hostname": "nuzlocke.netlify.app",
+    "title": "Nuzlocke Tracker - Track pokemon encounters",
+    "url": "https://nuzlocke.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nuzlocke.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 550,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:46.503Z"
+  },
+  {
+    "hostname": "aidex-by-biswanath.netlify.app",
+    "title": "AidEx. | Blood Donation Website",
+    "url": "https://aidex-by-biswanath.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aidex-by-biswanath.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 939,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-28T15:51:47.443Z"
+  },
+  {
     "hostname": "klasbeheer.vercel.app",
     "title": "Klasbeheer",
     "url": "https://klasbeheer.vercel.app",
