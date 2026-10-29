@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "apni-university-skills-lurc.vercel.app",
+    "title": "Apni University | Master Technology. Build Your Future.",
+    "url": "https://apni-university-skills-lurc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apni-university-skills-lurc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 252,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:09.596Z"
+  },
+  {
+    "hostname": "wdp-301-webapp.vercel.app",
+    "title": "KhoAn — Kho tự quản",
+    "url": "https://wdp-301-webapp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wdp-301-webapp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 241,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:09.840Z"
+  },
+  {
+    "hostname": "sales-studio-iota.vercel.app",
+    "title": "Sales Studio",
+    "url": "https://sales-studio-iota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sales-studio-iota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:09.933Z"
+  },
+  {
+    "hostname": "supa-omega-six.vercel.app",
+    "title": "제주 IP 도감",
+    "url": "https://supa-omega-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://supa-omega-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 128,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:10.061Z"
+  },
+  {
+    "hostname": "snail-seikeijuku.vercel.app",
+    "title": "蝸牛政經塾 | 蝸牛政經塾",
+    "url": "https://snail-seikeijuku.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://snail-seikeijuku.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:10.166Z"
+  },
+  {
+    "hostname": "order-truth.vercel.app",
+    "title": "OrderTruth — investigate and verify recovery",
+    "url": "https://order-truth.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://order-truth.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:10.259Z"
+  },
+  {
+    "hostname": "hydro-nourish.vercel.app",
+    "title": "HydroNourish — Heritage Animal Clinic Automated Pet Health Platform",
+    "url": "https://hydro-nourish.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hydro-nourish.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 66,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:10.326Z"
+  },
+  {
+    "hostname": "wams-five.vercel.app",
+    "title": "Workforce &amp; Attendance Management System (WAMS)",
+    "url": "https://wams-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wams-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:11.706Z"
+  },
+  {
+    "hostname": "houselifting.vercel.app",
+    "title": "House Lifting &amp; Building Shifting Experts | TDBD Engineering Works",
+    "url": "https://houselifting.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://houselifting.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:11.857Z"
+  },
+  {
+    "hostname": "katalogg-film.netlify.app",
+    "title": "CINELOG",
+    "url": "https://katalogg-film.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://katalogg-film.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 132,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:11.991Z"
+  },
+  {
+    "hostname": "vilotime.github.io",
+    "title": "时光不语 · 个人主页",
+    "url": "https://vilotime.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vilotime.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 33,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T06:53:12.026Z"
+  },
+  {
+    "hostname": "smart-erp-fe-production.up.railway.app",
+    "title": "ERPilot",
+    "url": "https://smart-erp-fe-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smart-erp-fe-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 312,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-29T06:53:17.380Z"
+  },
+  {
     "hostname": "izel-five.vercel.app",
     "title": "Izel",
     "url": "https://izel-five.vercel.app",
