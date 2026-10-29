@@ -1,5 +1,290 @@
 export const SEED_SITES = [
   {
+    "hostname": "fin-max-pos.vercel.app",
+    "title": "FinMax POS — касса и склад торговли",
+    "url": "https://fin-max-pos.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fin-max-pos.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 181,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:33.420Z"
+  },
+  {
+    "hostname": "kotitirth-seva-kendra.vercel.app",
+    "title": "श्री स्वामी समर्थ सेवा केंद्र (दिंडोरी प्रणित), कोटितीर्थ – कोल्हापूर",
+    "url": "https://kotitirth-seva-kendra.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kotitirth-seva-kendra.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:33.551Z"
+  },
+  {
+    "hostname": "skillpasssss.vercel.app",
+    "title": "SkillPass Digital Skills Passport",
+    "url": "https://skillpasssss.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://skillpasssss.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 85,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:33.637Z"
+  },
+  {
+    "hostname": "quan-ly-doi-bong-gamma.vercel.app",
+    "title": "Quản lý đội bóng",
+    "url": "https://quan-ly-doi-bong-gamma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quan-ly-doi-bong-gamma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 497,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:34.135Z"
+  },
+  {
+    "hostname": "paperpilot-mu-orcin.vercel.app",
+    "title": "PaperPilot — Professional documents, instantly",
+    "url": "https://paperpilot-mu-orcin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paperpilot-mu-orcin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 149,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:34.285Z"
+  },
+  {
+    "hostname": "syllabai-hub-v2.vercel.app",
+    "title": "SyllabAI Hub — IGCSE &amp; IAL revision",
+    "url": "https://syllabai-hub-v2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://syllabai-hub-v2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:34.396Z"
+  },
+  {
+    "hostname": "fantasy-command-center-omega.vercel.app",
+    "title": "Fantasy Command Center",
+    "url": "https://fantasy-command-center-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fantasy-command-center-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1287,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:35.685Z"
+  },
+  {
+    "hostname": "cloudportsp.vercel.app",
+    "title": "CloudPort | GDG BPPIMT",
+    "url": "https://cloudportsp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cloudportsp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:35.783Z"
+  },
+  {
+    "hostname": "telscore.vercel.app",
+    "title": "TEL.SCORE",
+    "url": "https://telscore.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://telscore.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:36.140Z"
+  },
+  {
+    "hostname": "nirium-watch.vercel.app",
+    "title": "Nirium Watch",
+    "url": "https://nirium-watch.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nirium-watch.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:36.471Z"
+  },
+  {
+    "hostname": "mentorcito.vercel.app",
+    "title": "Mentorcito — Diagnóstico de carrera | Mentores con Propósito",
+    "url": "https://mentorcito.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mentorcito.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:36.644Z"
+  },
+  {
+    "hostname": "datadecisionai.pages.dev",
+    "title": "DataDecision AI",
+    "url": "https://datadecisionai.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://datadecisionai.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:36.812Z"
+  },
+  {
+    "hostname": "svastaonica.netlify.app",
+    "title": "Svaštaonica",
+    "url": "https://svastaonica.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://svastaonica.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 810,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:37.622Z"
+  },
+  {
+    "hostname": "fitprogressr.netlify.app",
+    "title": "FitProgressr | Fitness Tracking",
+    "url": "https://fitprogressr.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fitprogressr.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 734,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:38.357Z"
+  },
+  {
+    "hostname": "marleydip.netlify.app",
+    "title": "Sofian",
+    "url": "https://marleydip.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://marleydip.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 720,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T14:02:39.078Z"
+  },
+  {
     "hostname": "apni-university-skills-lurc.vercel.app",
     "title": "Apni University | Master Technology. Build Your Future.",
     "url": "https://apni-university-skills-lurc.vercel.app",
