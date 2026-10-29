@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "izel-five.vercel.app",
+    "title": "Izel",
+    "url": "https://izel-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://izel-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:28.359Z"
+  },
+  {
+    "hostname": "sportstates.vercel.app",
+    "title": "Sportstates · O jogo acontece aqui",
+    "url": "https://sportstates.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sportstates.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:28.814Z"
+  },
+  {
+    "hostname": "ai-crypto-news-ten.vercel.app",
+    "title": "AI + Crypto News",
+    "url": "https://ai-crypto-news-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-crypto-news-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:29.909Z"
+  },
+  {
+    "hostname": "templates-six-red.vercel.app",
+    "title": "Templates",
+    "url": "https://templates-six-red.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://templates-six-red.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:30.239Z"
+  },
+  {
+    "hostname": "voiceguard-nu.vercel.app",
+    "title": "VoiceGuard",
+    "url": "https://voiceguard-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voiceguard-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 100,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:30.339Z"
+  },
+  {
+    "hostname": "ada-blog-seven.vercel.app",
+    "title": "Ada&#x27;s Blog",
+    "url": "https://ada-blog-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ada-blog-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:30.678Z"
+  },
+  {
+    "hostname": "timyates.vercel.app",
+    "title": "Tim Yates | Financial adviser on the Côte d&#x27;Azur",
+    "url": "https://timyates.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://timyates.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:30.777Z"
+  },
+  {
+    "hostname": "lifemusic.pages.dev",
+    "title": "Life Music · App de música gratis para Android, sin anuncios",
+    "url": "https://lifemusic.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lifemusic.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 292,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:31.071Z"
+  },
+  {
+    "hostname": "joseon-poke-timetravel.netlify.app",
+    "title": "포켓몬 조선 시간여행",
+    "url": "https://joseon-poke-timetravel.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://joseon-poke-timetravel.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 940,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:32.029Z"
+  },
+  {
+    "hostname": "code-city-lakshmi.netlify.app",
+    "title": "Code City",
+    "url": "https://code-city-lakshmi.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://code-city-lakshmi.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T00:42:32.241Z"
+  },
+  {
     "hostname": "histori-axe.vercel.app",
     "title": "HistoriAxe - Le quiz chronologique de l'Histoire",
     "url": "https://histori-axe.vercel.app",
