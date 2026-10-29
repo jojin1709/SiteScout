@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "jabri-web.vercel.app",
+    "title": "Jabri-web | بوابة الواحة — Heaven Al-Jabri",
+    "url": "https://jabri-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jabri-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 94,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:02.280Z"
+  },
+  {
+    "hostname": "muse-app-sooty.vercel.app",
+    "title": "Muse — guarda-roupa com IA",
+    "url": "https://muse-app-sooty.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://muse-app-sooty.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:02.457Z"
+  },
+  {
+    "hostname": "dnd-freelance.vercel.app",
+    "title": "Đinh Ngọc Định · Thiết kế &amp; lập trình website theo yêu cầu",
+    "url": "https://dnd-freelance.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dnd-freelance.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 163,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:02.622Z"
+  },
+  {
+    "hostname": "mohamed-bangura-portfolio.vercel.app",
+    "title": "Mohamed Bangura | Frontend Web Developer &amp; Digital Creative",
+    "url": "https://mohamed-bangura-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mohamed-bangura-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:02.783Z"
+  },
+  {
+    "hostname": "mybusroute.vercel.app",
+    "title": "BusRoute | বাসরুট — Dhaka Bus Route & Fare Finder",
+    "url": "https://mybusroute.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mybusroute.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:02.940Z"
+  },
+  {
+    "hostname": "app-planning-seven.vercel.app",
+    "title": "Global Sanctuary",
+    "url": "https://app-planning-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://app-planning-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 491,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:03.680Z"
+  },
+  {
+    "hostname": "bangwit.vercel.app",
+    "title": "Bangwit — Bawat huli, may kuwento.",
+    "url": "https://bangwit.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bangwit.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:03.984Z"
+  },
+  {
+    "hostname": "pc-wrangler.vercel.app",
+    "title": "Six Axes: session analytics for tabletop RPGs",
+    "url": "https://pc-wrangler.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pc-wrangler.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:04.294Z"
+  },
+  {
+    "hostname": "the-community-lab.vercel.app",
+    "title": "同频实验室 · The Community Lab",
+    "url": "https://the-community-lab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://the-community-lab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 90,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:04.385Z"
+  },
+  {
+    "hostname": "quakeprincetie.github.io",
+    "title": "MTProxy Вестник | 54 MTProxy с проверкой, обновлено 22:54 МСК",
+    "url": "https://quakeprincetie.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quakeprincetie.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 162,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:04.549Z"
+  },
+  {
+    "hostname": "cronogramas-educon.github.io",
+    "title": "Cronogramas de Educación Continua",
+    "url": "https://cronogramas-educon.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cronogramas-educon.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 75,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-29T20:08:04.674Z"
+  },
+  {
+    "hostname": "xclassic.rf.gd",
+    "title": "xclassic.rf.gd",
+    "url": "https://xclassic.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xclassic.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 403,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-29T20:08:05.082Z"
+  },
+  {
+    "hostname": "android-evolucion.42web.io",
+    "title": "android-evolucion.42web.io",
+    "url": "https://android-evolucion.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://android-evolucion.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 407,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-29T20:08:05.490Z"
+  },
+  {
     "hostname": "fin-max-pos.vercel.app",
     "title": "FinMax POS — касса и склад торговли",
     "url": "https://fin-max-pos.vercel.app",
