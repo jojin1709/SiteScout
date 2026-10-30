@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "footwear-amber.vercel.app",
+    "title": "ATHMAN — Crafted for the journey",
+    "url": "https://footwear-amber.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://footwear-amber.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T19:11:43.516Z"
+  },
+  {
+    "hostname": "svs-zeta-three.vercel.app",
+    "title": "SVS · Sustav visokog obrazovanja",
+    "url": "https://svs-zeta-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://svs-zeta-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2023,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T19:11:45.599Z"
+  },
+  {
+    "hostname": "xmix.vercel.app",
+    "title": "Xmix — سوق التجارة العام: محلات ومنتجات وخدمات وتوصيل | Xmix Marketplace",
+    "url": "https://xmix.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xmix.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T19:11:45.889Z"
+  },
+  {
+    "hostname": "ironmanproject.vercel.app",
+    "title": "Plan triathlon",
+    "url": "https://ironmanproject.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ironmanproject.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T19:11:46.023Z"
+  },
+  {
+    "hostname": "jongoma-care.vercel.app",
+    "title": "Jongoma Care by Jongoma Tech",
+    "url": "https://jongoma-care.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jongoma-care.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 467,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T19:11:46.552Z"
+  },
+  {
+    "hostname": "stock-agent-swart.vercel.app",
+    "title": "Stock Agent",
+    "url": "https://stock-agent-swart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stock-agent-swart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 412,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T19:11:46.965Z"
+  },
+  {
     "hostname": "portfolio-frontend-jet-kappa.vercel.app",
     "title": "Gopal ji Gupta — AI/ML & Data Portfolio",
     "url": "https://portfolio-frontend-jet-kappa.vercel.app",
