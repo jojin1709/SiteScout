@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "portfolio-frontend-jet-kappa.vercel.app",
+    "title": "Gopal ji Gupta — AI/ML & Data Portfolio",
+    "url": "https://portfolio-frontend-jet-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-frontend-jet-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 131,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.343Z"
+  },
+  {
+    "hostname": "nexus-os-lime.vercel.app",
+    "title": "NEXUS OS",
+    "url": "https://nexus-os-lime.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexus-os-lime.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 38,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.382Z"
+  },
+  {
+    "hostname": "manaupahar.vercel.app",
+    "title": "ManaUpahar – Handcrafted Gifts That Carry a Memory",
+    "url": "https://manaupahar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://manaupahar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 36,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.420Z"
+  },
+  {
+    "hostname": "rate-limiter-gateway.vercel.app",
+    "title": "Rate Limiter Gateway — API Infrastructure",
+    "url": "https://rate-limiter-gateway.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rate-limiter-gateway.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 37,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.458Z"
+  },
+  {
+    "hostname": "playnavi-links.vercel.app",
+    "title": "PlayNavi",
+    "url": "https://playnavi-links.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://playnavi-links.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 133,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.592Z"
+  },
+  {
+    "hostname": "rodel-concept.vercel.app",
+    "title": "Rödel — Sardines since 1824",
+    "url": "https://rodel-concept.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rodel-concept.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 39,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.632Z"
+  },
+  {
+    "hostname": "arduino-course-psi.vercel.app",
+    "title": "IoT at Bozoma Innovation Hub",
+    "url": "https://arduino-course-psi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arduino-course-psi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 36,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:27.670Z"
+  },
+  {
+    "hostname": "samuelcom.vercel.app",
+    "title": "Samuel Gyasi — Leadership · Intellectuality · Transformation",
+    "url": "https://samuelcom.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://samuelcom.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 832,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:28.504Z"
+  },
+  {
+    "hostname": "game-nt.vercel.app",
+    "title": "KUROKAGE RPG",
+    "url": "https://game-nt.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://game-nt.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 34,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:28.538Z"
+  },
+  {
+    "hostname": "sankeerthana14.github.io",
+    "title": "sankeerthana14.github.io",
+    "url": "https://sankeerthana14.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sankeerthana14.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:34.140Z"
+  },
+  {
+    "hostname": "purduephoebe.github.io",
+    "title": "AIO Research Watch",
+    "url": "https://purduephoebe.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://purduephoebe.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 143,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:34.284Z"
+  },
+  {
+    "hostname": "tippool-if7m.onrender.com",
+    "title": "TipPool | Tip pooling with PayPal and AI",
+    "url": "https://tippool-if7m.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tippool-if7m.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1179,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T13:58:35.464Z"
+  },
+  {
     "hostname": "showset-website.vercel.app",
     "title": "SHOWSET | Events &amp; Creative Agency",
     "url": "https://showset-website.vercel.app",
