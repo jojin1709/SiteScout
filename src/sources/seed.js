@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "pgpc-ai-chatbot.vercel.app",
+    "title": "Admin sign in · School ID",
+    "url": "https://pgpc-ai-chatbot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pgpc-ai-chatbot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 94,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:14.384Z"
+  },
+  {
+    "hostname": "immigration-clock.vercel.app",
+    "title": "The Immigration Clock",
+    "url": "https://immigration-clock.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://immigration-clock.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:14.540Z"
+  },
+  {
+    "hostname": "github-1439060977.vercel.app",
+    "title": "Dashboard — SONN91APIs",
+    "url": "https://github-1439060977.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://github-1439060977.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:14.652Z"
+  },
+  {
+    "hostname": "safe-way-one.vercel.app",
+    "title": "SafeWay",
+    "url": "https://safe-way-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://safe-way-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:14.830Z"
+  },
+  {
+    "hostname": "trading-journal-sandy-three.vercel.app",
+    "title": "Trade Journal",
+    "url": "https://trading-journal-sandy-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trading-journal-sandy-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:15.182Z"
+  },
+  {
+    "hostname": "sugar-inventory.vercel.app",
+    "title": "Sugar Inventory",
+    "url": "https://sugar-inventory.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sugar-inventory.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:15.351Z"
+  },
+  {
+    "hostname": "haday.vercel.app",
+    "title": "HaDay has moved",
+    "url": "https://haday.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haday.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 166,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:15.517Z"
+  },
+  {
+    "hostname": "d2i-group.github.io",
+    "title": "UH-D2I Group",
+    "url": "https://d2i-group.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://d2i-group.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 127,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T00:43:15.748Z"
+  },
+  {
+    "hostname": "agent-a.up.railway.app",
+    "title": "Agent-A — AI Shopping Readiness Scanner",
+    "url": "https://agent-a.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agent-a.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 161,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-30T00:43:16.634Z"
+  },
+  {
     "hostname": "jabri-web.vercel.app",
     "title": "Jabri-web | بوابة الواحة — Heaven Al-Jabri",
     "url": "https://jabri-web.vercel.app",
