@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "repairshop-puce.vercel.app",
+    "title": "Computer Repair Shop - Professional Computer Repair Services",
+    "url": "https://repairshop-puce.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://repairshop-puce.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 428,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:26.257Z"
+  },
+  {
+    "hostname": "aidevcamp-halloween-hack.vercel.app",
+    "title": "Haunted Kiosk · AI DevCamp Halloween Hack",
+    "url": "https://aidevcamp-halloween-hack.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aidevcamp-halloween-hack.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 334,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:26.592Z"
+  },
+  {
+    "hostname": "planit-seven-snowy.vercel.app",
+    "title": "PlanIt",
+    "url": "https://planit-seven-snowy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://planit-seven-snowy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 542,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:27.135Z"
+  },
+  {
+    "hostname": "price-atlas-ashen.vercel.app",
+    "title": "PRICE ATLAS — Find your better price",
+    "url": "https://price-atlas-ashen.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://price-atlas-ashen.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1100,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:30.100Z"
+  },
+  {
+    "hostname": "barbaplant.vercel.app",
+    "title": "BarbaPlant — cura e riconosci le tue piante",
+    "url": "https://barbaplant.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://barbaplant.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 309,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:30.410Z"
+  },
+  {
+    "hostname": "megatron-ff.vercel.app",
+    "title": "Draft board — Megatron",
+    "url": "https://megatron-ff.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://megatron-ff.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:30.728Z"
+  },
+  {
+    "hostname": "marine-pollution-intelligence-sih.vercel.app",
+    "title": "Marine Pollution Intelligence",
+    "url": "https://marine-pollution-intelligence-sih.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://marine-pollution-intelligence-sih.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 348,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:31.077Z"
+  },
+  {
+    "hostname": "kando-web.vercel.app",
+    "title": "SkillWeb – Endlich jemand, der’s kann",
+    "url": "https://kando-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kando-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3245,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:34.323Z"
+  },
+  {
+    "hostname": "tvremote.pages.dev",
+    "title": "TV Remote · Điều khiển Android TV từ điện thoại",
+    "url": "https://tvremote.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tvremote.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 467,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-30T23:33:34.793Z"
+  },
+  {
+    "hostname": "aiusageglobal.pages.dev",
+    "title": "AI Usage Global | AI water, power, costs, and impact",
+    "url": "https://aiusageglobal.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aiusageglobal.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T23:33:35.066Z"
+  },
+  {
+    "hostname": "quack-dub.pages.dev",
+    "title": "QuackDub",
+    "url": "https://quack-dub.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://quack-dub.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-30T23:33:35.338Z"
+  },
+  {
+    "hostname": "pearl-gallery.infinityfreeapp.com",
+    "title": "pearl-gallery.infinityfreeapp.com",
+    "url": "https://pearl-gallery.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pearl-gallery.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 716,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-30T23:33:36.896Z"
+  },
+  {
     "hostname": "footwear-amber.vercel.app",
     "title": "ATHMAN — Crafted for the journey",
     "url": "https://footwear-amber.vercel.app",
