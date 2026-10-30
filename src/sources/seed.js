@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "showset-website.vercel.app",
+    "title": "SHOWSET | Events &amp; Creative Agency",
+    "url": "https://showset-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://showset-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 291,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:55.261Z"
+  },
+  {
+    "hostname": "choi-bujang-secret-vault-taupe-eta.vercel.app",
+    "title": "BYTE BACK | 점령된 자료실",
+    "url": "https://choi-bujang-secret-vault-taupe-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://choi-bujang-secret-vault-taupe-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:55.438Z"
+  },
+  {
+    "hostname": "mapskyweb.vercel.app",
+    "title": "MapSky",
+    "url": "https://mapskyweb.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mapskyweb.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 84,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:55.524Z"
+  },
+  {
+    "hostname": "sky-work-brown.vercel.app",
+    "title": "Sky Work",
+    "url": "https://sky-work-brown.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sky-work-brown.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:55.724Z"
+  },
+  {
+    "hostname": "bgamd.vercel.app",
+    "title": "NAWAZ-MD",
+    "url": "https://bgamd.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bgamd.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:55.844Z"
+  },
+  {
+    "hostname": "sitemonitor-liart.vercel.app",
+    "title": "Site Monitor",
+    "url": "https://sitemonitor-liart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sitemonitor-liart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 956,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:56.829Z"
+  },
+  {
+    "hostname": "speedster-game.vercel.app",
+    "title": "Speedster Game",
+    "url": "https://speedster-game.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://speedster-game.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-30T06:55:57.043Z"
+  },
+  {
     "hostname": "pgpc-ai-chatbot.vercel.app",
     "title": "Admin sign in · School ID",
     "url": "https://pgpc-ai-chatbot.vercel.app",
