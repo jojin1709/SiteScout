@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "neko-optimizer.vercel.app",
+    "title": "Battle Cats Gacha Planner &amp; Seed Tracker | Neko Optimizer",
+    "url": "https://neko-optimizer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neko-optimizer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 563,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:13.052Z"
+  },
+  {
+    "hostname": "sam-prediction.vercel.app",
+    "title": "SAM-Prédiction",
+    "url": "https://sam-prediction.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sam-prediction.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 675,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:15.373Z"
+  },
+  {
+    "hostname": "shiyan-dap.vercel.app",
+    "title": "Aethel Node | Workbench",
+    "url": "https://shiyan-dap.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shiyan-dap.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 426,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:15.800Z"
+  },
+  {
+    "hostname": "cozy-peptide.vercel.app",
+    "title": "cozy-peptide: name the disease, get a novel AI-designed peptide to treat it",
+    "url": "https://cozy-peptide.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cozy-peptide.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 281,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:16.082Z"
+  },
+  {
+    "hostname": "core-oauth-readiness.vercel.app",
+    "title": "CORE: Composio OAuth Readiness Engine",
+    "url": "https://core-oauth-readiness.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://core-oauth-readiness.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 563,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:18.781Z"
+  },
+  {
+    "hostname": "blackout-event-entry.vercel.app",
+    "title": "BLACKOUT | Offline-First Event Entry",
+    "url": "https://blackout-event-entry.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://blackout-event-entry.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:19.061Z"
+  },
+  {
+    "hostname": "zyphuel.netlify.app",
+    "title": "Online Petrol &amp; Diesel Delivery in Lahore | Zyphuel",
+    "url": "https://zyphuel.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zyphuel.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:19.566Z"
+  },
+  {
+    "hostname": "ventriloquist.fly.dev",
+    "title": "Ventriloquist",
+    "url": "https://ventriloquist.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ventriloquist.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 323,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-31T21:17:20.033Z"
+  },
+  {
+    "hostname": "flashcards-ak-app.web.app",
+    "title": "YourCards",
+    "url": "https://flashcards-ak-app.web.app",
+    "hostType": "web.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flashcards-ak-app.web.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 241,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T21:17:20.280Z"
+  },
+  {
     "hostname": "nameyry.vercel.app",
     "title": "Nameyry",
     "url": "https://nameyry.vercel.app",
