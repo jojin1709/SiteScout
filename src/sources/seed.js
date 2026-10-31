@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "nameyry.vercel.app",
+    "title": "Nameyry",
+    "url": "https://nameyry.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nameyry.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 793,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:31.644Z"
+  },
+  {
+    "hostname": "role-ready-7st5.vercel.app",
+    "title": "RoleReady · Ready, Set, You’re Hired",
+    "url": "https://role-ready-7st5.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://role-ready-7st5.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:31.753Z"
+  },
+  {
+    "hostname": "csinfra-fiscal.vercel.app",
+    "title": "Controle de Atividades — CS Infra",
+    "url": "https://csinfra-fiscal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://csinfra-fiscal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 33,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:32.080Z"
+  },
+  {
+    "hostname": "gh-readme-profile.vercel.app",
+    "title": "GitHub Readme Profile",
+    "url": "https://gh-readme-profile.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gh-readme-profile.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:32.170Z"
+  },
+  {
+    "hostname": "tyler-map.vercel.app",
+    "title": "Tyler Cowen Atlas",
+    "url": "https://tyler-map.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tyler-map.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:32.307Z"
+  },
+  {
+    "hostname": "scendance-scene-planner-ewz.pages.dev",
+    "title": "幕景 Scendance · 活动布置工作台",
+    "url": "https://scendance-scene-planner-ewz.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scendance-scene-planner-ewz.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-31T17:35:32.475Z"
+  },
+  {
+    "hostname": "paper-daemon.github.io",
+    "title": "Shelfiria（シェルフィリア）| 触って遊べる、小さな遊び場。",
+    "url": "https://paper-daemon.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paper-daemon.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:32.574Z"
+  },
+  {
+    "hostname": "share-a-secret.fly.dev",
+    "title": "Share a Secret",
+    "url": "https://share-a-secret.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://share-a-secret.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 419,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:38.219Z"
+  },
+  {
+    "hostname": "household-tracker.up.railway.app",
+    "title": "Household Tracker",
+    "url": "https://household-tracker.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://household-tracker.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T17:35:38.374Z"
+  },
+  {
     "hostname": "kr-stocks.vercel.app",
     "title": "KR Stocks · 24시간 글로벌 자산 시세",
     "url": "https://kr-stocks.vercel.app",
