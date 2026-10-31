@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "backhoe-dig.vercel.app",
+    "title": "Corley's Island",
+    "url": "https://backhoe-dig.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://backhoe-dig.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T05:01:51.281Z"
+  },
+  {
+    "hostname": "skyline-dun-six.vercel.app",
+    "title": "Skyline | Luxury residences",
+    "url": "https://skyline-dun-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://skyline-dun-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 460,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T05:01:51.743Z"
+  },
+  {
+    "hostname": "veloop-task01-data-analytics.vercel.app",
+    "title": "VELOOP Rewards | Task 01 Analytics Blueprint",
+    "url": "https://veloop-task01-data-analytics.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veloop-task01-data-analytics.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T05:01:52.335Z"
+  },
+  {
+    "hostname": "close-and-keep-abr5.vercel.app",
+    "title": "CloseAndKeep: Simple gifting follow-up for customer teams",
+    "url": "https://close-and-keep-abr5.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://close-and-keep-abr5.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 254,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T05:01:52.751Z"
+  },
+  {
+    "hostname": "nosli.vercel.app",
+    "title": "nosli.vercel.app",
+    "url": "https://nosli.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nosli.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T05:01:52.980Z"
+  },
+  {
+    "hostname": "wloc-pages.pages.dev",
+    "title": "WLOC 虚拟定位",
+    "url": "https://wloc-pages.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wloc-pages.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 175,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-10-31T05:01:53.156Z"
+  },
+  {
+    "hostname": "sol-atlas.netlify.app",
+    "title": "Sol Atlas",
+    "url": "https://sol-atlas.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sol-atlas.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T05:01:53.298Z"
+  },
+  {
     "hostname": "repairshop-puce.vercel.app",
     "title": "Computer Repair Shop - Professional Computer Repair Services",
     "url": "https://repairshop-puce.vercel.app",
