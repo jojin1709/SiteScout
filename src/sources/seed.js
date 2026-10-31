@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "kr-stocks.vercel.app",
+    "title": "KR Stocks · 24시간 글로벌 자산 시세",
+    "url": "https://kr-stocks.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kr-stocks.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:33.053Z"
+  },
+  {
+    "hostname": "penaven.vercel.app",
+    "title": "OpsConcierge | AI Concierge for Business Operations",
+    "url": "https://penaven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://penaven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1050,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:34.106Z"
+  },
+  {
+    "hostname": "tiempo-en-plenaria.vercel.app",
+    "title": "Tiempo en plenaria",
+    "url": "https://tiempo-en-plenaria.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tiempo-en-plenaria.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:34.350Z"
+  },
+  {
+    "hostname": "sir-trab2-frontend.vercel.app",
+    "title": "Gestão de Alunos",
+    "url": "https://sir-trab2-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sir-trab2-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 45,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:34.690Z"
+  },
+  {
+    "hostname": "mental-ability-test-software.vercel.app",
+    "title": "MENTAL ABILITY TEST SOFTWARE - Daily Challenge & Quiz Arena",
+    "url": "https://mental-ability-test-software.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mental-ability-test-software.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2981,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:37.733Z"
+  },
+  {
+    "hostname": "mianismo-fc-dashboard.vercel.app",
+    "title": "NEXUS — Divination Intelligence",
+    "url": "https://mianismo-fc-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mianismo-fc-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 36,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:37.775Z"
+  },
+  {
+    "hostname": "bleepxacademy.vercel.app",
+    "title": "Bleepx — SQL, Data Science &amp; Cloud training",
+    "url": "https://bleepxacademy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bleepxacademy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:37.986Z"
+  },
+  {
+    "hostname": "webstoapp.netlify.app",
+    "title": "WebToApp — Convert your website into a native Android app",
+    "url": "https://webstoapp.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://webstoapp.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-10-31T12:00:38.226Z"
+  },
+  {
     "hostname": "backhoe-dig.vercel.app",
     "title": "Corley's Island",
     "url": "https://backhoe-dig.vercel.app",
