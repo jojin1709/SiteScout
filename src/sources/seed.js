@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "tijar-two.vercel.app",
+    "title": "TIJAR — Watch shops. Follow. Buy now.",
+    "url": "https://tijar-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tijar-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:55.261Z"
+  },
+  {
+    "hostname": "domain-price-checker.vercel.app",
+    "title": "域名价格查询 | Domain Price Checker",
+    "url": "https://domain-price-checker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://domain-price-checker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:55.540Z"
+  },
+  {
+    "hostname": "speechify-roveec.vercel.app",
+    "title": "Lumen — Read Aloud",
+    "url": "https://speechify-roveec.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://speechify-roveec.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:55.757Z"
+  },
+  {
+    "hostname": "nomina-construacero.vercel.app",
+    "title": "Nómina y Finanzas · Construacero Carabobo",
+    "url": "https://nomina-construacero.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nomina-construacero.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 264,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:56.023Z"
+  },
+  {
+    "hostname": "hexkyauthcard.vercel.app",
+    "title": "Auth Card",
+    "url": "https://hexkyauthcard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hexkyauthcard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:56.216Z"
+  },
+  {
+    "hostname": "landfall-chi.vercel.app",
+    "title": "Landfall",
+    "url": "https://landfall-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://landfall-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 275,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:56.704Z"
+  },
+  {
+    "hostname": "techvanguard-consulting.vercel.app",
+    "title": "TechVanguard Consulting — Transformação Digital e Soluções Tecnológicas sob Medida",
+    "url": "https://techvanguard-consulting.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://techvanguard-consulting.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:57.021Z"
+  },
+  {
+    "hostname": "0xradikal.github.io",
+    "title": "Raydikalx — free, open-source internet access tools",
+    "url": "https://0xradikal.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://0xradikal.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 78,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:57.100Z"
+  },
+  {
+    "hostname": "journal-health-check.fly.dev",
+    "title": "Rhet-Comp Journal Accessibility Health Dashboard",
+    "url": "https://journal-health-check.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://journal-health-check.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 410,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T23:26:58.093Z"
+  },
+  {
     "hostname": "tz-09-barbershop-feyd-klab.vercel.app",
     "title": "Фейд Клаб — барбершоп в Новоозёрске. Первая стрижка −20 %",
     "url": "https://tz-09-barbershop-feyd-klab.vercel.app",
