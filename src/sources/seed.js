@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "tz-09-barbershop-feyd-klab.vercel.app",
+    "title": "Фейд Клаб — барбершоп в Новоозёрске. Первая стрижка −20 %",
+    "url": "https://tz-09-barbershop-feyd-klab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tz-09-barbershop-feyd-klab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:23.579Z"
+  },
+  {
+    "hostname": "hkcn-sports-news.vercel.app",
+    "title": "港體育 | Hong Kong Sports",
+    "url": "https://hkcn-sports-news.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hkcn-sports-news.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:23.735Z"
+  },
+  {
+    "hostname": "ptown-poker.vercel.app",
+    "title": "Ptown Poker",
+    "url": "https://ptown-poker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ptown-poker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 84,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:23.820Z"
+  },
+  {
+    "hostname": "playdex-official.vercel.app",
+    "title": "Playdex — Sports Event Operations Platform | Playdex",
+    "url": "https://playdex-official.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://playdex-official.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:24.071Z"
+  },
+  {
+    "hostname": "lavorai-umbertogeraci0-gmailcoms-projects.vercel.app",
+    "title": "LavorAI — Il tuo prossimo passo",
+    "url": "https://lavorai-umbertogeraci0-gmailcoms-projects.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lavorai-umbertogeraci0-gmailcoms-projects.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:24.297Z"
+  },
+  {
+    "hostname": "hkcn-news.vercel.app",
+    "title": "中港新聞速報 | HK-China News Express",
+    "url": "https://hkcn-news.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hkcn-news.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:24.476Z"
+  },
+  {
+    "hostname": "akmart-ecommerce.vercel.app",
+    "title": "AKMart | Online Shopping Nepal - Electronics, Fashion & Essentials",
+    "url": "https://akmart-ecommerce.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://akmart-ecommerce.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:24.824Z"
+  },
+  {
+    "hostname": "care-giver-app-umber.vercel.app",
+    "title": "Vizazi Care",
+    "url": "https://care-giver-app-umber.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://care-giver-app-umber.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 277,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:25.102Z"
+  },
+  {
+    "hostname": "marin-discord.pages.dev",
+    "title": "Marin Discord Archive",
+    "url": "https://marin-discord.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://marin-discord.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 82,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-01T19:27:25.185Z"
+  },
+  {
+    "hostname": "computer-is-collage.netlify.app",
+    "title": "Students IS Education Platform",
+    "url": "https://computer-is-collage.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://computer-is-collage.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 550,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T19:27:25.736Z"
+  },
+  {
+    "hostname": "happybearlandia.fly.dev",
+    "title": "HappyBearLandia - VR / AR Game Studio",
+    "url": "https://happybearlandia.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://happybearlandia.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1001,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-01T19:27:26.809Z"
+  },
+  {
     "hostname": "pcdnades.vercel.app",
     "title": "pcdNades — Biblioteca do time",
     "url": "https://pcdnades.vercel.app",
