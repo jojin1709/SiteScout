@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "tennis-auto-monitor.vercel.app",
+    "title": "テニスコート空き状況カレンダー",
+    "url": "https://tennis-auto-monitor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tennis-auto-monitor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 300,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:50.768Z"
+  },
+  {
+    "hostname": "doya-ai.vercel.app",
+    "title": "ドヤバディ（旧ドヤAI） | AI SaaSサービス群",
+    "url": "https://doya-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://doya-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 464,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:51.233Z"
+  },
+  {
+    "hostname": "swm-blue.vercel.app",
+    "title": "SWM • Summoners War Master | ศูนย์รวมโค้ดล่าสุด สูตรตีบ้าน 3MDC & เมต้า RTA ภาษาไทย",
+    "url": "https://swm-blue.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://swm-blue.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:51.471Z"
+  },
+  {
+    "hostname": "specoolasi.vercel.app",
+    "title": "Specoolasi – Creative Agency",
+    "url": "https://specoolasi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://specoolasi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 312,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:51.784Z"
+  },
+  {
+    "hostname": "beers-psi.vercel.app",
+    "title": "Minhas cervejas",
+    "url": "https://beers-psi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beers-psi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 444,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:52.228Z"
+  },
+  {
+    "hostname": "haf-tracker.vercel.app",
+    "title": "H.S. High Agency Fund · Vote Tracker",
+    "url": "https://haf-tracker.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haf-tracker.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 249,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:57.721Z"
+  },
+  {
+    "hostname": "bavaria-lounge.netlify.app",
+    "title": "Bavaria | Cocktail Lounge · Shisha · Hildesheim",
+    "url": "https://bavaria-lounge.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bavaria-lounge.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:57.961Z"
+  },
+  {
+    "hostname": "cardradarjp.github.io",
+    "title": "CardRadar｜大阪・日本橋へ移動",
+    "url": "https://cardradarjp.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cardradarjp.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T00:52:58.245Z"
+  },
+  {
+    "hostname": "mrhakan.github.io",
+    "title": "mrhakan's shithole",
+    "url": "https://mrhakan.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mrhakan.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-01T00:52:58.385Z"
+  },
+  {
     "hostname": "neko-optimizer.vercel.app",
     "title": "Battle Cats Gacha Planner &amp; Seed Tracker | Neko Optimizer",
     "url": "https://neko-optimizer.vercel.app",
