@@ -1,5 +1,290 @@
 export const SEED_SITES = [
   {
+    "hostname": "pcdnades.vercel.app",
+    "title": "pcdNades — Biblioteca do time",
+    "url": "https://pcdnades.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pcdnades.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 36,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:28.352Z"
+  },
+  {
+    "hostname": "taimur-resume.vercel.app",
+    "title": "Taimur Rahman Resume Builder",
+    "url": "https://taimur-resume.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://taimur-resume.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 142,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:28.497Z"
+  },
+  {
+    "hostname": "jyothi-ai-portfolio.vercel.app",
+    "title": "Jyothi Rajan | AI Engineer Portfolio",
+    "url": "https://jyothi-ai-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jyothi-ai-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:28.605Z"
+  },
+  {
+    "hostname": "e-catholic-catechism-school.vercel.app",
+    "title": "Trường Giáo Lý",
+    "url": "https://e-catholic-catechism-school.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://e-catholic-catechism-school.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1311,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:29.933Z"
+  },
+  {
+    "hostname": "lekh-gamma.vercel.app",
+    "title": "Lekh Patro — Nepali typing, transliteration, OCR & translation",
+    "url": "https://lekh-gamma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lekh-gamma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:30.302Z"
+  },
+  {
+    "hostname": "ynmo-roadmap.vercel.app",
+    "title": "Ynmo Roadmaps",
+    "url": "https://ynmo-roadmap.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ynmo-roadmap.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 93,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:30.413Z"
+  },
+  {
+    "hostname": "pickleball-vanquan.vercel.app",
+    "title": "Pickleball Văn Quán - Sổ Quỹ & Bảng Xếp Hạng Thi Đấu",
+    "url": "https://pickleball-vanquan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pickleball-vanquan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:30.574Z"
+  },
+  {
+    "hostname": "nba-era.vercel.app",
+    "title": "NBA Era Translator | Cross-Era Player Analytics",
+    "url": "https://nba-era.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nba-era.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:30.794Z"
+  },
+  {
+    "hostname": "textscene-inspector.pages.dev",
+    "title": "TextScene Inspector — Preview Godot .tscn scenes in 3D (no Godot needed)",
+    "url": "https://textscene-inspector.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://textscene-inspector.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 87,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-01T14:53:30.883Z"
+  },
+  {
+    "hostname": "chess-game-magamed.netlify.app",
+    "title": "Chess game",
+    "url": "https://chess-game-magamed.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chess-game-magamed.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 556,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:31.439Z"
+  },
+  {
+    "hostname": "mikydon.github.io",
+    "title": "HW App",
+    "url": "https://mikydon.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mikydon.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 65,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:31.504Z"
+  },
+  {
+    "hostname": "agaragoyo.github.io",
+    "title": "아가라고요",
+    "url": "https://agaragoyo.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agaragoyo.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 42,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:31.546Z"
+  },
+  {
+    "hostname": "paylet.onrender.com",
+    "title": "Paylet — fair drops for the agent era",
+    "url": "https://paylet.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paylet.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T14:53:31.712Z"
+  },
+  {
+    "hostname": "ojoportfolio.infinityfreeapp.com",
+    "title": "ojoportfolio.infinityfreeapp.com",
+    "url": "https://ojoportfolio.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ojoportfolio.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 438,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-01T14:53:32.525Z"
+  },
+  {
+    "hostname": "dihkrdawn.infinityfreeapp.com",
+    "title": "dihkrdawn.infinityfreeapp.com",
+    "url": "https://dihkrdawn.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dihkrdawn.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 416,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-01T14:53:32.942Z"
+  },
+  {
     "hostname": "bookingprogress.vercel.app",
     "title": "NomuHub CRM",
     "url": "https://bookingprogress.vercel.app",
