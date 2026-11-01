@@ -1,5 +1,43 @@
 export const SEED_SITES = [
   {
+    "hostname": "bookingprogress.vercel.app",
+    "title": "NomuHub CRM",
+    "url": "https://bookingprogress.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bookingprogress.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T07:17:09.860Z"
+  },
+  {
+    "hostname": "paulhere.netlify.app",
+    "title": "Paul's Portfolio",
+    "url": "https://paulhere.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://paulhere.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-01T07:17:10.424Z"
+  },
+  {
     "hostname": "tennis-auto-monitor.vercel.app",
     "title": "テニスコート空き状況カレンダー",
     "url": "https://tennis-auto-monitor.vercel.app",
