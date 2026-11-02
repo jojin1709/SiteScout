@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "l-fc-football-management.vercel.app",
+    "title": "풋살 매니저",
+    "url": "https://l-fc-football-management.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://l-fc-football-management.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2362,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:31.340Z"
+  },
+  {
+    "hostname": "manga-ko.vercel.app",
+    "title": "Mangako",
+    "url": "https://manga-ko.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://manga-ko.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:31.446Z"
+  },
+  {
+    "hostname": "dive-deep-think-zebras.vercel.app",
+    "title": "Zebra: Daily Healthcare Trivia Game for Med, Nursing, Pharmacy & Dental Students",
+    "url": "https://dive-deep-think-zebras.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dive-deep-think-zebras.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 181,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:31.655Z"
+  },
+  {
+    "hostname": "dev-road-henna.vercel.app",
+    "title": "Home - Aprenda a programar do zero",
+    "url": "https://dev-road-henna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dev-road-henna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 454,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:32.110Z"
+  },
+  {
+    "hostname": "newave-site-woad.vercel.app",
+    "title": "NEWAVE SPHERE, média de marques &amp; d&#x27;artistes indépendants",
+    "url": "https://newave-site-woad.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://newave-site-woad.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1118,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:33.631Z"
+  },
+  {
+    "hostname": "vocab-web-beta.vercel.app",
+    "title": "Hôm nay",
+    "url": "https://vocab-web-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vocab-web-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:33.817Z"
+  },
+  {
+    "hostname": "leshan-crm.vercel.app",
+    "title": "案件控台｜劉昭佑",
+    "url": "https://leshan-crm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://leshan-crm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 197,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:34.283Z"
+  },
+  {
+    "hostname": "chris-wolfgang.github.io",
+    "title": "Development Reference Notes - Development Reference Notes",
+    "url": "https://chris-wolfgang.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chris-wolfgang.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 122,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:35.601Z"
+  },
+  {
+    "hostname": "sarodi.github.io",
+    "title": "Extracción de Datos para la Investigación Política",
+    "url": "https://sarodi.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sarodi.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:35.726Z"
+  },
+  {
+    "hostname": "lolscout.onrender.com",
+    "title": "LOLSCOUT",
+    "url": "https://lolscout.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lolscout.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3305,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:39.225Z"
+  },
+  {
+    "hostname": "huhqueue-studio.onrender.com",
+    "title": "HuhQueue: one link to a week of on-brand posts in Buffer",
+    "url": "https://huhqueue-studio.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://huhqueue-studio.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 256,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T23:23:39.487Z"
+  },
+  {
     "hostname": "citations-cciamp.vercel.app",
     "title": "Suivi citations IA — CCIAMP",
     "url": "https://citations-cciamp.vercel.app",
