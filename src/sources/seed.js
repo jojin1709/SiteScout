@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "citations-cciamp.vercel.app",
+    "title": "Suivi citations IA — CCIAMP",
+    "url": "https://citations-cciamp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://citations-cciamp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:43.106Z"
+  },
+  {
+    "hostname": "jamieho-backroom.vercel.app",
+    "title": "Jamie Ho",
+    "url": "https://jamieho-backroom.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jamieho-backroom.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1052,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:44.159Z"
+  },
+  {
+    "hostname": "magnet-frame.vercel.app",
+    "title": "סטודיו מסגרות",
+    "url": "https://magnet-frame.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://magnet-frame.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:44.298Z"
+  },
+  {
+    "hostname": "kos-management-system-ver.vercel.app",
+    "title": "Kos Management System",
+    "url": "https://kos-management-system-ver.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kos-management-system-ver.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 522,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:44.823Z"
+  },
+  {
+    "hostname": "growing-up-five.vercel.app",
+    "title": "Growing up: Unit 1 Online English Course",
+    "url": "https://growing-up-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://growing-up-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 126,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:45.343Z"
+  },
+  {
+    "hostname": "daybook-io.vercel.app",
+    "title": "Daybook",
+    "url": "https://daybook-io.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daybook-io.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 363,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:45.819Z"
+  },
+  {
+    "hostname": "researchpaperrag.pages.dev",
+    "title": "researchpaperrag.pages.dev",
+    "url": "https://researchpaperrag.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://researchpaperrag.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 321,
+      "title": false,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-02T15:23:46.141Z"
+  },
+  {
+    "hostname": "holy-bible-matters.github.io",
+    "title": "Holy-Bible-matters",
+    "url": "https://holy-bible-matters.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://holy-bible-matters.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T15:23:46.828Z"
+  },
+  {
+    "hostname": "aegis-engine-s96v.onrender.com",
+    "title": "AEGIS // Institutional Structural Credit Risk & Forensics Engine",
+    "url": "https://aegis-engine-s96v.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aegis-engine-s96v.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 340,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-02T15:23:47.765Z"
+  },
+  {
+    "hostname": "trace-dojo.fly.dev",
+    "title": "トレース道場",
+    "url": "https://trace-dojo.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trace-dojo.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-02T15:23:48.091Z"
+  },
+  {
+    "hostname": "coursera-downloader.rf.gd",
+    "title": "coursera-downloader.rf.gd",
+    "url": "https://coursera-downloader.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://coursera-downloader.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 691,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-02T15:23:48.782Z"
+  },
+  {
     "hostname": "ai-empire-dashboard.vercel.app",
     "title": "AI Empire Command Center | 3 Sumber Penghasilan &amp; 16 AI Repos",
     "url": "https://ai-empire-dashboard.vercel.app",
