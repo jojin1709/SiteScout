@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "ai-empire-dashboard.vercel.app",
+    "title": "AI Empire Command Center | 3 Sumber Penghasilan &amp; 16 AI Repos",
+    "url": "https://ai-empire-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-empire-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T05:30:20.606Z"
+  },
+  {
+    "hostname": "proyectofinalfront-gamma.vercel.app",
+    "title": "Whalehunter | Tienda de servicios",
+    "url": "https://proyectofinalfront-gamma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://proyectofinalfront-gamma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T05:30:20.815Z"
+  },
+  {
+    "hostname": "spatial-data-mapping.vercel.app",
+    "title": "Kerbside — the Bay Area, down to the kerb",
+    "url": "https://spatial-data-mapping.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://spatial-data-mapping.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 439,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T05:30:21.332Z"
+  },
+  {
+    "hostname": "gmihomepage.vercel.app",
+    "title": "한동 글로벌 사명원 GMI",
+    "url": "https://gmihomepage.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gmihomepage.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T05:30:22.166Z"
+  },
+  {
+    "hostname": "muse-live.pages.dev",
+    "title": "Muse Live",
+    "url": "https://muse-live.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://muse-live.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T05:30:22.584Z"
+  },
+  {
+    "hostname": "powerbeam-data-fiber-technologies.pages.dev",
+    "title": "Powerbeam Data Fiber Technologies | Fast & Reliable Fiber Internet in Mombasa",
+    "url": "https://powerbeam-data-fiber-technologies.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://powerbeam-data-fiber-technologies.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 171,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-02T05:30:22.758Z"
+  },
+  {
+    "hostname": "retrobusinesssieve.github.io",
+    "title": "57 проверенных прокси Telegram — Прокси Рубеж, 08:15 МСК",
+    "url": "https://retrobusinesssieve.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://retrobusinesssieve.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 72,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-02T05:30:22.932Z"
+  },
+  {
+    "hostname": "web-production-842f7.up.railway.app",
+    "title": "Plumb",
+    "url": "https://web-production-842f7.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-production-842f7.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-02T05:30:23.118Z"
+  },
+  {
     "hostname": "tijar-two.vercel.app",
     "title": "TIJAR — Watch shops. Follow. Buy now.",
     "url": "https://tijar-two.vercel.app",
