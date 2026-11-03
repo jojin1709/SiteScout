@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "flintweb.vercel.app",
+    "title": "Flint — Windows Bootable USB &amp; ISO Writer",
+    "url": "https://flintweb.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flintweb.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:47.309Z"
+  },
+  {
+    "hostname": "npc-dashboard-seven.vercel.app",
+    "title": "NPC Endurance — Dashboard",
+    "url": "https://npc-dashboard-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://npc-dashboard-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:47.566Z"
+  },
+  {
+    "hostname": "lumina-bookshelf.vercel.app",
+    "title": "The Cozy Nook - Hand-drawn Cozy Bookshelf",
+    "url": "https://lumina-bookshelf.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lumina-bookshelf.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:47.790Z"
+  },
+  {
+    "hostname": "ai-electronics-diagnostic.vercel.app",
+    "title": "AI Electronics Diagnostic",
+    "url": "https://ai-electronics-diagnostic.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-electronics-diagnostic.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 909,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:48.814Z"
+  },
+  {
+    "hostname": "triplan-beryl.vercel.app",
+    "title": "Triplan — from dream destinations to trips planned together",
+    "url": "https://triplan-beryl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://triplan-beryl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 830,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:49.745Z"
+  },
+  {
+    "hostname": "python-for-biologists.vercel.app",
+    "title": "Python for Biologists",
+    "url": "https://python-for-biologists.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://python-for-biologists.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 371,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:50.117Z"
+  },
+  {
+    "hostname": "lifeos-two-kohl-18.vercel.app",
+    "title": "LifeOS",
+    "url": "https://lifeos-two-kohl-18.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lifeos-two-kohl-18.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:50.556Z"
+  },
+  {
+    "hostname": "xenon-6e6.pages.dev",
+    "title": "Mobile device lab for Appium | Xenon",
+    "url": "https://xenon-6e6.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xenon-6e6.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-03T14:56:51.132Z"
+  },
+  {
+    "hostname": "siesdart.fly.dev",
+    "title": "siesdart.fly.dev",
+    "url": "https://siesdart.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://siesdart.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1147,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T14:56:53.131Z"
+  },
+  {
     "hostname": "market-music.vercel.app",
     "title": "Market as Music",
     "url": "https://market-music.vercel.app",
