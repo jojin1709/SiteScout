@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "dra-audrey-scopel-paim.vercel.app",
+    "title": "Fisioterapia e Pilates em Caxias do Sul | Dra. Audrey Paim",
+    "url": "https://dra-audrey-scopel-paim.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dra-audrey-scopel-paim.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:35.257Z"
+  },
+  {
+    "hostname": "teamform-web.vercel.app",
+    "title": "CrewForge",
+    "url": "https://teamform-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://teamform-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:35.368Z"
+  },
+  {
+    "hostname": "967-initiative.vercel.app",
+    "title": "967 | اليمن، أقرب إليك",
+    "url": "https://967-initiative.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://967-initiative.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2343,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:37.831Z"
+  },
+  {
+    "hostname": "schlussel.vercel.app",
+    "title": "SCHLÜSSEL GmbH Kreuztal — Sicherheit ist ein Handwerk",
+    "url": "https://schlussel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://schlussel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:38.147Z"
+  },
+  {
+    "hostname": "creole-app-teaching.vercel.app",
+    "title": "Kreyòl Ayisyen — Plataforma de Ensino",
+    "url": "https://creole-app-teaching.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://creole-app-teaching.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:38.393Z"
+  },
+  {
+    "hostname": "blessed-moon.vercel.app",
+    "title": "Blessed Moon Studio",
+    "url": "https://blessed-moon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://blessed-moon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 826,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:39.221Z"
+  },
+  {
+    "hostname": "tidify-app.netlify.app",
+    "title": "Excel Cleaner &amp; CSV Sanitizer Online (Free, 100% Local) — Tidify",
+    "url": "https://tidify-app.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tidify-app.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:39.428Z"
+  },
+  {
+    "hostname": "mohakash.netlify.app",
+    "title": "Mohakash · Astronomy Picture of the Day",
+    "url": "https://mohakash.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mohakash.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 186,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T20:52:39.615Z"
+  },
+  {
+    "hostname": "devzikky.onrender.com",
+    "title": "DEVZIKKY AI — Built by DEV ZIKKY TECH",
+    "url": "https://devzikky.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://devzikky.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-03T20:52:40.336Z"
+  },
+  {
     "hostname": "flintweb.vercel.app",
     "title": "Flint — Windows Bootable USB &amp; ISO Writer",
     "url": "https://flintweb.vercel.app",
