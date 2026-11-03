@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "market-music.vercel.app",
+    "title": "Market as Music",
+    "url": "https://market-music.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://market-music.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:54.541Z"
+  },
+  {
+    "hostname": "sotano-pied.vercel.app",
+    "title": "THE ROOTS: a voxel roguelite, free in your browser",
+    "url": "https://sotano-pied.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sotano-pied.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:54.714Z"
+  },
+  {
+    "hostname": "sinergiadigital-delta.vercel.app",
+    "title": "Tienda de tecnología en Cuba | Sinergia Digital",
+    "url": "https://sinergiadigital-delta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sinergiadigital-delta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:54.903Z"
+  },
+  {
+    "hostname": "portfolio-peach-mu-rsjirozwsg.vercel.app",
+    "title": "Khamidkhanov Mukhammazokhid — Full-Stack Developer",
+    "url": "https://portfolio-peach-mu-rsjirozwsg.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-peach-mu-rsjirozwsg.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 161,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:55.233Z"
+  },
+  {
+    "hostname": "relationship-visualizer.vercel.app",
+    "title": "Relationship Visualizer",
+    "url": "https://relationship-visualizer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://relationship-visualizer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:55.338Z"
+  },
+  {
+    "hostname": "aep-review.vercel.app",
+    "title": "E-Podcast",
+    "url": "https://aep-review.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aep-review.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:55.570Z"
+  },
+  {
+    "hostname": "mausam-india.pages.dev",
+    "title": "Mausam India – Live Weather Across India",
+    "url": "https://mausam-india.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mausam-india.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:55.763Z"
+  },
+  {
+    "hostname": "nexus-smarthome.pages.dev",
+    "title": "NEXUS — Your smart home, managed on your own network",
+    "url": "https://nexus-smarthome.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nexus-smarthome.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:55.997Z"
+  },
+  {
+    "hostname": "apex-mobile-detailing-example.netlify.app",
+    "title": "Mobile Car Detailing in Northern Virginia &amp; the DMV | Apex Mobile Detailing",
+    "url": "https://apex-mobile-detailing-example.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apex-mobile-detailing-example.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 61,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:56.065Z"
+  },
+  {
+    "hostname": "lavndrs120.github.io",
+    "title": "LAVNDR120 · $171.00 ▲ 0.00% — صافي قيمة الأصول",
+    "url": "https://lavndrs120.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lavndrs120.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 56,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-03T06:10:56.272Z"
+  },
+  {
     "hostname": "l-fc-football-management.vercel.app",
     "title": "풋살 매니저",
     "url": "https://l-fc-football-management.vercel.app",
