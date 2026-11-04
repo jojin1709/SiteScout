@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "not-today-game.vercel.app",
+    "title": "NOT TODAY",
+    "url": "https://not-today-game.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://not-today-game.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:54.449Z"
+  },
+  {
+    "hostname": "decosillas-web.vercel.app",
+    "title": "DecoSillas | Catálogo",
+    "url": "https://decosillas-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://decosillas-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 208,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:54.750Z"
+  },
+  {
+    "hostname": "bookish-octo-succotash-topaz.vercel.app",
+    "title": "Furrgarden",
+    "url": "https://bookish-octo-succotash-topaz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bookish-octo-succotash-topaz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 780,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:55.531Z"
+  },
+  {
+    "hostname": "curso-ia-generativa-laboral.vercel.app",
+    "title": "Panel del curso · IA generativa laboral",
+    "url": "https://curso-ia-generativa-laboral.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://curso-ia-generativa-laboral.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 200,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:55.974Z"
+  },
+  {
+    "hostname": "delega-five.vercel.app",
+    "title": "MarchaSolo · Tu negocio, en automático",
+    "url": "https://delega-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://delega-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 777,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:56.752Z"
+  },
+  {
+    "hostname": "reading-program-two.vercel.app",
+    "title": "Dot Reading | Reading class workspace",
+    "url": "https://reading-program-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://reading-program-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 212,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:56.965Z"
+  },
+  {
+    "hostname": "movie-site-8r4.pages.dev",
+    "title": "星光影库 - 4K高清影视与网盘无损资源分享",
+    "url": "https://movie-site-8r4.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://movie-site-8r4.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 282,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-04T01:08:57.254Z"
+  },
+  {
+    "hostname": "grandma-wei.pages.dev",
+    "title": "Grandma Wei · AI feng shui reading for your room, from one photo",
+    "url": "https://grandma-wei.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://grandma-wei.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 606,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:57.860Z"
+  },
+  {
+    "hostname": "ali-ennadafy-portfolio.netlify.app",
+    "title": "Ali Ennadafy — QA Engineer",
+    "url": "https://ali-ennadafy-portfolio.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ali-ennadafy-portfolio.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 895,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:08:58.787Z"
+  },
+  {
+    "hostname": "course-system-681r.onrender.com",
+    "title": "首頁｜選課系統",
+    "url": "https://course-system-681r.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://course-system-681r.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 772,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-04T01:08:59.761Z"
+  },
+  {
+    "hostname": "koog-demo.fly.dev",
+    "title": "KOOG · the Koding Synth for Kids",
+    "url": "https://koog-demo.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://koog-demo.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 4150,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T01:09:03.911Z"
+  },
+  {
     "hostname": "dra-audrey-scopel-paim.vercel.app",
     "title": "Fisioterapia e Pilates em Caxias do Sul | Dra. Audrey Paim",
     "url": "https://dra-audrey-scopel-paim.vercel.app",
