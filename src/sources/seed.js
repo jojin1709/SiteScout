@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "hyperspace-lake.vercel.app",
+    "title": "Hyperspace — 4D polytope viewer",
+    "url": "https://hyperspace-lake.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hyperspace-lake.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 358,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:52:55.509Z"
+  },
+  {
+    "hostname": "ntv-stuido-slot.vercel.app",
+    "title": "Studio Slots",
+    "url": "https://ntv-stuido-slot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ntv-stuido-slot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 262,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:52:55.772Z"
+  },
+  {
+    "hostname": "gym-tracker-tawny-five.vercel.app",
+    "title": "GymTrackie — Fitness & Workout Tracking",
+    "url": "https://gym-tracker-tawny-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gym-tracker-tawny-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 381,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:52:56.155Z"
+  },
+  {
+    "hostname": "inter-vibe.vercel.app",
+    "title": "InterVibe | AI Mock Interview Platform",
+    "url": "https://inter-vibe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://inter-vibe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1043,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:52:57.201Z"
+  },
+  {
+    "hostname": "studiospace-client-liard.vercel.app",
+    "title": "StudioSpace | Book Creative Studios by the Hour",
+    "url": "https://studiospace-client-liard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://studiospace-client-liard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 367,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:52:57.827Z"
+  },
+  {
+    "hostname": "mediwhite.vercel.app",
+    "title": "메디화이트웹",
+    "url": "https://mediwhite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mediwhite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1945,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:52:59.775Z"
+  },
+  {
+    "hostname": "real-madrid-castilla-26-27.vercel.app",
+    "title": "Real Madrid CF Castilla",
+    "url": "https://real-madrid-castilla-26-27.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://real-madrid-castilla-26-27.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 526,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:53:00.303Z"
+  },
+  {
+    "hostname": "mathventureprototype1.netlify.app",
+    "title": "MathVenture",
+    "url": "https://mathventureprototype1.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mathventureprototype1.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:53:00.445Z"
+  },
+  {
+    "hostname": "schoolonchain-ux.github.io",
+    "title": "School On-Chain · Informes on-chain",
+    "url": "https://schoolonchain-ux.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://schoolonchain-ux.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T08:53:00.743Z"
+  },
+  {
     "hostname": "not-today-game.vercel.app",
     "title": "NOT TODAY",
     "url": "https://not-today-game.vercel.app",
