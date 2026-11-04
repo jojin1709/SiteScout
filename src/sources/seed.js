@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "charpsdev.vercel.app",
+    "title": "Vaultra — Unique Social Media Accounts, Virtual Numbers &amp; eSIMs",
+    "url": "https://charpsdev.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://charpsdev.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 364,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T22:32:01.229Z"
+  },
+  {
+    "hostname": "vetria-web-n5un.vercel.app",
+    "title": "Vetria: veterinários e estabelecimentos de confiança",
+    "url": "https://vetria-web-n5un.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vetria-web-n5un.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2123,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T22:32:03.633Z"
+  },
+  {
+    "hostname": "finn-roan.vercel.app",
+    "title": "FINN",
+    "url": "https://finn-roan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finn-roan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 620,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T22:32:04.285Z"
+  },
+  {
+    "hostname": "consorcio-canalero.pages.dev",
+    "title": "Consorcio Canalero 10 de Mayo",
+    "url": "https://consorcio-canalero.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://consorcio-canalero.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T22:32:04.465Z"
+  },
+  {
+    "hostname": "cheapest-land.pages.dev",
+    "title": "Cheapest Land",
+    "url": "https://cheapest-land.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cheapest-land.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 276,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-04T22:32:04.742Z"
+  },
+  {
+    "hostname": "uwuclxdy.github.io",
+    "title": "moved to uwuclxdy.dev",
+    "url": "https://uwuclxdy.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uwuclxdy.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 232,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T22:32:05.071Z"
+  },
+  {
+    "hostname": "dermascan-pakar.infinityfreeapp.com",
+    "title": "dermascan-pakar.infinityfreeapp.com",
+    "url": "https://dermascan-pakar.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dermascan-pakar.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 691,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-04T22:32:06.299Z"
+  },
+  {
     "hostname": "ecomerce-projet.vercel.app",
     "title": "HajtekZone — منتجات عملية، الدفع عند الاستلام",
     "url": "https://ecomerce-projet.vercel.app",
