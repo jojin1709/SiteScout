@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "ecomerce-projet.vercel.app",
+    "title": "HajtekZone — منتجات عملية، الدفع عند الاستلام",
+    "url": "https://ecomerce-projet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ecomerce-projet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 421,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:57.295Z"
+  },
+  {
+    "hostname": "sneakzandbeatz-web.vercel.app",
+    "title": "Sneakz &amp; Beatz — Sneakers, Hip-Hop, Anime, Gaming. Black-owned culture brand.",
+    "url": "https://sneakzandbeatz-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sneakzandbeatz-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:57.524Z"
+  },
+  {
+    "hostname": "tiffintracker-xi.vercel.app",
+    "title": "Tiffin Expense Tracker",
+    "url": "https://tiffintracker-xi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tiffintracker-xi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 92,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:57.618Z"
+  },
+  {
+    "hostname": "yume-rho-nine.vercel.app",
+    "title": "Home",
+    "url": "https://yume-rho-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yume-rho-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:57.739Z"
+  },
+  {
+    "hostname": "onroadnow.vercel.app",
+    "title": "onroadnow – Delivery & Marketplace",
+    "url": "https://onroadnow.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://onroadnow.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 353,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:58.094Z"
+  },
+  {
+    "hostname": "codyssey-b1-2-react-three.vercel.app",
+    "title": "Portfolio | Planner · Educator · AI Builder",
+    "url": "https://codyssey-b1-2-react-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://codyssey-b1-2-react-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:58.190Z"
+  },
+  {
+    "hostname": "sahaj-alatage.vercel.app",
+    "title": "Sahaj Alatage — Software engineer",
+    "url": "https://sahaj-alatage.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sahaj-alatage.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:58.375Z"
+  },
+  {
+    "hostname": "copro-site.vercel.app",
+    "title": "Copro Performance Conseil — Conseil indépendant en copropriété",
+    "url": "https://copro-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://copro-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:58.483Z"
+  },
+  {
+    "hostname": "ban-rao.vercel.app",
+    "title": "บ้านเรา",
+    "url": "https://ban-rao.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ban-rao.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 316,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:58.800Z"
+  },
+  {
+    "hostname": "kitty-gao-portfolio.vercel.app",
+    "title": "Kitty Gao",
+    "url": "https://kitty-gao-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kitty-gao-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:59.306Z"
+  },
+  {
+    "hostname": "veto-beta.vercel.app",
+    "title": "Veto",
+    "url": "https://veto-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veto-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 190,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:59.592Z"
+  },
+  {
+    "hostname": "day-garden.pages.dev",
+    "title": "Day Garden · 今日花园",
+    "url": "https://day-garden.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://day-garden.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 252,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:58:59.846Z"
+  },
+  {
+    "hostname": "nireus79.github.io",
+    "title": "Hermes Software",
+    "url": "https://nireus79.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nireus79.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-04T16:59:00.427Z"
+  },
+  {
     "hostname": "hyperspace-lake.vercel.app",
     "title": "Hyperspace — 4D polytope viewer",
     "url": "https://hyperspace-lake.vercel.app",
