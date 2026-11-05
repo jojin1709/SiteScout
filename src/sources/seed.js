@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "travel-stays.vercel.app",
+    "title": "Travel &amp; Stays",
+    "url": "https://travel-stays.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://travel-stays.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 387,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:47.606Z"
+  },
+  {
+    "hostname": "cobra-beige.vercel.app",
+    "title": "Cobrá · Cobra con un QR, recibe el monto exacto en tu billetera",
+    "url": "https://cobra-beige.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cobra-beige.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 666,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:48.519Z"
+  },
+  {
+    "hostname": "kahoot-alt-5sxp.vercel.app",
+    "title": "BNM Notices and OPR",
+    "url": "https://kahoot-alt-5sxp.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kahoot-alt-5sxp.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 198,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:48.988Z"
+  },
+  {
+    "hostname": "samyestmind.vercel.app",
+    "title": "samyest.mind",
+    "url": "https://samyestmind.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://samyestmind.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 217,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:49.322Z"
+  },
+  {
+    "hostname": "unieats-six.vercel.app",
+    "title": "UniEats Week 6",
+    "url": "https://unieats-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://unieats-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 402,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:49.725Z"
+  },
+  {
+    "hostname": "ag-dailymanual.vercel.app",
+    "title": "Evangel Daily Meal | Daily Readings",
+    "url": "https://ag-dailymanual.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ag-dailymanual.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1177,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:50.905Z"
+  },
+  {
+    "hostname": "streamlyvercelin.vercel.app",
+    "title": "Streamly",
+    "url": "https://streamlyvercelin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://streamlyvercelin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:51.004Z"
+  },
+  {
+    "hostname": "loop-desk-sable.vercel.app",
+    "title": "LoopDesk | Team &amp; Project Management",
+    "url": "https://loop-desk-sable.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://loop-desk-sable.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:51.288Z"
+  },
+  {
+    "hostname": "shubhankart101.github.io",
+    "title": "my-first-website",
+    "url": "https://shubhankart101.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shubhankart101.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 151,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:51.440Z"
+  },
+  {
+    "hostname": "leenamgyeol-spec.github.io",
+    "title": "leenamgyeol-spec.github.io | leenamgyeol-spec",
+    "url": "https://leenamgyeol-spec.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://leenamgyeol-spec.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T12:02:51.712Z"
+  },
+  {
     "hostname": "splittrip-green.vercel.app",
     "title": "SplitTrip — shared trip expenses",
     "url": "https://splittrip-green.vercel.app",
