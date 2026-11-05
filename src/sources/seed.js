@@ -1,5 +1,347 @@
 export const SEED_SITES = [
   {
+    "hostname": "splittrip-green.vercel.app",
+    "title": "SplitTrip — shared trip expenses",
+    "url": "https://splittrip-green.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://splittrip-green.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:30.538Z"
+  },
+  {
+    "hostname": "home-klin.vercel.app",
+    "title": "HomeKlin",
+    "url": "https://home-klin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://home-klin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1284,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:32.867Z"
+  },
+  {
+    "hostname": "devtools-vr-starter.vercel.app",
+    "title": "VR Starter",
+    "url": "https://devtools-vr-starter.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://devtools-vr-starter.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:32.956Z"
+  },
+  {
+    "hostname": "air-rental.vercel.app",
+    "title": "A.I.R — Thuê thiết bị công nghệ theo ngày",
+    "url": "https://air-rental.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://air-rental.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 928,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:33.893Z"
+  },
+  {
+    "hostname": "tenworks.vercel.app",
+    "title": "TenWorks CRM",
+    "url": "https://tenworks.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tenworks.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 51,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:33.945Z"
+  },
+  {
+    "hostname": "gorditopass.vercel.app",
+    "title": "GorditoPass | Eat local. Pay less. Try something new.",
+    "url": "https://gorditopass.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gorditopass.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 145,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:34.092Z"
+  },
+  {
+    "hostname": "ai-informe.vercel.app",
+    "title": "AI Informe — señales del día",
+    "url": "https://ai-informe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-informe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 110,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:34.269Z"
+  },
+  {
+    "hostname": "presupuestador-sole.vercel.app",
+    "title": "SOLE — Presupuestador PRO",
+    "url": "https://presupuestador-sole.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://presupuestador-sole.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:34.405Z"
+  },
+  {
+    "hostname": "omnicast-fe.vercel.app",
+    "title": "OmniCast | Enterprise Media &amp; Broadcast Intelligence",
+    "url": "https://omnicast-fe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://omnicast-fe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:34.761Z"
+  },
+  {
+    "hostname": "q38.vercel.app",
+    "title": "q38 console",
+    "url": "https://q38.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://q38.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 60,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:34.918Z"
+  },
+  {
+    "hostname": "missionary-legacy-map-taupe.vercel.app",
+    "title": "Legacy Map 宣教遗迹地图",
+    "url": "https://missionary-legacy-map-taupe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://missionary-legacy-map-taupe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3273,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:38.207Z"
+  },
+  {
+    "hostname": "flutter-ui-payment.netlify.app",
+    "title": "flutter_ui_payment | flutter_ui_payment",
+    "url": "https://flutter-ui-payment.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flutter-ui-payment.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 834,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:39.751Z"
+  },
+  {
+    "hostname": "inkdoshub.github.io",
+    "title": "InkDOS Hub: advanced tools",
+    "url": "https://inkdoshub.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://inkdoshub.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 114,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:39.972Z"
+  },
+  {
+    "hostname": "shawdrafts.github.io",
+    "title": "ShawDrafts — SEO Blog Writing, Canva Design, WordPress & Google Ads",
+    "url": "https://shawdrafts.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shawdrafts.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:40.064Z"
+  },
+  {
+    "hostname": "darourahmane-chicken.onrender.com",
+    "title": "Darou Rahmane Chicken — Poulet fermier frais livré en 2h à Dakar",
+    "url": "https://darourahmane-chicken.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://darourahmane-chicken.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 67,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:40.271Z"
+  },
+  {
+    "hostname": "playhawkbet.fly.dev",
+    "title": "HawkBet – South Lakes Pick'em",
+    "url": "https://playhawkbet.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://playhawkbet.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T03:21:40.409Z"
+  },
+  {
+    "hostname": "btkodev121.42web.io",
+    "title": "btkodev121.42web.io",
+    "url": "https://btkodev121.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://btkodev121.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 638,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-05T03:21:41.411Z"
+  },
+  {
+    "hostname": "rafaimmobilier.infinityfreeapp.com",
+    "title": "rafaimmobilier.infinityfreeapp.com",
+    "url": "https://rafaimmobilier.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rafaimmobilier.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 703,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-05T03:21:42.535Z"
+  },
+  {
     "hostname": "charpsdev.vercel.app",
     "title": "Vaultra — Unique Social Media Accounts, Virtual Numbers &amp; eSIMs",
     "url": "https://charpsdev.vercel.app",
