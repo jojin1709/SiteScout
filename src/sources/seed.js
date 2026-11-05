@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "go-re.vercel.app",
+    "title": "고리 Go, Re",
+    "url": "https://go-re.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://go-re.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:19.442Z"
+  },
+  {
+    "hostname": "hyperai-openrouter-backend.vercel.app",
+    "title": "HyperAI",
+    "url": "https://hyperai-openrouter-backend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hyperai-openrouter-backend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 134,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:19.624Z"
+  },
+  {
+    "hostname": "vivekjudemanoj.vercel.app",
+    "title": "Vivek&#x27;s Portfolio",
+    "url": "https://vivekjudemanoj.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vivekjudemanoj.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:20.037Z"
+  },
+  {
+    "hostname": "cradle-zeta.vercel.app",
+    "title": "Cradle",
+    "url": "https://cradle-zeta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cradle-zeta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 67,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:20.104Z"
+  },
+  {
+    "hostname": "planillas-practicas.vercel.app",
+    "title": "Campoalto · Asignación de prácticas",
+    "url": "https://planillas-practicas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://planillas-practicas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:20.196Z"
+  },
+  {
+    "hostname": "azeem-mart-capstone.vercel.app",
+    "title": "Azeem Mart - Login",
+    "url": "https://azeem-mart-capstone.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://azeem-mart-capstone.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:20.318Z"
+  },
+  {
+    "hostname": "garimpo-imoveis.pages.dev",
+    "title": "Garimpo Imóveis: imóveis da Caixa com desconto, monitorados todo dia",
+    "url": "https://garimpo-imoveis.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://garimpo-imoveis.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-05T20:32:20.661Z"
+  },
+  {
+    "hostname": "aegira.onrender.com",
+    "title": "Aegira — help on any phone",
+    "url": "https://aegira.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aegira.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 138,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-05T20:32:20.977Z"
+  },
+  {
+    "hostname": "can-projectnexus.infinityfreeapp.com",
+    "title": "can-projectnexus.infinityfreeapp.com",
+    "url": "https://can-projectnexus.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://can-projectnexus.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 622,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-05T20:32:21.979Z"
+  },
+  {
     "hostname": "travel-stays.vercel.app",
     "title": "Travel &amp; Stays",
     "url": "https://travel-stays.vercel.app",
