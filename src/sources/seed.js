@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "aiplanner-ten.vercel.app",
+    "title": "AI Planner",
+    "url": "https://aiplanner-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aiplanner-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:35.928Z"
+  },
+  {
+    "hostname": "bw5-app.vercel.app",
+    "title": "BOOM WOP vol.5 | BOOM Dance School",
+    "url": "https://bw5-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bw5-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 716,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:36.647Z"
+  },
+  {
+    "hostname": "school-store-steel.vercel.app",
+    "title": "Firebirds Nest",
+    "url": "https://school-store-steel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://school-store-steel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2649,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:39.315Z"
+  },
+  {
+    "hostname": "devyurivieira.vercel.app",
+    "title": "Yuri Vieira | Engenheiro de Software | Full Stack Developer",
+    "url": "https://devyurivieira.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://devyurivieira.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:39.609Z"
+  },
+  {
+    "hostname": "mumeiisland.vercel.app",
+    "title": "무명섬 · 이터널 리턴 사설 내전",
+    "url": "https://mumeiisland.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mumeiisland.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 236,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:39.846Z"
+  },
+  {
+    "hostname": "basketballreflexsystem.vercel.app",
+    "title": "Pick &amp; Roll",
+    "url": "https://basketballreflexsystem.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://basketballreflexsystem.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 283,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:40.130Z"
+  },
+  {
+    "hostname": "salttechsolution.vercel.app",
+    "title": "SALT Tech Solution — lojas, landing pages e sistemas sob medida",
+    "url": "https://salttechsolution.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://salttechsolution.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:40.355Z"
+  },
+  {
+    "hostname": "siap-wanamska-v-23.vercel.app",
+    "title": "PRADESKA",
+    "url": "https://siap-wanamska-v-23.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://siap-wanamska-v-23.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:41.150Z"
+  },
+  {
+    "hostname": "no-can.vercel.app",
+    "title": "Nombramientos Canarias",
+    "url": "https://no-can.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://no-can.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 448,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:41.599Z"
+  },
+  {
+    "hostname": "phoney-call.netlify.app",
+    "title": "phoney",
+    "url": "https://phoney-call.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://phoney-call.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 197,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:41.797Z"
+  },
+  {
+    "hostname": "stem-ai-tutor-chatbot.onrender.com",
+    "title": "STEM AI Tutor",
+    "url": "https://stem-ai-tutor-chatbot.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stem-ai-tutor-chatbot.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-06T01:26:42.547Z"
+  },
+  {
+    "hostname": "hivemind-q17i.onrender.com",
+    "title": "Hivemind · Persistent memory across your team&#x27;s AI agents",
+    "url": "https://hivemind-q17i.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hivemind-q17i.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 429,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-06T01:26:42.979Z"
+  },
+  {
+    "hostname": "uneasy.up.railway.app",
+    "title": "uneasy.up.railway.app",
+    "url": "https://uneasy.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Svelte",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uneasy.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T01:26:43.473Z"
+  },
+  {
     "hostname": "go-re.vercel.app",
     "title": "고리 Go, Re",
     "url": "https://go-re.vercel.app",
