@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "aba-iota.vercel.app",
+    "title": "ABA Studio — Loyalty is key.",
+    "url": "https://aba-iota.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aba-iota.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 321,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:11.461Z"
+  },
+  {
+    "hostname": "portfolio-tawny-ten-75.vercel.app",
+    "title": "Максим - разработка сайтов под ключ",
+    "url": "https://portfolio-tawny-ten-75.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-tawny-ten-75.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:11.610Z"
+  },
+  {
+    "hostname": "cfmeet.vercel.app",
+    "title": "CF Meet - Real-Time Communication Platform",
+    "url": "https://cfmeet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cfmeet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1132,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:12.743Z"
+  },
+  {
+    "hostname": "bizzgu.vercel.app",
+    "title": "Loja Bizzgu",
+    "url": "https://bizzgu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bizzgu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 336,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:13.080Z"
+  },
+  {
+    "hostname": "vks-tech.vercel.app",
+    "title": "VKS Tech – vkstech.com | Vivek Kumar",
+    "url": "https://vks-tech.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vks-tech.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 233,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:13.459Z"
+  },
+  {
+    "hostname": "invoice-chaser-sigma.vercel.app",
+    "title": "Invoice Chaser: invoices that learn how each client pays",
+    "url": "https://invoice-chaser-sigma.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://invoice-chaser-sigma.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:13.710Z"
+  },
+  {
+    "hostname": "echomancer-v2.vercel.app",
+    "title": "Echomancer — document to audiobook",
+    "url": "https://echomancer-v2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://echomancer-v2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2795,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:16.789Z"
+  },
+  {
+    "hostname": "instant-wallet-b2jn.vercel.app",
+    "title": "Instant Wallet — Ethereum wallet with Face ID, no seed phrase",
+    "url": "https://instant-wallet-b2jn.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://instant-wallet-b2jn.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 210,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:17.145Z"
+  },
+  {
+    "hostname": "pixstall.vercel.app",
+    "title": "Pixstall — App Store &amp; Google Play screenshot builder",
+    "url": "https://pixstall.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pixstall.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 362,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:17.507Z"
+  },
+  {
+    "hostname": "bustline-c8p.pages.dev",
+    "title": "Bustline — BTC perp on Mezo (testnet demo)",
+    "url": "https://bustline-c8p.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bustline-c8p.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 340,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-06T09:09:17.848Z"
+  },
+  {
+    "hostname": "batons-6b7.pages.dev",
+    "title": "Bâtons",
+    "url": "https://batons-6b7.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://batons-6b7.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 197,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-06T09:09:18.046Z"
+  },
+  {
+    "hostname": "linguaverce.netlify.app",
+    "title": "LinguaVerse — AI bilan til o'rganish",
+    "url": "https://linguaverce.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://linguaverce.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 607,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:18.684Z"
+  },
+  {
+    "hostname": "travelbuddy-v1-wa.netlify.app",
+    "title": "TravelBuddy · Western Australia",
+    "url": "https://travelbuddy-v1-wa.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://travelbuddy-v1-wa.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T09:09:18.851Z"
+  },
+  {
     "hostname": "aiplanner-ten.vercel.app",
     "title": "AI Planner",
     "url": "https://aiplanner-ten.vercel.app",
