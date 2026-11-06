@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "doppelga-nger-proposal.vercel.app",
+    "title": "Doppelgänger Roma — Il lusso più accessibile al mondo",
+    "url": "https://doppelga-nger-proposal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://doppelga-nger-proposal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 316,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:53.805Z"
+  },
+  {
+    "hostname": "ritmoapp-demo.vercel.app",
+    "title": "RitmoApp · Gestión de academias de baile",
+    "url": "https://ritmoapp-demo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ritmoapp-demo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 352,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:54.159Z"
+  },
+  {
+    "hostname": "smile-sync-front.vercel.app",
+    "title": "SmileSync | Gestão odontológica com inteligência",
+    "url": "https://smile-sync-front.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smile-sync-front.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 424,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:54.585Z"
+  },
+  {
+    "hostname": "10x-shop-dato-chaduneli.vercel.app",
+    "title": "10X Shop",
+    "url": "https://10x-shop-dato-chaduneli.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://10x-shop-dato-chaduneli.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 322,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:54.907Z"
+  },
+  {
+    "hostname": "care-line-kappa.vercel.app",
+    "title": "Care Line",
+    "url": "https://care-line-kappa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://care-line-kappa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 327,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:55.243Z"
+  },
+  {
+    "hostname": "sagatraveller.vercel.app",
+    "title": "SagaTraveller | AI-Powered Travel Planning",
+    "url": "https://sagatraveller.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sagatraveller.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 314,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:57.216Z"
+  },
+  {
+    "hostname": "fawxzzy-trove.vercel.app",
+    "title": "Fawxzzy",
+    "url": "https://fawxzzy-trove.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fawxzzy-trove.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 87,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:57.304Z"
+  },
+  {
+    "hostname": "desire-djh.pages.dev",
+    "title": "Desire Eyotaru | Software Engineer &amp; AI Developer",
+    "url": "https://desire-djh.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://desire-djh.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-06T17:17:57.421Z"
+  },
+  {
+    "hostname": "fateme-bagherzad-portfolio.netlify.app",
+    "title": "Fatemeh Bagherzad — Full-Stack Developer | React &amp; TypeScript",
+    "url": "https://fateme-bagherzad-portfolio.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fateme-bagherzad-portfolio.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 821,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T17:17:58.242Z"
+  },
+  {
     "hostname": "aba-iota.vercel.app",
     "title": "ABA Studio — Loyalty is key.",
     "url": "https://aba-iota.vercel.app",
