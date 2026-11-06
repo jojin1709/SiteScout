@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "capital-os-nine.vercel.app",
+    "title": "Capital OS — AI-Powered Fundraising Operating System",
+    "url": "https://capital-os-nine.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://capital-os-nine.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1388,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T22:55:56.733Z"
+  },
+  {
+    "hostname": "portafolio-isu.vercel.app",
+    "title": "Inicio · Educación Continuada ISC Ubaté · Universidad de Cundinamarca",
+    "url": "https://portafolio-isu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portafolio-isu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T22:55:56.983Z"
+  },
+  {
+    "hostname": "sigpath.vercel.app",
+    "title": "SigPath — Deal Go – Scam Towed",
+    "url": "https://sigpath.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sigpath.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T22:55:58.638Z"
+  },
+  {
+    "hostname": "sprintproof.vercel.app",
+    "title": "SprintProof",
+    "url": "https://sprintproof.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sprintproof.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 990,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T22:56:00.704Z"
+  },
+  {
+    "hostname": "hangman-desi.vercel.app",
+    "title": "[Game name]",
+    "url": "https://hangman-desi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hangman-desi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 377,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-06T22:56:01.391Z"
+  },
+  {
+    "hostname": "fpl-predictor-aman.fly.dev",
+    "title": "fpl-predictor",
+    "url": "https://fpl-predictor-aman.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fpl-predictor-aman.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 204,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-06T22:56:01.940Z"
+  },
+  {
     "hostname": "doppelga-nger-proposal.vercel.app",
     "title": "Doppelgänger Roma — Il lusso più accessibile al mondo",
     "url": "https://doppelga-nger-proposal.vercel.app",
