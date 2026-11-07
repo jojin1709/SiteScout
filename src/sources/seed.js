@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "agents-gotta-eat.vercel.app",
+    "title": "Agents Gotta Eat: wallets your AI agents can&#x27;t misuse",
+    "url": "https://agents-gotta-eat.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agents-gotta-eat.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:02.085Z"
+  },
+  {
+    "hostname": "records-reserved.vercel.app",
+    "title": "Records Reserved | Run Sales, Stock &amp; Hire in One Place",
+    "url": "https://records-reserved.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://records-reserved.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:02.254Z"
+  },
+  {
+    "hostname": "oasis-app-psi.vercel.app",
+    "title": "OASIS | 创意无线增长",
+    "url": "https://oasis-app-psi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oasis-app-psi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 763,
+      "title": true,
+      "description": false,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:03.019Z"
+  },
+  {
+    "hostname": "shule-yetu-two.vercel.app",
+    "title": "Shule Yetu",
+    "url": "https://shule-yetu-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shule-yetu-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:03.829Z"
+  },
+  {
+    "hostname": "hanh-trinh-do.vercel.app",
+    "title": "Hành Trình Đỏ — Visual Novel Lịch Sử Đảng",
+    "url": "https://hanh-trinh-do.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hanh-trinh-do.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:03.959Z"
+  },
+  {
+    "hostname": "house-tracker-omega.vercel.app",
+    "title": "HK House Tracker",
+    "url": "https://house-tracker-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://house-tracker-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 427,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:04.387Z"
+  },
+  {
+    "hostname": "veilproof22.vercel.app",
+    "title": "VeilProof: Prove you&rsquo;re good for it, without handing over your wallet",
+    "url": "https://veilproof22.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://veilproof22.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 42,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:04.555Z"
+  },
+  {
+    "hostname": "subacute.vercel.app",
+    "title": "subacute | 임상의학 기출 퀴즈 마스터",
+    "url": "https://subacute.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://subacute.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 52,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T09:50:04.608Z"
+  },
+  {
+    "hostname": "nextdns-dashboard-e3q.pages.dev",
+    "title": "NextDNS Live",
+    "url": "https://nextdns-dashboard-e3q.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nextdns-dashboard-e3q.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 181,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T09:50:04.792Z"
+  },
+  {
+    "hostname": "typographe.pages.dev",
+    "title": "Typographe - Un thème Astro minimaliste pour écrire en français",
+    "url": "https://typographe.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://typographe.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 65,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T09:50:04.859Z"
+  },
+  {
+    "hostname": "torneosapp.infinityfreeapp.com",
+    "title": "torneosapp.infinityfreeapp.com",
+    "url": "https://torneosapp.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://torneosapp.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 687,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T09:50:06.440Z"
+  },
+  {
     "hostname": "task-trunk-app.vercel.app",
     "title": "票夾",
     "url": "https://task-trunk-app.vercel.app",
