@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "moviesharing.vercel.app",
+    "title": "CineCircle – Filme &amp; Serien mit Freunden teilen &amp; VPN-Streaming",
+    "url": "https://moviesharing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://moviesharing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 455,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:43.009Z"
+  },
+  {
+    "hostname": "freedom-cqa.vercel.app",
+    "title": "Freedom Broker · Поддержка и качество разговоров",
+    "url": "https://freedom-cqa.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://freedom-cqa.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 76,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:43.088Z"
+  },
+  {
+    "hostname": "lifeos-phi-henna.vercel.app",
+    "title": "数字化生活助手",
+    "url": "https://lifeos-phi-henna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lifeos-phi-henna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 305,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:43.394Z"
+  },
+  {
+    "hostname": "huellitas-veterinaria.vercel.app",
+    "title": "Huellitas Veterinaria · Reserva tu cita en Medellín",
+    "url": "https://huellitas-veterinaria.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://huellitas-veterinaria.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 54,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:44.450Z"
+  },
+  {
+    "hostname": "learn-africa-five.vercel.app",
+    "title": "LearnAfrica — Online Learning for Africa",
+    "url": "https://learn-africa-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://learn-africa-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:44.716Z"
+  },
+  {
+    "hostname": "projeto1-crud-full-stack.vercel.app",
+    "title": "web",
+    "url": "https://projeto1-crud-full-stack.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://projeto1-crud-full-stack.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 175,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:44.891Z"
+  },
+  {
+    "hostname": "smart-silo-monitoring-system.vercel.app",
+    "title": "Smart Silo Monitoring System",
+    "url": "https://smart-silo-monitoring-system.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smart-silo-monitoring-system.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 169,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:45.246Z"
+  },
+  {
+    "hostname": "amitrishu-del.github.io",
+    "title": "Amit Singh, PhD",
+    "url": "https://amitrishu-del.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://amitrishu-del.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 65,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T16:13:45.312Z"
+  },
+  {
+    "hostname": "studium-bh.infinityfreeapp.com",
+    "title": "studium-bh.infinityfreeapp.com",
+    "url": "https://studium-bh.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://studium-bh.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 391,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T16:13:45.987Z"
+  },
+  {
     "hostname": "agents-gotta-eat.vercel.app",
     "title": "Agents Gotta Eat: wallets your AI agents can&#x27;t misuse",
     "url": "https://agents-gotta-eat.vercel.app",
