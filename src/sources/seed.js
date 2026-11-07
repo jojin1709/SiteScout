@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "save-the-food-tau.vercel.app",
+    "title": "Save the Food",
+    "url": "https://save-the-food-tau.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://save-the-food-tau.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 173,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T20:44:40.378Z"
+  },
+  {
+    "hostname": "q-frontier.vercel.app",
+    "title": "Q-FRONTIER | Intermountain Quantum Competition 2026",
+    "url": "https://q-frontier.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://q-frontier.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T20:44:40.546Z"
+  },
+  {
+    "hostname": "imperio-swipefile.vercel.app",
+    "title": "Império Swipefile — 187 Sites Clonados (GitHub + Vercel c/ Animações)",
+    "url": "https://imperio-swipefile.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://imperio-swipefile.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T20:44:40.882Z"
+  },
+  {
+    "hostname": "scholarship-one.pages.dev",
+    "title": "Scholarship One — find scholarships that fit",
+    "url": "https://scholarship-one.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scholarship-one.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 73,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T20:44:40.956Z"
+  },
+  {
+    "hostname": "go-zpkg.github.io",
+    "title": "go-zpkg — a package manager in pure Go, running on FROM scratch",
+    "url": "https://go-zpkg.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://go-zpkg.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 138,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T20:44:41.096Z"
+  },
+  {
+    "hostname": "tankwindhallway89.github.io",
+    "title": "67 проверенных прокси Telegram — Прокси Сводка, 23:29 МСК",
+    "url": "https://tankwindhallway89.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tankwindhallway89.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 49,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T20:44:41.227Z"
+  },
+  {
     "hostname": "moviesharing.vercel.app",
     "title": "CineCircle – Filme &amp; Serien mit Freunden teilen &amp; VPN-Streaming",
     "url": "https://moviesharing.vercel.app",
