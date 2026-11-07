@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "task-trunk-app.vercel.app",
+    "title": "票夾",
+    "url": "https://task-trunk-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://task-trunk-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 399,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:37.695Z"
+  },
+  {
+    "hostname": "pcps-connect.vercel.app",
+    "title": "PCPS Connect | Club & Event Management",
+    "url": "https://pcps-connect.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pcps-connect.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:39.370Z"
+  },
+  {
+    "hostname": "amazona-verse.vercel.app",
+    "title": "Amazona Verse · Aventura en Puerto Rico con Vittata y los 36 guardianes",
+    "url": "https://amazona-verse.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://amazona-verse.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:39.698Z"
+  },
+  {
+    "hostname": "swift-portal-chi.vercel.app",
+    "title": "ShootPortal: Run Your Media Business in One Place",
+    "url": "https://swift-portal-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://swift-portal-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2227,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:41.984Z"
+  },
+  {
+    "hostname": "dak-edition.vercel.app",
+    "title": "The Dak Edition",
+    "url": "https://dak-edition.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dak-edition.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 308,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:42.386Z"
+  },
+  {
+    "hostname": "recording-voice-web.vercel.app",
+    "title": "보이스 스튜디오 — 로컬 음성 작업공간",
+    "url": "https://recording-voice-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://recording-voice-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 324,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:42.710Z"
+  },
+  {
+    "hostname": "pigem-system-web.vercel.app",
+    "title": "Combined Facilities Support Services",
+    "url": "https://pigem-system-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pigem-system-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 308,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:43.019Z"
+  },
+  {
+    "hostname": "crossward-raptor.vercel.app",
+    "title": "Crossward",
+    "url": "https://crossward-raptor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://crossward-raptor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 814,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:43.985Z"
+  },
+  {
+    "hostname": "png-phantom-tank.pages.dev",
+    "title": "APNG 图片伪装工具 - 前端网页版",
+    "url": "https://png-phantom-tank.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://png-phantom-tank.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T02:39:44.566Z"
+  },
+  {
+    "hostname": "patlittle.github.io",
+    "title": "Home | Pat Little",
+    "url": "https://patlittle.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://patlittle.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 410,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-07T02:39:44.977Z"
+  },
+  {
+    "hostname": "spillburg-portal.onrender.com",
+    "title": "Spillburg Holdings - Enterprise Company Portal",
+    "url": "https://spillburg-portal.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://spillburg-portal.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 606,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T02:39:45.921Z"
+  },
+  {
+    "hostname": "invitaciones-jiro.fly.dev",
+    "title": "Invitaciones digitales a la medida: bodas, XV años, graduaciones y cualquier evento | Jiro Solutions",
+    "url": "https://invitaciones-jiro.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://invitaciones-jiro.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-07T02:39:46.636Z"
+  },
+  {
     "hostname": "capital-os-nine.vercel.app",
     "title": "Capital OS — AI-Powered Fundraising Operating System",
     "url": "https://capital-os-nine.vercel.app",
