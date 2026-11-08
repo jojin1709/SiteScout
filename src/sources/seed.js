@@ -1,5 +1,328 @@
 export const SEED_SITES = [
   {
+    "hostname": "ai-resume-enhancer-v2.vercel.app",
+    "title": "Resumify — Beat the ATS",
+    "url": "https://ai-resume-enhancer-v2.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-resume-enhancer-v2.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 395,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:01.725Z"
+  },
+  {
+    "hostname": "kinoplan.vercel.app",
+    "title": "kinoplan",
+    "url": "https://kinoplan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kinoplan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 244,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:01.970Z"
+  },
+  {
+    "hostname": "studyhub-smoky.vercel.app",
+    "title": "Studyhub",
+    "url": "https://studyhub-smoky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://studyhub-smoky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:02.270Z"
+  },
+  {
+    "hostname": "date-rate-seven.vercel.app",
+    "title": "Date Rate",
+    "url": "https://date-rate-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://date-rate-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 257,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:02.529Z"
+  },
+  {
+    "hostname": "front-web-seven.vercel.app",
+    "title": "Agrocenter | Crecer desde la tierra",
+    "url": "https://front-web-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://front-web-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:02.802Z"
+  },
+  {
+    "hostname": "humanity-loop.vercel.app",
+    "title": "Humanity Loop | Put AI to Work for Public Good",
+    "url": "https://humanity-loop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://humanity-loop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 269,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:03.072Z"
+  },
+  {
+    "hostname": "bannuar-portal.vercel.app",
+    "title": "Bannuar HR portal",
+    "url": "https://bannuar-portal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bannuar-portal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:03.292Z"
+  },
+  {
+    "hostname": "fleet-garage.vercel.app",
+    "title": "Fleet Garage — Lot Operations",
+    "url": "https://fleet-garage.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fleet-garage.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 218,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:03.512Z"
+  },
+  {
+    "hostname": "orvio-play.pages.dev",
+    "title": "orvio · find your flow",
+    "url": "https://orvio-play.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://orvio-play.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-08T19:28:04.680Z"
+  },
+  {
+    "hostname": "touch-panel-demo.pages.dev",
+    "title": "Touch Panel Demo | React + TypeScript",
+    "url": "https://touch-panel-demo.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://touch-panel-demo.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-08T19:28:04.900Z"
+  },
+  {
+    "hostname": "taiwan-sign-language.pages.dev",
+    "title": "臺灣手語辨識｜AI 手語轉文字與語音",
+    "url": "https://taiwan-sign-language.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://taiwan-sign-language.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-08T19:28:05.103Z"
+  },
+  {
+    "hostname": "picoreweb.netlify.app",
+    "title": "PiCore · Un PC portátil con Raspberry Pi 5, pantalla táctil y todo en español",
+    "url": "https://picoreweb.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://picoreweb.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:05.290Z"
+  },
+  {
+    "hostname": "glsec.github.io",
+    "title": "glsec: security linter for GitLab CI/CD",
+    "url": "https://glsec.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://glsec.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 163,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:05.454Z"
+  },
+  {
+    "hostname": "dawidjankowski00.github.io",
+    "title": "Dawid Jankowski — .NET / Python Developer",
+    "url": "https://dawidjankowski00.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dawidjankowski00.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:05.591Z"
+  },
+  {
+    "hostname": "haggl.onrender.com",
+    "title": "Haggl · Let the AIs haggle. PayPal settles.",
+    "url": "https://haggl.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://haggl.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:05.936Z"
+  },
+  {
+    "hostname": "live-cursors.fly.dev",
+    "title": "LiveCursors · Phoenix Framework",
+    "url": "https://live-cursors.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://live-cursors.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-08T19:28:06.149Z"
+  },
+  {
+    "hostname": "elixir-google-auth-demo.fly.dev",
+    "title": "App · Phoenix Framework",
+    "url": "https://elixir-google-auth-demo.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://elixir-google-auth-demo.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 303,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T19:28:06.453Z"
+  },
+  {
     "hostname": "kyalsinhein-portfolio.vercel.app",
     "title": "Kyal Sin Hein | Junior Software & Data Engineer",
     "url": "https://kyalsinhein-portfolio.vercel.app",
