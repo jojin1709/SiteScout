@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "n-p-k-prediction-model.vercel.app",
+    "title": "NPK Soil Balance",
+    "url": "https://n-p-k-prediction-model.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://n-p-k-prediction-model.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:53.838Z"
+  },
+  {
+    "hostname": "mad-eats-eight.vercel.app",
+    "title": "frontend",
+    "url": "https://mad-eats-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mad-eats-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 254,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:54.093Z"
+  },
+  {
+    "hostname": "designwear-api.vercel.app",
+    "title": "DesignWear API",
+    "url": "https://designwear-api.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://designwear-api.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 890,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:54.984Z"
+  },
+  {
+    "hostname": "therbcbrand.vercel.app",
+    "title": "The RBC Brand",
+    "url": "https://therbcbrand.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://therbcbrand.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 2253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:57.248Z"
+  },
+  {
+    "hostname": "p3-learning-app-hosted.vercel.app",
+    "title": "P3 Learning App",
+    "url": "https://p3-learning-app-hosted.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://p3-learning-app-hosted.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 222,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:57.560Z"
+  },
+  {
+    "hostname": "cart-transfer-redirect.vercel.app",
+    "title": "סל חכם - סל אחד, כל הרשתות, המחיר הכי טוב",
+    "url": "https://cart-transfer-redirect.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cart-transfer-redirect.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:57.781Z"
+  },
+  {
+    "hostname": "kopec-za-korunu.vercel.app",
+    "title": "Kopec za korunu",
+    "url": "https://kopec-za-korunu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kopec-za-korunu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 256,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:58.038Z"
+  },
+  {
+    "hostname": "bpdiscord.vercel.app",
+    "title": "The Big Picture Discord",
+    "url": "https://bpdiscord.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bpdiscord.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 243,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:58.282Z"
+  },
+  {
+    "hostname": "pepos-virid.vercel.app",
+    "title": "SAPURI",
+    "url": "https://pepos-virid.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pepos-virid.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 225,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:58.508Z"
+  },
+  {
+    "hostname": "zevsafe.pages.dev",
+    "title": "ZevSafe — Offline Folder &amp; File Encryption | Zero-Knowledge AES-256",
+    "url": "https://zevsafe.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zevsafe.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 144,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:58.761Z"
+  },
+  {
+    "hostname": "seedance-reference-sheets.netlify.app",
+    "title": "Reference Packer — one sheet per subject for Seedance",
+    "url": "https://seedance-reference-sheets.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://seedance-reference-sheets.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:59.005Z"
+  },
+  {
+    "hostname": "jyotirmaya.netlify.app",
+    "title": "Jyotirmaya — Happy Diwali Wishes Portfolio & Royal Blessing Studio",
+    "url": "https://jyotirmaya.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jyotirmaya.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 147,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:59.255Z"
+  },
+  {
+    "hostname": "cookieys.github.io",
+    "title": "Code Host",
+    "url": "https://cookieys.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cookieys.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T07:04:59.486Z"
+  },
+  {
     "hostname": "comic-pile.vercel.app",
     "title": "ComicPile — A dice-driven reading queue for your comic collection",
     "url": "https://comic-pile.vercel.app",
