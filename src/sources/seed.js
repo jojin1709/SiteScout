@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "kyalsinhein-portfolio.vercel.app",
+    "title": "Kyal Sin Hein | Junior Software & Data Engineer",
+    "url": "https://kyalsinhein-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kyalsinhein-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:42.060Z"
+  },
+  {
+    "hostname": "wanderlust-client-beta.vercel.app",
+    "title": "Create Next App",
+    "url": "https://wanderlust-client-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wanderlust-client-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:42.307Z"
+  },
+  {
+    "hostname": "opencontext-swart.vercel.app",
+    "title": "OpenContext — Give text-only AI agents eyes and ears",
+    "url": "https://opencontext-swart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://opencontext-swart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:42.568Z"
+  },
+  {
+    "hostname": "meowho.vercel.app",
+    "title": "Meowho喵戶",
+    "url": "https://meowho.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://meowho.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1041,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:43.610Z"
+  },
+  {
+    "hostname": "hop-website-olive.vercel.app",
+    "title": "HOP. Brand strategy for businesses ready to leap",
+    "url": "https://hop-website-olive.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hop-website-olive.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:43.910Z"
+  },
+  {
+    "hostname": "xcm-devfolio.vercel.app",
+    "title": "xCM — AmAn-OS Devfolio",
+    "url": "https://xcm-devfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://xcm-devfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 305,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:44.215Z"
+  },
+  {
+    "hostname": "vibenest-mocha.vercel.app",
+    "title": "VibeNest — Không Gian Tâm Sự Ẩn Danh",
+    "url": "https://vibenest-mocha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vibenest-mocha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 319,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:44.535Z"
+  },
+  {
+    "hostname": "ai-movie-factory.vercel.app",
+    "title": "AI Movie Factory - AI-Powered Film & Drama Production Studio",
+    "url": "https://ai-movie-factory.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-movie-factory.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 249,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:44.786Z"
+  },
+  {
+    "hostname": "wealth-karthi.vercel.app",
+    "title": "Karthi Portfolio — Wealth Ledger",
+    "url": "https://wealth-karthi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wealth-karthi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 257,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:45.044Z"
+  },
+  {
+    "hostname": "gt7trace.netlify.app",
+    "title": "TRACE — Live GT7 Telemetry Dashboard &amp; Lap Analyzer",
+    "url": "https://gt7trace.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gt7trace.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 410,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T14:55:45.487Z"
+  },
+  {
     "hostname": "n-p-k-prediction-model.vercel.app",
     "title": "NPK Soil Balance",
     "url": "https://n-p-k-prediction-model.vercel.app",
