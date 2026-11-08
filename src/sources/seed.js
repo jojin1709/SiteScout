@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "vobtv.vercel.app",
+    "title": "VoB TV",
+    "url": "https://vobtv.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vobtv.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:39.300Z"
+  },
+  {
+    "hostname": "deeplayersolutions.vercel.app",
+    "title": "DeepLayer Solutions — Custom AI, Enterprise Software &amp; Cloud Engineering",
+    "url": "https://deeplayersolutions.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://deeplayersolutions.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 381,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:39.686Z"
+  },
+  {
+    "hostname": "partiu-dpm.vercel.app",
+    "title": "Partiu DPM — Seu próximo evento começa aqui.",
+    "url": "https://partiu-dpm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://partiu-dpm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:40.197Z"
+  },
+  {
+    "hostname": "sorotip-app.vercel.app",
+    "title": "SoroTip",
+    "url": "https://sorotip-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sorotip-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 177,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:40.667Z"
+  },
+  {
+    "hostname": "artiosis-two.vercel.app",
+    "title": "Artiosis | Creative Technology Agency",
+    "url": "https://artiosis-two.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://artiosis-two.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 791,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:41.461Z"
+  },
+  {
+    "hostname": "passwordmanager-alpha.vercel.app",
+    "title": "Contras",
+    "url": "https://passwordmanager-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://passwordmanager-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:41.789Z"
+  },
+  {
+    "hostname": "gmart-mu.vercel.app",
+    "title": "GMart",
+    "url": "https://gmart-mu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gmart-mu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:41.913Z"
+  },
+  {
+    "hostname": "wilhite-portfolio.pages.dev",
+    "title": "Utah Mountain Luxury Management",
+    "url": "https://wilhite-portfolio.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://wilhite-portfolio.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 464,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-08T23:31:42.382Z"
+  },
+  {
+    "hostname": "museumwithnofrontiers.github.io",
+    "title": "Museum With No Frontiers",
+    "url": "https://museumwithnofrontiers.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://museumwithnofrontiers.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 175,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T23:31:42.558Z"
+  },
+  {
     "hostname": "ai-resume-enhancer-v2.vercel.app",
     "title": "Resumify — Beat the ATS",
     "url": "https://ai-resume-enhancer-v2.vercel.app",
