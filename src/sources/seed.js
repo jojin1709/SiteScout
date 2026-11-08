@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "comic-pile.vercel.app",
+    "title": "ComicPile — A dice-driven reading queue for your comic collection",
+    "url": "https://comic-pile.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://comic-pile.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:20.386Z"
+  },
+  {
+    "hostname": "cs16-community-status.vercel.app",
+    "title": "CS 1.6 ReHLDS | Server Status",
+    "url": "https://cs16-community-status.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cs16-community-status.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:20.491Z"
+  },
+  {
+    "hostname": "etsukyo-guide.vercel.app",
+    "title": "越境体験ガイド",
+    "url": "https://etsukyo-guide.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://etsukyo-guide.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 101,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:20.594Z"
+  },
+  {
+    "hostname": "careledger-ashy.vercel.app",
+    "title": "EntreManos · El tiempo de cuidado se convierte en Puntos Cívicos",
+    "url": "https://careledger-ashy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://careledger-ashy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 261,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:20.859Z"
+  },
+  {
+    "hostname": "floodograph.vercel.app",
+    "title": "Floodograph",
+    "url": "https://floodograph.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://floodograph.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:21.048Z"
+  },
+  {
+    "hostname": "pdufa-new-dashboard.vercel.app",
+    "title": "PDUFA Command Center — POOL → PIPELINE",
+    "url": "https://pdufa-new-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pdufa-new-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:21.268Z"
+  },
+  {
+    "hostname": "solid-optimizer.vercel.app",
+    "title": "solid-optimizer · compile-time optimizer for SolidJS",
+    "url": "https://solid-optimizer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://solid-optimizer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 90,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:21.361Z"
+  },
+  {
+    "hostname": "byte-me-mu.vercel.app",
+    "title": "MainStreet AI | Practical AI choices for local business",
+    "url": "https://byte-me-mu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://byte-me-mu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:21.567Z"
+  },
+  {
+    "hostname": "dslop.vercel.app",
+    "title": "DSlop: sites that don&#x27;t look AI-made",
+    "url": "https://dslop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dslop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:21.750Z"
+  },
+  {
+    "hostname": "selfhostbench.pages.dev",
+    "title": "SelfHostBench — will app X run well on box Y?",
+    "url": "https://selfhostbench.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://selfhostbench.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-08T00:19:21.999Z"
+  },
+  {
+    "hostname": "resumate-ui.onrender.com",
+    "title": "ResuMate — See the person. Find the fit.",
+    "url": "https://resumate-ui.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://resumate-ui.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-08T00:19:22.876Z"
+  },
+  {
     "hostname": "save-the-food-tau.vercel.app",
     "title": "Save the Food",
     "url": "https://save-the-food-tau.vercel.app",
