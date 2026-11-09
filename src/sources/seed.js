@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "firmwarely.vercel.app",
+    "title": "Firmwarely — know when your devices need a firmware update",
+    "url": "https://firmwarely.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://firmwarely.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 427,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:44:58.837Z"
+  },
+  {
+    "hostname": "contri-app.vercel.app",
+    "title": "Contri — Trip khatam. Hisab bhi khatam.",
+    "url": "https://contri-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://contri-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 307,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:00.023Z"
+  },
+  {
+    "hostname": "claudete.vercel.app",
+    "title": "claudete",
+    "url": "https://claudete.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://claudete.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 460,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:00.485Z"
+  },
+  {
+    "hostname": "tus-portfolio.vercel.app",
+    "title": "Phan Thanh Tu | Backend Engineer",
+    "url": "https://tus-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tus-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 338,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:00.824Z"
+  },
+  {
+    "hostname": "mini-defi-vault-gilt.vercel.app",
+    "title": "MiniVault — Sepolia DeFi Vault",
+    "url": "https://mini-defi-vault-gilt.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mini-defi-vault-gilt.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 436,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:01.261Z"
+  },
+  {
+    "hostname": "autistiklatestwork.vercel.app",
+    "title": "AUTISTIK Hub",
+    "url": "https://autistiklatestwork.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://autistiklatestwork.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1643,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:03.016Z"
+  },
+  {
+    "hostname": "pmscan.pages.dev",
+    "title": "pmscan — Polymarket wallet scanner",
+    "url": "https://pmscan.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pmscan.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-09T05:45:03.318Z"
+  },
+  {
+    "hostname": "partho-3d-portfolio.netlify.app",
+    "title": "Partho Sarothi Paik — Coder & Web Developer",
+    "url": "https://partho-3d-portfolio.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://partho-3d-portfolio.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 704,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:04.023Z"
+  },
+  {
+    "hostname": "iamovi.github.io",
+    "title": "init_ovi",
+    "url": "https://iamovi.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://iamovi.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 145,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T05:45:04.308Z"
+  },
+  {
     "hostname": "vobtv.vercel.app",
     "title": "VoB TV",
     "url": "https://vobtv.vercel.app",
