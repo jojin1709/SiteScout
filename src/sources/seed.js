@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "sib-stock.vercel.app",
+    "title": "SIB Stock — Gestion intelligente",
+    "url": "https://sib-stock.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sib-stock.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 295,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:18.175Z"
+  },
+  {
+    "hostname": "qinyuan-stellar.vercel.app",
+    "title": "覃远说",
+    "url": "https://qinyuan-stellar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://qinyuan-stellar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:18.696Z"
+  },
+  {
+    "hostname": "civolten.vercel.app",
+    "title": "CIVOLTEN — Elétrica &amp; Construção Civil",
+    "url": "https://civolten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://civolten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 308,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:19.005Z"
+  },
+  {
+    "hostname": "sentinelx-cybersecurity-platform.vercel.app",
+    "title": "SentinelX | AI-Powered Phishing Detection & Threat Intelligence",
+    "url": "https://sentinelx-cybersecurity-platform.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sentinelx-cybersecurity-platform.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 325,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:19.330Z"
+  },
+  {
+    "hostname": "abivan-dev.vercel.app",
+    "title": "Abivan Vijay | Robotics, Hardware and Software",
+    "url": "https://abivan-dev.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://abivan-dev.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 344,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:19.675Z"
+  },
+  {
+    "hostname": "oh-my-shark.vercel.app",
+    "title": "CosmoSky — Desktop AI & Terminal Experience",
+    "url": "https://oh-my-shark.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oh-my-shark.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 291,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:20.160Z"
+  },
+  {
+    "hostname": "agharina-frontend-client.vercel.app",
+    "title": "Agharina - Immobilier en Mauritanie",
+    "url": "https://agharina-frontend-client.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agharina-frontend-client.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 263,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:20.424Z"
+  },
+  {
+    "hostname": "vainglory-draft.vercel.app",
+    "title": "VainGlory カスタムドラフト",
+    "url": "https://vainglory-draft.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vainglory-draft.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 292,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:20.724Z"
+  },
+  {
+    "hostname": "movie-fountain.pages.dev",
+    "title": "Movie Fountain — Discover Movies, Letterboxd Top 500 & Multi-Source Ratings",
+    "url": "https://movie-fountain.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://movie-fountain.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 176,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:20.902Z"
+  },
+  {
+    "hostname": "jacaranda-labs.pages.dev",
+    "title": "Jacaranda Labs · ventures, portfolio and publications",
+    "url": "https://jacaranda-labs.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jacaranda-labs.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-09T15:50:21.012Z"
+  },
+  {
+    "hostname": "streamcaster.pages.dev",
+    "title": "StreamCaster",
+    "url": "https://streamcaster.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://streamcaster.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-09T15:50:21.150Z"
+  },
+  {
+    "hostname": "mediq.42web.io",
+    "title": "mediq.42web.io",
+    "url": "https://mediq.42web.io",
+    "hostType": "42web.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mediq.42web.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 609,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-09T15:50:22.098Z"
+  },
+  {
+    "hostname": "procoffee.infinityfreeapp.com",
+    "title": "procoffee.infinityfreeapp.com",
+    "url": "https://procoffee.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://procoffee.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 674,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-09T15:50:23.174Z"
+  },
+  {
     "hostname": "firmwarely.vercel.app",
     "title": "Firmwarely — know when your devices need a firmware update",
     "url": "https://firmwarely.vercel.app",
