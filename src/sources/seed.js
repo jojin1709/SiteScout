@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "fibrazo-forms.vercel.app",
+    "title": "FIBRAZO · Forms",
+    "url": "https://fibrazo-forms.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fibrazo-forms.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 479,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:08.028Z"
+  },
+  {
+    "hostname": "portfolio-one-blue-anckqnppbh.vercel.app",
+    "title": "Eduardo De La Cruz | Full-Stack Software Developer",
+    "url": "https://portfolio-one-blue-anckqnppbh.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-one-blue-anckqnppbh.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:08.258Z"
+  },
+  {
+    "hostname": "vigilens-rho.vercel.app",
+    "title": "VigiLens - AI Security Monitoring",
+    "url": "https://vigilens-rho.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vigilens-rho.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 377,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:08.637Z"
+  },
+  {
+    "hostname": "pulse-hybrid-app.vercel.app",
+    "title": "PULSE • Hybrid Athlete OS",
+    "url": "https://pulse-hybrid-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pulse-hybrid-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:08.908Z"
+  },
+  {
+    "hostname": "pulmoscan-ai-topaz.vercel.app",
+    "title": "PulmoScan AI - Intelligent Pneumonia Detection",
+    "url": "https://pulmoscan-ai-topaz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pulmoscan-ai-topaz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 298,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:09.338Z"
+  },
+  {
+    "hostname": "bacolod-outage-map.vercel.app",
+    "title": "Bacolod Outage Map",
+    "url": "https://bacolod-outage-map.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bacolod-outage-map.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 313,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:09.653Z"
+  },
+  {
+    "hostname": "villacavo.vercel.app",
+    "title": "Villa Cavo | Luxury Villa in Haputale, Sri Lanka",
+    "url": "https://villacavo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://villacavo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:09.912Z"
+  },
+  {
+    "hostname": "career-intelligence-jade.vercel.app",
+    "title": "Career Intelligence",
+    "url": "https://career-intelligence-jade.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://career-intelligence-jade.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 153,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T16:55:10.066Z"
+  },
+  {
+    "hostname": "mason0510.github.io",
+    "title": "封面 - 时空循环：法西斯复兴、星球毁灭与恐龙时代的重生",
+    "url": "https://mason0510.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mason0510.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T16:55:10.319Z"
+  },
+  {
+    "hostname": "hirehub.infinityfreeapp.com",
+    "title": "hirehub.infinityfreeapp.com",
+    "url": "https://hirehub.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hirehub.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 506,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T16:55:16.466Z"
+  },
+  {
+    "hostname": "noura-ncsfwd.infinityfreeapp.com",
+    "title": "noura-ncsfwd.infinityfreeapp.com",
+    "url": "https://noura-ncsfwd.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://noura-ncsfwd.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 480,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T16:55:16.947Z"
+  },
+  {
     "hostname": "nasasar.vercel.app",
     "title": "SARSCOPE — Interactive Earth Explorer",
     "url": "https://nasasar.vercel.app",
