@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "nunya-togo.vercel.app",
+    "title": "Nunya — Apprends aujourd’hui, crée demain",
+    "url": "https://nunya-togo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nunya-togo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T22:14:17.423Z"
+  },
+  {
+    "hostname": "excel-ai-assistant-ivory.vercel.app",
+    "title": "Excel-Ai-Assistant",
+    "url": "https://excel-ai-assistant-ivory.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://excel-ai-assistant-ivory.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T22:14:17.608Z"
+  },
+  {
+    "hostname": "h777-landing.vercel.app",
+    "title": "h777 | Remote Operations Software and Workflow Tools",
+    "url": "https://h777-landing.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://h777-landing.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T22:14:17.938Z"
+  },
+  {
+    "hostname": "cafe-finca-helena.vercel.app",
+    "title": "Café Finca Helena | Café 100% colombiano de Norte de Santander — Tienda en línea",
+    "url": "https://cafe-finca-helena.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cafe-finca-helena.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 287,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T22:14:18.231Z"
+  },
+  {
+    "hostname": "mandate-pay.vercel.app",
+    "title": "MandatePay: AI shopping with proof",
+    "url": "https://mandate-pay.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mandate-pay.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T22:14:18.399Z"
+  },
+  {
+    "hostname": "workshop-design-interactions.pages.dev",
+    "title": "Nantes en régulation — jeu de régulation des transports nantais",
+    "url": "https://workshop-design-interactions.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://workshop-design-interactions.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 249,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T22:14:18.855Z"
+  },
+  {
+    "hostname": "mgifford.github.io",
+    "title": "Mike Gifford Repo Catalog",
+    "url": "https://mgifford.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mgifford.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 117,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T22:14:19.120Z"
+  },
+  {
     "hostname": "fibrazo-forms.vercel.app",
     "title": "FIBRAZO · Forms",
     "url": "https://fibrazo-forms.vercel.app",
