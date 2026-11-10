@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "nasasar.vercel.app",
+    "title": "SARSCOPE — Interactive Earth Explorer",
+    "url": "https://nasasar.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nasasar.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 105,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:38.201Z"
+  },
+  {
+    "hostname": "promptpay-lyart.vercel.app",
+    "title": "พร้อมเพย์",
+    "url": "https://promptpay-lyart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://promptpay-lyart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:38.303Z"
+  },
+  {
+    "hostname": "tool-station-server-pro.vercel.app",
+    "title": "App Catalog",
+    "url": "https://tool-station-server-pro.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tool-station-server-pro.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:38.490Z"
+  },
+  {
+    "hostname": "maasatitechiac.vercel.app",
+    "title": "Maa Sati IAC — Digital Campus | Learn. Build. Innovate.",
+    "url": "https://maasatitechiac.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://maasatitechiac.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 97,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:38.611Z"
+  },
+  {
+    "hostname": "stamp-paypal.vercel.app",
+    "title": "Stamp: a refundable stamp for cold messages",
+    "url": "https://stamp-paypal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stamp-paypal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1544,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:40.738Z"
+  },
+  {
+    "hostname": "vinverdict.vercel.app",
+    "title": "VinVerdict",
+    "url": "https://vinverdict.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vinverdict.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 207,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:41.547Z"
+  },
+  {
+    "hostname": "db-sentinel.vercel.app",
+    "title": "DBSentinel — Security Observability",
+    "url": "https://db-sentinel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://db-sentinel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T08:09:41.760Z"
+  },
+  {
+    "hostname": "ai-huiyuan-bijia.pages.dev",
+    "title": "AI 会员代充比价（2026 年 11 月）：ChatGPT Plus 代充 106.9 元起",
+    "url": "https://ai-huiyuan-bijia.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-huiyuan-bijia.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 233,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T08:09:41.994Z"
+  },
+  {
+    "hostname": "eglerean.github.io",
+    "title": "Enrico Glerean, DSc.",
+    "url": "https://eglerean.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://eglerean.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 126,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T08:09:42.122Z"
+  },
+  {
+    "hostname": "secondeyes-j5ey.onrender.com",
+    "title": "SecondEyes",
+    "url": "https://secondeyes-j5ey.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://secondeyes-j5ey.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T08:09:42.553Z"
+  },
+  {
+    "hostname": "sheleg-organizer-web.fly.dev",
+    "title": "Sheleg Organizer",
+    "url": "https://sheleg-organizer-web.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sheleg-organizer-web.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T08:09:42.762Z"
+  },
+  {
     "hostname": "arcon-studio.vercel.app",
     "title": "Arcon Studio · for architects",
     "url": "https://arcon-studio.vercel.app",
