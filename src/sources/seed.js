@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "arcon-studio.vercel.app",
+    "title": "Arcon Studio · for architects",
+    "url": "https://arcon-studio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arcon-studio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:03:58.463Z"
+  },
+  {
+    "hostname": "cartorio-project-topaz.vercel.app",
+    "title": "Serventia Notarial e Registral de Bom Conselho | Cartório Algacyr Barros",
+    "url": "https://cartorio-project-topaz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cartorio-project-topaz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 134,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:03:58.623Z"
+  },
+  {
+    "hostname": "mini-social-alpha.vercel.app",
+    "title": "client",
+    "url": "https://mini-social-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mini-social-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:03:58.791Z"
+  },
+  {
+    "hostname": "anshim-web.vercel.app",
+    "title": "안심귀갓길 프로토타입",
+    "url": "https://anshim-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anshim-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 34,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:03:58.825Z"
+  },
+  {
+    "hostname": "tile-flow-client.vercel.app",
+    "title": "TileFlow — Tile Layout Optimizer",
+    "url": "https://tile-flow-client.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tile-flow-client.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:03:59.065Z"
+  },
+  {
+    "hostname": "study-buddy-jdaws.vercel.app",
+    "title": "Study Buddy",
+    "url": "https://study-buddy-jdaws.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://study-buddy-jdaws.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1807,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:04:00.922Z"
+  },
+  {
+    "hostname": "kokoudev.netlify.app",
+    "title": "kokoudev — SOEDJE Kokou Ariel Caesar, dev full-stack à Lomé",
+    "url": "https://kokoudev.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kokoudev.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:04:01.256Z"
+  },
+  {
+    "hostname": "orthothessaly.github.io",
+    "title": "OrthoThessaly – Μέτρηση γωνίας γόνατος / ισχίου (πρωτότυπο)",
+    "url": "https://orthothessaly.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://orthothessaly.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 172,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-10T00:04:01.563Z"
+  },
+  {
+    "hostname": "tranche-serv.fly.dev",
+    "title": "Tranche — Pay when it&#x27;s proven",
+    "url": "https://tranche-serv.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tranche-serv.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 119,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-10T00:04:02.161Z"
+  },
+  {
     "hostname": "sib-stock.vercel.app",
     "title": "SIB Stock — Gestion intelligente",
     "url": "https://sib-stock.vercel.app",
