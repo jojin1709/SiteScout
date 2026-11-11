@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "supermercado-japao.vercel.app",
+    "title": "Supermercado Japão",
+    "url": "https://supermercado-japao.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://supermercado-japao.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 3716,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:48.536Z"
+  },
+  {
+    "hostname": "smart-path-ai-roan.vercel.app",
+    "title": "SmartPathAI",
+    "url": "https://smart-path-ai-roan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://smart-path-ai-roan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 275,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:48.912Z"
+  },
+  {
+    "hostname": "acrobuilder.vercel.app",
+    "title": "Ducks 2026-2027 Season",
+    "url": "https://acrobuilder.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://acrobuilder.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:49.035Z"
+  },
+  {
+    "hostname": "offermesh.vercel.app",
+    "title": "Revolv — proof-backed offers for agent-mediated commerce",
+    "url": "https://offermesh.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://offermesh.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 179,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:49.215Z"
+  },
+  {
+    "hostname": "pavan-portfolio-gamma-six.vercel.app",
+    "title": "Rajana Durga Pavan Kumar — Computer Science Student · AI &amp; ML",
+    "url": "https://pavan-portfolio-gamma-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pavan-portfolio-gamma-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 261,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:49.480Z"
+  },
+  {
+    "hostname": "callmoves.vercel.app",
+    "title": "CallMoves",
+    "url": "https://callmoves.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://callmoves.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:49.732Z"
+  },
+  {
+    "hostname": "cognitivestragegychatbot.vercel.app",
+    "title": "AI와 공부하고 되돌아보기",
+    "url": "https://cognitivestragegychatbot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cognitivestragegychatbot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:49.956Z"
+  },
+  {
+    "hostname": "ruang-gudang.vercel.app",
+    "title": "Ringkasan · Ruang Gudang",
+    "url": "https://ruang-gudang.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ruang-gudang.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 719,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T02:38:50.677Z"
+  },
+  {
+    "hostname": "nikki3.pages.dev",
+    "title": "暖立方（Nikki³）｜无限暖暖工具集",
+    "url": "https://nikki3.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nikki3.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-11T02:38:50.894Z"
+  },
+  {
+    "hostname": "coreops.fly.dev",
+    "title": "CoreOps — AI Operations Center",
+    "url": "https://coreops.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://coreops.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-11T02:38:51.366Z"
+  },
+  {
     "hostname": "nunya-togo.vercel.app",
     "title": "Nunya — Apprends aujourd’hui, crée demain",
     "url": "https://nunya-togo.vercel.app",
