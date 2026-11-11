@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "crm-breece-shark.vercel.app",
+    "title": "Breece Shark CRM",
+    "url": "https://crm-breece-shark.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://crm-breece-shark.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:18.965Z"
+  },
+  {
+    "hostname": "rent-tracker-demo.vercel.app",
+    "title": "Rent Tracker · web demo",
+    "url": "https://rent-tracker-demo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rent-tracker-demo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:19.260Z"
+  },
+  {
+    "hostname": "beratefesahin-frontend.vercel.app",
+    "title": "Kampüs Etkinlikleri",
+    "url": "https://beratefesahin-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beratefesahin-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 421,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:19.681Z"
+  },
+  {
+    "hostname": "dit-lake.vercel.app",
+    "title": "Dit",
+    "url": "https://dit-lake.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dit-lake.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 233,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:20.012Z"
+  },
+  {
+    "hostname": "office-link-eta.vercel.app",
+    "title": "OfficeLink",
+    "url": "https://office-link-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://office-link-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:20.117Z"
+  },
+  {
+    "hostname": "junyoung-portfolio.vercel.app",
+    "title": "허준영 | 백엔드 중심 풀스택 개발자",
+    "url": "https://junyoung-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://junyoung-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:20.323Z"
+  },
+  {
+    "hostname": "arielprojectdemo.netlify.app",
+    "title": "דיווח הגנים",
+    "url": "https://arielprojectdemo.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arielprojectdemo.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 776,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:21.154Z"
+  },
+  {
+    "hostname": "dfdelivery.netlify.app",
+    "title": "DF Delivery — sistema de delivery grátis e sem comissão",
+    "url": "https://dfdelivery.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dfdelivery.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 392,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T10:36:21.584Z"
+  },
+  {
     "hostname": "supermercado-japao.vercel.app",
     "title": "Supermercado Japão",
     "url": "https://supermercado-japao.vercel.app",
