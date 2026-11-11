@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "agentic-job-application-copilot.vercel.app",
+    "title": "Agentic Job Application Copilot",
+    "url": "https://agentic-job-application-copilot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentic-job-application-copilot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 213,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:42.749Z"
+  },
+  {
+    "hostname": "edi-parse.vercel.app",
+    "title": "edi-parse",
+    "url": "https://edi-parse.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://edi-parse.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 476,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:43.407Z"
+  },
+  {
+    "hostname": "marziya-mohammed.vercel.app",
+    "title": "Marziya &amp; Mohammed Umar · Wedding Invitation",
+    "url": "https://marziya-mohammed.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://marziya-mohammed.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 297,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:43.705Z"
+  },
+  {
+    "hostname": "gaijin-sushi-ivanovka-pex1.vercel.app",
+    "title": "GAIJIN SUSHI",
+    "url": "https://gaijin-sushi-ivanovka-pex1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gaijin-sushi-ivanovka-pex1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 311,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:44.016Z"
+  },
+  {
+    "hostname": "web-mcp-test-psi.vercel.app",
+    "title": "Northline Supply",
+    "url": "https://web-mcp-test-psi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-mcp-test-psi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 586,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:44.912Z"
+  },
+  {
+    "hostname": "sponzy-app.vercel.app",
+    "title": "Sponzy · Sell brand collabs from one post",
+    "url": "https://sponzy-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sponzy-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 433,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:45.347Z"
+  },
+  {
+    "hostname": "christian-ai-film-studio.vercel.app",
+    "title": "استوديو الينبوع السينمائي",
+    "url": "https://christian-ai-film-studio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://christian-ai-film-studio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 412,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:45.760Z"
+  },
+  {
+    "hostname": "loaded-dice-web.vercel.app",
+    "title": "Loaded Dice",
+    "url": "https://loaded-dice-web.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://loaded-dice-web.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 399,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:46.160Z"
+  },
+  {
+    "hostname": "streetquest-free.vercel.app",
+    "title": "StreetQuest — Your city is the game map.",
+    "url": "https://streetquest-free.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://streetquest-free.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 865,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:47.322Z"
+  },
+  {
+    "hostname": "rubycoccon.pages.dev",
+    "title": "Ruby Cocoon",
+    "url": "https://rubycoccon.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rubycoccon.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-11T18:30:47.569Z"
+  },
+  {
+    "hostname": "souren.pages.dev",
+    "title": "سورن — دیکشنری عربی به فارسی و کیبورد فارسی اندروید",
+    "url": "https://souren.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://souren.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-11T18:30:47.678Z"
+  },
+  {
+    "hostname": "ledgerguard-web.onrender.com",
+    "title": "LedgerGuard AI: PayPal financial-ops copilot",
+    "url": "https://ledgerguard-web.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ledgerguard-web.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 113,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-11T18:30:48.073Z"
+  },
+  {
+    "hostname": "speedcubemuse.fly.dev",
+    "title": "SpeedCubeMuse",
+    "url": "https://speedcubemuse.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://speedcubemuse.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 822,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-11T18:30:48.906Z"
+  },
+  {
     "hostname": "crm-breece-shark.vercel.app",
     "title": "Breece Shark CRM",
     "url": "https://crm-breece-shark.vercel.app",
