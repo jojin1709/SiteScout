@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "sisroe.vercel.app",
+    "title": "SisRoe — Registro de Ocorrências Escolares",
+    "url": "https://sisroe.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sisroe.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T01:25:15.327Z"
+  },
+  {
+    "hostname": "cortex-brain-nu.vercel.app",
+    "title": "Home · Cortex",
+    "url": "https://cortex-brain-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cortex-brain-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 332,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T01:25:15.814Z"
+  },
+  {
+    "hostname": "timer-ten-blond-37.vercel.app",
+    "title": "Focus",
+    "url": "https://timer-ten-blond-37.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://timer-ten-blond-37.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T01:25:16.016Z"
+  },
+  {
+    "hostname": "16alves02.pages.dev",
+    "title": "Leonardo Alves | Software Developer em Portugal",
+    "url": "https://16alves02.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://16alves02.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T01:25:16.444Z"
+  },
+  {
+    "hostname": "todaycommunity.pages.dev",
+    "title": "특갤 인기글 모음 | 오늘의 커뮤니티",
+    "url": "https://todaycommunity.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://todaycommunity.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1015,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T01:25:17.731Z"
+  },
+  {
+    "hostname": "freezer-scan.netlify.app",
+    "title": "Freezer Scan",
+    "url": "https://freezer-scan.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://freezer-scan.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 355,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T01:25:18.120Z"
+  },
+  {
+    "hostname": "trickeye.github.io",
+    "title": "Hexo",
+    "url": "https://trickeye.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://trickeye.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T01:25:18.260Z"
+  },
+  {
+    "hostname": "atkd1890.github.io",
+    "title": "ATKD Coding",
+    "url": "https://atkd1890.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://atkd1890.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 137,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T01:25:18.397Z"
+  },
+  {
     "hostname": "agentic-job-application-copilot.vercel.app",
     "title": "Agentic Job Application Copilot",
     "url": "https://agentic-job-application-copilot.vercel.app",
