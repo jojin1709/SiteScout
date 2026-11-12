@@ -1,5 +1,328 @@
 export const SEED_SITES = [
   {
+    "hostname": "bodymap-qu9s.vercel.app",
+    "title": "BodyMap — your body, explained",
+    "url": "https://bodymap-qu9s.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bodymap-qu9s.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 278,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:38.357Z"
+  },
+  {
+    "hostname": "alem-dos-sintomas.vercel.app",
+    "title": "Além dos Sintomas · 2ª edição | 18/11/2026 às 19h · Instituto Shalon",
+    "url": "https://alem-dos-sintomas.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://alem-dos-sintomas.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:38.606Z"
+  },
+  {
+    "hostname": "rag-sass-seven.vercel.app",
+    "title": "Corpus.ai : de vos documents à un assistant qui répond",
+    "url": "https://rag-sass-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rag-sass-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1193,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:39.801Z"
+  },
+  {
+    "hostname": "purplehaze-mobile.vercel.app",
+    "title": "Purple Haze Restro & Garden",
+    "url": "https://purplehaze-mobile.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://purplehaze-mobile.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 343,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:40.145Z"
+  },
+  {
+    "hostname": "nganteen.vercel.app",
+    "title": "Nganteen - Campus Food Self-Pickup App",
+    "url": "https://nganteen.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nganteen.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 285,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:40.587Z"
+  },
+  {
+    "hostname": "ai-code-review-assistant-cyan.vercel.app",
+    "title": "AI Code Review Assistant",
+    "url": "https://ai-code-review-assistant-cyan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-code-review-assistant-cyan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 255,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:40.842Z"
+  },
+  {
+    "hostname": "vault-of-tomes.vercel.app",
+    "title": "Vault-of-tomes",
+    "url": "https://vault-of-tomes.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vault-of-tomes.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:41.030Z"
+  },
+  {
+    "hostname": "msannan.vercel.app",
+    "title": "Sannan (Mohammed Sannan V S) — Product Manager &amp; Builder in Bangalore",
+    "url": "https://msannan.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://msannan.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:41.190Z"
+  },
+  {
+    "hostname": "page-trace.pages.dev",
+    "title": "PageTrace - 云端速记看板",
+    "url": "https://page-trace.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://page-trace.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 127,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T18:02:41.322Z"
+  },
+  {
+    "hostname": "promptpolice.netlify.app",
+    "title": "Prompt Police | AI Safety Protocol",
+    "url": "https://promptpolice.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://promptpolice.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:41.482Z"
+  },
+  {
+    "hostname": "kanki-app.github.io",
+    "title": "Kanki — Sesli sohbet ve ekran paylaşımı",
+    "url": "https://kanki-app.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kanki-app.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 258,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:41.842Z"
+  },
+  {
+    "hostname": "daulet123z.github.io",
+    "title": "Landing pages for small businesses — Portfolio",
+    "url": "https://daulet123z.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://daulet123z.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T18:02:41.956Z"
+  },
+  {
+    "hostname": "scamsense-3f74.onrender.com",
+    "title": "ScamSense: practise spotting scams before you pay",
+    "url": "https://scamsense-3f74.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scamsense-3f74.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 348,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T18:02:42.348Z"
+  },
+  {
+    "hostname": "intentbook.up.railway.app",
+    "title": "IntentBook",
+    "url": "https://intentbook.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://intentbook.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T18:02:42.530Z"
+  },
+  {
+    "hostname": "bluffalo.up.railway.app",
+    "title": "Bluffalo — play the house.",
+    "url": "https://bluffalo.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bluffalo.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 192,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T18:02:42.723Z"
+  },
+  {
+    "hostname": "forodev.infinityfreeapp.com",
+    "title": "forodev.infinityfreeapp.com",
+    "url": "https://forodev.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://forodev.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 610,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T18:02:43.778Z"
+  },
+  {
+    "hostname": "busbookingmalshafie.infinityfreeapp.com",
+    "title": "busbookingmalshafie.infinityfreeapp.com",
+    "url": "https://busbookingmalshafie.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://busbookingmalshafie.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 631,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T18:02:44.409Z"
+  },
+  {
     "hostname": "questlog-two-chi.vercel.app",
     "title": "questlog",
     "url": "https://questlog-two-chi.vercel.app",
