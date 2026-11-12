@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "questlog-two-chi.vercel.app",
+    "title": "questlog",
+    "url": "https://questlog-two-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://questlog-two-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T09:35:40.178Z"
+  },
+  {
+    "hostname": "offline-collage.vercel.app",
+    "title": "Collage Studio - Offline Photo Collage Editor",
+    "url": "https://offline-collage.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://offline-collage.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 259,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T09:35:40.438Z"
+  },
+  {
+    "hostname": "pointless-travel-planner.vercel.app",
+    "title": "Pointless Travel Planner",
+    "url": "https://pointless-travel-planner.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pointless-travel-planner.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 312,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T09:35:40.751Z"
+  },
+  {
+    "hostname": "btp-poker-league.vercel.app",
+    "title": "BTP Poker League",
+    "url": "https://btp-poker-league.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://btp-poker-league.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 260,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T09:35:41.435Z"
+  },
+  {
+    "hostname": "knots-made-easy.pages.dev",
+    "title": "Knots Made Easy",
+    "url": "https://knots-made-easy.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://knots-made-easy.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-12T09:35:41.575Z"
+  },
+  {
+    "hostname": "genocide12.github.io",
+    "title": "Genocide12 — проекты",
+    "url": "https://genocide12.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://genocide12.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-12T09:35:42.074Z"
+  },
+  {
     "hostname": "sisroe.vercel.app",
     "title": "SisRoe — Registro de Ocorrências Escolares",
     "url": "https://sisroe.vercel.app",
