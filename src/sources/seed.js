@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "agentsiam-website.vercel.app",
+    "title": "AgentSiam | Stays in Chiang Mai, by the night or the month",
+    "url": "https://agentsiam-website.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentsiam-website.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 346,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:43:58.253Z"
+  },
+  {
+    "hostname": "health-coach-liart.vercel.app",
+    "title": "Forma | Health Dashboard",
+    "url": "https://health-coach-liart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://health-coach-liart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:43:58.538Z"
+  },
+  {
+    "hostname": "bistrodeborre.vercel.app",
+    "title": "Tafelvrij — meer tijd voor wat telt",
+    "url": "https://bistrodeborre.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bistrodeborre.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 462,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:43:59.001Z"
+  },
+  {
+    "hostname": "aurachain-quantum.vercel.app",
+    "title": "AuraChain Quantum v1.2 — Post-Quantum L1, Free Browser Miner, Town Square, DEX &amp; DAO",
+    "url": "https://aurachain-quantum.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aurachain-quantum.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 284,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:43:59.720Z"
+  },
+  {
+    "hostname": "leaderboard-leet.vercel.app",
+    "title": "Leeterboard — Weekly LeetCode sprint",
+    "url": "https://leaderboard-leet.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://leaderboard-leet.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:44:00.019Z"
+  },
+  {
+    "hostname": "creative-brioche-5681d2.netlify.app",
+    "title": "党员工作站排班系统",
+    "url": "https://creative-brioche-5681d2.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://creative-brioche-5681d2.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 248,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:44:00.269Z"
+  },
+  {
+    "hostname": "sleepernba.netlify.app",
+    "title": "Gem Hood",
+    "url": "https://sleepernba.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sleepernba.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 189,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:44:00.458Z"
+  },
+  {
+    "hostname": "imoon07.github.io",
+    "title": "iMoon07",
+    "url": "https://imoon07.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://imoon07.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:44:00.626Z"
+  },
+  {
+    "hostname": "near-darwin.onrender.com",
+    "title": "DARWIN, a live agent economy",
+    "url": "https://near-darwin.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://near-darwin.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 100,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T07:44:00.854Z"
+  },
+  {
+    "hostname": "near-siege.onrender.com",
+    "title": "SIEGE: can your AI agent’s wallet be drained?",
+    "url": "https://near-siege.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://near-siege.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 108,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T07:44:00.964Z"
+  },
+  {
+    "hostname": "fieldvision-personal.onrender.com",
+    "title": "FieldVision · Baseball Scouting Intelligence",
+    "url": "https://fieldvision-personal.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fieldvision-personal.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T07:44:01.085Z"
+  },
+  {
+    "hostname": "pulp-panic.fly.dev",
+    "title": "Pulp Panic",
+    "url": "https://pulp-panic.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pulp-panic.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:44:01.250Z"
+  },
+  {
+    "hostname": "agentes-near-production.up.railway.app",
+    "title": "agentes.chat · Your team and your agents, in the same conversation",
+    "url": "https://agentes-near-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentes-near-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T07:44:01.438Z"
+  },
+  {
     "hostname": "usantoss-fps.vercel.app",
     "title": "UsantoosFps — Seu setup no máximo. Sem trocar uma peça.",
     "url": "https://usantoss-fps.vercel.app",
