@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "ohmyllm.vercel.app",
+    "title": "OhMyLLM - the local agent that runs the work",
+    "url": "https://ohmyllm.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ohmyllm.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 304,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T22:26:25.070Z"
+  },
+  {
+    "hostname": "playpowermud.vercel.app",
+    "title": "Play Powermud",
+    "url": "https://playpowermud.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://playpowermud.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 171,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T22:26:25.650Z"
+  },
+  {
+    "hostname": "sentinel-vaults.vercel.app",
+    "title": "TrustVault — intent security for AI agents on NEAR",
+    "url": "https://sentinel-vaults.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sentinel-vaults.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T22:26:26.000Z"
+  },
+  {
+    "hostname": "nil-mariages.vercel.app",
+    "title": "Nil Mariages — Agente de viajes a medida",
+    "url": "https://nil-mariages.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nil-mariages.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T22:26:26.209Z"
+  },
+  {
+    "hostname": "dreamjournal-app.vercel.app",
+    "title": "YumeTree | モルペウスと育てるAI夢ノート",
+    "url": "https://dreamjournal-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dreamjournal-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 271,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T22:26:26.481Z"
+  },
+  {
+    "hostname": "fribbels.github.io",
+    "title": "fribbels.github.io",
+    "url": "https://fribbels.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fribbels.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T22:26:26.893Z"
+  },
+  {
+    "hostname": "dibujayadivina-production.up.railway.app",
+    "title": "Dibuja y Adivina",
+    "url": "https://dibujayadivina-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dibujayadivina-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 132,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T22:26:27.297Z"
+  },
+  {
+    "hostname": "watereos-visualizer.up.railway.app",
+    "title": "waterEoS — Visualizer",
+    "url": "https://watereos-visualizer.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://watereos-visualizer.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T22:26:27.454Z"
+  },
+  {
+    "hostname": "autosouq.infinityfreeapp.com",
+    "title": "autosouq.infinityfreeapp.com",
+    "url": "https://autosouq.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://autosouq.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 458,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T22:26:27.913Z"
+  },
+  {
     "hostname": "bt-delasdez.vercel.app",
     "title": "BT Delas · Super 8",
     "url": "https://bt-delasdez.vercel.app",
