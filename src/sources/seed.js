@@ -1,5 +1,309 @@
 export const SEED_SITES = [
   {
+    "hostname": "usantoss-fps.vercel.app",
+    "title": "UsantoosFps — Seu setup no máximo. Sem trocar uma peça.",
+    "url": "https://usantoss-fps.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://usantoss-fps.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 666,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:04.893Z"
+  },
+  {
+    "hostname": "appfinanceiro-rust-six.vercel.app",
+    "title": "Bolso — Meu financeiro",
+    "url": "https://appfinanceiro-rust-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://appfinanceiro-rust-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 345,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:05.745Z"
+  },
+  {
+    "hostname": "noxirplay.vercel.app",
+    "title": "NOXIR Play - PS5 Gerçek Zamanlı Yapay Zeka Çeviri & TV Altyazı Sistemi",
+    "url": "https://noxirplay.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://noxirplay.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 300,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:06.047Z"
+  },
+  {
+    "hostname": "funil-de-leads-five.vercel.app",
+    "title": "Painel de leads",
+    "url": "https://funil-de-leads-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://funil-de-leads-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 408,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:06.549Z"
+  },
+  {
+    "hostname": "nba-prediction-lemon.vercel.app",
+    "title": "NBA Game Predictions",
+    "url": "https://nba-prediction-lemon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nba-prediction-lemon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 601,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:07.159Z"
+  },
+  {
+    "hostname": "hamza-mega-store-sandy.vercel.app",
+    "title": "Hamza Mega Store — Online Shopping in Pakistan",
+    "url": "https://hamza-mega-store-sandy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hamza-mega-store-sandy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 539,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:07.724Z"
+  },
+  {
+    "hostname": "heartlink-admin-six.vercel.app",
+    "title": "HeartLink",
+    "url": "https://heartlink-admin-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://heartlink-admin-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 304,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:08.029Z"
+  },
+  {
+    "hostname": "client-beige-mu-26.vercel.app",
+    "title": "InterviewPal",
+    "url": "https://client-beige-mu-26.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://client-beige-mu-26.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 291,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:08.416Z"
+  },
+  {
+    "hostname": "elsewhere-point.pages.dev",
+    "title": "ELSEWHERE — random points, real places",
+    "url": "https://elsewhere-point.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://elsewhere-point.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:08.516Z"
+  },
+  {
+    "hostname": "roughmaps.pages.dev",
+    "title": "roughMaps",
+    "url": "https://roughmaps.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://roughmaps.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T00:02:08.641Z"
+  },
+  {
+    "hostname": "arnavdiddi.netlify.app",
+    "title": "Arnav Diddi · Aspiring Product Manager",
+    "url": "https://arnavdiddi.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arnavdiddi.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 201,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:08.843Z"
+  },
+  {
+    "hostname": "jobfindai-agent.netlify.app",
+    "title": "jobfindAi Agent — Public",
+    "url": "https://jobfindai-agent.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jobfindai-agent.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 211,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:09.081Z"
+  },
+  {
+    "hostname": "brunokobi.netlify.app",
+    "title": "Bruno Kobi Valadares de Amorim",
+    "url": "https://brunokobi.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brunokobi.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 168,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:09.250Z"
+  },
+  {
+    "hostname": "ddelapaz1.github.io",
+    "title": "ddelapazhub · Les meves aplicacions",
+    "url": "https://ddelapaz1.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ddelapaz1.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:09.406Z"
+  },
+  {
+    "hostname": "stated-production.up.railway.app",
+    "title": "Bets on what is said on X · Stated",
+    "url": "https://stated-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stated-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T00:02:10.114Z"
+  },
+  {
+    "hostname": "artistquiz.rf.gd",
+    "title": "artistquiz.rf.gd",
+    "url": "https://artistquiz.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://artistquiz.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 978,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T00:02:11.093Z"
+  },
+  {
     "hostname": "bodymap-qu9s.vercel.app",
     "title": "BodyMap — your body, explained",
     "url": "https://bodymap-qu9s.vercel.app",
