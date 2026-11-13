@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "bt-delasdez.vercel.app",
+    "title": "BT Delas · Super 8",
+    "url": "https://bt-delasdez.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bt-delasdez.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 401,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T16:02:02.989Z"
+  },
+  {
+    "hostname": "scrum-master-trainer.vercel.app",
+    "title": "Scrum Master Trainer: free Scrum Guide 2020 practice questions",
+    "url": "https://scrum-master-trainer.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scrum-master-trainer.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 312,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T16:02:03.381Z"
+  },
+  {
+    "hostname": "chiplab-ten.vercel.app",
+    "title": "ChipLab — ITCH-50 silicon lab",
+    "url": "https://chiplab-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://chiplab-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 306,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T16:02:03.688Z"
+  },
+  {
+    "hostname": "catch-kohl.vercel.app",
+    "title": "CATCH.",
+    "url": "https://catch-kohl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://catch-kohl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 326,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T16:02:04.471Z"
+  },
+  {
+    "hostname": "fxsnap.vercel.app",
+    "title": "FXSnap",
+    "url": "https://fxsnap.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fxsnap.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 341,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T16:02:04.814Z"
+  },
+  {
+    "hostname": "frontendbem.vercel.app",
+    "title": "Darrell Satriano - Fullstack Developer Gadungan",
+    "url": "https://frontendbem.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://frontendbem.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 323,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-13T16:02:05.138Z"
+  },
+  {
+    "hostname": "nuviohub.pages.dev",
+    "title": "NuvioHub",
+    "url": "https://nuviohub.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nuviohub.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T16:02:05.325Z"
+  },
+  {
+    "hostname": "notes-app-w9rr.onrender.com",
+    "title": "Notes",
+    "url": "https://notes-app-w9rr.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://notes-app-w9rr.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T16:02:05.831Z"
+  },
+  {
+    "hostname": "msg.infinityfreeapp.com",
+    "title": "msg.infinityfreeapp.com",
+    "url": "https://msg.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://msg.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 714,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-13T16:02:06.546Z"
+  },
+  {
     "hostname": "agentsiam-website.vercel.app",
     "title": "AgentSiam | Stays in Chiang Mai, by the night or the month",
     "url": "https://agentsiam-website.vercel.app",
