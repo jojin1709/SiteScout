@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "mysociety-story.vercel.app",
+    "title": "mySociety",
+    "url": "https://mysociety-story.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mysociety-story.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 308,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:07.276Z"
+  },
+  {
+    "hostname": "lab-story-ai-ten.vercel.app",
+    "title": "frontend",
+    "url": "https://lab-story-ai-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lab-story-ai-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 155,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:07.433Z"
+  },
+  {
+    "hostname": "apagon-pr.vercel.app",
+    "title": "Apagón PR — Partes eléctricos de Pinar del Río",
+    "url": "https://apagon-pr.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apagon-pr.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:07.718Z"
+  },
+  {
+    "hostname": "recipe-box-seven-red.vercel.app",
+    "title": "Recipe Box",
+    "url": "https://recipe-box-seven-red.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://recipe-box-seven-red.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:08.032Z"
+  },
+  {
+    "hostname": "near-limit.vercel.app",
+    "title": "NearLimit: a spending firewall for AI agents on NEAR",
+    "url": "https://near-limit.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://near-limit.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 152,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:08.184Z"
+  },
+  {
+    "hostname": "sitka-nettside.vercel.app",
+    "title": "Sitka – Bærekraftig strø av biokull",
+    "url": "https://sitka-nettside.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sitka-nettside.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 134,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:08.321Z"
+  },
+  {
+    "hostname": "flame-scope.vercel.app",
+    "title": "FlameScope · Team Polaris",
+    "url": "https://flame-scope.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flame-scope.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:08.463Z"
+  },
+  {
+    "hostname": "fk2601.vercel.app",
+    "title": "かこってはてな!?",
+    "url": "https://fk2601.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fk2601.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 336,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:08.800Z"
+  },
+  {
+    "hostname": "track-talk.netlify.app",
+    "title": "TrackTalk（トラックトーク）｜陸上競技の匿名コミュニティ",
+    "url": "https://track-talk.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://track-talk.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 224,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T16:55:09.048Z"
+  },
+  {
+    "hostname": "web-production-58753ec9.up.railway.app",
+    "title": "Martian Map",
+    "url": "https://web-production-58753ec9.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-production-58753ec9.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T16:55:09.374Z"
+  },
+  {
     "hostname": "sontienbao-v7.vercel.app",
     "title": "Sơn Tiến Bảo – Sơn chính hãng cho không gian đẹp bền lâu",
     "url": "https://sontienbao-v7.vercel.app",
