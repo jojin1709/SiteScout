@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "sontienbao-v7.vercel.app",
+    "title": "Sơn Tiến Bảo – Sơn chính hãng cho không gian đẹp bền lâu",
+    "url": "https://sontienbao-v7.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sontienbao-v7.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 237,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:22.580Z"
+  },
+  {
+    "hostname": "java-url-ivory.vercel.app",
+    "title": "JavaURL · URL Shortener",
+    "url": "https://java-url-ivory.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://java-url-ivory.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 209,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:22.790Z"
+  },
+  {
+    "hostname": "finora-4-zentro-by-hmc-frontend.vercel.app",
+    "title": "Finora — Business Dashboard",
+    "url": "https://finora-4-zentro-by-hmc-frontend.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finora-4-zentro-by-hmc-frontend.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:23.225Z"
+  },
+  {
+    "hostname": "apple-book-sync.vercel.app",
+    "title": "Your library",
+    "url": "https://apple-book-sync.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://apple-book-sync.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 218,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:23.443Z"
+  },
+  {
+    "hostname": "melodrip.vercel.app",
+    "title": "Melodrip · Find, feel and make music",
+    "url": "https://melodrip.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://melodrip.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:23.756Z"
+  },
+  {
+    "hostname": "sdg-hackathon-alpha.vercel.app",
+    "title": "SDG Hackathon Evaluation",
+    "url": "https://sdg-hackathon-alpha.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sdg-hackathon-alpha.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:23.987Z"
+  },
+  {
+    "hostname": "higalaaiversion1.vercel.app",
+    "title": "Higala-AI — a friend who tells you the truth",
+    "url": "https://higalaaiversion1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://higalaaiversion1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 253,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:24.241Z"
+  },
+  {
+    "hostname": "abaq-nu.vercel.app",
+    "title": "فوح | عطور ودهن عود وبخور",
+    "url": "https://abaq-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://abaq-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 226,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:24.772Z"
+  },
+  {
+    "hostname": "bardfall.pages.dev",
+    "title": "Bardfall — Shakespeare's verses, forever falling.",
+    "url": "https://bardfall.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bardfall.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 103,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T10:07:24.877Z"
+  },
+  {
+    "hostname": "kovrune.pages.dev",
+    "title": "Kovrune",
+    "url": "https://kovrune.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kovrune.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 185,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:25.063Z"
+  },
+  {
+    "hostname": "slop-deps.pages.dev",
+    "title": "slop-deps: Catch AI-Hallucinated Packages",
+    "url": "https://slop-deps.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://slop-deps.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 444,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T10:07:25.507Z"
+  },
+  {
+    "hostname": "machinechain.netlify.app",
+    "title": "Machine — A Solana Fork, Live and Finalizing | machine.ai",
+    "url": "https://machinechain.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://machinechain.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:25.673Z"
+  },
+  {
+    "hostname": "qtrip-frontend-01si.onrender.com",
+    "title": "QTrip",
+    "url": "https://qtrip-frontend-01si.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://qtrip-frontend-01si.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 143,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T10:07:25.817Z"
+  },
+  {
     "hostname": "shopmate-beige.vercel.app",
     "title": "ShopMate",
     "url": "https://shopmate-beige.vercel.app",
