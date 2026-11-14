@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "brixx-hub.vercel.app",
+    "title": "Brixx Hub",
+    "url": "https://brixx-hub.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brixx-hub.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 194,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:12.024Z"
+  },
+  {
+    "hostname": "sealedfiles.vercel.app",
+    "title": "Sealed — Files that open on time",
+    "url": "https://sealedfiles.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sealedfiles.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 261,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:12.292Z"
+  },
+  {
+    "hostname": "juniorastronautmissiontrainer-three.vercel.app",
+    "title": "Supply Run to Bravo – Henhen Mars Mission Trainer",
+    "url": "https://juniorastronautmissiontrainer-three.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://juniorastronautmissiontrainer-three.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:12.494Z"
+  },
+  {
+    "hostname": "libris-pink.vercel.app",
+    "title": "Libris | Book Discovery &amp; Personal Learning",
+    "url": "https://libris-pink.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://libris-pink.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 511,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:13.086Z"
+  },
+  {
+    "hostname": "e-campus-approval.vercel.app",
+    "title": "E-Campus Approval",
+    "url": "https://e-campus-approval.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://e-campus-approval.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 205,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:13.388Z"
+  },
+  {
+    "hostname": "genzic-executor.vercel.app",
+    "title": "GENZIC.AI — Victoria Executor v2",
+    "url": "https://genzic-executor.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://genzic-executor.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 159,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:13.549Z"
+  },
+  {
+    "hostname": "liedwuensche.vercel.app",
+    "title": "silvia wird 60 · songwünsche",
+    "url": "https://liedwuensche.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://liedwuensche.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 163,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:13.714Z"
+  },
+  {
+    "hostname": "loanlens-mauve.vercel.app",
+    "title": "Arth: know what it means before you sign",
+    "url": "https://loanlens-mauve.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://loanlens-mauve.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 288,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:14.003Z"
+  },
+  {
+    "hostname": "nasa-spaceapps-2026.pages.dev",
+    "title": "Orbit to Ground: an Earth-change intelligence pipeline from orbit to decision (NASA Space Apps 2026) · Parsa Riahi",
+    "url": "https://nasa-spaceapps-2026.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nasa-spaceapps-2026.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 114,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T21:15:14.126Z"
+  },
+  {
+    "hostname": "unlock-labs.pages.dev",
+    "title": "UNLOCK — design for the day it breaks",
+    "url": "https://unlock-labs.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://unlock-labs.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 93,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T21:15:14.220Z"
+  },
+  {
+    "hostname": "tako-xiangqi.netlify.app",
+    "title": "tako-xiangqi · 3D 中国象棋",
+    "url": "https://tako-xiangqi.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tako-xiangqi.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 131,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:14.352Z"
+  },
+  {
+    "hostname": "retailcoo.netlify.app",
+    "title": "RetailCo Data Platform",
+    "url": "https://retailcoo.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://retailcoo.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 400,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:14.775Z"
+  },
+  {
+    "hostname": "miguelcastilloreina.github.io",
+    "title": "Miguel Ángel Castillo-Reina · Gran Sasso Science Institute (GSSI)",
+    "url": "https://miguelcastilloreina.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://miguelcastilloreina.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 102,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T21:15:15.009Z"
+  },
+  {
+    "hostname": "beyondreality-viaggi.rf.gd",
+    "title": "DNS Resolution Error - Domain Not Found, Or Domain not added to hosting account",
+    "url": "https://beyondreality-viaggi.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beyondreality-viaggi.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 571,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T21:15:15.581Z"
+  },
+  {
     "hostname": "mysociety-story.vercel.app",
     "title": "mySociety",
     "url": "https://mysociety-story.vercel.app",
