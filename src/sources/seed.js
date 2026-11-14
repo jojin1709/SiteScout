@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "shopmate-beige.vercel.app",
+    "title": "ShopMate",
+    "url": "https://shopmate-beige.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shopmate-beige.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1023,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:20.396Z"
+  },
+  {
+    "hostname": "portfolio-eduardo-six.vercel.app",
+    "title": "Eduardo Rivabem | Desenvolvedor, estudante e criador de conteúdo sobre IA",
+    "url": "https://portfolio-eduardo-six.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-eduardo-six.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 399,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:20.796Z"
+  },
+  {
+    "hostname": "studyflow-one-pi.vercel.app",
+    "title": "StudyFlow — Planner",
+    "url": "https://studyflow-one-pi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://studyflow-one-pi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:21.110Z"
+  },
+  {
+    "hostname": "cisc-1115.vercel.app",
+    "title": "cisc 1115",
+    "url": "https://cisc-1115.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cisc-1115.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 315,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:21.426Z"
+  },
+  {
+    "hostname": "arcadia-lab.vercel.app",
+    "title": "Arcadia Lab | 가상 과학 실험실",
+    "url": "https://arcadia-lab.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arcadia-lab.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 411,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:21.838Z"
+  },
+  {
+    "hostname": "housesphere.vercel.app",
+    "title": "HouseSphere — Your home, in one place",
+    "url": "https://housesphere.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://housesphere.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 306,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:22.145Z"
+  },
+  {
+    "hostname": "oran-sinyal.vercel.app",
+    "title": "Oran Sinyal",
+    "url": "https://oran-sinyal.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://oran-sinyal.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 299,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:22.445Z"
+  },
+  {
+    "hostname": "t-sothea-portfolio.vercel.app",
+    "title": "THENG SOTHEA | Web Developer Portfolio",
+    "url": "https://t-sothea-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://t-sothea-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 320,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:22.767Z"
+  },
+  {
+    "hostname": "portaladminguru.vercel.app",
+    "title": "SiGuru SD - Administrasi Guru Kelas Digital",
+    "url": "https://portaladminguru.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portaladminguru.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 301,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:23.071Z"
+  },
+  {
+    "hostname": "snip-and-search.netlify.app",
+    "title": "Snip & Search — macOS Shortcut",
+    "url": "https://snip-and-search.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://snip-and-search.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 267,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-14T02:58:23.418Z"
+  },
+  {
+    "hostname": "credit-risk-dxit.onrender.com",
+    "title": "Credit Risk and Loan Viability Prediction Platform",
+    "url": "https://credit-risk-dxit.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://credit-risk-dxit.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-14T02:58:23.735Z"
+  },
+  {
     "hostname": "ohmyllm.vercel.app",
     "title": "OhMyLLM - the local agent that runs the work",
     "url": "https://ohmyllm.vercel.app",
