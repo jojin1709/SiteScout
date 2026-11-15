@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "telegram-q-bot.vercel.app",
+    "title": "Question Bot · Chats",
+    "url": "https://telegram-q-bot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://telegram-q-bot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 219,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:36.041Z"
+  },
+  {
+    "hostname": "gridvue.vercel.app",
+    "title": "Gridvue — design, prototype, ship",
+    "url": "https://gridvue.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gridvue.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 104,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:36.146Z"
+  },
+  {
+    "hostname": "forestwork.vercel.app",
+    "title": "林間小鎮 · ForestWork",
+    "url": "https://forestwork.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Vue",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://forestwork.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 513,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:36.660Z"
+  },
+  {
+    "hostname": "mern-app-client-ashen.vercel.app",
+    "title": "MERN / workspace",
+    "url": "https://mern-app-client-ashen.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mern-app-client-ashen.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 340,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:37.000Z"
+  },
+  {
+    "hostname": "cortex-dashboard-seven.vercel.app",
+    "title": "Cortex",
+    "url": "https://cortex-dashboard-seven.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cortex-dashboard-seven.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 649,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:37.649Z"
+  },
+  {
+    "hostname": "jaguar-tempo.vercel.app",
+    "title": "Tempo",
+    "url": "https://jaguar-tempo.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jaguar-tempo.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 353,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:38.020Z"
+  },
+  {
+    "hostname": "ai-paper-analysis.pages.dev",
+    "title": "AI Paper Analysis",
+    "url": "https://ai-paper-analysis.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ai-paper-analysis.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T09:03:38.152Z"
+  },
+  {
+    "hostname": "todoku.fly.dev",
+    "title": "とどく｜尋ねなかった制度まで",
+    "url": "https://todoku.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://todoku.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1008,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T09:03:49.426Z"
+  },
+  {
     "hostname": "pif-hub.vercel.app",
     "title": "PIF Learning Hub — 어휘에서 구문까지, 영어가 보이기 시작합니다",
     "url": "https://pif-hub.vercel.app",
