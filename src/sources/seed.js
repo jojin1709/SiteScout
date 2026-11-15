@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "pif-hub.vercel.app",
+    "title": "PIF Learning Hub — 어휘에서 구문까지, 영어가 보이기 시작합니다",
+    "url": "https://pif-hub.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pif-hub.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 177,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T01:40:10.838Z"
+  },
+  {
+    "hostname": "plots-and-plates.vercel.app",
+    "title": "PlotsAndPlates",
+    "url": "https://plots-and-plates.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://plots-and-plates.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 364,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T01:40:11.377Z"
+  },
+  {
+    "hostname": "klasy.vercel.app",
+    "title": "4EVA-KLASY — Classy Clothing &amp; Fresh Deodorants",
+    "url": "https://klasy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://klasy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 250,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T01:40:16.629Z"
+  },
+  {
+    "hostname": "pathfinders42-front.vercel.app",
+    "title": "Pathfinders42",
+    "url": "https://pathfinders42-front.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pathfinders42-front.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T01:40:16.831Z"
+  },
+  {
+    "hostname": "perihelion-app.pages.dev",
+    "title": "Perihelion — портфолио",
+    "url": "https://perihelion-app.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://perihelion-app.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 303,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T01:40:17.141Z"
+  },
+  {
+    "hostname": "yatirix-cochabamba.netlify.app",
+    "title": "Yatiri X: conocemos tu tierra, cultivamos un mejor futuro",
+    "url": "https://yatirix-cochabamba.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yatirix-cochabamba.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T01:40:17.334Z"
+  },
+  {
+    "hostname": "vueno-app.netlify.app",
+    "title": "Vueno: contesta, toma el pedido y cobra",
+    "url": "https://vueno-app.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vueno-app.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T01:40:17.674Z"
+  },
+  {
     "hostname": "brixx-hub.vercel.app",
     "title": "Brixx Hub",
     "url": "https://brixx-hub.vercel.app",
