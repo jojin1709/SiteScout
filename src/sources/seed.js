@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "sarvam-website-agent.vercel.app",
+    "title": "Website Agent Console",
+    "url": "https://sarvam-website-agent.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sarvam-website-agent.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 325,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:21.268Z"
+  },
+  {
+    "hostname": "finn-henna.vercel.app",
+    "title": "FINN",
+    "url": "https://finn-henna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://finn-henna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 195,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:21.644Z"
+  },
+  {
+    "hostname": "routino-daily-dashboard.vercel.app",
+    "title": "Routino — Your daily routine, schedule, and focus in one",
+    "url": "https://routino-daily-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://routino-daily-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:21.915Z"
+  },
+  {
+    "hostname": "portfolio-tau-gray-73.vercel.app",
+    "title": "Chitransh Saxena | Full-Stack Developer",
+    "url": "https://portfolio-tau-gray-73.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-tau-gray-73.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 245,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:22.161Z"
+  },
+  {
+    "hostname": "aava-site.vercel.app",
+    "title": "All ABoard VA - Wine Tours &amp; Charcuterie",
+    "url": "https://aava-site.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aava-site.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 361,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:22.718Z"
+  },
+  {
+    "hostname": "aabrihamart.vercel.app",
+    "title": "Aabriha Mart",
+    "url": "https://aabrihamart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aabrihamart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 387,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:23.675Z"
+  },
+  {
+    "hostname": "zombie-satellite.vercel.app",
+    "title": "zombieSatellite",
+    "url": "https://zombie-satellite.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zombie-satellite.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 273,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:23.949Z"
+  },
+  {
+    "hostname": "lunar-landing-site-navigator.pages.dev",
+    "title": "Lunar landing windows",
+    "url": "https://lunar-landing-site-navigator.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lunar-landing-site-navigator.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 218,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T16:54:24.173Z"
+  },
+  {
+    "hostname": "bemesko.github.io",
+    "title": "Bernardo Mesko · Platform Engineer",
+    "url": "https://bemesko.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bemesko.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 141,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:24.778Z"
+  },
+  {
+    "hostname": "saathi-care-a324.onrender.com",
+    "title": "Saathi — care that keeps the elder in charge",
+    "url": "https://saathi-care-a324.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://saathi-care-a324.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 323,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:25.101Z"
+  },
+  {
+    "hostname": "civic-synthesis.fly.dev",
+    "title": "Overview | Civic Synthesis",
+    "url": "https://civic-synthesis.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://civic-synthesis.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:25.299Z"
+  },
+  {
+    "hostname": "hsi-help-solucoes.web.app",
+    "title": "Help Soluções em Informática (HSI) · Software, sites e apps em Guarulhos",
+    "url": "https://hsi-help-solucoes.web.app",
+    "hostType": "web.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hsi-help-solucoes.web.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T16:54:25.528Z"
+  },
+  {
     "hostname": "telegram-q-bot.vercel.app",
     "title": "Question Bot · Chats",
     "url": "https://telegram-q-bot.vercel.app",
