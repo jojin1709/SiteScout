@@ -1,5 +1,290 @@
 export const SEED_SITES = [
   {
+    "hostname": "cereal-tasting.vercel.app",
+    "title": "The Sommelier's Spoon | Vintage Cereal Tasting Experience",
+    "url": "https://cereal-tasting.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cereal-tasting.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 89,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:32.319Z"
+  },
+  {
+    "hostname": "racikin.vercel.app",
+    "title": "Racikin — Racik ide jadi cuan",
+    "url": "https://racikin.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://racikin.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:32.513Z"
+  },
+  {
+    "hostname": "hackathon-drought.vercel.app",
+    "title": "RioIQ: Rio Grande Drought and Canal Portal",
+    "url": "https://hackathon-drought.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hackathon-drought.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 149,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:32.663Z"
+  },
+  {
+    "hostname": "nasa-app-challenge-lilac.vercel.app",
+    "title": "Earth System Trend Detective",
+    "url": "https://nasa-app-challenge-lilac.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nasa-app-challenge-lilac.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 215,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:32.880Z"
+  },
+  {
+    "hostname": "monodem.vercel.app",
+    "title": "mono макет",
+    "url": "https://monodem.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://monodem.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:33.044Z"
+  },
+  {
+    "hostname": "nysc-survival.vercel.app",
+    "title": "Kopa Life: the NYSC Corper Game · Play Free in Your Browser",
+    "url": "https://nysc-survival.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nysc-survival.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 88,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:33.135Z"
+  },
+  {
+    "hostname": "language-x-vocab-drills.vercel.app",
+    "title": "Learn Language X",
+    "url": "https://language-x-vocab-drills.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://language-x-vocab-drills.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 257,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:33.469Z"
+  },
+  {
+    "hostname": "seatlock-nu.vercel.app",
+    "title": "SeatLock",
+    "url": "https://seatlock-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://seatlock-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:33.639Z"
+  },
+  {
+    "hostname": "gpuwhere.pages.dev",
+    "title": "GPU Where — India GPU providers",
+    "url": "https://gpuwhere.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gpuwhere.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 163,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T21:36:33.807Z"
+  },
+  {
+    "hostname": "lightminute.pages.dev",
+    "title": "LIGHTMINUTE — crew tablet",
+    "url": "https://lightminute.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lightminute.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 190,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T21:36:33.999Z"
+  },
+  {
+    "hostname": "beporowa.netlify.app",
+    "title": "বেপরোয়া",
+    "url": "https://beporowa.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://beporowa.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:34.221Z"
+  },
+  {
+    "hostname": "kody-w.github.io",
+    "title": "Kody Wildfeuer",
+    "url": "https://kody-w.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kody-w.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 39,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T21:36:34.357Z"
+  },
+  {
+    "hostname": "echo-phone.onrender.com",
+    "title": "E.C.H.O",
+    "url": "https://echo-phone.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://echo-phone.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 208,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:34.681Z"
+  },
+  {
+    "hostname": "lumira-gallery-production.up.railway.app",
+    "title": "Lumira Gallery",
+    "url": "https://lumira-gallery-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lumira-gallery-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-15T21:36:35.040Z"
+  },
+  {
+    "hostname": "gocomet-biddingsystem-production.up.railway.app",
+    "title": "British Auction RFQ System - GoComet Logistics",
+    "url": "https://gocomet-biddingsystem-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gocomet-biddingsystem-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 23,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-15T21:36:35.063Z"
+  },
+  {
     "hostname": "sarvam-website-agent.vercel.app",
     "title": "Website Agent Console",
     "url": "https://sarvam-website-agent.vercel.app",
