@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "warmer-lake.vercel.app",
+    "title": "Warmer",
+    "url": "https://warmer-lake.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://warmer-lake.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 317,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:37.793Z"
+  },
+  {
+    "hostname": "scheeme-saathi-five.vercel.app",
+    "title": "Scheme Saathi | Government Scheme Guide",
+    "url": "https://scheeme-saathi-five.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scheeme-saathi-five.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 337,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:38.360Z"
+  },
+  {
+    "hostname": "buffnerf-ai.vercel.app",
+    "title": "BuffNerf AI — AI prompts that finish the job",
+    "url": "https://buffnerf-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://buffnerf-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 436,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:38.798Z"
+  },
+  {
+    "hostname": "print-guard-ai.vercel.app",
+    "title": "PrintGuard-AI",
+    "url": "https://print-guard-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://print-guard-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 448,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:39.247Z"
+  },
+  {
+    "hostname": "agent-harness-docs-ten.vercel.app",
+    "title": "Agent Harness",
+    "url": "https://agent-harness-docs-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agent-harness-docs-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 315,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:39.563Z"
+  },
+  {
+    "hostname": "metseri-prueba.vercel.app",
+    "title": "Metseri",
+    "url": "https://metseri-prueba.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://metseri-prueba.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 316,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:39.879Z"
+  },
+  {
+    "hostname": "olumiere.vercel.app",
+    "title": "Lumière • Streaming & Guia de Cinema",
+    "url": "https://olumiere.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://olumiere.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 334,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:40.213Z"
+  },
+  {
+    "hostname": "fzkl-spaceapps-2026.pages.dev",
+    "title": "SPHEREx Explorer · Watch the sky move",
+    "url": "https://fzkl-spaceapps-2026.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fzkl-spaceapps-2026.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 315,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T01:44:40.533Z"
+  },
+  {
+    "hostname": "thedifference-za.pages.dev",
+    "title": "The Difference | thedifference.co.za — Know the difference",
+    "url": "https://thedifference-za.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://thedifference-za.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T01:44:40.651Z"
+  },
+  {
+    "hostname": "los-pasos-remotos.pages.dev",
+    "title": "Los Pasos Remotos - Crónica y Geología - Los Pasos Remotos",
+    "url": "https://los-pasos-remotos.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://los-pasos-remotos.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T01:44:40.764Z"
+  },
+  {
+    "hostname": "guessflags.netlify.app",
+    "title": "Guess Flags",
+    "url": "https://guessflags.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guessflags.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 480,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T01:44:41.244Z"
+  },
+  {
+    "hostname": "gatehouse-peug.onrender.com",
+    "title": "Gatehouse: unfinished work in self-storage, checked against the FMS",
+    "url": "https://gatehouse-peug.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gatehouse-peug.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 280,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T01:44:41.752Z"
+  },
+  {
+    "hostname": "zoriana.fly.dev",
+    "title": "Zoriana — Lunar Landing Site Navigator",
+    "url": "https://zoriana.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zoriana.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 183,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T01:44:41.942Z"
+  },
+  {
     "hostname": "cereal-tasting.vercel.app",
     "title": "The Sommelier's Spoon | Vintage Cereal Tasting Experience",
     "url": "https://cereal-tasting.vercel.app",
