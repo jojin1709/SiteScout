@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "task-board-nine-steel.vercel.app",
+    "title": "Task board — Mario",
+    "url": "https://task-board-nine-steel.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://task-board-nine-steel.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 234,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:17.330Z"
+  },
+  {
+    "hostname": "najdi-notu.vercel.app",
+    "title": "Нотный сад",
+    "url": "https://najdi-notu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://najdi-notu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 361,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:17.692Z"
+  },
+  {
+    "hostname": "claudoscope-labs.vercel.app",
+    "title": "claudoscope — x-ray your Claude API calls",
+    "url": "https://claudoscope-labs.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://claudoscope-labs.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 267,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:17.961Z"
+  },
+  {
+    "hostname": "bruma-cafe-eight.vercel.app",
+    "title": "Bruma Café | Café de especialidad",
+    "url": "https://bruma-cafe-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bruma-cafe-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:18.179Z"
+  },
+  {
+    "hostname": "agentreplay.vercel.app",
+    "title": "agent-replay — watch a Claude agent&#x27;s tool-calling loop",
+    "url": "https://agentreplay.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentreplay.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:18.376Z"
+  },
+  {
+    "hostname": "solvent-skid.vercel.app",
+    "title": "Solvent recovery skid SR-2",
+    "url": "https://solvent-skid.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://solvent-skid.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 388,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:18.842Z"
+  },
+  {
+    "hostname": "plp-swart.vercel.app",
+    "title": "DriftPost",
+    "url": "https://plp-swart.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://plp-swart.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 347,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:19.306Z"
+  },
+  {
+    "hostname": "neuralarcade.vercel.app",
+    "title": "Neural Arcade",
+    "url": "https://neuralarcade.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://neuralarcade.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T20:12:19.547Z"
+  },
+  {
+    "hostname": "flygaze.pages.dev",
+    "title": "FlyGaze · Head tracking with just your webcam",
+    "url": "https://flygaze.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://flygaze.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 467,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T20:12:20.017Z"
+  },
+  {
+    "hostname": "demo.rubycoccon.pages.dev",
+    "title": "Ruby Cocoon Demo",
+    "url": "https://demo.rubycoccon.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://demo.rubycoccon.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 302,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T20:12:20.320Z"
+  },
+  {
     "hostname": "edwardoseidev.vercel.app",
     "title": "Portfolio | devONE",
     "url": "https://edwardoseidev.vercel.app",
