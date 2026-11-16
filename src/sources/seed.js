@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "edwardoseidev.vercel.app",
+    "title": "Portfolio | devONE",
+    "url": "https://edwardoseidev.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://edwardoseidev.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 180,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T09:20:01.742Z"
+  },
+  {
+    "hostname": "cine-match-henna.vercel.app",
+    "title": "CineMatch – Movies Picked for You",
+    "url": "https://cine-match-henna.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cine-match-henna.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T09:20:01.927Z"
+  },
+  {
+    "hostname": "artdelacruz.vercel.app",
+    "title": "Art Dela Cruz | Full-Stack &amp; Mobile Developer",
+    "url": "https://artdelacruz.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://artdelacruz.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 374,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T09:20:02.304Z"
+  },
+  {
+    "hostname": "listzero.vercel.app",
+    "title": "Listzero: a free to-do list for busy minds",
+    "url": "https://listzero.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://listzero.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T09:20:02.493Z"
+  },
+  {
+    "hostname": "shufang-reading-notes.netlify.app",
+    "title": "书房 · 读书复盘",
+    "url": "https://shufang-reading-notes.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shufang-reading-notes.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 107,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T09:20:02.607Z"
+  },
+  {
+    "hostname": "konard.github.io",
+    "title": "Konstantin Diachenko (konard) — biography & CV",
+    "url": "https://konard.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://konard.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 112,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T09:20:02.828Z"
+  },
+  {
+    "hostname": "angelolockdev.github.io",
+    "title": "Angelo Lock To Hang — Développeur Fullstack PHP/Laravel &amp; Ingénieur IA",
+    "url": "https://angelolockdev.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://angelolockdev.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-16T09:20:02.937Z"
+  },
+  {
+    "hostname": "triseva-sample2.infinityfreeapp.com",
+    "title": "triseva-sample2.infinityfreeapp.com",
+    "url": "https://triseva-sample2.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://triseva-sample2.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1038,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-16T09:20:04.041Z"
+  },
+  {
     "hostname": "warmer-lake.vercel.app",
     "title": "Warmer",
     "url": "https://warmer-lake.vercel.app",
