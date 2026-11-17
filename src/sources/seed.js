@@ -1,5 +1,119 @@
 export const SEED_SITES = [
   {
+    "hostname": "sete-analytics-dashboard.vercel.app",
+    "title": "Academic Quality Dashboard · SETE Analytics (Prototype)",
+    "url": "https://sete-analytics-dashboard.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sete-analytics-dashboard.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 124,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T03:36:10.273Z"
+  },
+  {
+    "hostname": "cozy-bites-beta.vercel.app",
+    "title": "frontend",
+    "url": "https://cozy-bites-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cozy-bites-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 150,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T03:36:10.716Z"
+  },
+  {
+    "hostname": "vigyanverseai.vercel.app",
+    "title": "VigyanVerse AI",
+    "url": "https://vigyanverseai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vigyanverseai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 187,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T03:36:10.904Z"
+  },
+  {
+    "hostname": "kissanseva.vercel.app",
+    "title": "Kisan Seva - Integrated Agriculture Portal",
+    "url": "https://kissanseva.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kissanseva.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 132,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T03:36:16.038Z"
+  },
+  {
+    "hostname": "postcardfolio.vercel.app",
+    "title": "Yash Kalani",
+    "url": "https://postcardfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://postcardfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 171,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T03:36:16.209Z"
+  },
+  {
+    "hostname": "gyutae-kim.github.io",
+    "title": "김규태 | AI·CAD/CAM 개발자 포트폴리오",
+    "url": "https://gyutae-kim.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gyutae-kim.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 125,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T03:36:16.336Z"
+  },
+  {
     "hostname": "task-board-nine-steel.vercel.app",
     "title": "Task board — Mario",
     "url": "https://task-board-nine-steel.vercel.app",
