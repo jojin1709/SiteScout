@@ -1,5 +1,157 @@
 export const SEED_SITES = [
   {
+    "hostname": "somyadeep-portfolio.vercel.app",
+    "title": "Somyadeep Tarat — Developer &amp; AI Systems Builder",
+    "url": "https://somyadeep-portfolio.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://somyadeep-portfolio.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 215,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T21:41:33.255Z"
+  },
+  {
+    "hostname": "boutik-services.vercel.app",
+    "title": "Boutik — Stock, caisse et crédit pour ta boutique, même sans internet",
+    "url": "https://boutik-services.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://boutik-services.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T21:41:33.797Z"
+  },
+  {
+    "hostname": "professional-portfolio-mu-gray.vercel.app",
+    "title": "Cássio Sousa - Software Engineer",
+    "url": "https://professional-portfolio-mu-gray.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://professional-portfolio-mu-gray.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T21:41:33.989Z"
+  },
+  {
+    "hostname": "baxis.netlify.app",
+    "title": "Baxis | Non-Custodial Smart Contract Escrow Protocol",
+    "url": "https://baxis.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://baxis.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 146,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T21:41:34.168Z"
+  },
+  {
+    "hostname": "bright-taiyaki-758f38.netlify.app",
+    "title": "Online Clothing Store Pakistan | Hoodies, Cargo Pants &amp; COD | Brand Collection",
+    "url": "https://bright-taiyaki-758f38.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bright-taiyaki-758f38.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T21:41:34.370Z"
+  },
+  {
+    "hostname": "gnoyx2.github.io",
+    "title": "yonghun0310",
+    "url": "https://gnoyx2.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gnoyx2.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T21:41:34.493Z"
+  },
+  {
+    "hostname": "ihabov-universal-scraper.fly.dev",
+    "title": "Ihabov Scraper",
+    "url": "https://ihabov-universal-scraper.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ihabov-universal-scraper.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 270,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-17T21:41:34.765Z"
+  },
+  {
+    "hostname": "ukrainefood.infinityfreeapp.com",
+    "title": "ukrainefood.infinityfreeapp.com",
+    "url": "https://ukrainefood.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ukrainefood.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 787,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-17T21:41:35.552Z"
+  },
+  {
     "hostname": "launchdb.vercel.app",
     "title": "LaunchDB - 200+ SaaS Directories &amp; Product Launchpads",
     "url": "https://launchdb.vercel.app",
