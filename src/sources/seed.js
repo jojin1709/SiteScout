@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "launchdb.vercel.app",
+    "title": "LaunchDB - 200+ SaaS Directories &amp; Product Launchpads",
+    "url": "https://launchdb.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://launchdb.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 178,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:42.799Z"
+  },
+  {
+    "hostname": "regread.vercel.app",
+    "title": "RegRead — read a car registration card",
+    "url": "https://regread.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://regread.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 228,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:43.028Z"
+  },
+  {
+    "hostname": "website-mi-mifda.vercel.app",
+    "title": "MI Miftahul Huda Bulaksari",
+    "url": "https://website-mi-mifda.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://website-mi-mifda.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 294,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:43.324Z"
+  },
+  {
+    "hostname": "m2b-agile.vercel.app",
+    "title": "First weeks in Bolzano",
+    "url": "https://m2b-agile.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://m2b-agile.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 199,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:43.524Z"
+  },
+  {
+    "hostname": "agentic-world-3d.pages.dev",
+    "title": "Mission Control ISA — 3D Virtual Office",
+    "url": "https://agentic-world-3d.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://agentic-world-3d.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 186,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-17T12:58:43.710Z"
+  },
+  {
+    "hostname": "armillary-star-gen.pages.dev",
+    "title": "Armillary Star Generator",
+    "url": "https://armillary-star-gen.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://armillary-star-gen.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 203,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-17T12:58:43.914Z"
+  },
+  {
+    "hostname": "below-a-fading-star.netlify.app",
+    "title": "Below a Fading Star",
+    "url": "https://below-a-fading-star.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://below-a-fading-star.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 193,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:44.137Z"
+  },
+  {
+    "hostname": "faziansportfolio.netlify.app",
+    "title": "Faizan Patel | Software Developer &amp; UI/UX Designer",
+    "url": "https://faziansportfolio.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://faziansportfolio.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 167,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:44.304Z"
+  },
+  {
+    "hostname": "les-gaulois.github.io",
+    "title": "[GAL] Les Gaulois · Clan OpenFront",
+    "url": "https://les-gaulois.github.io",
+    "hostType": "github.io",
+    "framework": "Astro",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://les-gaulois.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 275,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-17T12:58:44.692Z"
+  },
+  {
     "hostname": "sete-analytics-dashboard.vercel.app",
     "title": "Academic Quality Dashboard · SETE Analytics (Prototype)",
     "url": "https://sete-analytics-dashboard.vercel.app",
