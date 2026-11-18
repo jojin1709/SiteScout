@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "cloud-chrome-assist.vercel.app",
+    "title": "cloud-chrome-assist",
+    "url": "https://cloud-chrome-assist.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cloud-chrome-assist.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 196,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:18.097Z"
+  },
+  {
+    "hostname": "kur-mesti-vilnius.vercel.app",
+    "title": "Kur mesti? Vilnius",
+    "url": "https://kur-mesti-vilnius.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kur-mesti-vilnius.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 195,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:18.294Z"
+  },
+  {
+    "hostname": "lmskaryadigital.vercel.app",
+    "title": "A. HermantoLMS — Sistem Pembelajaran Sekolah",
+    "url": "https://lmskaryadigital.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lmskaryadigital.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:18.591Z"
+  },
+  {
+    "hostname": "hishabdaily.vercel.app",
+    "title": "হিসাব — আয়, ব্যয় ও দেনা-পাওনার ট্র্যাকার",
+    "url": "https://hishabdaily.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hishabdaily.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:18.808Z"
+  },
+  {
+    "hostname": "stradifans.vercel.app",
+    "title": "StradiFans",
+    "url": "https://stradifans.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://stradifans.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 107,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:18.915Z"
+  },
+  {
+    "hostname": "crypto-app-omega-ten.vercel.app",
+    "title": "Crypto Live Tracker Dashboard",
+    "url": "https://crypto-app-omega-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://crypto-app-omega-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:19.011Z"
+  },
+  {
+    "hostname": "angels-zero.pages.dev",
+    "title": "ANGELS ZERO",
+    "url": "https://angels-zero.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://angels-zero.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 329,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-18T12:52:19.342Z"
+  },
+  {
+    "hostname": "superlative-parfait-1e35c2.netlify.app",
+    "title": "Relay — Interpreting Studio",
+    "url": "https://superlative-parfait-1e35c2.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://superlative-parfait-1e35c2.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 198,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:19.541Z"
+  },
+  {
+    "hostname": "zarrarzia.netlify.app",
+    "title": "Muhammad Zarrar Zia | AI Developer &amp; Agentic AI Engineer",
+    "url": "https://zarrarzia.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zarrarzia.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 471,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T12:52:20.034Z"
+  },
+  {
+    "hostname": "sc0vu.github.io",
+    "title": "Kuan Cheng Lai — Senior Software Engineer",
+    "url": "https://sc0vu.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sc0vu.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 695,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-18T12:52:20.730Z"
+  },
+  {
+    "hostname": "uncensored-harness-production.up.railway.app",
+    "title": "Harness",
+    "url": "https://uncensored-harness-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://uncensored-harness-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1251,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-18T12:52:23.221Z"
+  },
+  {
+    "hostname": "goshenminimart.infinityfreeapp.com",
+    "title": "goshenminimart.infinityfreeapp.com",
+    "url": "https://goshenminimart.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://goshenminimart.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 743,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-18T12:52:23.965Z"
+  },
+  {
     "hostname": "sight-reading-phi.vercel.app",
     "title": "Sight Reading Trainer",
     "url": "https://sight-reading-phi.vercel.app",
