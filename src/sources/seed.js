@@ -1,5 +1,252 @@
 export const SEED_SITES = [
   {
+    "hostname": "ribbon-rush.vercel.app",
+    "title": "My Google AI Studio App",
+    "url": "https://ribbon-rush.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ribbon-rush.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 285,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:47.315Z"
+  },
+  {
+    "hostname": "fridge-chef-ecru.vercel.app",
+    "title": "FridgeChef · Good food starts here",
+    "url": "https://fridge-chef-ecru.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fridge-chef-ecru.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 274,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:47.590Z"
+  },
+  {
+    "hostname": "lit-collective-prices.vercel.app",
+    "title": "Lit Collective — Services & Pricing",
+    "url": "https://lit-collective-prices.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lit-collective-prices.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 362,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:47.953Z"
+  },
+  {
+    "hostname": "pregonia.vercel.app",
+    "title": "PregonIA",
+    "url": "https://pregonia.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pregonia.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 363,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:48.341Z"
+  },
+  {
+    "hostname": "gym-tracker-two-beta.vercel.app",
+    "title": "Gym Tracker",
+    "url": "https://gym-tracker-two-beta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gym-tracker-two-beta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:48.465Z"
+  },
+  {
+    "hostname": "gcam-omega.vercel.app",
+    "title": "GCam Lab",
+    "url": "https://gcam-omega.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gcam-omega.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 342,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:48.807Z"
+  },
+  {
+    "hostname": "brdcst-gray.vercel.app",
+    "title": "BRDCST",
+    "url": "https://brdcst-gray.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://brdcst-gray.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 426,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:49.310Z"
+  },
+  {
+    "hostname": "bto-bilimtur-site-premium.vercel.app",
+    "title": "BTO Bilimtur · Ankara tur, uçak bileti ve transfer",
+    "url": "https://bto-bilimtur-site-premium.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bto-bilimtur-site-premium.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 316,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:49.626Z"
+  },
+  {
+    "hostname": "a2a-plum.vercel.app",
+    "title": "a2a — coordination for coding agents",
+    "url": "https://a2a-plum.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://a2a-plum.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 433,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:50.061Z"
+  },
+  {
+    "hostname": "tviy-hid-lab9.vercel.app",
+    "title": "Настільні ігри з підбором — Твій хід | Кубики та картки",
+    "url": "https://tviy-hid-lab9.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tviy-hid-lab9.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 288,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:50.449Z"
+  },
+  {
+    "hostname": "vz-workout.vercel.app",
+    "title": "Team Oliveira",
+    "url": "https://vz-workout.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vz-workout.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:50.670Z"
+  },
+  {
+    "hostname": "teslanator20.github.io",
+    "title": "Sequoia vs Avicia — Wynncraft",
+    "url": "https://teslanator20.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://teslanator20.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 121,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:50.923Z"
+  },
+  {
+    "hostname": "menurithm.onrender.com",
+    "title": "Menurithm — Your kitchen workspace",
+    "url": "https://menurithm.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://menurithm.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 96,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T21:15:51.269Z"
+  },
+  {
     "hostname": "cloud-chrome-assist.vercel.app",
     "title": "cloud-chrome-assist",
     "url": "https://cloud-chrome-assist.vercel.app",
