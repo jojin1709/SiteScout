@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "sight-reading-phi.vercel.app",
+    "title": "Sight Reading Trainer",
+    "url": "https://sight-reading-phi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sight-reading-phi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1344,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:32.005Z"
+  },
+  {
+    "hostname": "benchjot.vercel.app",
+    "title": "Benchjot · A research jotter for your code.",
+    "url": "https://benchjot.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://benchjot.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1404,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:33.873Z"
+  },
+  {
+    "hostname": "fubolclu.vercel.app",
+    "title": "FubolClú",
+    "url": "https://fubolclu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fubolclu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:34.095Z"
+  },
+  {
+    "hostname": "gpstracker-one.vercel.app",
+    "title": "Campus Guard · Quản lý khuôn viên",
+    "url": "https://gpstracker-one.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gpstracker-one.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 310,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:34.836Z"
+  },
+  {
+    "hostname": "kaadzos.pages.dev",
+    "title": "KaadzOS — An operating system that proves itself",
+    "url": "https://kaadzos.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kaadzos.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:35.083Z"
+  },
+  {
+    "hostname": "tabrecstudio.pages.dev",
+    "title": "Tabrec Studio (Alpha) - Record and mix vocals from your browser",
+    "url": "https://tabrecstudio.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tabrecstudio.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 214,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-18T03:31:35.297Z"
+  },
+  {
+    "hostname": "react03-proyect.netlify.app",
+    "title": "Mis Finanzas",
+    "url": "https://react03-proyect.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://react03-proyect.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 231,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:35.529Z"
+  },
+  {
+    "hostname": "heladosgelatteria.netlify.app",
+    "title": "Inicio - Gelatteria",
+    "url": "https://heladosgelatteria.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://heladosgelatteria.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 353,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:35.945Z"
+  },
+  {
+    "hostname": "vibesplants.netlify.app",
+    "title": "Vibes - Plants &amp; life",
+    "url": "https://vibesplants.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "Astro",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vibesplants.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 352,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:36.321Z"
+  },
+  {
+    "hostname": "anubhav-shukla.netlify.app",
+    "title": "Anubhav Shukla — React Native Engineer",
+    "url": "https://anubhav-shukla.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anubhav-shukla.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 230,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-18T03:31:36.575Z"
+  },
+  {
+    "hostname": "b2b-audit-dropzone-production.up.railway.app",
+    "title": "Clean-Room Technical Due Diligence, Zero-Code Escrow Audit &amp; Stitch Dropzone",
+    "url": "https://b2b-audit-dropzone-production.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://b2b-audit-dropzone-production.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 204,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-18T03:31:42.440Z"
+  },
+  {
     "hostname": "somyadeep-portfolio.vercel.app",
     "title": "Somyadeep Tarat — Developer &amp; AI Systems Builder",
     "url": "https://somyadeep-portfolio.vercel.app",
