@@ -1,5 +1,271 @@
 export const SEED_SITES = [
   {
+    "hostname": "purezag.vercel.app",
+    "title": "Guilherme Pureza — Desenvolvedor web &amp; mobile",
+    "url": "https://purezag.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://purezag.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 208,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:33.470Z"
+  },
+  {
+    "hostname": "mumove.vercel.app",
+    "title": "MUMOVE — Every Journey, One Smarter Move",
+    "url": "https://mumove.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mumove.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 166,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:33.638Z"
+  },
+  {
+    "hostname": "editflow-brown.vercel.app",
+    "title": "Editflow — story-first short-form editing",
+    "url": "https://editflow-brown.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://editflow-brown.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 136,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:33.774Z"
+  },
+  {
+    "hostname": "gravebreath.vercel.app",
+    "title": "Gravebreath",
+    "url": "https://gravebreath.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gravebreath.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:33.915Z"
+  },
+  {
+    "hostname": "desconfie-eight.vercel.app",
+    "title": "Desconfie",
+    "url": "https://desconfie-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://desconfie-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:34.072Z"
+  },
+  {
+    "hostname": "cherry-note-eta.vercel.app",
+    "title": "출산 준비노트",
+    "url": "https://cherry-note-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cherry-note-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 156,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:34.678Z"
+  },
+  {
+    "hostname": "benjaminpeyraga.vercel.app",
+    "title": "Benjamín Peyraga — Analista Programador y Full Stack Developer",
+    "url": "https://benjaminpeyraga.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://benjaminpeyraga.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 115,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:34.794Z"
+  },
+  {
+    "hostname": "dez-download.pages.dev",
+    "title": "DezDownload | Free Universal Media Downloader",
+    "url": "https://dez-download.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dez-download.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 220,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T12:43:35.016Z"
+  },
+  {
+    "hostname": "bfcompiler.pages.dev",
+    "title": "Brainfuck playground · BFCompiler",
+    "url": "https://bfcompiler.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bfcompiler.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 173,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T12:43:35.190Z"
+  },
+  {
+    "hostname": "zen-research.pages.dev",
+    "title": "Home · Zen Portfolios",
+    "url": "https://zen-research.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://zen-research.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 177,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:35.368Z"
+  },
+  {
+    "hostname": "cariquest.pages.dev",
+    "title": "CariQuest — Pasar Talenta Mahasiswa USK",
+    "url": "https://cariquest.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cariquest.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T12:43:35.527Z"
+  },
+  {
+    "hostname": "pixel-photos.netlify.app",
+    "title": "Vishal Muralidharan",
+    "url": "https://pixel-photos.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://pixel-photos.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 18,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:35.545Z"
+  },
+  {
+    "hostname": "otok-dev.github.io",
+    "title": "Otok | Otok",
+    "url": "https://otok-dev.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://otok-dev.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 56,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T12:43:35.603Z"
+  },
+  {
+    "hostname": "gocvanphong.infinityfreeapp.com",
+    "title": "gocvanphong.infinityfreeapp.com",
+    "url": "https://gocvanphong.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gocvanphong.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 396,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T12:43:36.155Z"
+  },
+  {
     "hostname": "fairshare-five-chi.vercel.app",
     "title": "Fairshare — expenses, together",
     "url": "https://fairshare-five-chi.vercel.app",
