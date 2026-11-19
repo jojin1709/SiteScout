@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "snap-grocery-exits-nc.vercel.app",
+    "title": "Grocery Watch: SNAP grocery exit risk, Charlotte–Mecklenburg",
+    "url": "https://snap-grocery-exits-nc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://snap-grocery-exits-nc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 111,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:22.563Z"
+  },
+  {
+    "hostname": "hongbao-drops.vercel.app",
+    "title": "Hongbao Drops",
+    "url": "https://hongbao-drops.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hongbao-drops.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 163,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:22.727Z"
+  },
+  {
+    "hostname": "hulinn.vercel.app",
+    "title": "HULINN — The exceptional remains unseen",
+    "url": "https://hulinn.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hulinn.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:22.846Z"
+  },
+  {
+    "hostname": "expense-tracker-ios.vercel.app",
+    "title": "Ledger",
+    "url": "https://expense-tracker-ios.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://expense-tracker-ios.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 191,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:23.145Z"
+  },
+  {
+    "hostname": "shm-eta.vercel.app",
+    "title": "Studio Heitor Macks",
+    "url": "https://shm-eta.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://shm-eta.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 371,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:23.517Z"
+  },
+  {
+    "hostname": "fudotech-app.vercel.app",
+    "title": "Fudotech",
+    "url": "https://fudotech-app.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fudotech-app.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 122,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:23.639Z"
+  },
+  {
+    "hostname": "devizia-khaki.vercel.app",
+    "title": "DevizIA · Ton devis lissage en 2 minutes",
+    "url": "https://devizia-khaki.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://devizia-khaki.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 212,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:23.851Z"
+  },
+  {
+    "hostname": "scamyyy.vercel.app",
+    "title": "iLoveSwap - Smart Lab Report Chunker & Section Editor",
+    "url": "https://scamyyy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://scamyyy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 130,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:23.981Z"
+  },
+  {
+    "hostname": "bioclimatica.vercel.app",
+    "title": "Bioclimática | Monitoramento do solo",
+    "url": "https://bioclimatica.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://bioclimatica.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 157,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:24.139Z"
+  },
+  {
+    "hostname": "lets-talk-comfortably.netlify.app",
+    "title": "Why is talking about sex so awkward? | Conversation Practice",
+    "url": "https://lets-talk-comfortably.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lets-talk-comfortably.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T21:17:25.164Z"
+  },
+  {
+    "hostname": "klinik-bunanur.infinityfreeapp.com",
+    "title": "klinik-bunanur.infinityfreeapp.com",
+    "url": "https://klinik-bunanur.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://klinik-bunanur.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 441,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T21:17:25.650Z"
+  },
+  {
     "hostname": "purezag.vercel.app",
     "title": "Guilherme Pureza — Desenvolvedor web &amp; mobile",
     "url": "https://purezag.vercel.app",
