@@ -1,5 +1,233 @@
 export const SEED_SITES = [
   {
+    "hostname": "fairshare-five-chi.vercel.app",
+    "title": "Fairshare — expenses, together",
+    "url": "https://fairshare-five-chi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fairshare-five-chi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 202,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:03:59.385Z"
+  },
+  {
+    "hostname": "meal-planner-liard-ten.vercel.app",
+    "title": "The Fridge Door",
+    "url": "https://meal-planner-liard-ten.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://meal-planner-liard-ten.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 223,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:03:59.609Z"
+  },
+  {
+    "hostname": "nyscgame1.vercel.app",
+    "title": "운영 관리",
+    "url": "https://nyscgame1.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://nyscgame1.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 99,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:03:59.812Z"
+  },
+  {
+    "hostname": "la-mundial-bd.vercel.app",
+    "title": "La Mundial · Inicio",
+    "url": "https://la-mundial-bd.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://la-mundial-bd.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1332,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:04:06.147Z"
+  },
+  {
+    "hostname": "jaes-runway.vercel.app",
+    "title": "Jae's Runway",
+    "url": "https://jaes-runway.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://jaes-runway.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 135,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:04:06.283Z"
+  },
+  {
+    "hostname": "adm-petshop.vercel.app",
+    "title": "Painel • Pet Shop",
+    "url": "https://adm-petshop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://adm-petshop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 106,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:04:06.391Z"
+  },
+  {
+    "hostname": "yyc-advisory-brain.vercel.app",
+    "title": "YYC Advisory Brain",
+    "url": "https://yyc-advisory-brain.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://yyc-advisory-brain.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 139,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:04:06.530Z"
+  },
+  {
+    "hostname": "tickdone.pages.dev",
+    "title": "TickDone",
+    "url": "https://tickdone.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tickdone.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 240,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T03:04:06.773Z"
+  },
+  {
+    "hostname": "rgb-ascii.pages.dev",
+    "title": "RGB ASCII &amp; Retro FX Studio",
+    "url": "https://rgb-ascii.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rgb-ascii.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 86,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T03:04:06.860Z"
+  },
+  {
+    "hostname": "mlorberdev-generative-art.netlify.app",
+    "title": "Matt Lorber | 12-2022",
+    "url": "https://mlorberdev-generative-art.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mlorberdev-generative-art.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 272,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:04:07.133Z"
+  },
+  {
+    "hostname": "event-aggregator.fly.dev",
+    "title": "EventJunction — Create, import, and manage events",
+    "url": "https://event-aggregator.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://event-aggregator.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 463,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-19T03:04:07.706Z"
+  },
+  {
+    "hostname": "videowren.web.app",
+    "title": "VideoWren",
+    "url": "https://videowren.web.app",
+    "hostType": "web.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://videowren.web.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 267,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-19T03:04:07.973Z"
+  },
+  {
     "hostname": "ribbon-rush.vercel.app",
     "title": "My Google AI Studio App",
     "url": "https://ribbon-rush.vercel.app",
