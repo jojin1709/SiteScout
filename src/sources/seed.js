@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "digitalchecksyariah.vercel.app",
+    "title": "Syariah Digital Check — Cerdas Sebelum Transaksi, Bijak dalam Pilihan",
+    "url": "https://digitalchecksyariah.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://digitalchecksyariah.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 221,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:48.354Z"
+  },
+  {
+    "hostname": "hansarangpray-2026.vercel.app",
+    "title": "사랑의교회 청년부 한반도이웃사랑선교국 2026 짝기도 매칭",
+    "url": "https://hansarangpray-2026.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://hansarangpray-2026.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 384,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:49.627Z"
+  },
+  {
+    "hostname": "sakki-man.vercel.app",
+    "title": "サッと記憶！サッ記マン",
+    "url": "https://sakki-man.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://sakki-man.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 539,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:50.210Z"
+  },
+  {
+    "hostname": "niko-emploi.vercel.app",
+    "title": "Niko Emploi — Vos opportunités, sans doublons",
+    "url": "https://niko-emploi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://niko-emploi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 302,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:50.513Z"
+  },
+  {
+    "hostname": "mywebsite-xi-ashy.vercel.app",
+    "title": "RD Studio | Freelance Web Designer",
+    "url": "https://mywebsite-xi-ashy.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mywebsite-xi-ashy.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 385,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:50.899Z"
+  },
+  {
+    "hostname": "idanbadin-portfolio.netlify.app",
+    "title": "Idan Badin - AI Engineer Team Lead",
+    "url": "https://idanbadin-portfolio.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://idanbadin-portfolio.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 169,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:51.445Z"
+  },
+  {
+    "hostname": "feen-fi-masr.netlify.app",
+    "title": "فين في مصر | المحرك الأول للمحترفين",
+    "url": "https://feen-fi-masr.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://feen-fi-masr.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 496,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:51.942Z"
+  },
+  {
+    "hostname": "cstroie.github.io",
+    "title": "Retro Workbench · cstroie",
+    "url": "https://cstroie.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cstroie.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-20T11:12:52.067Z"
+  },
+  {
+    "hostname": "documind-ai-production-dfd1e8ac.up.railway.app",
+    "title": "DocuMind AI",
+    "url": "https://documind-ai-production-dfd1e8ac.up.railway.app",
+    "hostType": "railway.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://documind-ai-production-dfd1e8ac.up.railway.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 188,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T11:12:52.476Z"
+  },
+  {
+    "hostname": "dailycomics.infinityfreeapp.com",
+    "title": "DNS Resolution Error - Domain Not Found, Or Domain not added to hosting account",
+    "url": "https://dailycomics.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dailycomics.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 740,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-20T11:12:53.357Z"
+  },
+  {
     "hostname": "patient-0.vercel.app",
     "title": "Patient Zero: walk a viral claim back to its earliest source",
     "url": "https://patient-0.vercel.app",
