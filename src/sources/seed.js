@@ -1,5 +1,138 @@
 export const SEED_SITES = [
   {
+    "hostname": "kid-interactive-game.vercel.app",
+    "title": "L&#x27;Aventure du Vendredi",
+    "url": "https://kid-interactive-game.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://kid-interactive-game.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 164,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T19:52:30.903Z"
+  },
+  {
+    "hostname": "guess-the-number-livid-nu.vercel.app",
+    "title": "Guess The Number – Free Online Number Guessing Game",
+    "url": "https://guess-the-number-livid-nu.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guess-the-number-livid-nu.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 158,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T19:52:31.062Z"
+  },
+  {
+    "hostname": "guidewise-kohl.vercel.app",
+    "title": "Guidewise: brand rules that run",
+    "url": "https://guidewise-kohl.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://guidewise-kohl.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 348,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T19:52:31.461Z"
+  },
+  {
+    "hostname": "arena-xi-fc.vercel.app",
+    "title": "ARENA XI · Que gane el mejor",
+    "url": "https://arena-xi-fc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://arena-xi-fc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 41,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T19:52:31.503Z"
+  },
+  {
+    "hostname": "voidcampus.vercel.app",
+    "title": "Void Campus — Student OS",
+    "url": "https://voidcampus.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voidcampus.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 91,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T19:52:31.595Z"
+  },
+  {
+    "hostname": "voxolith.github.io",
+    "title": "Voxolith: WebGPU voxel engine for the browser",
+    "url": "https://voxolith.github.io",
+    "hostType": "github.io",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://voxolith.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 51,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T19:52:31.647Z"
+  },
+  {
+    "hostname": "taskbuddy-portal.infinityfreeapp.com",
+    "title": "taskbuddy-portal.infinityfreeapp.com",
+    "url": "https://taskbuddy-portal.infinityfreeapp.com",
+    "hostType": "infinityfreeapp.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://taskbuddy-portal.infinityfreeapp.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 368,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-20T19:52:32.171Z"
+  },
+  {
     "hostname": "digitalchecksyariah.vercel.app",
     "title": "Syariah Digital Check — Cerdas Sebelum Transaksi, Bijak dalam Pilihan",
     "url": "https://digitalchecksyariah.vercel.app",
