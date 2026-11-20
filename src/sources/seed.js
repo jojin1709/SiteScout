@@ -1,5 +1,195 @@
 export const SEED_SITES = [
   {
+    "hostname": "patient-0.vercel.app",
+    "title": "Patient Zero: walk a viral claim back to its earliest source",
+    "url": "https://patient-0.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://patient-0.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 265,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:27.894Z"
+  },
+  {
+    "hostname": "vanguard-kq9r.vercel.app",
+    "title": "VANGUARD · El mundo en tiempo real — conflictos, mapa en vivo y última hora",
+    "url": "https://vanguard-kq9r.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://vanguard-kq9r.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 160,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:28.213Z"
+  },
+  {
+    "hostname": "anihealthcareservices.vercel.app",
+    "title": "AnI-HealthcareServices",
+    "url": "https://anihealthcareservices.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://anihealthcareservices.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 247,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:28.619Z"
+  },
+  {
+    "hostname": "portfolio-vanessa-lima.vercel.app",
+    "title": "Vanessa Lima — Desenvolvedora Front-end",
+    "url": "https://portfolio-vanessa-lima.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://portfolio-vanessa-lima.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 381,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:29.002Z"
+  },
+  {
+    "hostname": "gamja-kiugi.vercel.app",
+    "title": "감자 키우기",
+    "url": "https://gamja-kiugi.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://gamja-kiugi.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 255,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:29.257Z"
+  },
+  {
+    "hostname": "lgu-lower-third.vercel.app",
+    "title": "SB Overlays – Lower Third",
+    "url": "https://lgu-lower-third.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lgu-lower-third.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 290,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:29.547Z"
+  },
+  {
+    "hostname": "mineiro-lanches.vercel.app",
+    "title": "Mineiro Lanche · Hambúrguer artesanal e hot dog com Doritos em Suzano",
+    "url": "https://mineiro-lanches.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://mineiro-lanches.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 293,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:29.842Z"
+  },
+  {
+    "hostname": "dsegnr.github.io",
+    "title": "王佳豪个人主页",
+    "url": "https://dsegnr.github.io",
+    "hostType": "github.io",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dsegnr.github.io",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 165,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-20T02:55:30.008Z"
+  },
+  {
+    "hostname": "biquge-novel-site.onrender.com",
+    "title": "笔趣阁阅读器",
+    "url": "https://biquge-novel-site.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://biquge-novel-site.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 98,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-20T02:55:30.108Z"
+  },
+  {
+    "hostname": "tienda-camisas.rf.gd",
+    "title": "tienda-camisas.rf.gd",
+    "url": "https://tienda-camisas.rf.gd",
+    "hostType": "rf.gd",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tienda-camisas.rf.gd",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 640,
+      "title": false,
+      "description": false,
+      "ogImage": false,
+      "viewport": false,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-20T02:55:30.749Z"
+  },
+  {
     "hostname": "snap-grocery-exits-nc.vercel.app",
     "title": "Grocery Watch: SNAP grocery exit risk, Charlotte–Mecklenburg",
     "url": "https://snap-grocery-exits-nc.vercel.app",
