@@ -1,5 +1,214 @@
 export const SEED_SITES = [
   {
+    "hostname": "aster-path-registration.vercel.app",
+    "title": "Aster Path | Learning Studio",
+    "url": "https://aster-path-registration.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "React",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aster-path-registration.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 242,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:19.441Z"
+  },
+  {
+    "hostname": "tutedude-hackathon-smoky.vercel.app",
+    "title": "TuteDude Buildathon · ₹10,000 in prizes for your team",
+    "url": "https://tutedude-hackathon-smoky.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://tutedude-hackathon-smoky.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:22.499Z"
+  },
+  {
+    "hostname": "customer-insight-loom.vercel.app",
+    "title": "Customer Insight Loom",
+    "url": "https://customer-insight-loom.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://customer-insight-loom.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 74,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:22.574Z"
+  },
+  {
+    "hostname": "aegis-zero-core.vercel.app",
+    "title": "AEGIS-0 // Mission Control Workbench",
+    "url": "https://aegis-zero-core.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://aegis-zero-core.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 246,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:22.866Z"
+  },
+  {
+    "hostname": "naira-payout.vercel.app",
+    "title": "Overview · Naira Payout",
+    "url": "https://naira-payout.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://naira-payout.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 118,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:23.067Z"
+  },
+  {
+    "hostname": "fde-shop.vercel.app",
+    "title": "FDE Shop",
+    "url": "https://fde-shop.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://fde-shop.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 151,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:23.219Z"
+  },
+  {
+    "hostname": "spa-gemini-ai.vercel.app",
+    "title": "互動式健康掃描與精準營養分析",
+    "url": "https://spa-gemini-ai.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://spa-gemini-ai.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 154,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:23.380Z"
+  },
+  {
+    "hostname": "s-jiffy.pages.dev",
+    "title": "S-Jiffy · 即用即走工具",
+    "url": "https://s-jiffy.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://s-jiffy.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 138,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:23.523Z"
+  },
+  {
+    "hostname": "student-points-exchange.pages.dev",
+    "title": "积分商城 · 学生积分奖励平台",
+    "url": "https://student-points-exchange.pages.dev",
+    "hostType": "pages.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://student-points-exchange.pages.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 109,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-21T09:29:23.633Z"
+  },
+  {
+    "hostname": "web-rag-evaluator-frontend.onrender.com",
+    "title": "Web RAG Evaluator",
+    "url": "https://web-rag-evaluator-frontend.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://web-rag-evaluator-frontend.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 216,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T09:29:24.127Z"
+  },
+  {
+    "hostname": "junior-dev-pilots.fly.dev",
+    "title": "✈️ Junior Developers Become Delivery Pilots (2027)",
+    "url": "https://junior-dev-pilots.fly.dev",
+    "hostType": "fly.dev",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://junior-dev-pilots.fly.dev",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 127,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-21T09:29:24.262Z"
+  },
+  {
     "hostname": "ncsu-hackathon.vercel.app",
     "title": "Formulation Designer",
     "url": "https://ncsu-hackathon.vercel.app",
