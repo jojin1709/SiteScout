@@ -1,5 +1,176 @@
 export const SEED_SITES = [
   {
+    "hostname": "ncsu-hackathon.vercel.app",
+    "title": "Formulation Designer",
+    "url": "https://ncsu-hackathon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://ncsu-hackathon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 241,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:25.748Z"
+  },
+  {
+    "hostname": "projeto-digital-store-jade.vercel.app",
+    "title": "Drip Store",
+    "url": "https://projeto-digital-store-jade.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://projeto-digital-store-jade.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 208,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:25.956Z"
+  },
+  {
+    "hostname": "lantern-lemon.vercel.app",
+    "title": "Lantern",
+    "url": "https://lantern-lemon.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://lantern-lemon.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 182,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:26.139Z"
+  },
+  {
+    "hostname": "akshaygovind.vercel.app",
+    "title": "Akshay Govind | Data Engineer, Data Analyst &amp; AI Engineer",
+    "url": "https://akshaygovind.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://akshaygovind.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 229,
+      "title": true,
+      "description": true,
+      "ogImage": true,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:26.638Z"
+  },
+  {
+    "hostname": "poketype-eight.vercel.app",
+    "title": "PokéType",
+    "url": "https://poketype-eight.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "Next.js",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://poketype-eight.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 1982,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:28.631Z"
+  },
+  {
+    "hostname": "rovloc.vercel.app",
+    "title": "Rovloc",
+    "url": "https://rovloc.vercel.app",
+    "hostType": "vercel.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://rovloc.vercel.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 379,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:29.192Z"
+  },
+  {
+    "hostname": "cv-ats-optmizer.netlify.app",
+    "title": "CV Builder",
+    "url": "https://cv-ats-optmizer.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://cv-ats-optmizer.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 123,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:29.317Z"
+  },
+  {
+    "hostname": "dappsentinel.netlify.app",
+    "title": "DappSentinel: your dApp doesn't ship until Kane says it's safe",
+    "url": "https://dappsentinel.netlify.app",
+    "hostType": "netlify.app",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://dappsentinel.netlify.app",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 369,
+      "title": true,
+      "description": true,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": true
+    },
+    "discoveredAt": "2026-11-21T01:16:29.703Z"
+  },
+  {
+    "hostname": "staddle.onrender.com",
+    "title": "Staddle: the work gets done, the books prove it",
+    "url": "https://staddle.onrender.com",
+    "hostType": "onrender.com",
+    "framework": "JavaScript",
+    "screenshot": "https://image.thum.io/get/width/600/crop/700/https://staddle.onrender.com",
+    "signals": {
+      "https": true,
+      "status": 200,
+      "loadMs": 235,
+      "title": true,
+      "description": false,
+      "ogImage": false,
+      "viewport": true,
+      "securityHeaders": false
+    },
+    "discoveredAt": "2026-11-21T01:16:30.122Z"
+  },
+  {
     "hostname": "kid-interactive-game.vercel.app",
     "title": "L&#x27;Aventure du Vendredi",
     "url": "https://kid-interactive-game.vercel.app",
